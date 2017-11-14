@@ -1,11 +1,11 @@
 body, html {
     height: 100%;
-	font-family: 'Quicksand', sans-serif;
+/* 	font-family: 'Quicksand', sans-serif; */
 	color: #24292e;
 }
 
 .navbar {
-	font-family: 'PT Sans Caption', sans-serif;
+/* 	font-family: 'PT Sans Caption', sans-serif; */
     margin-bottom: 0px;
     border-radius:0px;
     font-size: 15px;
