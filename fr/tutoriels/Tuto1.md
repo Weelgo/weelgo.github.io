@@ -6,13 +6,9 @@ toc : true
 ---
 
 
-# Common values
+## Common values
 
 Quick positioning classes are available, though they are not responsive.
-
-## Titre 2
-
-texte pipo 2
 
 ### Titre 3
 
