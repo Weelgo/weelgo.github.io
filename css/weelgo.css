@@ -4,6 +4,15 @@ body, html {
 	color: #24292e;
 }
 
+.sideBarLv1
+{
+	rgba(0,0,0,.70);	
+}
+.sideBarLv1:hover
+{
+	rgba(0,0,0,.70);	
+}
+
 .navbar {
 /* 	font-family: 'PT Sans Caption', sans-serif; */
     margin-bottom: 0px;
