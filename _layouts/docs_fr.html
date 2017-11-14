@@ -10,8 +10,16 @@
 	<div class="container-fluid">
       <div class="row flex-xl-nowrap"">
         <div class="col-12 col-md-3 col-xl-2" style="margin-top: 70px;border-right: 1px solid rgba(0, 0, 0, 0.1)">
-			  {% for member in site.data.sitemap_fr %}
-			 	{{ member.name }}
+			  {% for lev1 in site.data.sitemap_fr %}
+			  	<div>
+			  		<a href="{{ site.baseurl }}/fr/{{ lev1.path }}">{{ lev1.name }}</a>
+			  		{% for lev2 in lev1.sub %} 
+			  		<div>
+			  			<a href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev2.path }}">{{ lev2.name }}</a>
+			  		</div>
+			  		{% endfor %} 	
+			  	</div>
+			 	
 			{% endfor %}
         </div>
         <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5" role="main" style="margin-top: 70px;">
