@@ -1,5 +1,6 @@
 ---
 title : Weelgo Doc
+description : Site description
 
 ---
 
