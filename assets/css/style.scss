@@ -1,0 +1,46 @@
+---
+---
+
+@import "{{ site.theme }}";
+body, html {
+    height: 100%;
+	font-family: 'Quicksand', sans-serif;
+	color: #24292e;
+}
+
+.navbar {
+	font-family: 'PT Sans Caption', sans-serif;
+    margin-bottom: 0px;
+    border-radius:0px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #c8c9ca;
+}
+/* Link */
+.nav-link .navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #c8c9ca;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #c8c9ca;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #c8c9ca;
+    background-color: #D5D5D5;
+}
