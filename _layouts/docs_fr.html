@@ -9,7 +9,7 @@
 	
 	<div class="container-fluid">
       <div class="row flex-xl-nowrap"">
-        <div class="col-12 col-md-3 col-xl-2" style="margin-top: 90px;border-right: 1px solid rgba(0, 0, 0, 0.1);padding-left: 30px;">
+        <div class="col-12 col-md-2 col-xl-2" style="margin-top: 90px;border-right: 1px solid rgba(0, 0, 0, 0.1);padding-left: 30px;">
 			  {% for lev1 in site.data.sitemap_fr %}
 			  	<div style="margin-top: 20px;">
 			  		<a class="sideBarLv1" href="{{ site.baseurl }}/fr/{{ lev1.path }}">{{ lev1.name }}</a>
@@ -22,7 +22,7 @@
 			 	
 			{% endfor %}
         </div>
-        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5" role="main" style="margin-top: 70px;">
+        <main class="col-12 col-md-10 col-xl-10 py-md-3 pl-md-5" role="main" style="margin-top: 70px;">
           <h1 style="font-size: 48px;font-family: Segoe UI Light;" id="content">{{ page.title }}</h1>
           <p style="font-size: 24px;font-family: Segoe UI Light;">{{ page.description }}</p>
           
