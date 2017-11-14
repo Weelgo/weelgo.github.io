@@ -1,58 +1,35 @@
-<nav class="navbar navbar-default" >
-	
-	<div class="container">	
-	
-		<div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-bar-1-collapse-1">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>			
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-			
-			
-
-
-<!-- 	      	<a class="btn btn-default navbar-right navbar-btn visible-xs-inline-block" href="https://www.weelgo.com/weelgo-portal/cl?cl=8950a4e1-751e-4f37-beaa-ac006cbaccb8&objectId=folder_folder&objectDatabaseId=5341478" role="button">Demo</a> -->
-
-		<a href="/weelgo-portal/home" ><img src="img/logo_white_35x35.png" style="margin-right: 5px;margin-left: 5px;margin-top: 7px;"></a>
-	    </div>
-	    
-	     <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="nav-bar-1-collapse-1">	      
-			
-			
-			<ul class="nav navbar-nav navbar-left">
-				<li><a href="/weelgo-portal/features" >Fonctionnalités</a></li>		
-
-				<li><a href="/weelgo-portal/enterprise" >Entreprise</a></li>
-				<li><a href="/weelgo-portal/pricing" >Tarifs</a></li>
-				<li class="hidden-sm"><a href="/weelgo-portal/contact_us" >Contact</a></li>
-				<li class="dropdown visible-xs">
-					          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Langue <span class="caret"></span></a>
-					          <ul class="dropdown-menu" role="menu">	          
-					          	<li><a href="/weelgo-portal/home?locale=fr_FR">Français</a></li><li><a href="/weelgo-portal/home?locale=en_US">English</a></li><li><a href="/weelgo-portal/home?locale=zh_CN">中文</a></li>
-					          </ul>
-					        </li>
-			</ul>
-
-			
-
-
-<!-- 	      	<a class="btn btn-default navbar-right navbar-btn hidden-xs" href="https://www.weelgo.com/weelgo-portal/cl?cl=8950a4e1-751e-4f37-beaa-ac006cbaccb8&objectId=folder_folder&objectDatabaseId=5341478" role="button">Demo</a> -->
-
-
-	      
-		      <ul class="nav navbar-nav navbar-right">		     
-		       
-		         
-
-				 		     
-		     	 <li><a href="/weelgo-portal/create_account">Créer un compte</a></li>
-		     	 <li><a href="/weelgo-portal/login">S'identifier</a></li>
-		     	 
-		      </ul>	      
-	    </div><!-- /.navbar-collapse -->		
-	</div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
 </nav>
