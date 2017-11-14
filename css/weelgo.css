@@ -4,6 +4,10 @@ body, html {
 	color: #24292e;
 }
 
+.bg-light {
+    background-color: black;
+}
+
 .navbar {
 	font-family: 'PT Sans Caption', sans-serif;
     margin-bottom: 0px;
