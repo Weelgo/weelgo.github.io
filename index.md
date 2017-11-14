@@ -1,5 +1,6 @@
 ---
-title : Weelgo page title
+layout : default2
+title : Welcome
 description : page description
 
 ---
