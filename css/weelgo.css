@@ -4,17 +4,13 @@ body, html {
 	color: #24292e;
 }
 
-.bg-light {
-    background-color: black;
-}
-
 .navbar {
 	font-family: 'PT Sans Caption', sans-serif;
     margin-bottom: 0px;
     border-radius:0px;
     font-size: 15px;
     color: white;
-    background-color: black; !important
+    background-color: black;
 }
 
 .navbar-default .navbar-brand {
