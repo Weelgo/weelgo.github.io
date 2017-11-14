@@ -9,21 +9,8 @@ body, html {
     margin-bottom: 0px;
     border-radius:0px;
     font-size: 15px;
-}
-
-.navbar-default {
-/* 	background-image:url("../img/dotBlackOpacity.png"); */
-    background-color:black;
-/*     opacity:0.8; */
-/*     border-color: #00debc; */
-
-/* 	border-bottom-color:#565656; */
-/* 	border-bottom-style:solid; */
-/* 	border-bottom-width:1px; */
-/* 	border-right-color:#565656; */
-/* 	border-right-style:solid; */
-/* 	border-right-width:1px; */
-    color: white;
+     background-color:black;
+     color: white;
 }
 
 .navbar-default .navbar-brand {
