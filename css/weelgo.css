@@ -6,11 +6,21 @@ body, html {
 
 .sideBarLv1
 {
+	font-weight: bold;
 	rgba(0,0,0,.70);	
 }
 .sideBarLv1:hover
 {
+	font-weight: bold;
 	rgba(0,0,0,.70);	
+}
+.sideBarLv2
+{
+	color: black;	
+}
+.sideBarLv2:hover
+{
+	color: black;
 }
 
 .navbar {
