@@ -20,6 +20,10 @@ body, html {
 .navbar-default .navbar-brand:focus {
     color: #c8c9ca;
 }
+
+.nav-link{
+	 color: white;
+}
 /* Link */
 .nav-link .navbar-default .navbar-nav > li > a {
     color: white;
