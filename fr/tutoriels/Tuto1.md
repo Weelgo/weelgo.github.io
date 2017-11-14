@@ -2,6 +2,7 @@
 layout : docs_fr
 title : Tuto 1
 description : description du tuto 
+toc : true
 ---
 
 
