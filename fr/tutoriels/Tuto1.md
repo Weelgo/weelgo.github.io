@@ -12,4 +12,4 @@ Quick positioning classes are available, though they are not responsive.
 
 ### Titre 3
 
-teste pipo3
+Texte avec des accents é è ç
