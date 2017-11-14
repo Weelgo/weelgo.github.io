@@ -1,6 +1,6 @@
 ---
-title : Weelgo Doc
-description : Site description
+title : Weelgo page title
+description : page description
 
 ---
 
