@@ -9,12 +9,12 @@
 	
 	<div class="container-fluid">
       <div class="row flex-xl-nowrap"">
-        <div class="col-12 col-md-3 col-xl-2" style="margin-top: 70px;border-right: 1px solid rgba(0, 0, 0, 0.1)">
+        <div class="col-12 col-md-3 col-xl-2" style="margin-top: 90px;border-right: 1px solid rgba(0, 0, 0, 0.1);padding-left: 20px;">
 			  {% for lev1 in site.data.sitemap_fr %}
 			  	<div>
 			  		<a class="sideBarLv1" href="{{ site.baseurl }}/fr/{{ lev1.path }}">{{ lev1.name }}</a>
 			  		{% for lev2 in lev1.sub %} 
-			  		<div>
+			  		<div style="padding-left: 20px;">
 			  			<a class="sideBarLv2" href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev2.path }}">{{ lev2.name }}</a>
 			  		</div>
 			  		{% endfor %} 	
