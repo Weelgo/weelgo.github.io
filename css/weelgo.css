@@ -9,8 +9,8 @@ body, html {
     margin-bottom: 0px;
     border-radius:0px;
     font-size: 15px;
-     background-color:black;
-     color: white;
+    color: white;
+    background-color: black;
 }
 
 .navbar-default .navbar-brand {
