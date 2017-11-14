@@ -1,14 +1,16 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-  	 {% include header.html %}
-  </head>
-  <body>
-    Spok layout
-    <img alt="Weelgo" src="fr/img/unnamed.png">
-    
-    
-    
-    {% include scripts.html %}
-  </body>
+<head>{% include header.html %}
+</head>
+<body>
+	<a id="skippy" class="sr-only sr-only-focusable" href="#content">
+		<div class="container">
+			<span class="skiplink-text">Skip to main content</span>
+		</div>
+	</a>
+	
+	{% include docs-navbar.html %}
+	
+	 {% include scripts.html %}
+</body>
 </html>
