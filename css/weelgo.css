@@ -10,7 +10,7 @@ body, html {
     border-radius:0px;
     font-size: 15px;
     color: white;
-    background-color: black;
+    background-color: black; !important
 }
 
 .navbar-default .navbar-brand {
