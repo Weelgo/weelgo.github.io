@@ -4,6 +4,13 @@ body, html {
 	color: #24292e;
 }
 
+.bd-sidebar {
+  order: 0;
+      display: block;
+    }
+  }
+}
+
 .navbar {
 	font-family: 'PT Sans Caption', sans-serif;
     margin-bottom: 0px;
