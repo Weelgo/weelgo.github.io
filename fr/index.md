@@ -1,4 +1,5 @@
 ---
+layout : docs_fr
 title : Weelgo Doc Fr
 
 ---

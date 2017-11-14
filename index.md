@@ -1,5 +1,5 @@
 ---
-layout : default2
+layout : docs_fr
 title : Welcome
 description : page description
 

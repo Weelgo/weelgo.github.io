@@ -1,6 +1,7 @@
 ---
-title: Tuto 1
-description: description du tuto 
+layout : docs_fr
+title : Tuto 1
+description : description du tuto 
 ---
 
 
