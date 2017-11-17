@@ -36,6 +36,21 @@ Ces répertoires contiendront les différentes actions nécessaire à la réalis
 
 ### Etape 2 : Les actions
 
+Suite à la création de la structure du projet. Il est nécessaire de déterminer l'ensemble des actions qui devront être réalisées. 
+
+Dans Weelgo, chaque action doit aboutir à un livrable. Une action ne peut pas être sans livrable !
+
+Pour chaque action, il est nécessaire de se poser les questions suivantes :
+* Que dois-je faire pour réaliser cette action? 
+* Quel sont les inputs nécessaires à la réalisation de cette action? 
+* Qu'ai-je en sortie de mon action ? 
+
+Gardez en mémoire que vous avez la possibilité de saisir des tickets dans actions ( depuis la vue Organisation ). Nous vous conseillons donc de construire vos actions en fonction des livrables qui doivent être livrés. 
+
+Exemple : 
+
+
+
 ### Etape 3 : L'ordonnancement des actions
 
 ## Organisez son projet
