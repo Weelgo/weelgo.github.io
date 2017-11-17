@@ -26,13 +26,19 @@ De nombreux critères peuvent être utilisés pour effectuer ce découpage :
 * Maintenance ( éléments échangeables, ordre du démontage ) 
 * Documentation ( Spécifications, Dossiers, Procédures )
 
-Nous vous préconisons de vous limiter à des découpages simples. Au plus proche de la réalité. 
-
 Suite à l'identification des phases de votre projet, vous pouvez créer la structure du projet dans Weelgo. Cela s'effectue par la création de répertoires et de sous répertoires.
 
 ( Mettre image ici ) 
 
 Ces répertoires contiendront les différentes actions nécessaire à la réalisation de votre projet. 
+
+---
+**Nos préconisations :**
+
+>Effectuez des découpages simple. Au plus proche de la réalité. Des découpages complexes peuvent vous compliquer la gestion de votre projet 
+
+---
+
 
 ### Etape 2 : Les actions
 
@@ -47,8 +53,12 @@ Pour chaque action, il est nécessaire de se poser les questions suivantes :
 
 Gardez en mémoire que vous avez la possibilité de saisir des tickets dans actions ( depuis la vue Organisation ). Nous vous conseillons donc de construire vos actions en fonction des livrables qui doivent être livrés. 
 
-Exemple : 
+---
+**Nos préconisations :**
 
+>TODO
+
+---
 
 
 ### Etape 3 : L'ordonnancement des actions
