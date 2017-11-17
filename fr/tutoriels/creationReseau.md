@@ -93,6 +93,13 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 
 *Vue Weelgo : Organisation*
 
+L'organisation opérationnel du projet se décompose par :
++ La gestion des ressources
++ La gestion tâches permetant de réaliser une action ( tickets )
++ La gestion des charges de réalisation et du reste à faire. 
+
+La vue Organisation de Weelgo représente le projet sous une forme hierachique. 
+
 ## Création des tickets
 
 **Nos préconisations :**
