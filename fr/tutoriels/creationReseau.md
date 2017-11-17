@@ -8,6 +8,8 @@ toc : true
 
 ## Etape 1 : Modéliser son projet. 
 
+*Vue Weelgo : Réseau*
+
 ### La structure 
 
 La solution Weelgo permet de modéliser son projet au travers un réseau d'actions / livrables. Une identification de la structure du réseau est donc nécessaire. Cette structuration s'effectue au travers la détermination de l'ensemble des phases permettant de réaliser votre projet
@@ -89,6 +91,7 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 
 ## Etape 2 : L'organisation opérationnel du projet. 
 
+*Vue Weelgo : Organisation*
 
 ## Création des tickets
 
