@@ -6,11 +6,11 @@ toc : true
 ---
 
 
-## Créer son réseau
+## Etape 1 : Modéliser son projet. 
 
-### Etape 1 : La structure 
+### La structure 
 
-La structuration de son réseau passe avant tout par une identification des phases permetant de réaliser votre projet. 
+La solution Weelgo permet de modéliser son projet au travers un réseau d'actions / livrables. Une identification de la structure du réseau est donc nécessaire. Cette structuration s'effectue au travers la détermination de l'ensemble des phases permettant de réaliser votre projet
 
 Ce découpage permettra de faciliter la compréhension et sa gestion au quotidien. 
 
@@ -26,7 +26,7 @@ De nombreux critères peuvent être utilisés pour effectuer ce découpage :
 * Maintenance ( éléments échangeables, ordre du démontage ) 
 * Documentation ( Spécifications, Dossiers, Procédures )
 
-Suite à l'identification des phases de votre projet, vous pouvez créer la structure du projet dans Weelgo. Cela s'effectue par la création de répertoires et de sous répertoires.
+Suite à l'identification des phases de votre projet, vous pouvez créer la structure du projet dans Weelgo. Cela est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau"
 
 ( Mettre image ici ) 
 
@@ -35,12 +35,12 @@ Ces répertoires contiendront les différentes actions nécessaire à la réalis
 ---
 **Nos préconisations :**
 
->Effectuez des découpages simple. Au plus proche de la réalité. Des découpages complexes peuvent vous compliquer la gestion de votre projet 
+>Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet 
 
 ---
 
 
-### Etape 2 : Les actions
+### Les actions
 
 Suite à la création de la structure du projet. Il est nécessaire de déterminer l'ensemble des actions qui devront être réalisées. 
 
@@ -51,21 +51,70 @@ Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Quel sont les inputs nécessaires à la réalisation de cette action? 
 * Qu'ai-je en sortie de mon action ? 
 
-Gardez en mémoire que vous avez la possibilité de saisir des tickets dans actions ( depuis la vue Organisation ). Nous vous conseillons donc de construire vos actions en fonction des livrables qui doivent être livrés. 
+Gardez en mémoire que vous avez la possibilité de saisir des tickets dans actions ( depuis la vue Organisation ). Un choix peut structurel sympose donc. Dois-je créer une action ou un ticket? 
+
+Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser la structure de votre projet. Notamment avec la liste des livrables de votre projet. Si le résultat du ticket et un livrable de haute importante ( application, documentation... ), une action est préférable. Dans le cas contraire, privilégiez le ticket.
+
+Nous vous conseillons donc de construire vos actions en fonction des livrables qui doivent être livrés. 
 
 ---
 **Nos préconisations :**
 
->TODO
+>Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation )
 
 ---
 
 
-### Etape 3 : L'ordonnancement des actions
-
-## Organisez son projet
+### L'ordonnancement des actions
 
 
-## Analysez
+L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterminons ainsi les dépendances entre chaque tâches et leur chronologie. La solution Weelgo propose 2 type d'ordonnancement. L'ordonnancement "physique" et l'ordonnancement "temporel". 
 
-## La création du réseau
+L'ordonnancement "physique" est le lien entre 2 actions reliées par un livrable. L'action B attendant le livrable de l'action A afin de commencer 
+
+( mettre image )
+
+L'ordonnancement "temporel" correspond à une dépendance temporelle entre 2 actions. L'action B ne pouvant commencer uniquement quand l'action A est terminée. Néanmoins, le livrable de l'action A n'est pas nécessaire à la réalisation de l'action B
+
+( mettre image )
+
+Durant cette étape, il est nécessaire de considérer les ressources comme infinies. Cela permettra de connaitre le délai minimum possible avec le maximum de parallélisme )
+
+---
+**Nos préconisations :**
+
+>Ordonnancez votre projet sans prendre en compte les ressources ( ressources infinie ). Vous connnaitrez le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet sur les différentes phases. 
+
+---
+
+## Etape 2 : L'organisation opérationnel du projet. 
+
+
+## Création des tickets
+
+**Nos préconisations :**
+
+> TODO
+
+---
+
+## Affectation des ressources
+
+
+**Nos préconisations :**
+
+> TODO
+
+---
+
+
+## Renseignez des charges de réalisation
+
+**Nos préconisations :**
+
+> TODO
+
+---
+
+
+
