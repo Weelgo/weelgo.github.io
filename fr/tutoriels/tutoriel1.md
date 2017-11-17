@@ -1,7 +1,7 @@
 ---
 layout : docs_fr
 title : Tuto 1
-description : description du tuto 
+description : description du tuto 3
 toc : true
 ---
 
