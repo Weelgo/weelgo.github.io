@@ -1,11 +1,17 @@
-# Le réseau Weelgo
+# Vue Organisation
 
-Véritable pierre angulaire, le réseau Weelgo permet à une équipe ou à un chef de projet de conceptualiser et modéliser un projet.
+Dans cette section, vous apprendez à : 
++ Créer et gérer des tickets
++ Affecter des collaborateurs 
++ Indiquer l'avancement dans les tickets
 
-C'est à partir de cette structure que sont généré l'ensemble des indicateurs du projet. Il est constitué d'actions et de livrables formant ainsi l'architecture du projet. 
 
-Le réseau est la première étape à réaliser. 
+La vue organisation correspond à la représentation WBS (Work Breakdown Structure) du projet. Elle est issue du réseau. C'est la décomposition hiérachique des travaux nécessaires pour réaliser les objectifs du projet. 
 
+
+
+La vue est hierachisée de la manière suivante : 
+- Les répertoires correspondent aux différents niveaux de la hiérachie. Le répertoire de plus haut niveau étant le premier élément au sommet de la hierachie. Les éléments tout en bas de la hiérachie correspondent aux actions du projet. 
 
 ## Les actions
 
