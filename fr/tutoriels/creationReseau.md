@@ -5,15 +5,13 @@ description : Dans ce tutoriel, vous apprendrez à créer un projet Weelgo
 toc : true
 ---
 
-## Introduction 2
+## Introduction
 
 Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maitrise ! 
 
 La modélisation d'un projet Weelgo s'effectue en 5 étapes. 
 
-[test titre](#titre)
-
-
+__[Etape 1 : Modéliser son projet](#modeliserProjet)__
 
 __Etape 1 : Modéliser son projet__
 + Définition des actions et des livrables
@@ -33,7 +31,7 @@ __Etape 5 : Analyse du planning et des indicateurs__
 
 
 
-## Etape 1 : Modéliser son projet. 
+## Etape 1 : Modéliser son projet <a id="modeliserProjet"></a> 
 
 
 *Vue Weelgo : Réseau*
@@ -120,7 +118,7 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 
 ---
 
-### Définition des répertoires <a id="titre"></a>
+### Définition des répertoires 
 
 Suite à la création du réseau, il est nécessaire de finaliser sa construction en l'encapsulant dans une structure. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet 
 
