@@ -315,7 +315,7 @@ Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiqu
 ---
 
 <a id="analysePlanning"></a>
-## Etape 4 : Analyser le planning et les indicateurs
+## Etape 5 : Analyser le planning et les indicateurs
 
 Chez Weelgo, nous pensons que le manageur doit se concentrer sur l'essentiel. C'est à dire le management des hommes, la gestion des problèmes et des arbitrages. Le temps passé à généré des plannings et des indicateurs ne doit plus être à la charge du manageur. C'est pourquoi la solution Weelgo générère automatiquement l'ensemble des outils permettant de piloter le projet. 
 
