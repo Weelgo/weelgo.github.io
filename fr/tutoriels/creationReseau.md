@@ -145,8 +145,6 @@ Vue WBS :
 </p>
 
 
-( mettre image )
-
 Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
 + Les tickets associés aux actions
 + Ajouter des responsables
@@ -160,7 +158,12 @@ Ils peuvent être créés en cliquant sur <img src="/fr/img/iconeAjoutTicket.png
 
 Le livrable etant rattaché à l'action, les tickets n'aboutissent pas à un livrable dans Weelgo. Néanmoins, ils ont des caractéristiques communes. Vous pouvez affectez des responsables aux tickets ainsi que des charges de réalisation. 
 
-Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut sont plus prioritaires que les tickets en dessous ( mettre image )
+Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut sont plus prioritaires que les tickets en dessous.
+
+<p align="center">
+<img src="/fr/img/prioriteTickets.png">
+</p>
+
  
 ---
 **Nos préconisations :**
@@ -176,9 +179,15 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 
 L'affectation des responsables permet de transmette la responsabilité de l'action à un collaborateur. 
 
-Pour cela, trouvez votre collaborateur depuis le bouton Ressources ( mettre image ) et cherchez le depuis la recherche ( mettre image ). 
+Pour cela, trouvez votre collaborateur depuis le bouton <img src="/fr/img/boutonRessource.png"> et cherchez le depuis la recherche. 
 
-Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une action ou à un ticket. ( mettre image )
+<p align="center">
+<img src="/fr/img/affectationRessource.png">
+</p>
+
+Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une action ou à un ticket. 
+
+( mettre image / GIF )
 
 ---
 **Nos préconisations :**
@@ -194,11 +203,15 @@ La charge de réalisation correspond au temps nécessaire afin de réaliser l'ac
 
 L'affectation des charges des actions s'effectuent depuis la vue "Réseau" 
 
-( mettre image )
+<p align="center">
+<img src="/fr/img/affectationChargeAction.png">
+</p>
 
 L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 
-( mettre image )
+<p align="center">
+<img src="/fr/img/affectationChargeTicket.png">
+</p>
 
 ---
 **Nos préconisations :**
@@ -215,7 +228,7 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 
 La vue logique vous permet d'avoir une vision compléte de l'enchainement logique de réalisation de votre projet. Vous pouvez ainsi détécter des problèmes d'enchainements et/ou d'ordonnancement sur les actions / tickets.
 
-La génération du planning étant automatique, il sera peut etre nécessaire de prioriser certaines actions. Pour cela, cliquer sur ( mettre image ) afin d'indiquer la priorité. 
+La génération du planning étant automatique, il sera peut etre nécessaire de prioriser certaines actions. Pour cela, cliquer sur <img src="/fr/img/listePriorite.png"> afin d'indiquer la priorité. 
 
 L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prioritaire que l'action d'en dessous. 
 
