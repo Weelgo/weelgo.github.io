@@ -1,9 +1,31 @@
 ---
 layout : docs_fr
 title : Créer et gérer un projet sous Weelgo
-description : Dans ce tutoriel, vous apprendrez à créer et gérer un projet Weelgo au quotidien.
+description : Dans ce tutoriel, vous apprendrez à créer un projet Weelgo 
 toc : true
 ---
+
+## Introduction 
+
+Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maitrise ! 
+
+La modélisation d'un projet Weelgo s'effectue en 5 étapes. 
+
+__Etape 1 : Modéliser son projet__
++ Définition des actions et des livrables
++ Définition des répertoires
+
+__Etape 2 : Organiser son projet__
++ Ajout des tickets 
++ Affectation des responsables
++ Indiquer les charges sur les actions / tickets
+
+__Etape 3 : Analyse du déroulement logique du projet__
+
+__Etape 4 : Définition des hyopthèses de départ ( date de début et calendrier des ressources )__
+
+__Etape 5 : Analyse du planning et des indicateurs__
+
 
 
 ## Etape 1 : Modéliser son projet. 
@@ -11,63 +33,32 @@ toc : true
 
 *Vue Weelgo : Réseau*
 
-### La structure 
+### Définition des actions et des livrables
 
-La solution Weelgo permet de modéliser son projet au travers un réseau d'actions / livrables. Une identification de la structure du réseau est donc nécessaire. Cette structuration s'effectue au travers la détermination de l'ensemble des phases permettant de réaliser votre projet
+Un projet est un enchainement d'actions aboutissant à un ou plusieurs livrables. La modélisation du projet consiste donc à : 
+* Déterminer l'ensemble des livrables constituant le projet
+* Déterminer les actions permettant d'aboutir à ces livrables
 
-Ce découpage permettra de faciliter la compréhension et sa gestion au quotidien. 
-
-De nombreux critères peuvent être utilisés pour effectuer ce découpage : 
-
-* Fonctionnalités ( mesurer, asservir )
-* Sous-ensembles physiques ( boitier A , boitier B ) 
-* Responsabilités industrielles ( sous-traitant X, service Y ) 
-* Types de tâches ( Etude, réalisation ) 
-* Spécialités techniques ( mécanique, logiciel ) 
-* Ressources ( Ingénieurs, Techniciens, Outillages ) 
-* Coûts ( devis 1, achat K, sous-traitance X ) 
-* Maintenance ( éléments échangeables, ordre du démontage ) 
-* Documentation ( Spécifications, Dossiers, Procédures )
-
-Suite à l'identification des phases de votre projet, vous pouvez créer la structure du projet dans Weelgo. Cela est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau"
-
-<p align="center">
-<img src="/fr/img/repertoire.png">
-</p>
-
-Nous retrouvons ici deux types de découpages. Un premier découpage de haut niveau correspondant à un découpage en type de taches ( Mise en place, Développement ), et un découpage par ressource au niveau de la phase de développement. 
-
-Il est possible de descendre de niveau si nous estimons cela nécessaire.  Ici nous avons, pour chaque ressource, effectué un découpage fonctionnel. 
-
-<p align="center">
-<img src="/fr/img/repertoire2.png">
-</p>
-
-
-Ces répertoires contiendront les différentes actions nécessaire à la réalisation de votre projet. 
-
-Cette architecture permet, d'avoir une vision globale de la réalisation du projet. Bien évidemment, il est possible de modifier l'affectation du découpage fonctionnelle en fonction des contraintes rencontrées lors de la réalisation du projet. 
+Cette succession d'action / livrable fomera votre réseau. Le réseau étant la colonne vertebrale de votre projet.
 
 ---
 
-**Nos préconisations :**
+**Points importants :**
 
->Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet 
+>Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat ( livrable ) ne doit âs être présent dans le réseau. 
 
 ---
 
 
-### Les actions
-
-Suite à la création de la structure du projet. Il est nécessaire de déterminer l'ensemble des actions qui devront être réalisées. 
-
-Dans Weelgo, chaque action doit aboutir à un livrable. Une action ne peut pas être sans livrable !
-
-Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou des jalons. 
+Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou de type jalon 
 
 <p align="center">
 <img src="/fr/img/actions.png">
 </p>
+
+Les livrables jalons sont des livrables que vous souhaitez suivre particuliérement. Ils apparaitront dans le tableau de bord du projet et profiteront d'un suivi particulier. 
+
+
 
 Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Que dois-je faire pour réaliser cette action? 
@@ -123,6 +114,54 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 >Ordonnancez votre projet sans prendre en compte les ressources ( ressources infinie ). Vous connnaitrez le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet sur les différentes phases. 
 
 ---
+
+### Définition des répertoires
+
+La solution Weelgo permet de modéliser son projet au travers un réseau d'actions / livrables. Une identification de la structure du réseau est donc nécessaire. Cette structuration s'effectue au travers la détermination de l'ensemble des phases permettant de réaliser votre projet
+
+Ce découpage permettra de faciliter la compréhension et sa gestion au quotidien. 
+
+De nombreux critères peuvent être utilisés pour effectuer ce découpage : 
+
+* Fonctionnalités ( mesurer, asservir )
+* Sous-ensembles physiques ( boitier A , boitier B ) 
+* Responsabilités industrielles ( sous-traitant X, service Y ) 
+* Types de tâches ( Etude, réalisation ) 
+* Spécialités techniques ( mécanique, logiciel ) 
+* Ressources ( Ingénieurs, Techniciens, Outillages ) 
+* Coûts ( devis 1, achat K, sous-traitance X ) 
+* Maintenance ( éléments échangeables, ordre du démontage ) 
+* Documentation ( Spécifications, Dossiers, Procédures )
+
+Suite à l'identification des phases de votre projet, vous pouvez créer la structure du projet dans Weelgo. Cela est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau"
+
+<p align="center">
+<img src="/fr/img/repertoire.png">
+</p>
+
+Nous retrouvons ici deux types de découpages. Un premier découpage de haut niveau correspondant à un découpage en type de taches ( Mise en place, Développement ), et un découpage par ressource au niveau de la phase de développement. 
+
+Il est possible de descendre de niveau si nous estimons cela nécessaire.  Ici nous avons, pour chaque ressource, effectué un découpage fonctionnel. 
+
+<p align="center">
+<img src="/fr/img/repertoire2.png">
+</p>
+
+
+Ces répertoires contiendront les différentes actions nécessaire à la réalisation de votre projet. 
+
+Cette architecture permet, d'avoir une vision globale de la réalisation du projet. Bien évidemment, il est possible de modifier l'affectation du découpage fonctionnelle en fonction des contraintes rencontrées lors de la réalisation du projet. 
+
+---
+
+**Nos préconisations :**
+
+>Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet 
+
+---
+
+
+
 
 ## Etape 2 : L'organisation opérationnel du projet. 
 
