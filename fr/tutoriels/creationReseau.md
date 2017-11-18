@@ -49,6 +49,7 @@ Ces répertoires contiendront les différentes actions nécessaire à la réalis
 Cette architecture permet, d'avoir une vision globale de la réalisation du projet. Bien évidemment, il est possible de modifier l'affectation du découpage fonctionnelle en fonction des contraintes rencontrées lors de la réalisation du projet. 
 
 ---
+
 **Nos préconisations :**
 
 >Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet 
@@ -82,6 +83,7 @@ Nous vous conseillons donc de construire vos actions en fonction des livrables q
 Dans weelgo, chaque action doit obligatoirement avoir des livrables. 
 
 ---
+
 **Nos préconisations :**
 
 >Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation )
@@ -115,6 +117,7 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 </p>
 
 ---
+
 **Nos préconisations :**
 
 >Ordonnancez votre projet sans prendre en compte les ressources ( ressources infinie ). Vous connnaitrez le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet sur les différentes phases. 
@@ -166,6 +169,7 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 
  
 ---
+
 **Nos préconisations :**
 
 > Considérer les tickets comme la TODO liste de l'action. 
@@ -190,6 +194,7 @@ Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une a
 ( mettre image / GIF )
 
 ---
+
 **Nos préconisations :**
 > Affectez un responsable unique à une action 
 
@@ -214,6 +219,7 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 </p>
 
 ---
+
 **Nos préconisations :**
 
 > Demandez aux responsables d'actions / tickets de renseigner la charge de réalisation. Cela permettra d'avoir une planification réaliste ainsi que de responsabiliser les acteurs à la réalisation du projet. 
@@ -250,6 +256,7 @@ Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiqu
 
 
 ---
+
 **Nos préconisations :**
 
 > N'affectez pas vos collaborateurs à 100%. Prenez une marge, cela permettra d'avoir une gestion de projet plus souple et vous permettre d'absorber plus facilement les aléa de la vie du projet
@@ -271,11 +278,15 @@ Véritable feuille de route du projet, c'est la vision verticale du planing. Vou
 <img src="/fr/img/vueWall.png">
 </p>
 
+
 ---
+
 **Nos préconisations :**
 
 > Entre le vue Organisation et la vue Gantt, cette représentation est idéale pour le pilotage  de l'équipe au quotidien. Lors de la réunion journalière, en un clin d'oeil, l'ensemble de l'équipe connait les actions à réaliser ainsi que l'état du projet. 
+
 ---
+
 
 ### Le Dashboard
 
@@ -293,7 +304,55 @@ Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une visi
 <img src="/fr/img/dashboard2.png">
 </p>
 
+---
+
+**Nos préconisations :**
+
+> Le tableau de bord est idéal dans la communication de l'avancement du projet. Notammement dans une relation client / fournisseur. Vous pouvez communiquer sur l'avancement des livrables-jalons cléfs du projet et de la santé du projet
+
+---
 
 ### Le Gantt
 
+Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs nécessaires afin de prendre des décisions et des arbitrages. 
+
+( Image )
+
+
+
+---
+**Nos préconisations :**
+
+> Hesitez pas à afficher le calendrier de vos collaborateurs avant de modifier le réseau et / ou les tickets. La vision du calendrier dans le Gantt vous permet d'avoir la vision nécessaire sur la disponibilité de vos collaborateurs et donc vous permettre de modifier votre réseau en connaissance de cause. 
+
+---
+
 ### Le Burndown
+
+Représentation graphique de l'évolution de la quantité de travail restantes par rapport au temps. 
+
+( Image )
+
+---
+**Nos préconisations :**
+
+> Attention, une consomation en dessous de la consommation idéal n'est pas forcement preuve de la bonne santé du projet. Seul l'avancement dans le gantt vous le garantira. 
+
+---
+
+
+### Le droite à 45
+
+Représentation graphique de l'évolution des dates de fin prévisionnelles des jalons du projet. La droite à 45° vous permet de savoir, en un coup d'oeil, l'évolution des différentes dates de livraison prévues. 
+
+La droite à 45° est un puissant outil de détection des dérives et de reporting de projet. 
+
+---
+**Nos préconisations :**
+
+> Chaque livrable / jalon à sa propre droite à 45. Cette droite est accesible en cliquant sur le jalon depuis la vue dashboard. 
+
+( mettre image )
+
+---
+
