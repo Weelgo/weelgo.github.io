@@ -72,6 +72,7 @@ Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser l
 Nous vous conseillons donc de construire vos actions en fonction des livrables qui doivent être livrés. 
 
 Dans weelgo, chaque action doit obligatoirement avoir des livrables. 
+
 ---
 **Nos préconisations :**
 
@@ -131,13 +132,19 @@ Ils peuvent être créés en cliquant sur ( mettre image ). Ils peuvent être d�
 
 Le livrable etant rattaché à l'action, les tickets n'aboutissent pas à un livrable dans Weelgo. Néanmoins, ils ont des caractéristiques communes. Vous pouvez affectez des responsables aux tickets ainsi que des charges de réalisation. 
 
+Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut sont plus prioritaires que les tickets en dessous ( mettre image )
+ 
+---
 **Nos préconisations :**
 
 > Considérer les tickets comme la TODO liste de l'action. 
 
+**Tips&Astuces :**
+> Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins il apparaitra pas dans les vues de planification. 
+
 ---
 
-## Affectation des responsables
+### Affectation des responsables
 
 L'affectation des responsables permet de transmette la responsabilité de l'action à un collaborateur. 
 
@@ -145,9 +152,15 @@ Pour cela, trouvez votre collaborateur depuis le bouton Ressources ( mettre imag
 
 Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une action ou à un ticket. ( mettre image )
 
+---
+**Nos préconisations :**
+> Affectez un responsable unique à une action 
 
+**Tips&Astuces :**
+> Si l'action contient plusieurs responsable. Nous considérons que l'action sera réalisée par l'ensemble des collaborateurs en même temps ( en fonction de leurs disponibilités ). La charge de réalisation sera alors distribuée entre tous les responsables. 
 
-## Renseignez des charges de réalisation
+---
+### Renseignez des charges de réalisation
 
 La charge de réalisation correspond au temps nécessaire afin de réaliser l'action. Une action / ticket ne peut être plannifié uniquement si il une charge de réalisation est présente. 
 
@@ -159,6 +172,7 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 
 ( mettre image )
 
+---
 **Nos préconisations :**
 
 > Demandez aux responsables d'actions / tickets de renseigner la charge de réalisation. Cela permettra d'avoir une planification réaliste ainsi que de responsabiliser les acteurs à la réalisation du projet. 
@@ -167,5 +181,39 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 
 ---
 
+## Etape 2 : Analyser le déroulement logique du projet
+
+*Vue Weelgo : Logique*
+
+La vue logique vous permet d'avoir une vision compléte de l'enchainement logique de réalisation de votre projet. Vous pouvez ainsi détécter des problèmes d'enchainements et/ou d'ordonnancement sur les actions / tickets.
+
+La génération du planning étant automatique, il sera peut etre nécessaire de prioriser certaines actions. Pour cela, cliquer sur ( mettre image ) afin d'indiquer la priorité. 
+
+L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prioritaire que l'action d'en dessous. 
 
 
+## Etape 3 : Date de début du projet et disponibilité des ressources
+
+*Vue Weelgo : Date Wall*
+
+Sur weelgo les ressources sont, pour l'instant, uniquement des collaborateurs. La gestion des collaborateur s'effectue en gérant leur calendriers. 
+
+( mettre image ) 
+
+Vous pouvez définir sur cette vue : 
++ La date de début du projet
++ Le calendrier des collaborateurs
+
+Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiques. Une fois la disponibilité renseignée, elle est automatiquement pris en compte dans la construction du planning du projet. 
+
+
+
+---
+**Nos préconisations :**
+
+> N'affectez pas vos collaborateurs à 100%. Prenez une marge, cela permettra d'avoir une gestion de projet plus souple et vous permettre d'absorber plus facilement les aléa de la vie du projet
+
+**Tips&Astuces :**
+> La modification du calendrier ou de la productivité générale de la personne impactera le planning depuis le début du projet. Afin de pas modifier le planning déjà réalisé, modifié la charge à venir du collaborateur en ajoutant des dates spécifiques ( mettre image )
+
+---
