@@ -131,6 +131,20 @@ Cet organigramme est construit de la manière suivante :
 + Les répertoires correspondent aux différents niveaux du WBS
 + Les actions correspondent au niveau le plus bas. 
 
+
+Projet :
+
+<p align="center">
+<img src="/fr/img/reseau.png">
+</p>
+
+Vue WBS : 
+
+<p align="center">
+<img src="/fr/img/vueWBS.png">
+</p>
+
+
 ( mettre image )
 
 Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
