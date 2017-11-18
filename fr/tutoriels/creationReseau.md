@@ -5,7 +5,7 @@ description : Dans ce tutoriel, vous apprendrez à créer un projet Weelgo
 toc : true
 ---
 
-## Introduction 2
+## Introduction
 
 Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maitrise ! 
 
