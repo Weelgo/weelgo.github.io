@@ -31,14 +31,15 @@ De nombreux critères peuvent être utilisés pour effectuer ce découpage :
 
 Suite à l'identification des phases de votre projet, vous pouvez créer la structure du projet dans Weelgo. Cela est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau"
 
-![GitHub Logo](/fr/img/repertoire.png)
+![repertoire](/fr/img/repertoire.png?style=centerme)
 
 
 Nous retrouvons ici deux types de découpages. Un premier découpage de haut niveau correspondant à un découpage en type de taches ( Mise en place, Développement ), et un découpage par ressource au niveau de la phase de développement. 
 
 Il est possible de descendre de niveau si nous estimons cela nécessaire.  Ici nous avons, pour chaque ressource, effectué un découpage fonctionnel. 
 
-( Mettre image ici ) 
+![repertoire2](/fr/img/repertoire2.png?style=centerme)
+
 
 Ces répertoires contiendront les différentes actions nécessaire à la réalisation de votre projet. 
 
@@ -60,7 +61,7 @@ Dans Weelgo, chaque action doit aboutir à un livrable. Une action ne peut pas �
 
 Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou des jalons. 
 
-( Mettre image ici ) 
+![action](/fr/img/actions.png?style=centerme)
 
 Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Que dois-je faire pour réaliser cette action? 
