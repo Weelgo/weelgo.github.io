@@ -151,6 +151,10 @@ Ces répertoires contiendront les différentes actions nécessaire à la réalis
 
 Cette architecture permet, d'avoir une vision globale de la réalisation du projet. Bien évidemment, il est possible de modifier l'affectation du découpage fonctionnelle en fonction des contraintes rencontrées lors de la réalisation du projet. 
 
+Pour affecter des actions à un répertoire, il suffit de sélectionner les actions et tracer un trait vers le répertoire souhaité. 
+
+( mettre GIF )
+
 ---
 
 **Nos préconisations :**
@@ -357,7 +361,7 @@ Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une visi
 
 Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs nécessaires afin de prendre des décisions et des arbitrages. 
 
-( Image )
+( mettre image )
 
 
 
@@ -372,7 +376,7 @@ Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs 
 
 Représentation graphique de l'évolution de la quantité de travail restantes par rapport au temps. 
 
-( Image )
+( mettre image )
 
 ---
 **Nos préconisations :**
@@ -387,6 +391,8 @@ Représentation graphique de l'évolution de la quantité de travail restantes p
 Représentation graphique de l'évolution des dates de fin prévisionnelles des jalons du projet. La droite à 45° vous permet de savoir, en un coup d'oeil, l'évolution des différentes dates de livraison prévues. 
 
 La droite à 45° est un puissant outil de détection des dérives et de reporting de projet. 
+
+( mettre image )
 
 ---
 **Nos préconisations :**
