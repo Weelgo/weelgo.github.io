@@ -96,17 +96,23 @@ L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterm
 
 L'ordonnancement "physique" est le lien entre 2 actions reliées par un livrable. L'action B attendant le livrable de l'action A afin de commencer 
 
-( mettre image )
+<p align="center">
+<img src="/fr/img/actionLienPhysique.png">
+</p>
 
 L'ordonnancement "temporel" correspond à une dépendance temporelle entre 2 actions. L'action B ne pouvant commencer uniquement quand l'action A est terminée. Néanmoins, le livrable de l'action A n'est pas nécessaire à la réalisation de l'action B
 
-( mettre image )
+<p align="center">
+<img src="/fr/img/actionLienTemporel.png">
+</p>
 
 Dans weelgo la définition des actions et l'ordonnancement s'effectue en même temps. En effet, cette étape se traduit par la réalisation d'un réseau d'action.
 
 Durant cette étape, il est nécessaire de considérer les ressources comme infinies. Cela permettra de connaitre le délai minimum possible avec le maximum de parallélisme )
 
-( mettre image )
+<p align="center">
+<img src="/fr/img/reseau.png">
+</p>
 
 ---
 **Nos préconisations :**
