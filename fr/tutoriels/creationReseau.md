@@ -5,7 +5,7 @@ description : Dans ce tutoriel, vous apprendrez à créer un projet Weelgo
 toc : true
 ---
 
-## Introduction 
+## Introduction 2
 
 Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maitrise ! 
 
@@ -63,7 +63,7 @@ Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou
 
 Les livrables jalons sont des livrables que vous souhaitez suivre particuliérement. Ils apparaitront dans le tableau de bord du projet et profiteront d'un suivi particulier. 
 
-<a name="test titre"></a>
+
 Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Que dois-je faire pour réaliser cette action? 
 * Quel sont les inputs nécessaires à la réalisation de cette action? 
@@ -120,7 +120,7 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 
 ---
 
-### Définition des répertoires
+### Définition des répertoires <a id="titre"></a>
 
 Suite à la création du réseau, il est nécessaire de finaliser sa construction en l'encapsulant dans une structure. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet 
 
