@@ -34,11 +34,13 @@ Suite à l'identification des phases de votre projet, vous pouvez créer la stru
 
 Nous retrouvons ici deux types de découpages. Un premier découpage de haut niveau correspondant à un découpage en type de taches ( Mise en place, Développement ), et un découpage par ressource au niveau de la phase de développement. 
 
-Ces répertoires contiendront les différentes actions nécessaire à la réalisation de votre projet. 
-
 Il est possible de descendre de niveau si nous estimons cela nécessaire.  Ici nous avons, pour chaque ressource, effectué un découpage fonctionnel. 
 
 ( Mettre image ici ) 
+
+Ces répertoires contiendront les différentes actions nécessaire à la réalisation de votre projet. 
+
+Cette architecture permet, d'avoir une vision globale de la réalisation du projet. Bien évidemment, il est possible de modifier l'affectation du découpage fonctionnelle en fonction des contraintes rencontrées lors de la réalisation du projet. 
 
 ---
 **Nos préconisations :**
@@ -54,6 +56,10 @@ Suite à la création de la structure du projet. Il est nécessaire de détermin
 
 Dans Weelgo, chaque action doit aboutir à un livrable. Une action ne peut pas être sans livrable !
 
+Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou des jalons. 
+
+( Mettre image ici ) 
+
 Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Que dois-je faire pour réaliser cette action? 
 * Quel sont les inputs nécessaires à la réalisation de cette action? 
@@ -65,6 +71,7 @@ Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser l
 
 Nous vous conseillons donc de construire vos actions en fonction des livrables qui doivent être livrés. 
 
+Dans weelgo, chaque action doit obligatoirement avoir des livrables. 
 ---
 **Nos préconisations :**
 
@@ -76,7 +83,7 @@ Nous vous conseillons donc de construire vos actions en fonction des livrables q
 ### L'ordonnancement des actions
 
 
-L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterminons ainsi les dépendances entre chaque tâches et leur chronologie. La solution Weelgo propose 2 type d'ordonnancement. L'ordonnancement "physique" et l'ordonnancement "temporel". 
+L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterminons ainsi les dépendances entre chaque action et leur chronologie. La solution Weelgo propose 2 type d'ordonnancement. L'ordonnancement "physique" et l'ordonnancement "temporel". 
 
 L'ordonnancement "physique" est le lien entre 2 actions reliées par un livrable. L'action B attendant le livrable de l'action A afin de commencer 
 
@@ -86,7 +93,11 @@ L'ordonnancement "temporel" correspond à une dépendance temporelle entre 2 act
 
 ( mettre image )
 
+Dans weelgo la définition des actions et l'ordonnancement s'effectue en même temps. En effet, cette étape se traduit par la réalisation d'un réseau d'action.
+
 Durant cette étape, il est nécessaire de considérer les ressources comme infinies. Cela permettra de connaitre le délai minimum possible avec le maximum de parallélisme )
+
+( mettre image )
 
 ---
 **Nos préconisations :**
@@ -99,36 +110,60 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 
 *Vue Weelgo : Organisation*
 
-L'organisation opérationnel du projet se décompose par :
-+ La gestion des ressources
-+ La gestion tâches permetant de réaliser une action ( tickets )
-+ La gestion des charges de réalisation et du reste à faire. 
+La vue Organisation de Weelgo représente le projet sous une forme hierachique ou WBS ( Work Breakdown Structure ). C'est à dire un organigramme des actions du projet. 
 
-La vue Organisation de Weelgo représente le projet sous une forme hierachique. 
+Cet organigramme est construit de la manière suivante : 
++ Les répertoires correspondent aux différents niveaux du WBS
++ Les actions correspondent au niveau le plus bas. 
 
-## Création des tickets
+( mettre image )
+
+Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
++ Les tickets associés aux actions
++ Ajouter des responsables
++ Ajouter des charges de réalisation 
+
+### Création des tickets
+
+Dans Weelgo, les tickets sont obligatoirement rattachés à une action. Les tickets doivent être considérés comme une décomposition plus fine de l'action. 
+
+Ils peuvent être créés en cliquant sur ( mettre image ). Ils peuvent être déplacé ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
+
+Le livrable etant rattaché à l'action, les tickets n'aboutissent pas à un livrable dans Weelgo. Néanmoins, ils ont des caractéristiques communes. Vous pouvez affectez des responsables aux tickets ainsi que des charges de réalisation. 
 
 **Nos préconisations :**
 
-> TODO
+> Considérer les tickets comme la TODO liste de l'action. 
 
 ---
 
-## Affectation des ressources
+## Affectation des responsables
 
+L'affectation des responsables permet de transmette la responsabilité de l'action à un collaborateur. 
 
-**Nos préconisations :**
+Pour cela, trouvez votre collaborateur depuis le bouton Ressources ( mettre image ) et cherchez le depuis la recherche ( mettre image ). 
 
-> TODO
+Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une action ou à un ticket. ( mettre image )
 
----
 
 
 ## Renseignez des charges de réalisation
 
+La charge de réalisation correspond au temps nécessaire afin de réaliser l'action. Une action / ticket ne peut être plannifié uniquement si il une charge de réalisation est présente. 
+
+L'affectation des charges des actions s'effectuent depuis la vue "Réseau" 
+
+( mettre image )
+
+L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
+
+( mettre image )
+
 **Nos préconisations :**
 
-> TODO
+> Demandez aux responsables d'actions / tickets de renseigner la charge de réalisation. Cela permettra d'avoir une planification réaliste ainsi que de responsabiliser les acteurs à la réalisation du projet. 
+
+> De plus vous donnerez l'opportunité de communiquer sur le réseau de réalisation du projet et ainsi faire des ajustements si nécessaire
 
 ---
 
