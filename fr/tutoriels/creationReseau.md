@@ -5,7 +5,7 @@ description : Dans ce tutoriel, vous apprendrez à créer un projet Weelgo
 toc : true
 ---
 
-## Introduction
+## Introduction 2
 
 Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maitrise ! 
 
@@ -25,15 +25,16 @@ __[Etape 3 : Analyse du déroulement logique du projet](#analyseLogique)__
 
 __[Etape 4 : Définition des hyopthèses de départ ( date de début et calendrier des ressources )](#hypoDepart)__
 
+<a id="modeliserProjet"></a> 
 __[Etape 5 : Analyse du planning et des indicateurs](#analysePlanning)__
 
 
-<a id="modeliserProjet"></a> 
+
 ## Etape 1 : Modéliser son projet 
 
-
-*Vue Weelgo : Réseau*
 <a id="definitionActionsLivrables"></a> 
+*Vue Weelgo : Réseau*
+
 ### Définition des actions et des livrables
 
 Un projet est un enchainement d'actions aboutissant à un ou plusieurs livrables. La modélisation du projet consiste donc à : 
@@ -77,12 +78,12 @@ Dans weelgo, chaque action doit obligatoirement avoir des livrables.
 ---
 
 **Nos préconisations :**
-
+<a id="ordreActions"></a> 
 >Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation )
 
 ---
 
-<a id="ordreActions"></a> 
+
 ### Ordonnancement des actions
 
 
