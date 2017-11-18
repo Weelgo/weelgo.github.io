@@ -198,6 +198,8 @@ L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prio
 
 Sur weelgo les ressources sont, pour l'instant, uniquement des collaborateurs. La gestion des collaborateur s'effectue en gérant leur calendriers. 
 
+https://github.com/Weelgo/weelgo.github.io/blob/master/fr/img/unnamed.png?raw=true
+
 ( mettre image ) 
 
 Vous pouvez définir sur cette vue : 
@@ -207,13 +209,22 @@ Vous pouvez définir sur cette vue :
 Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiques. Une fois la disponibilité renseignée, elle est automatiquement pris en compte dans la construction du planning du projet. 
 
 
-
 ---
 **Nos préconisations :**
 
 > N'affectez pas vos collaborateurs à 100%. Prenez une marge, cela permettra d'avoir une gestion de projet plus souple et vous permettre d'absorber plus facilement les aléa de la vie du projet
 
 **Tips&Astuces :**
-> La modification du calendrier ou de la productivité générale de la personne impactera le planning depuis le début du projet. Afin de pas modifier le planning déjà réalisé, modifié la charge à venir du collaborateur en ajoutant des dates spécifiques ( mettre image )
+> La modification du calendrier ou de la productivité générale de la personne impactera le planning depuis le début du projet. Afin de pas modifier le planning déjà réalisé, modifiez la charge à venir du collaborateur en ajoutant des dates spécifiques ( mettre image )
 
 ---
+
+## Etape 4 : Analyser le planning et les indicateurs
+
+### Le Wall
+
+### Le Dashboard
+
+### Le Gantt
+
+### Le Burndown
