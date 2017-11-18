@@ -39,7 +39,9 @@ Nous retrouvons ici deux types de découpages. Un premier découpage de haut niv
 
 Il est possible de descendre de niveau si nous estimons cela nécessaire.  Ici nous avons, pour chaque ressource, effectué un découpage fonctionnel. 
 
-![repertoire2](/fr/img/repertoire2.png?style=centerme)
+<p align="center">
+<img src="/fr/img/repertoire2.png">
+</p>
 
 
 Ces répertoires contiendront les différentes actions nécessaire à la réalisation de votre projet. 
@@ -62,7 +64,9 @@ Dans Weelgo, chaque action doit aboutir à un livrable. Une action ne peut pas �
 
 Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou des jalons. 
 
-![action](/fr/img/actions.png?style=centerme)
+<p align="center">
+<img src="/fr/img/actions.png">
+</p>
 
 Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Que dois-je faire pour réaliser cette action? 
