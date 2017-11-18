@@ -6,7 +6,7 @@ toc : true
 ---
 
 
-## Etape 1 : Modéliser son projet. TEST 
+## Etape 1 : Modéliser son projet. 
 
 ![GitHub Logo](/fr/img/unnamed.png)
 
