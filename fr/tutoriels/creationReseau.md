@@ -8,7 +8,7 @@ toc : true
 
 ## Etape 1 : Modéliser son projet. 
 
-![Logo Weelgo]({{ "/fr/img/unnamed.png" | absolute_url }})
+![GitHub Logo](/fr/img/unnamed.png)
 
 *Vue Weelgo : Réseau*
 
