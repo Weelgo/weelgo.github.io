@@ -12,30 +12,28 @@ Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Wee
 La modélisation d'un projet Weelgo s'effectue en 5 étapes. 
 
 __[Etape 1 : Modéliser son projet](#modeliserProjet)__
++ [Définition des actions et des livrables](#definitionActionsLivrables)
++ [Ordonnancement des actions](#ordreActions)
++ [Définition des répertoires](#repertoire)
 
-__Etape 1 : Modéliser son projet__
-+ Définition des actions et des livrables
-+ Ordonnancement des actions
-+ Définition des répertoires
+__[Etape 2 : L'organisation opérationnel du projet](#organisationProjet)__
++ [Ajout des tickets](#ajoutTickets) 
++ [Affectation des responsables](#affectationResp)
++ [Renseignez des charges de réalisation](#chargeReal)
 
-__Etape 2 : L'organisation opérationnel du projet__
-+ Ajout des tickets 
-+ Affectation des responsables
-+ Renseignez des charges de réalisation
+__[Etape 3 : Analyse du déroulement logique du projet](#analyseLogique)__
 
-__Etape 3 : Analyse du déroulement logique du projet__
+__[Etape 4 : Définition des hyopthèses de départ ( date de début et calendrier des ressources )](#hypoDepart)__
 
-__Etape 4 : Définition des hyopthèses de départ ( date de début et calendrier des ressources )__
-
-__Etape 5 : Analyse du planning et des indicateurs__
+__[Etape 5 : Analyse du planning et des indicateurs](#analysePlanning)__
 
 
-
-## Etape 1 : Modéliser son projet <a id="modeliserProjet"></a> 
+<a id="modeliserProjet"></a> 
+## Etape 1 : Modéliser son projet 
 
 
 *Vue Weelgo : Réseau*
-
+<a id="definitionActionsLivrables"></a> 
 ### Définition des actions et des livrables
 
 Un projet est un enchainement d'actions aboutissant à un ou plusieurs livrables. La modélisation du projet consiste donc à : 
@@ -84,7 +82,7 @@ Dans weelgo, chaque action doit obligatoirement avoir des livrables.
 
 ---
 
-
+<a id="ordreActions"></a> 
 ### Ordonnancement des actions
 
 
@@ -117,7 +115,7 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 >Ordonnancez votre projet sans prendre en compte les ressources ( ressources infinie ). Vous connnaitrez le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet sur les différentes phases. 
 
 ---
-
+<a id="repertoire"></a> 
 ### Définition des répertoires 
 
 Suite à la création du réseau, il est nécessaire de finaliser sa construction en l'encapsulant dans une structure. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet 
@@ -166,7 +164,7 @@ Pour affecter des actions à un répertoire, il suffit de sélectionner les acti
 ---
 
 
-
+<a id="organisationProjet"></a> 
 ## Etape 2 : L'organisation opérationnel du projet. 
 
 *Vue Weelgo : Organisation*
@@ -196,6 +194,7 @@ Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
 + Ajouter des responsables
 + Ajouter des charges de réalisation 
 
+<a id="ajoutTickets"></a> 
 ### Ajout des tickets
 
 Dans Weelgo, les tickets sont obligatoirement rattachés à une action. Les tickets doivent être considérés comme une décomposition plus fine de l'action. 
@@ -221,7 +220,7 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 > Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins il apparaitra pas dans les vues de planification. 
 
 ---
-
+<a id="affectationResp"></a> 
 ### Affectation des responsables
 
 L'affectation des responsables permet de transmette la responsabilité de l'action à un collaborateur. 
@@ -245,6 +244,8 @@ Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une a
 > Si l'action contient plusieurs responsable. Nous considérons que l'action sera réalisée par l'ensemble des collaborateurs en même temps ( en fonction de leurs disponibilités ). La charge de réalisation sera alors distribuée entre tous les responsables. 
 
 ---
+
+<a id="chargeReal"></a> 
 ### Renseignez des charges de réalisation
 
 La charge de réalisation correspond au temps nécessaire afin de réaliser l'action. Une action / ticket ne peut être plannifié uniquement si il une charge de réalisation est présente. 
@@ -270,7 +271,7 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 > De plus vous donnerez l'opportunité de communiquer sur le réseau de réalisation du projet et ainsi faire des ajustements si nécessaire
 
 ---
-
+<a id="analyseLogique"></a> 
 ## Etape 3 : Analyser le déroulement logique du projet
 
 *Vue Weelgo : Logique*
@@ -281,7 +282,7 @@ La génération du planning étant automatique, il sera peut etre nécessaire de
 
 L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prioritaire que l'action d'en dessous. 
 
-
+<a id="hypoDepart"></a> 
 ## Etape 4 : Définition des hypothèses de départ
 
 *Vue Weelgo : Date Wall*
@@ -313,6 +314,7 @@ Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiqu
 
 ---
 
+<a id="analysePlanning"></a>
 ## Etape 4 : Analyser le planning et les indicateurs
 
 Chez Weelgo, nous pensons que le manageur doit se concentrer sur l'essentiel. C'est à dire le management des hommes, la gestion des problèmes et des arbitrages. Le temps passé à généré des plannings et des indicateurs ne doit plus être à la charge du manageur. C'est pourquoi la solution Weelgo générère automatiquement l'ensemble des outils permettant de piloter le projet. 
