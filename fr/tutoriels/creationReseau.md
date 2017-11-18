@@ -156,7 +156,7 @@ Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
 
 Dans Weelgo, les tickets sont obligatoirement rattachés à une action. Les tickets doivent être considérés comme une décomposition plus fine de l'action. 
 
-Ils peuvent être créés en cliquant sur ( mettre image ). Ils peuvent être déplacé ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
+Ils peuvent être créés en cliquant sur <img src="/fr/img/iconeAjoutTicket.png">. Ils peuvent être déplacé ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
 
 Le livrable etant rattaché à l'action, les tickets n'aboutissent pas à un livrable dans Weelgo. Néanmoins, ils ont des caractéristiques communes. Vous pouvez affectez des responsables aux tickets ainsi que des charges de réalisation. 
 
