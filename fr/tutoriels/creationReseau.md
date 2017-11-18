@@ -239,7 +239,6 @@ L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prio
 
 Sur weelgo les ressources sont, pour l'instant, uniquement des collaborateurs. La gestion des collaborateur s'effectue en gérant leur calendriers. 
 
-https://github.com/Weelgo/weelgo.github.io/blob/master/fr/img/unnamed.png?raw=true
 
 ( mettre image ) 
 
@@ -262,9 +261,38 @@ Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiqu
 
 ## Etape 4 : Analyser le planning et les indicateurs
 
+Chez Weelgo, nous pensons que le manageur doit se concentrer sur l'essentiel. C'est à dire le management des hommes, la gestion des problèmes et des arbitrages. Le temps passé à généré des plannings et des indicateurs ne doit plus être à la charge du manageur. C'est pourquoi la solution Weelgo générère automatiquement l'ensemble des outils permettant de piloter le projet. 
+
 ### Le Wall
 
+Véritable feuille de route du projet, c'est la vision verticale du planing. Vous pouvez identifier immédiatement les actions non planifiées ainsi que le déroulement du projet. 
+
+<p align="center">
+<img src="/fr/img/vueWall.png">
+</p>
+
+---
+**Nos préconisations :**
+
+> Entre le vue Organisation et la vue Gantt, cette représentation est idéale pour le pilotage  de l'équipe au quotidien. Lors de la réunion journalière, en un clin d'oeil, l'ensemble de l'équipe connait les actions à réaliser ainsi que l'état du projet. 
+---
+
 ### Le Dashboard
+
+Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une vision 360 du projet et de l'ensemble des indicateurs cléfs: 
++ Les jalons
++ Le burdown 
++ Les problèmes
+
+<p align="center">
+<img src="/fr/img/dashboard1.png">
+</p>
+
+
+<p align="center">
+<img src="/fr/img/dashboard2.png">
+</p>
+
 
 ### Le Gantt
 
