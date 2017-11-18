@@ -8,7 +8,6 @@ toc : true
 
 ## Etape 1 : Modéliser son projet. 
 
-![GitHub Logo](/fr/img/unnamed.png)
 
 *Vue Weelgo : Réseau*
 
@@ -32,7 +31,8 @@ De nombreux critères peuvent être utilisés pour effectuer ce découpage :
 
 Suite à l'identification des phases de votre projet, vous pouvez créer la structure du projet dans Weelgo. Cela est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau"
 
-![GitHub Logo](/fr/img/repertoire.jpg)
+![GitHub Logo](/fr/img/repertoire.png)
+
 
 Nous retrouvons ici deux types de découpages. Un premier découpage de haut niveau correspondant à un découpage en type de taches ( Mise en place, Développement ), et un découpage par ressource au niveau de la phase de développement. 
 
