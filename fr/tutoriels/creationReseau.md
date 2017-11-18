@@ -23,16 +23,16 @@ __[Etape 2 : L'organisation opérationnel du projet](#organisationProjet)__
 
 __[Etape 3 : Analyse du déroulement logique du projet](#analyseLogique)__
 
+<a id="modeliserProjet"></a> 
 __[Etape 4 : Définition des hyopthèses de départ ( date de début et calendrier des ressources )](#hypoDepart)__
 
-<a id="modeliserProjet"></a> 
 __[Etape 5 : Analyse du planning et des indicateurs](#analysePlanning)__
 
 
-
+<a id="definitionActionsLivrables"></a> 
 ## Etape 1 : Modéliser son projet 
 
-<a id="definitionActionsLivrables"></a> 
+
 *Vue Weelgo : Réseau*
 
 ### Définition des actions et des livrables
@@ -112,11 +112,11 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 ---
 
 **Nos préconisations :**
-
+<a id="repertoire"></a> 
 >Ordonnancez votre projet sans prendre en compte les ressources ( ressources infinie ). Vous connnaitrez le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet sur les différentes phases. 
 
 ---
-<a id="repertoire"></a> 
+
 ### Définition des répertoires 
 
 Suite à la création du réseau, il est nécessaire de finaliser sa construction en l'encapsulant dans une structure. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet 
@@ -157,7 +157,7 @@ Pour affecter des actions à un répertoire, il suffit de sélectionner les acti
 ( mettre GIF )
 
 ---
-
+<a id="organisationProjet"></a> 
 **Nos préconisations :**
 
 >Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet 
@@ -165,7 +165,7 @@ Pour affecter des actions à un répertoire, il suffit de sélectionner les acti
 ---
 
 
-<a id="organisationProjet"></a> 
+
 ## Etape 2 : L'organisation opérationnel du projet. 
 
 *Vue Weelgo : Organisation*
@@ -189,13 +189,13 @@ Vue WBS :
 <img src="/fr/img/vueWBS.png">
 </p>
 
-
+<a id="ajoutTickets"></a> 
 Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
 + Les tickets associés aux actions
 + Ajouter des responsables
 + Ajouter des charges de réalisation 
 
-<a id="ajoutTickets"></a> 
+
 ### Ajout des tickets
 
 Dans Weelgo, les tickets sont obligatoirement rattachés à une action. Les tickets doivent être considérés comme une décomposition plus fine de l'action. 
@@ -216,12 +216,12 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 **Nos préconisations :**
 
 > Considérer les tickets comme la TODO liste de l'action. 
-
+<a id="affectationResp"></a> 
 **Tips&Astuces :**
 > Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins il apparaitra pas dans les vues de planification. 
 
 ---
-<a id="affectationResp"></a> 
+
 ### Affectation des responsables
 
 L'affectation des responsables permet de transmette la responsabilité de l'action à un collaborateur. 
@@ -240,13 +240,13 @@ Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une a
 
 **Nos préconisations :**
 > Affectez un responsable unique à une action 
-
+<a id="chargeReal"></a> 
 **Tips&Astuces :**
 > Si l'action contient plusieurs responsable. Nous considérons que l'action sera réalisée par l'ensemble des collaborateurs en même temps ( en fonction de leurs disponibilités ). La charge de réalisation sera alors distribuée entre tous les responsables. 
 
 ---
 
-<a id="chargeReal"></a> 
+
 ### Renseignez des charges de réalisation
 
 La charge de réalisation correspond au temps nécessaire afin de réaliser l'action. Une action / ticket ne peut être plannifié uniquement si il une charge de réalisation est présente. 
@@ -266,24 +266,24 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 ---
 
 **Nos préconisations :**
-
+<a id="analyseLogique"></a> 
 > Demandez aux responsables d'actions / tickets de renseigner la charge de réalisation. Cela permettra d'avoir une planification réaliste ainsi que de responsabiliser les acteurs à la réalisation du projet. 
 
 > De plus vous donnerez l'opportunité de communiquer sur le réseau de réalisation du projet et ainsi faire des ajustements si nécessaire
 
 ---
-<a id="analyseLogique"></a> 
+
 ## Etape 3 : Analyser le déroulement logique du projet
 
 *Vue Weelgo : Logique*
 
 La vue logique vous permet d'avoir une vision compléte de l'enchainement logique de réalisation de votre projet. Vous pouvez ainsi détécter des problèmes d'enchainements et/ou d'ordonnancement sur les actions / tickets.
-
+<a id="hypoDepart"></a> 
 La génération du planning étant automatique, il sera peut etre nécessaire de prioriser certaines actions. Pour cela, cliquer sur <img src="/fr/img/listePriorite.png"> afin d'indiquer la priorité. 
 
 L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prioritaire que l'action d'en dessous. 
 
-<a id="hypoDepart"></a> 
+
 ## Etape 4 : Définition des hypothèses de départ
 
 *Vue Weelgo : Date Wall*
@@ -309,13 +309,13 @@ Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiqu
 **Nos préconisations :**
 
 > N'affectez pas vos collaborateurs à 100%. Prenez une marge, cela permettra d'avoir une gestion de projet plus souple et vous permettre d'absorber plus facilement les aléa de la vie du projet
-
+<a id="analysePlanning"></a>
 **Tips&Astuces :**
 > La modification du calendrier ou de la productivité générale de la personne impactera le planning depuis le début du projet. Afin de pas modifier le planning déjà réalisé, modifiez la charge à venir du collaborateur en ajoutant des dates spécifiques ( mettre image )
 
 ---
 
-<a id="analysePlanning"></a>
+
 ## Etape 5 : Analyser le planning et les indicateurs
 
 Chez Weelgo, nous pensons que le manageur doit se concentrer sur l'essentiel. C'est à dire le management des hommes, la gestion des problèmes et des arbitrages. Le temps passé à généré des plannings et des indicateurs ne doit plus être à la charge du manageur. C'est pourquoi la solution Weelgo générère automatiquement l'ensemble des outils permettant de piloter le projet. 
