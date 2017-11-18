@@ -32,7 +32,13 @@ Suite à l'identification des phases de votre projet, vous pouvez créer la stru
 
 ( Mettre image ici ) 
 
+Nous retrouvons ici deux types de découpages. Un premier découpage de haut niveau correspondant à un découpage en type de taches ( Mise en place, Développement ), et un découpage par ressource au niveau de la phase de développement. 
+
 Ces répertoires contiendront les différentes actions nécessaire à la réalisation de votre projet. 
+
+Il est possible de descendre de niveau si nous estimons cela nécessaire.  Ici nous avons, pour chaque ressource, effectué un découpage fonctionnel. 
+
+( Mettre image ici ) 
 
 ---
 **Nos préconisations :**
