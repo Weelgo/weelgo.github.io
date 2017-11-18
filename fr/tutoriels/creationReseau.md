@@ -13,12 +13,13 @@ La modélisation d'un projet Weelgo s'effectue en 5 étapes.
 
 __Etape 1 : Modéliser son projet__
 + Définition des actions et des livrables
++ Ordonnancement des actions
 + Définition des répertoires
 
-__Etape 2 : Organiser son projet__
+__Etape 2 : L'organisation opérationnel du projet__
 + Ajout des tickets 
 + Affectation des responsables
-+ Indiquer les charges sur les actions / tickets
++ Renseignez des charges de réalisation
 
 __Etape 3 : Analyse du déroulement logique du projet__
 
@@ -53,17 +54,17 @@ Cette succession d'action / livrable fomera votre réseau. Le réseau étant la 
 Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou de type jalon 
 
 <p align="center">
-<img src="/fr/img/actions.png">
+<img src="/fr/img/typeLivrable.png">
 </p>
 
 Les livrables jalons sont des livrables que vous souhaitez suivre particuliérement. Ils apparaitront dans le tableau de bord du projet et profiteront d'un suivi particulier. 
-
 
 
 Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Que dois-je faire pour réaliser cette action? 
 * Quel sont les inputs nécessaires à la réalisation de cette action? 
 * Qu'ai-je en sortie de mon action ? 
+
 
 Gardez en mémoire que vous avez la possibilité de saisir des tickets dans actions ( depuis la vue Organisation ). Un choix peut structurel sympose donc. Dois-je créer une action ou un ticket? 
 
@@ -82,7 +83,7 @@ Dans weelgo, chaque action doit obligatoirement avoir des livrables.
 ---
 
 
-### L'ordonnancement des actions
+### Ordonnancement des actions
 
 
 L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterminons ainsi les dépendances entre chaque action et leur chronologie. La solution Weelgo propose 2 type d'ordonnancement. L'ordonnancement "physique" et l'ordonnancement "temporel". 
@@ -117,9 +118,7 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 
 ### Définition des répertoires
 
-La solution Weelgo permet de modéliser son projet au travers un réseau d'actions / livrables. Une identification de la structure du réseau est donc nécessaire. Cette structuration s'effectue au travers la détermination de l'ensemble des phases permettant de réaliser votre projet
-
-Ce découpage permettra de faciliter la compréhension et sa gestion au quotidien. 
+Suite à la création du réseau, il est nécessaire de finaliser sa construction en l'encapsulant dans une structure. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet 
 
 De nombreux critères peuvent être utilisés pour effectuer ce découpage : 
 
@@ -133,7 +132,7 @@ De nombreux critères peuvent être utilisés pour effectuer ce découpage :
 * Maintenance ( éléments échangeables, ordre du démontage ) 
 * Documentation ( Spécifications, Dossiers, Procédures )
 
-Suite à l'identification des phases de votre projet, vous pouvez créer la structure du projet dans Weelgo. Cela est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau"
+Ce découpage est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau"
 
 <p align="center">
 <img src="/fr/img/repertoire.png">
@@ -159,7 +158,6 @@ Cette architecture permet, d'avoir une vision globale de la réalisation du proj
 >Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet 
 
 ---
-
 
 
 
@@ -192,7 +190,7 @@ Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
 + Ajouter des responsables
 + Ajouter des charges de réalisation 
 
-### Création des tickets
+### Ajout des tickets
 
 Dans Weelgo, les tickets sont obligatoirement rattachés à une action. Les tickets doivent être considérés comme une décomposition plus fine de l'action. 
 
@@ -267,7 +265,7 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 
 ---
 
-## Etape 2 : Analyser le déroulement logique du projet
+## Etape 3 : Analyser le déroulement logique du projet
 
 *Vue Weelgo : Logique*
 
@@ -278,9 +276,13 @@ La génération du planning étant automatique, il sera peut etre nécessaire de
 L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prioritaire que l'action d'en dessous. 
 
 
-## Etape 3 : Date de début du projet et disponibilité des ressources
+## Etape 4 : Définition des hypothèses de départ
 
 *Vue Weelgo : Date Wall*
+
+Avant de vous lancez dans l'analyse du planning de votre projet, il est nécessaire de définir les hypothèses de départ. Elles sont au nombre de deux : 
+* La date de début du projet
+* La disponibilité des ressources. 
 
 Sur weelgo les ressources sont, pour l'instant, uniquement des collaborateurs. La gestion des collaborateur s'effectue en gérant leur calendriers. 
 
@@ -291,7 +293,7 @@ Vous pouvez définir sur cette vue :
 + La date de début du projet
 + Le calendrier des collaborateurs
 
-Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiques. Une fois la disponibilité renseignée, elle est automatiquement pris en compte dans la construction du planning du projet. 
+Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiques. Une fois la disponibilité renseignée, elle est automatiquement prise en compte dans la construction du planning du projet. 
 
 
 ---
