@@ -305,7 +305,7 @@ La charge de réalisation correspond au temps nécessaire de réalisation de l'a
 
 Exemple : 
 
-Une action de 5 jh peut etre réalisé en 10 J. 
+Une action de 5 jh peut etre réalisée en 10 J. 
 Charge de réalisation : 5 jh
 Durée de réalisation : 10J
 
