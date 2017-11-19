@@ -50,7 +50,7 @@ Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou
 <img src="/fr/img/typeLivrable.png">
 </p>
 
-Les livrables jalons sont des livrables que vous souhaitez suivre particuliérement. Ils apparaitront dans le tableau de bord du projet et profiteront d'un suivi particulier. 
+Les livrables jalons sont des livrables que vous souhaitez suivre particuliérement. Ils apparaitront dans le tableau de bord du projet et bénéficieront d'un suivi particulier. 
 
 
 Pour chaque action, il est nécessaire de se poser les questions suivantes :
@@ -59,13 +59,10 @@ Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Qu'ai-je en sortie de mon action ? 
 
 
-Gardez en mémoire que vous avez la possibilité de saisir des tickets dans actions ( depuis la vue Organisation ). Un choix peut structurel sympose donc. Dois-je créer une action ou un ticket? 
+Gardez en mémoire que vous avez la possibilité de saisir des tickets dans actions ( depuis la vue Organisation ). Un choix structurel s'impose donc. Dois-je créer une action ou un ticket? 
 
 Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser la structure de votre projet. Notamment avec la liste des livrables de votre projet. Si le résultat du ticket et un livrable de haute importante ( application, documentation... ), une action est préférable. Dans le cas contraire, privilégiez le ticket.
 
-Nous vous conseillons donc de construire vos actions en fonction des livrables qui doivent être livrés. 
-
-Dans weelgo, chaque action doit obligatoirement avoir des livrables. 
 
 ---
 
