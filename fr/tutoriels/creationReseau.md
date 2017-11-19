@@ -266,6 +266,7 @@ Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une a
 **Nos préconisations :**
 >*Affectez un responsable unique à une action.*
 <a id="chargeReal"></a> 
+
 **Tips&Astuces :**
 >*Si l'action contient plusieurs responsable. Nous considérons que l'action sera réalisée par l'ensemble des collaborateurs en même temps ( en fonction de leurs disponibilités ). La charge de réalisation sera alors distribuée entre tous les responsables.* 
 
@@ -274,7 +275,20 @@ Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une a
 
 ### Renseignez des charges de réalisation
 
-La charge de réalisation correspond au temps nécessaire afin de réaliser l'action. Une action / ticket ne peut être plannifié uniquement si il une charge de réalisation est présente. 
+
+Lors de cette étape, vous devez indiquer la charge de réalisation des actions et des tickets.
+
+Attention à ne pas confondre la durée de réalisation d'une action et la charge de réalisation de l'action
+
+La charge de réalisation correspond au temps nécessaire de réalisation de l'action. La durée de réalisation correspond au temps que prendra la réalisation de la charge de l'action. 
+
+Exemple : 
+
+Une action de 5 jh peut etre réalisé en 10 J. 
+Charge de réalisation : 5 jh
+Durée de réalisation : 10J
+
+**Une action / ticket ne peut être plannifié uniquement si il une charge de réalisation est présente.** 
 
 L'affectation des charges des actions s'effectuent depuis la vue "Réseau" 
 
