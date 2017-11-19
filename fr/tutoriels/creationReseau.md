@@ -73,7 +73,7 @@ git commit
 
 ---
 
-**Nos préconisations 2 :**
+**Nos préconisations :**
 <a id="ordreActions"></a> 
 >*Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation ).*
 
