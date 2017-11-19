@@ -67,6 +67,7 @@ Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser l
 
 ---
 
+```sh
 **Nos préconisations :**
 <a id="ordreActions"></a> 
 >*Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation ).*
@@ -74,9 +75,8 @@ Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser l
 **Points importants :**
 
 >*Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat ( livrable ) ne doit âs être présent dans le réseau.*
-
----
-
+```
+----
 
 ### Ordonnancement des actions
 
