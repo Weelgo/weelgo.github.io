@@ -470,6 +470,9 @@ La droite à 45° est un puissant outil de détection des dérives et de reporti
 <img src="/fr/img/droite45.png">
 </p>
 
+Remarque : La droite à 45 ci-dessous montre la date de fin prévue pour les livraions du lot1 et du lot2. Nous remarquons ici que la courbe augmente, ce qui indique un retard sur les livraisons des lots. Lorsque la courbe diminue, cela indique de l'avance sur les dates prévues initialement. 
+
+
 ---
 **Nos préconisations :**
 
