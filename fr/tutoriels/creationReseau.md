@@ -69,11 +69,11 @@ Some basic Git commands are:
 git status
 git add
 git commit
-```ruby
+```ruby2
 
 ---
 
-**Nos préconisations :**
+**Nos préconisations 2:**
 <a id="ordreActions"></a> 
 >*Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation ).*
 
