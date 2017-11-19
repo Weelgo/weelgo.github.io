@@ -149,19 +149,19 @@ Cette architecture permet, d'avoir une vision globale de la réalisation du proj
 
 De plus, l'ajout d'actions dans les répertoires permet d'afficher le réseau avec des niveaux de détail différents. 
 
-Affichage haut niveau
+__Affichage haut niveau__
 
 <p align="center">
 <img src="/fr/img/reseauHautNiveau.png">
 </p>
 
-Affichage niveau intermédiaire
+__Affichage niveau intermédiaire__
 
 <p align="center">
 <img src="/fr/img/reseauNiveauIntermediaire.png">
 </p>
 
-Affichage complet. 
+__Affichage complet__ 
 
 <p align="center">
 <img src="/fr/img/reseauComplet.png">
@@ -175,7 +175,7 @@ Pour affecter des actions à un répertoire, il suffit de sélectionner les acti
 <a id="organisationProjet"></a> 
 **Nos préconisations :**
 
->*ffectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet.*
+>*Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet.*
 
 ---
 
@@ -213,9 +213,9 @@ Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
 
 ### Ajout des tickets
 
-Dans Weelgo, les tickets sont obligatoirement rattachés à une action. Les tickets doivent être considérés comme une décomposition plus fine de l'action. 
+Dans Weelgo, les tickets sont obligatoirement rattachés à une action. Les tickets doivent être considérés comme une décomposition plus fine de l'action ( comme une TODO list ). 
 
-Ils peuvent être créés en cliquant sur <img src="/fr/img/iconeAjoutTicket.png">. Ils peuvent être déplacé ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
+Ils peuvent être créés en cliquant sur <img src="/fr/img/iconeAjoutTicket.png">. Ils peuvent être déplacés ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
 
 Le livrable etant rattaché à l'action, les tickets n'aboutissent pas à un livrable dans Weelgo. Néanmoins, ils ont des caractéristiques communes. Vous pouvez affectez des responsables aux tickets ainsi que des charges de réalisation. 
 
@@ -230,10 +230,20 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 
 **Nos préconisations :**
 
->*Considérer les tickets comme la TODO liste de l'action.* 
+>*Considérer les tickets comme la TODO list de l'action.* 
 <a id="affectationResp"></a> 
+
+
 **Tips&Astuces :**
 >*Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins il apparaitra pas dans les vues de planification.* 
+
+<p align="center">
+<img src="/fr/img/ticketAvecCharge.png">
+
+<img src="/fr/img/ticketSansCharge.png">
+</p>
+
+
 
 ---
 
