@@ -43,14 +43,6 @@ Un projet est un enchainement d'actions aboutissant à un ou plusieurs livrables
 
 Cette succession d'action / livrable fomera votre réseau. Le réseau étant la colonne vertebrale de votre projet.
 
----
-
-**Points importants :**
-
->Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat ( livrable ) ne doit âs être présent dans le réseau. 
-
----
-
 
 Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou de type jalon 
 
@@ -80,6 +72,10 @@ Dans weelgo, chaque action doit obligatoirement avoir des livrables.
 **Nos préconisations :**
 <a id="ordreActions"></a> 
 >Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation )
+
+**Points importants :**
+
+>Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat ( livrable ) ne doit âs être présent dans le réseau. 
 
 ---
 
