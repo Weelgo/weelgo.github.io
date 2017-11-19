@@ -114,7 +114,7 @@ Lors de la création du réseau, il est nécessaire de considérer les ressource
 
 ### Définition des répertoires 
 
-Suite à la création du réseau, il est nécessaire de finaliser sa construction en l'encapsulant dans une structure. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet.
+Suite à la création du réseau, il est nécessaire de finaliser sa construction en le structurant. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet.
 
 De nombreux critères peuvent être utilisés pour effectuer ce découpage : 
 
@@ -235,15 +235,13 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 
 
 **Tips&Astuces :**
->*Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins il apparaitra pas dans les vues de planification.* 
+>*Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins ils apparaitront pas dans les vues de planification.* 
 
 <p align="center">
 <img src="/fr/img/ticketAvecCharge.png">
 
 <img src="/fr/img/ticketSansCharge.png">
 </p>
-
-
 
 ---
 
