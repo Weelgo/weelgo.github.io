@@ -64,16 +64,15 @@ Gardez en mémoire que vous avez la possibilité de saisir des tickets dans acti
 
 Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser la structure de votre projet. Notamment avec la liste des livrables de votre projet. Si le résultat du ticket et un livrable de haute importante ( application, documentation... ), une action est préférable. Dans le cas contraire, privilégiez le ticket.
 
-Some basic Git commands are:3
 ```ruby
-git status
-git add
-git commit
-``` 
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
 ---
 
-**Nos préconisations :**
+**Nos préconisations2 :**
 <a id="ordreActions"></a> 
 >*Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation ).*
 
