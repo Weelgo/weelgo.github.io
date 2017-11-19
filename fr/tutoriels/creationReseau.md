@@ -19,6 +19,7 @@ __[Etape 1 : Modéliser son projet](#modeliserProjet)__
 __[Etape 2 : L'organisation opérationnel du projet](#organisationProjet)__
 + [Ajout des tickets](#ajoutTickets) 
 + [Affectation des responsables](#affectationResp)
++ [Partage du réseau](#partageReseau)
 + [Renseignez des charges de réalisation](#chargeReal)
 
 __[Etape 3 : Analyse du déroulement logique du projet](#analyseLogique)__
@@ -262,7 +263,7 @@ Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une a
 ( mettre image / GIF )
 
 ---
-
+<a id="partageReseau"></a> 
 **Nos préconisations :**
 >*Affectez un responsable unique à une action.*
 <a id="chargeReal"></a> 
@@ -272,6 +273,29 @@ Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une a
 
 ---
 
+### Partage du réseau
+
+Le partage du réseau peut s'effecuter à tout moment. Pour cela, il suffit de cliquer sur le bouton partage : 
+
+<p align="center">
+<img src="/fr/img/partage.png">
+</p>
+
+
+Nous vous conseillons d'effectuer ce partage une fois que vous avez indiqué l'ensemble des responsables du réseau pour les raisons suivantes :  
++ Une fois le réseau partagé, vous pouvez réunir votre équipe afin de discuter du déroulement à venir du projet
++ Vous allez pouvoir expliquer les actions à réaliser et ainsi donner la main aux responsables de renseigner les charges de réalisation
+
+---
+<a id="partageReseau"></a> 
+**Nos préconisations :**
+>*Partagez le réseau après avoir effectué les affectations des responsables. *
+<a id="chargeReal"></a> 
+
+**Tips&Astuces :**
+>*Vous pouvez partager le réseau à tout moment. De plus vous pouvez créer une URL cryptée afin de partager le réseau à des membres extérieurs au projet et non inscrit sur Weelgo.* 
+
+---
 
 ### Renseignez des charges de réalisation
 
@@ -288,7 +312,7 @@ Une action de 5 jh peut etre réalisé en 10 J.
 Charge de réalisation : 5 jh
 Durée de réalisation : 10J
 
-**Une action / ticket ne peut être plannifié uniquement si il une charge de réalisation est présente.** 
+**Une action / ticket peut être plannifié uniquement si une charge de réalisation est renseignée.** 
 
 L'affectation des charges des actions s'effectuent depuis la vue "Réseau" 
 
@@ -310,6 +334,8 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 
 >*De plus vous donnerez l'opportunité de communiquer sur le réseau de réalisation du projet et ainsi faire des ajustements si nécessaire.*
 
+>*Ne confondez pas la charge de réalisation et la durée de réalisation. Lors de la saisie de la charge de réalisation, ne prenez pas en compte les hypothèses de productivité. Ces hypothèses seront gérées au niveau du planning des collaborateurs*
+
 ---
 
 ## Etape 3 : Analyser le déroulement logique du projet
@@ -318,7 +344,7 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 
 La vue logique vous permet d'avoir une vision compléte de l'enchainement logique de réalisation de votre projet. Vous pouvez ainsi détécter des problèmes d'enchainements et/ou d'ordonnancement sur les actions / tickets.
 <a id="hypoDepart"></a> 
-La génération du planning étant automatique, il sera peut etre nécessaire de prioriser certaines actions. Pour cela, cliquer sur <img src="/fr/img/listePriorite.png"> afin d'indiquer la priorité. 
+__La génération du planning étant automatique__, il sera peut etre nécessaire de prioriser certaines actions. Pour cela, cliquer sur <img src="/fr/img/listePriorite.png"> afin d'indiquer la priorité. 
 
 L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prioritaire que l'action d'en dessous. 
 
@@ -329,7 +355,11 @@ L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prio
 
 Avant de vous lancez dans l'analyse du planning de votre projet, il est nécessaire de définir les hypothèses de départ. Elles sont au nombre de deux : 
 * La date de début du projet
+
+
 * La disponibilité des ressources. 
+
+
 
 Sur weelgo les ressources sont, pour l'instant, uniquement des collaborateurs. La gestion des collaborateur s'effectue en gérant leur calendriers. 
 
