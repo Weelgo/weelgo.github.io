@@ -80,8 +80,7 @@ Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser l
 **Points importants :**
 
 >*Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat ( livrable ) ne doit âs être présent dans le réseau.*
-
-----
+---
 
 ### Ordonnancement des actions
 
