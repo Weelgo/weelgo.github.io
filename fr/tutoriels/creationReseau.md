@@ -68,11 +68,11 @@ Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser l
 
 **Nos préconisations :**
 <a id="ordreActions"></a> 
->Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation )
+>*Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation ).*
 
 **Points importants :**
 
->Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat ( livrable ) ne doit âs être présent dans le réseau. 
+>*Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat ( livrable ) ne doit âs être présent dans le réseau.*
 
 ---
 
@@ -80,23 +80,25 @@ Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser l
 ### Ordonnancement des actions
 
 
-L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterminons ainsi les dépendances entre chaque action et leur chronologie. La solution Weelgo propose 2 type d'ordonnancement. L'ordonnancement "physique" et l'ordonnancement "temporel". 
+L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterminons ainsi les dépendances entre chaque action et leur chronologie.
 
-L'ordonnancement "physique" est le lien entre 2 actions reliées par un livrable. L'action B attendant le livrable de l'action A afin de commencer 
+La solution Weelgo propose 2 type d'ordonnancement. L'ordonnancement "physique" et l'ordonnancement "temporel". 
+
+L'ordonnancement "physique" est le lien entre 2 actions reliées par un livrable. L'action B attendant le livrable de l'action A afin de commencer.
 
 <p align="center">
 <img src="/fr/img/actionLienPhysique.png">
 </p>
 
-L'ordonnancement "temporel" correspond à une dépendance temporelle entre 2 actions. L'action B ne pouvant commencer uniquement quand l'action A est terminée. Néanmoins, le livrable de l'action A n'est pas nécessaire à la réalisation de l'action B
+L'ordonnancement "temporel" correspond à une dépendance temporelle entre 2 actions. L'action B ne pouvant commencer uniquement quand l'action A est terminée. Néanmoins, le livrable de l'action A n'est pas nécessaire à la réalisation de l'action B.
 
 <p align="center">
 <img src="/fr/img/actionLienTemporel.png">
 </p>
 
-Dans weelgo la définition des actions et l'ordonnancement s'effectue en même temps. En effet, cette étape se traduit par la réalisation d'un réseau d'action.
+Dans weelgo la définition des actions et l'ordonnancement s'effectue en même temps. En effet, lors de la modélisation de votre projet, vous allez naturellement enchainer les actions / livrables pour aboutir au résultat final.  
 
-Durant cette étape, il est nécessaire de considérer les ressources comme infinies. Cela permettra de connaitre le délai minimum possible avec le maximum de parallélisme )
+Lors de la création du réseau, il est nécessaire de considérer les ressources comme infinies. Cela permettra de connaitre le délai minimum possible avec le maximum de parallélisme ).
 
 <p align="center">
 <img src="/fr/img/reseau.png">
@@ -106,13 +108,13 @@ Durant cette étape, il est nécessaire de considérer les ressources comme infi
 
 **Nos préconisations :**
 <a id="repertoire"></a> 
->Ordonnancez votre projet sans prendre en compte les ressources ( ressources infinie ). Vous connnaitrez le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet sur les différentes phases. 
+>*Ordonnancez votre projet sans prendre en compte les ressources ( ressources infinie ). Vous connnaitrez le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet sur les différentes phases.*
 
 ---
 
 ### Définition des répertoires 
 
-Suite à la création du réseau, il est nécessaire de finaliser sa construction en l'encapsulant dans une structure. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet 
+Suite à la création du réseau, il est nécessaire de finaliser sa construction en l'encapsulant dans une structure. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet.
 
 De nombreux critères peuvent être utilisés pour effectuer ce découpage : 
 
@@ -126,7 +128,7 @@ De nombreux critères peuvent être utilisés pour effectuer ce découpage :
 * Maintenance ( éléments échangeables, ordre du démontage ) 
 * Documentation ( Spécifications, Dossiers, Procédures )
 
-Ce découpage est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau"
+Ce découpage est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau".
 
 <p align="center">
 <img src="/fr/img/repertoire.png">
@@ -145,6 +147,26 @@ Ces répertoires contiendront les différentes actions nécessaire à la réalis
 
 Cette architecture permet, d'avoir une vision globale de la réalisation du projet. Bien évidemment, il est possible de modifier l'affectation du découpage fonctionnelle en fonction des contraintes rencontrées lors de la réalisation du projet. 
 
+De plus, l'ajout d'actions dans les répertoires permet d'afficher le réseau avec des niveaux de détail différents. 
+
+Affichage haut niveau
+
+<p align="center">
+<img src="/fr/img/reseauHautNiveau.png">
+</p>
+
+Affichage niveau intermédiaire
+
+<p align="center">
+<img src="/fr/img/reseauNiveauIntermediaire.png">
+</p>
+
+Affichage complet. 
+
+<p align="center">
+<img src="/fr/img/reseauComplet.png">
+</p>
+
 Pour affecter des actions à un répertoire, il suffit de sélectionner les actions et tracer un trait vers le répertoire souhaité. 
 
 ( mettre GIF )
@@ -153,7 +175,7 @@ Pour affecter des actions à un répertoire, il suffit de sélectionner les acti
 <a id="organisationProjet"></a> 
 **Nos préconisations :**
 
->Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet 
+>*ffectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet.*
 
 ---
 
@@ -208,10 +230,10 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 
 **Nos préconisations :**
 
-> Considérer les tickets comme la TODO liste de l'action. 
+>*Considérer les tickets comme la TODO liste de l'action.* 
 <a id="affectationResp"></a> 
 **Tips&Astuces :**
-> Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins il apparaitra pas dans les vues de planification. 
+>*Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins il apparaitra pas dans les vues de planification.* 
 
 ---
 
@@ -232,10 +254,10 @@ Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une a
 ---
 
 **Nos préconisations :**
-> Affectez un responsable unique à une action 
+>*Affectez un responsable unique à une action.*
 <a id="chargeReal"></a> 
 **Tips&Astuces :**
-> Si l'action contient plusieurs responsable. Nous considérons que l'action sera réalisée par l'ensemble des collaborateurs en même temps ( en fonction de leurs disponibilités ). La charge de réalisation sera alors distribuée entre tous les responsables. 
+>*Si l'action contient plusieurs responsable. Nous considérons que l'action sera réalisée par l'ensemble des collaborateurs en même temps ( en fonction de leurs disponibilités ). La charge de réalisation sera alors distribuée entre tous les responsables.* 
 
 ---
 
@@ -260,9 +282,9 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 
 **Nos préconisations :**
 <a id="analyseLogique"></a> 
-> Demandez aux responsables d'actions / tickets de renseigner la charge de réalisation. Cela permettra d'avoir une planification réaliste ainsi que de responsabiliser les acteurs à la réalisation du projet. 
+>*Demandez aux responsables d'actions / tickets de renseigner la charge de réalisation. Cela permettra d'avoir une planification réaliste ainsi que de responsabiliser les acteurs à la réalisation du projet.* 
 
-> De plus vous donnerez l'opportunité de communiquer sur le réseau de réalisation du projet et ainsi faire des ajustements si nécessaire
+>*De plus vous donnerez l'opportunité de communiquer sur le réseau de réalisation du projet et ainsi faire des ajustements si nécessaire.*
 
 ---
 
@@ -301,10 +323,10 @@ Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiqu
 
 **Nos préconisations :**
 
-> N'affectez pas vos collaborateurs à 100%. Prenez une marge, cela permettra d'avoir une gestion de projet plus souple et vous permettre d'absorber plus facilement les aléa de la vie du projet
+>*N'affectez pas vos collaborateurs à 100%. Prenez une marge, cela permettra d'avoir une gestion de projet plus souple et vous permettre d'absorber plus facilement les aléa de la vie du projet.*
 <a id="analysePlanning"></a>
 **Tips&Astuces :**
-> La modification du calendrier ou de la productivité générale de la personne impactera le planning depuis le début du projet. Afin de pas modifier le planning déjà réalisé, modifiez la charge à venir du collaborateur en ajoutant des dates spécifiques ( mettre image )
+>*La modification du calendrier ou de la productivité générale de la personne impactera le planning depuis le début du projet. Afin de pas modifier le planning déjà réalisé, modifiez la charge à venir du collaborateur en ajoutant des dates spécifiques ( mettre image ).*
 
 ---
 
@@ -326,7 +348,7 @@ Véritable feuille de route du projet, c'est la vision verticale du planing. Vou
 
 **Nos préconisations :**
 
-> Entre le vue Organisation et la vue Gantt, cette représentation est idéale pour le pilotage  de l'équipe au quotidien. Lors de la réunion journalière, en un clin d'oeil, l'ensemble de l'équipe connait les actions à réaliser ainsi que l'état du projet. 
+>*Entre le vue Organisation et la vue Gantt, cette représentation est idéale pour le pilotage  de l'équipe au quotidien. Lors de la réunion journalière, en un clin d'oeil, l'ensemble de l'équipe connait les actions à réaliser ainsi que l'état du projet.* 
 
 ---
 
@@ -351,7 +373,7 @@ Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une visi
 
 **Nos préconisations :**
 
-> Le tableau de bord est idéal dans la communication de l'avancement du projet. Notammement dans une relation client / fournisseur. Vous pouvez communiquer sur l'avancement des livrables-jalons cléfs du projet et de la santé du projet
+>*Le tableau de bord est idéal dans la communication de l'avancement du projet. Notammement dans une relation client / fournisseur. Vous pouvez communiquer sur l'avancement des livrables-jalons cléfs du projet et de la santé du projet.*
 
 ---
 
@@ -359,14 +381,15 @@ Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une visi
 
 Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs nécessaires afin de prendre des décisions et des arbitrages. 
 
-( mettre image )
-
+<p align="center">
+<img src="/fr/img/gantt.png">
+</p>
 
 
 ---
 **Nos préconisations :**
 
-> Hesitez pas à afficher le calendrier de vos collaborateurs avant de modifier le réseau et / ou les tickets. La vision du calendrier dans le Gantt vous permet d'avoir la vision nécessaire sur la disponibilité de vos collaborateurs et donc vous permettre de modifier votre réseau en connaissance de cause. 
+>*Hesitez pas à afficher le calendrier de vos collaborateurs avant de modifier le réseau et / ou les tickets. La vision du calendrier dans le Gantt vous permet d'avoir la vision nécessaire sur la disponibilité de vos collaborateurs et donc vous permettre de modifier votre réseau en connaissance de cause.* 
 
 ---
 
@@ -374,12 +397,14 @@ Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs 
 
 Représentation graphique de l'évolution de la quantité de travail restantes par rapport au temps. 
 
-( mettre image )
+<p align="center">
+<img src="/fr/img/burndown.png">
+</p>
 
 ---
 **Nos préconisations :**
 
-> Attention, une consomation en dessous de la consommation idéal n'est pas forcement preuve de la bonne santé du projet. Seul l'avancement dans le gantt vous le garantira. 
+>*Attention, une consomation en dessous de la consommation idéal n'est pas forcement preuve de la bonne santé du projet. Seul l'avancement dans le gantt vous le garantira.* 
 
 ---
 
@@ -390,12 +415,14 @@ Représentation graphique de l'évolution des dates de fin prévisionnelles des 
 
 La droite à 45° est un puissant outil de détection des dérives et de reporting de projet. 
 
-( mettre image )
+<p align="center">
+<img src="/fr/img/droite45.png">
+</p>
 
 ---
 **Nos préconisations :**
 
-> Chaque livrable / jalon à sa propre droite à 45. Cette droite est accesible en cliquant sur le jalon depuis la vue dashboard. 
+>*Chaque livrable / jalon à sa propre droite à 45. Cette droite est accesible en cliquant sur le jalon depuis la vue dashboard.* 
 
 ( mettre image )
 
