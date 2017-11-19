@@ -286,7 +286,7 @@ Nous vous conseillons d'effectuer ce partage une fois que vous avez indiqué l'e
 ---
 <a id="partageReseau"></a> 
 **Nos préconisations :**
->*Partagez le réseau après avoir effectué les affectations des responsables. *
+>*Partagez le réseau après avoir effectué les affectations des responsables.*
 <a id="chargeReal"></a> 
 
 **Tips&Astuces :**
