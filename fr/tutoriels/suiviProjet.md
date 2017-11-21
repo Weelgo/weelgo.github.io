@@ -9,13 +9,14 @@ toc : true
 
 
 Votre projet Weelgo est initialisé et vous devez maintenant piloter votre projet. Nous aborderons ce sujet au travers les axes suivants : 
-* Le rôle et la gestion du planning
-* La gestion des imprévus sous Weelgo
++ Le rôle et la gestion du planning
++ La gestion des imprévus sous Weelgo
++ Analyse et arbitrage
 
 
 ### Le management, quesako ?
 
-Comment pouvons-nous définir le management ? Nous n'allons pas ici exposer ce sujet en détail. Néanmoins nous allons faire un bref rappel des composantes essentielles du management. 
+Comment pouvons-nous définir le management ? Nous n'allons pas ici exposer ce sujet en détail. Néanmoins faisons ensemblre un bref rappel des composantes essentielles du management. 
 
 Manager, c'est jongler avec 4 domaines : 
 
@@ -59,11 +60,42 @@ Deux types d'imprévus possibles. les imprévus liées directement au projet. Et
 
 ### Les imprévus liés au projet
 
+Les imprévus liées au projet sont généralement : 
++ Un retard dans la réalisation d'une action 
++ L'oubli d'une action dans la réalisation du réseau 
++ Une activités qui vient se greffer au projet. 
+
+Ces imprévus ont toutes la même caractéristique. Ils impactent le réseau, une action ou un ticket. C'est donc sur ces éléments que nous devons intervenir pour gérer l'imprévu. 
+
+#### Un retard sur une action/ticket
+
+Dans Weelgo, si le reste à faire est saisi réguliérement, le retard sur une action / ticket est détéctable immédiatement. Si ce retard est irrattrapable, il peut être de deux sortes : 
++ Soit il a été mal estimé au niveau de la charge de réalisation. Dans se cas, il faut agmenter la charge de réalisation de l'action/ticket
++ Soit c'est la durée de réalisation qui a été mal estimée. Il faut forcer la durée de réalisation de l'action/ticket pour qu'elle corresponde à la réalité. 
+
+Une action estimé à 4 jh en moyenne peut être réalisé en 2 j de travail par une personne plus expérimenté. Généralement dans ce cas, nous préconisons d'indiquer la charge en fonction de la personne qui traite l'activité. 
+
+
+#### L'oubli d'une action / une activité venant se greffer au projet
+
+Si une activité doit etre rajouter dans le projet, vous devez déjà identifié son type : Action ou ticket. 
+
+Si c'est une activité nécessitant un livrable supplémentaire au projet, elle doit être gérée en créant une action dans le réseau. Sinon il suffira de créer un ticket dans la vue organisation. 
+
 ### Les imprévus non liés au projet
 
+Si l'imprévu n'est pas lié au projet, cela veut dire qu'un de vos collaborateurs ne pourra pas travailler pour votre projet autant que prévu initialement. 
+
+La modification doit alors s'effectué au niveau du calendrier de la ressource. Vous devez indiquer que le collaborateur ne travaillera pas ( ou moins ) durant la période de réalisation de l'imprévu. 
 
 
-## Le pilotage d'un projet. C'est pas au rétroviseur ! 
+## Analyse et arbitrage. 
+
+Vous venez d'effectuer les modifications nécessaire afin d'intégrer l'imprévu dans votre réseau. Vous pouvez alors analysez les impacts sur votre planification et notamement au niveau des jalons clef. Il y a de fortes chances que les dates des jalons clefs ont été modifiées. 
+
+Deux possibilités s'offre à vous : 
+1. Les nouvelles dates vous conviennent et vous n'avez donc rien à faire de plus.
+2. Elles ne vont conviennent pas et vous devez donc retravailler votre réseau / organisation afin d'aboutir au résultat voulu. 
 
 ## Tu pilotes ou tu subis ? 
 
