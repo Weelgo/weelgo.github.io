@@ -9,12 +9,11 @@ toc : true
 
 
 Votre projet Weelgo est initialisé et vous devez maintenant piloter votre projet. Nous aborderons ce sujet au travers les axes suivants : 
-* Un rappel sur domaines du management
-* Les bonnes pratiques d'un pilotage projet efficace
-* La gestion des imprévus
+* Le rôle et la gestion du planning
+* La gestion des imprévus sous Weelgo
 
 
-## Le management, quesako ?
+### Le management, quesako ?
 
 Comment pouvons-nous définir le management ? Nous n'allons pas ici exposer ce sujet en détail. Néanmoins nous allons faire un bref rappel des composantes essentielles du management. 
 
@@ -44,8 +43,24 @@ Analysons pourquoi le planning est au coeur de la vie d'un projet et même au ce
 
 ## Le rôle et la gestion du planning
 
+TODO
+
 
 ## La gestion des imprévus
+
+Lors de la réalisation de votre projet, vous allez avoir à gérer des imprévus. C'est la gestion des imprévus qui rend complexe la réalisation d'un projet. 
+
+En effet, ces imprévus vont avoir des conséquences sur la planification, les couts, la gestion humaines de votre projet et sur votre relation client / fournisseur.  
+
+A défaut de pouvoir les anticiper, il faut pouvoir les gérer correctements. Une bonne gestion des imprévus est la capacité à pouvoir les intégrer dans le planning de réalisation, en voir les conséquences et ainsi adapter le déroulement du projet en fonction. 
+
+Deux types d'imprévus possibles. les imprévus liées directement au projet. Et les imprévus, non liés au projet mais l'affectant directement. Des actions différents sont alors possible sous Weelgo pour prendre en compte ces deux types d'imprévus. 
+
+
+### Les imprévus liés au projet
+
+### Les imprévus non liés au projet
+
 
 
 ## Le pilotage d'un projet. C'est pas au rétroviseur ! 
