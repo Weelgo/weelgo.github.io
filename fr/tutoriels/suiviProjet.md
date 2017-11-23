@@ -214,11 +214,3 @@ Si vous gérez plusieurs projets en même temps, cela vous aidera dans votre pr�
 
 
 
-
-Nous estimons que le temps des collobarateurs et notamment des manageurs est précieux. Que le temps consommé dans la génération de ces indicateurs est du temps mal utilisé. C'est du temps perdu dans son activité de manageur, c'est à dire la gestion du projet, de l'équipe, les imprévus, la relation client... 
-
-Néanmoins, ces indicateurs 
-
-Nous pouvons déterminer la bonne santé d'un projet et du management avec une série de question. 
-
-
