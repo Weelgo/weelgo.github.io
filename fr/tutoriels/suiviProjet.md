@@ -73,8 +73,10 @@ Etudions maintenant les différentes possibilités que nous avons afin de faire 
 **Nos préconisations :**
 <a id="ordreActions"></a> 
 >*Le planning à un sens uniquement si l'équipe lui en donne. Réaliser, adapter et partagez le plannning au maximum avec vos équipes.*
->*Partager le planning et les indicateurs. Ils doivent être accessible à chaque instant. 
->*N'acceptez jamais un glissement de délai sans réagir. Trouvez des solutions et adapter votre réseau. 
+
+>*Partager le planning et les indicateurs. Ils doivent être accessible à chaque instant.* 
+
+>*N'acceptez jamais un glissement de délai sans réagir. Trouvez des solutions et adapter votre réseau.* 
 
 ---
 
