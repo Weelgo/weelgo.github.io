@@ -134,7 +134,7 @@ Ce découpage est matérialisé par la création de répertoires et de sous rép
 <img src="/fr/img/repertoire.png">
 </p>
 
-Nous retrouvons ici deux types de découpages. Un premier découpage de haut niveau correspondant à un découpage en type de taches ( Mise en place, Développement ), et un découpage par ressource au niveau de la phase de développement. 
+Nous retrouvons ici deux types de découpages. Un premier découpage de haut niveau correspondant à un découpage par phase ( Mise en place, Développement ), et un découpage par ressource au niveau de la phase de développement. 
 
 Il est possible de descendre de niveau si nous estimons cela nécessaire.  Ici nous avons, pour chaque ressource, effectué un découpage fonctionnel. 
 
@@ -169,7 +169,9 @@ __Affichage complet__
 
 Pour affecter des actions à un répertoire, il suffit de sélectionner les actions et tracer un trait vers le répertoire souhaité. 
 
-( mettre GIF )
+<p align="center">
+<img src="/fr/img/deplacementTicketRepertoire.png">
+</p>
 
 ---
 <a id="organisationProjet"></a> 
@@ -205,7 +207,7 @@ Vue WBS :
 </p>
 
 <a id="ajoutTickets"></a> 
-Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
+Dans cette vue, vous allez pouvoir finaliser l'organisation de votre projet en ajoutant :
 + Les tickets associés aux actions
 + Ajouter des responsables
 + Ajouter des charges de réalisation 
@@ -215,13 +217,13 @@ Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
 
 #### Définition
 
-Le ticket dans Weelgo doit etre considéré comme une sous tâche de l'action ( comme une TODO list ). La principale caractéristique du ticket doit être qu'il doit être indépendant au maximum des autres tickets ( dépendance causale et temporelle ). Cela afin de pouvoir le manipuler facilement dans l'organisation. 
+Le ticket dans Weelgo est considéré comme une sous tâche de l'action ( comme une TODO list ). La principale caractéristique du ticket doit être son indépendance vis à vis des autres ticket ( dépendance causale et temporelle ). Cela afin de pouvoir le manipuler facilement dans l'organisation. 
 
 #### Utilisation des tickets
 
 Ils peuvent être créés en cliquant sur <img src="/fr/img/iconeAjoutTicket.png">. Ils peuvent être déplacés ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
 
-Le livrable etant rattaché à l'action, les tickets n'aboutissent pas à un livrable dans Weelgo. Néanmoins, ils ont des caractéristiques communes. Vous pouvez affectez des responsables aux tickets ainsi que des charges de réalisation. 
+Le livrable etant rattaché à l'action, les tickets n'aboutissent pas à un livrable dans Weelgo. Néanmoins, ils ont des caractéristiques communes. Vous pouvez affecter des responsables aux tickets ainsi que des charges de réalisation. 
 
 Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut sont plus prioritaires que les tickets en dessous.
 
@@ -249,6 +251,7 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 <img src="/fr/img/ticketSansCharge.png">
 </p>
 
+>*Les tickets sont priorisés de haut en bas.*
 ---
 
 ### Affectation des responsables
@@ -359,21 +362,29 @@ L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prio
 Avant de vous lancez dans l'analyse du planning de votre projet, il est nécessaire de définir les hypothèses de départ. Elles sont au nombre de deux : 
 * La date de début du projet
 
+<p align="center">
+<img src="/fr/img/dateDebutProjet.png">
+</p>
 
 * La disponibilité des ressources. 
 
+<p align="center">
+<img src="/fr/img/disponibiliteRessource.png">
+</p>
 
 
 Sur weelgo les ressources sont, pour l'instant, uniquement des collaborateurs. La gestion des collaborateur s'effectue en gérant leur calendriers. 
 
+<p align="center">
+<img src="/fr/img/ajoutDateSpecifique.png">
+</p>
 
-( mettre image ) 
-
-Vous pouvez définir sur cette vue : 
-+ La date de début du projet
-+ Le calendrier des collaborateurs
 
 Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiques. Une fois la disponibilité renseignée, elle est automatiquement prise en compte dans la construction du planning du projet. 
+
+<p align="center">
+<img src="/fr/img/calendrierRessource.png">
+</p>
 
 
 ---
@@ -484,7 +495,9 @@ Remarque : La droite à 45 ci-dessous montre la date de fin prévue pour les liv
 
 >*Chaque livrable / jalon à sa propre droite à 45. Cette droite est accesible en cliquant sur le jalon depuis la vue dashboard.* 
 
-( mettre image )
+<p align="center">
+<img src="/fr/img/droite45Dashboard.png">
+</p>
 
 ---
 
