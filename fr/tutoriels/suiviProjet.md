@@ -9,9 +9,9 @@ toc : true
 
 
 Votre projet Weelgo est initialisé et vous devez maintenant piloter votre projet. Nous aborderons ce sujet au travers 3 axes : 
-1. Le rôle et la gestion du planning
-2. La gestion des imprévus sous Weelgo
-3. Analyse et arbitrage
+1. L'importance du suivi du planning et des indicateurs
+2. La gestion des imprévus
+3. Etude de cas
 
 
 ### Le management, quesako ?
@@ -40,12 +40,11 @@ Pour rappel, les principaux indicateurs que doit avoir le manageur sont :
 + Le burndown
 + Le calendrier des ressources
 
-Comme vous l'avez déjà vu, Weelgo met à votre disposition l'ensemble de ces indicateurs. Cette caractéristique est un des leitmotiv
-de Weelgo ! 
+Comme vous l'avez déjà vu, Weelgo met à votre disposition l'ensemble de ces indicateurs.
 
-Nous allons voir maintenant l'importance de la présence des indicateurs dans un projet et leur répercution sur l'ensemble des domaines évoqués ci-dessus. 
+Etudions l'importance de la présence des indicateurs dans un projet et leur répercution sur l'ensemble des domaines évoqués ci-dessus. 
 
-### L'importance du suivi du planning et des indicateurs
+## 1.  L'importance du suivi du planning et des indicateurs
 
 Une simple série de question permet d'estimer la bonne santé d'un projet  :  
 + Existe t-il un planning ? 
@@ -62,11 +61,9 @@ Néanmoins, pour avoir une utilisation optimum du planning il faut deux prérequ
 1. Faites participer vos équipes dans la planification. Ce mode de gestion permettra la responsabilisation de votre équipe et augmentera sa motivation 
 2. Le planning doit être à jour et accessible à chaque instant. 
 
-Ne jamais accepter de glissement de délai sans réagir, même si les retards sont justifiés! Il faut toujours rechercher des solutions pour rattraper les retards et modifier le réseau du projet en conséquence. 
+Il ne faut jamais accepter de glissement de délai sans réagir, même si les retards sont justifiés! Il faut toujours rechercher des solutions pour rattraper les retards et modifier le réseau du projet en conséquence. 
  
-C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’importance de la tenue des délais. Une succession de glissements de délais enlève toute crédibilité au planning qui devient rapidement “lettre morte"
- 
-Etudions maintenant les différentes possibilités que nous avons afin de faire vivre un réseau. 
+C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’importance de la tenue des délais. Une succession de glissements de délais enlève toute crédibilité au planning qui devient rapidement “lettre morte". 
 
 ---
 
@@ -81,8 +78,7 @@ Etudions maintenant les différentes possibilités que nous avons afin de faire 
 ---
 
 
-
-## La gestion des imprévus
+## 2. La gestion des imprévus
 
 Lors de la réalisation de votre projet, vous allez avoir à gérer des imprévus. C'est la gestion des imprévus qui rend complexe la réalisation d'un projet. 
 
@@ -124,15 +120,20 @@ Si l'imprévu n'est pas lié au projet, cela veut dire qu'un de vos collaborateu
 La modification doit alors s'effectué au niveau du calendrier de la ressource. Vous devez indiquer que le collaborateur ne travaillera pas ( ou moins ) durant la période de réalisation de l'imprévu. 
 
 
-## Analyse et arbitrage. 
+### Analyse et arbitrage. 
 
-Vous venez d'effectuer les modifications nécessaire afin d'intégrer l'imprévu dans votre réseau. Vous pouvez alors analysez les impacts sur votre planification et notamement au niveau des jalons clef. Il y a de fortes chances que les dates des jalons clefs ont été modifiées. 
+Vous venez d'effectuer les modifications nécessaires afin d'intégrer l'imprévu dans votre réseau. Vous pouvez alors analysez les impacts sur votre planification et notamement au niveau des jalons clef. Il y a de fortes chances que les dates des jalons clefs ont été modifiées. 
 
 Deux possibilités s'offre à vous : 
 1. Les nouvelles dates vous conviennent et vous n'avez donc rien à faire de plus.
 2. Elles ne vont conviennent pas et vous devez donc retravailler votre réseau / organisation afin d'aboutir au résultat voulu. 
 
-## Tu pilotes ou tu subis ? 
+
+
+## 3. Etude de cas
+
+
+
 
 
 
