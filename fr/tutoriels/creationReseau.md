@@ -7,7 +7,7 @@ toc : true
 
 ## Introduction
 
-Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maitrise ! 
+Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maitrise ! 
 
 La modélisation d'un projet Weelgo s'effectue en 5 étapes. 
 
@@ -17,7 +17,7 @@ __[Etape 1 : Modéliser son projet](#modeliserProjet)__
 + [Définition des répertoires](#repertoire)
 
 __[Etape 2 : L'organisation opérationnel du projet](#organisationProjet)__
-+ [Ajout des tickets](#ajoutTickets) 
++ [Définition et ajout des tickets](#ajoutTickets) 
 + [Affectation des responsables](#affectationResp)
 + [Partage du réseau](#partageReseau)
 + [Renseignez des charges de réalisation](#chargeReal)
@@ -51,7 +51,7 @@ Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou
 <img src="/fr/img/typeLivrable.png">
 </p>
 
-Les livrables jalons sont des livrables que vous souhaitez suivre particuliérement. Ils apparaitront dans le tableau de bord du projet et bénéficieront d'un suivi particulier. 
+Les livrables jalons sont des livrables que vous souhaitez suivre. Ils apparaitront dans le tableau de bord du projet et bénéficieront d'un suivi particulié. 
 
 
 Pour chaque action, il est nécessaire de se poser les questions suivantes :
@@ -60,9 +60,9 @@ Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Qu'ai-je en sortie de mon action ? 
 
 
-Gardez en mémoire que vous avez la possibilité de saisir des tickets dans actions ( depuis la vue Organisation ). Un choix structurel s'impose donc. Dois-je créer une action ou un ticket? 
+Gardez en mémoire que vous avez la possibilité de créer des tickets dans actions ( depuis la vue Organisation ). Un choix structurel s'impose donc. Dois-je créer une action ou un ticket? 
 
-Pour vous aidez dans votre choix, dites-vous que le réseau doit matérialiser la structure de votre projet. Notamment avec la liste des livrables de votre projet. Si le résultat du ticket et un livrable de haute importante ( application, documentation... ), une action est préférable. Dans le cas contraire, privilégiez le ticket.
+Pour vous aidez dans votre choix, souvenez-vous que le réseau doit matérialiser la structure de votre projet. Notamment avec la liste des livrables et des jalons. Si le résultat du ticket et un livrable de haute importante ( application, documentation... ), une action est préférable. Dans le cas contraire, privilégiez le ticket.
 
 
 ---
@@ -98,7 +98,7 @@ L'ordonnancement "temporel" correspond à une dépendance temporelle entre 2 act
 
 Dans weelgo la définition des actions et l'ordonnancement s'effectue en même temps. En effet, lors de la modélisation de votre projet, vous allez naturellement enchainer les actions / livrables pour aboutir au résultat final.  
 
-Lors de la création du réseau, il est nécessaire de considérer les ressources comme infinies. Cela permettra de connaitre le délai minimum possible avec le maximum de parallélisme ).
+Lors de la création du réseau, il est nécessaire de considérer les ressources comme infinies. Cela vous permettra de connaitre le délai minimum possible.
 
 <p align="center">
 <img src="/fr/img/reseau.png">
@@ -108,7 +108,7 @@ Lors de la création du réseau, il est nécessaire de considérer les ressource
 
 **Nos préconisations :**
 <a id="repertoire"></a> 
->*Ordonnancez votre projet sans prendre en compte les ressources ( ressources infinie ). Vous connnaitrez le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet sur les différentes phases.*
+>*Ordonnancez votre projet sans prendre en compte les ressources ( ressources infinie ). Vous connnaitrez ainsi le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet.*
 
 ---
 
@@ -211,9 +211,13 @@ Vous allez donc pouvoir finaliser l'organisation de votre projet en ajoutant :
 + Ajouter des charges de réalisation 
 
 
-### Ajout des tickets
+### Définition et ajout des tickets
 
-Dans Weelgo, les tickets sont obligatoirement rattachés à une action. Les tickets doivent être considérés comme une décomposition plus fine de l'action ( comme une TODO list ). 
+#### Définition
+
+Le ticket dans Weelgo doit etre considéré comme une sous tâche de l'action ( comme une TODO list ). La principale caractéristique du ticket doit être qu'il doit être indépendant au maximum des autres tickets ( dépendance causale et temporelle ). Cela afin de pouvoir le manipuler facilement dans l'organisation. 
+
+#### Utilisation des tickets
 
 Ils peuvent être créés en cliquant sur <img src="/fr/img/iconeAjoutTicket.png">. Ils peuvent être déplacés ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
 
@@ -231,6 +235,8 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 **Nos préconisations :**
 
 >*Considérer les tickets comme la TODO list de l'action.* 
+>*Un ticket doit être le plus indépendant possible par rapport aux autres tickets.* 
+
 <a id="affectationResp"></a> 
 
 
