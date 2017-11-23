@@ -25,42 +25,59 @@ Manager, c'est composer avec 4 domaines :
 + Savoir faire-faire
 + Analyser, prévoir et décider 
 
-Il est évident que le manageur ne peut pas être expert dans l'ensemble des domaines ci-dessus. Du fait de sa personnalité et de son expérience, un manageur peut avoir des facilités dans l'organisation et l'analyse et être moins efficace dans sa capacité sa communication. 
+Il est évident que le manageur ne peut pas être expert dans l'ensemble des domaines ci-dessus. Du fait de sa personnalité et de son expérience, un manageur peut avoir des facilités dans l'organisation et l'analyse et être moins efficace dans sa communication. 
 
-Le manageur doit donc s'entourer d'une équipe complémentaire et efficace afin d'avoir des relais d'influences pour compenser certaines de ses faiblesses mais il doit aussi s'armer et utiliser des outils lui permettant d'accomplir sa mission. 
+Le manageur doit donc s'entourer d'une équipe complémentaire afin d'avoir des relais d'influences pour compenser certaines de ses faiblesses mais il doit aussi s'armer et utiliser des outils lui permettant d'accomplir sa mission. 
 
-Cet outillage doit lui permettre de générer des indicateurs fiables et efficace afin d'être efficace dans son rôle.  
+Cet outillage doit lui permettre de générer des indicateurs fiables et efficaces afin d'être efficient dans son rôle.  
 
 Pour rappel, les principaux indicateurs que doit avoir le manageur sont : 
 
++ Le PERT
 + Le GANTT
++ Les Jalons 
 + La droite à 45
 + Le burndown
 + Le calendrier des ressources
 
-Comme vous l'avez déjà vu, Weelgo génère ces 4 indicateurs _automatiquement_
+Comme vous l'avez déjà vu, Weelgo met à votre disposition l'ensemble de ces indicateurs. Cette caractéristique est un des leitmotiv
+de Weelgo ! 
 
+Nous allons voir maintenant l'importance de la présence des indicateurs dans un projet et leur répercution sur l'ensemble des domaines évoqués ci-dessus. 
 
-Faisons un focus sur l'importance d'être correctement outillé. Un outil adapté est un outil permettant d'etre rapide et efficace dans son domaine de réalisation. Un outil mal adapté et contraignant peut etre un véritable calvère pour le manageur. 
+### L'importance du suivi du planning et des indicateurs
 
-Quels sont les outils du managaur dans sa gestion de projet au quotidien ? Nous en avons identifié 5 : 
-
-
-
-Le management ne doit pas se battre avec ses outils pour générer des plannings et des indicateurs. D'ailleur c'est l'une des raisons de l'inexistance des indicateurs sur un projet. 
-
-Nous pouvons déterminer la bonne santé d'un projet et du management avec une série de question. 
+Une simple série de question permet d'estimer la bonne santé d'un projet  :  
 + Existe t-il un planning ? 
 + Le planning est-il à jour et partagé à l'ensemble de l'équipe ? 
 + Existe t'il des indicateurs d'avancements fiables ? Sont-il partagé à l'ensemble des collaborateurs ? 
 
 Une réponses affirmative à l'ensemble de ces questions nous permet de savoir que le manageur a tout à sa disposition pour organiser, animer, communiquer, analyser, prévoir et décider. 
 
-Analysons pourquoi le planning est au coeur de la vie d'un projet et même au centre des 4 domaines que doit maitriser le manageur. 
+Le planning doit être considéré comme l'élément cléf dans un projet. C'est lui qui donne un cadre de travail à l'ensemble des intervenants dans le projet. C'est le fil d'ariane qui permet à tous les collaborateurs la possibilité de se situer dans un travail commun et dans une perspective globale. 
 
-## Le rôle et la gestion du planning
+Il est donc vital d'avoir un planning mis à jour réguliérement. Cette gestion vivante du planning donne une impression de mouvement et de dynamisme au projet. 
 
-TODO
+Néanmoins, pour avoir une utilisation optimum du planning il faut deux prérequis : 
+1. Faites participer vos équipes dans la planification. Ce mode de gestion permettra la responsabilisation de votre équipe et augmentera sa motivation 
+2. Le planning doit être à jour et accessible à chaque instant. 
+
+Ne jamais accepter de glissement de délai sans réagir, même si les retards sont justifiés! Il faut toujours rechercher des solutions pour rattraper les retards et modifier le réseau du projet en conséquence. 
+ 
+C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’importance de la tenue des délais. Une succession de glissements de délais enlève toute crédibilité au planning qui devient rapidement “lettre morte"
+ 
+Etudions maintenant les différentes possibilités que nous avons afin de faire vivre un réseau. 
+
+---
+
+**Nos préconisations :**
+<a id="ordreActions"></a> 
+>*Le planning à un sens uniquement si l'équipe lui en donne. Réaliser, adapter et partagez le plannning au maximum avec vos équipes.*
+>*Partager le planning et les indicateurs. Ils doivent être accessible à chaque instant. 
+>*N'acceptez jamais un glissement de délai sans réagir. Trouvez des solutions et adapter votre réseau. 
+
+---
+
 
 
 ## La gestion des imprévus
@@ -115,5 +132,14 @@ Deux possibilités s'offre à vous :
 
 ## Tu pilotes ou tu subis ? 
 
+
+
+
+
+Nous estimons que le temps des collobarateurs et notamment des manageurs est précieux. Que le temps consommé dans la génération de ces indicateurs est du temps mal utilisé. C'est du temps perdu dans son activité de manageur, c'est à dire la gestion du projet, de l'équipe, les imprévus, la relation client... 
+
+Néanmoins, ces indicateurs 
+
+Nous pouvons déterminer la bonne santé d'un projet et du management avec une série de question. 
 
 
