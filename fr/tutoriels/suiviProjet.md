@@ -11,7 +11,7 @@ toc : true
 Votre projet Weelgo est initialisé et vous devez maintenant piloter votre projet. Nous aborderons ce sujet au travers 3 axes : 
 1. L'importance du suivi du planning et des indicateurs
 2. La gestion des imprévus
-3. Etude de cas
+3. Construire l'historique du projet
 
 
 ### Le management, quesako ?
@@ -19,6 +19,8 @@ Votre projet Weelgo est initialisé et vous devez maintenant piloter votre proje
 Comment pouvons-nous définir le management ? Nous n'allons pas ici exposer ce sujet en détail. Néanmoins faisons ensemblre un bref rappel des composantes essentielles du management. 
 
 Manager, c'est composer avec 4 domaines : 
+
+( mettre illustration PPT )
 
 + L'organisation
 + L'animation, la communication et la motivation de l'équipe
@@ -51,17 +53,17 @@ Une simple série de question permet d'estimer la bonne santé d'un projet  :
 + Le planning est-il à jour et partagé à l'ensemble de l'équipe ? 
 + Existe t'il des indicateurs d'avancements fiables ? Sont-il partagé à l'ensemble des collaborateurs ? 
 
-Une réponses affirmative à l'ensemble de ces questions nous permet de savoir que le manageur a tout à sa disposition pour organiser, animer, communiquer, analyser, prévoir et décider. 
+Une réponses affirmative à l'ensemble de ces questions nous permet de savoir que le manageur a à sa disposition les moyens pour organiser, animer, communiquer, analyser, prévoir et décider. 
 
 Le planning doit être considéré comme l'élément cléf dans un projet. C'est lui qui donne un cadre de travail à l'ensemble des intervenants dans le projet. C'est le fil d'ariane qui permet à tous les collaborateurs la possibilité de se situer dans un travail commun et dans une perspective globale. 
 
 Il est donc vital d'avoir un planning mis à jour réguliérement. Cette gestion vivante du planning donne une impression de mouvement et de dynamisme au projet. 
 
-Néanmoins, pour avoir une utilisation optimum du planning il faut deux prérequis : 
+Néanmoins, pour avoir une utilisation optimum du planning,  deux prérequis sont nécessaires  : 
 1. Faites participer vos équipes dans la planification. Ce mode de gestion permettra la responsabilisation de votre équipe et augmentera sa motivation 
 2. Le planning doit être à jour et accessible à chaque instant. 
 
-Il ne faut jamais accepter de glissement de délai sans réagir, même si les retards sont justifiés! Il faut toujours rechercher des solutions pour rattraper les retards et modifier le réseau du projet en conséquence. 
+N'acceptez jamais de glissement de délai sans réagir, même si les retards sont justifiés! Il faut toujours rechercher des solutions pour rattraper les retards et modifier le réseau du projet en conséquence. 
  
 C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’importance de la tenue des délais. Une succession de glissements de délais enlève toute crédibilité au planning qui devient rapidement “lettre morte". 
 
@@ -100,7 +102,13 @@ Ces imprévus ont toutes la même caractéristique. Ils impactent le réseau, un
 
 #### Un retard sur une action/ticket
 
-Dans Weelgo, si le reste à faire est saisi réguliérement, le retard sur une action / ticket est détéctable immédiatement. Si ce retard est irrattrapable, il peut être de deux sortes : 
+Dans Weelgo, si le reste à faire est saisi réguliérement, le retard sur une action / ticket est détéctable immédiatement. 
+
+
+( Mettre image retard ) 
+
+
+Si ce retard est irrattrapable, il peut être de deux sortes : 
 + Soit il a été mal estimé au niveau de la charge de réalisation. Dans se cas, il faut agmenter la charge de réalisation de l'action/ticket
 + Soit c'est la durée de réalisation qui a été mal estimée. Il faut forcer la durée de réalisation de l'action/ticket pour qu'elle corresponde à la réalité. 
 
@@ -117,8 +125,50 @@ Si c'est une activité nécessitant un livrable supplémentaire au projet, elle 
 
 Si l'imprévu n'est pas lié au projet, cela veut dire qu'un de vos collaborateurs ne pourra pas travailler pour votre projet autant que prévu initialement. 
 
-La modification doit alors s'effectué au niveau du calendrier de la ressource. Vous devez indiquer que le collaborateur ne travaillera pas ( ou moins ) durant la période de réalisation de l'imprévu. 
+La modification doit alors s'effectué au niveau du calendrier de la ressource. 
 
+( mettre image accès calendrier )
+
+Vous devez indiquer que le collaborateur ne travaillera pas ( ou moins ) durant la période de réalisation de l'imprévu. 
+
+
+( mettre image calendrier )
+
+### L'utilisation des dates de début et date de fin 
+
+Sur les actions et les tickets, vous avez la possibilité de forcer :
++ Une durée
++ Une date de début
++ Une date de fin 
+
+( mettre image de date de début / date de fin )
+
+Nous avons déjà évoqué l'utilsiation de la durée pour gérer un retard. Les dates de début et date de fin s'utilisent dans 2 cas : 
+1. Pour situer le démarrage d'une action dans le temps. Cette action étant en début de chaine 
+
+( mettre image exemple ) 
+
+2.  __recadrer__ le projet dans le temps suite à un retard ou un imprévus non géré correctement ( notamment par un manque de suivi )
+
+
+Forcer une date permet donc de resituer le démarrage ( ou la fin ) d'une action et d'un ticket dans le temps. Vous devez limiter au maximum l'utilisation de cette option. 
+
+De plus, Weelgo ne court-circuite pas les charges indiqués sur les actions quand vous renseignez une date. Si les charges du réseau indique une date de fin de l'action au 15/10/2017. SI vous indiquer une date de fin de l'action au 10/10/2017, le planning indiquera une erreur. 
+
+( mettre image ) 
+
+
+Exemple d'utilisation : 
+
+---
+
+**Nos préconisations :**
+<a id="ordreActions"></a> 
+>*imitez l'utilisation des dates de début et des dates de fin. *
+
+>*Le recadrage du planning s'effectue uniquement si les charges du réseau le permettent !*
+
+---
 
 ### Analyse et arbitrage. 
 
@@ -128,10 +178,36 @@ Deux possibilités s'offre à vous :
 1. Les nouvelles dates vous conviennent et vous n'avez donc rien à faire de plus.
 2. Elles ne vont conviennent pas et vous devez donc retravailler votre réseau / organisation afin d'aboutir au résultat voulu. 
 
+La modification du réseau doit être effectué par le responsable du réseau. Cet arbitrage peut avoir été partagé avec l'équipe mais toute modification du réseau reste à la charge du responsable. 
+
+## 3. Construire l'historique du projet
+
+Dans weelgo, vous avez la possibilité de construire l'historique du projet. Cet historique ou snapshot, permet de prendre une photo du projet à un instant T. 
 
 
-## 3. Etude de cas
+( Mettre image historique )
 
+Afin de pouvoir consolider l'avancement du projet dans le gantt, burdnow et droit à 45°, vous devez effectuer un snapshot régulérement. 
+
+En plus de pouvoir consolider l'avancement, vous aurez à votre disposition le déroulement du projet. 
+
+
+( mettre image )
+
+
+Lors de la génération d'un snapshot, vous pouvez renseigner la météo du projet ainsi que rajouter des commentaires. 
+
+Si vous gérez plusieurs projets en même temps, cela vous aidera dans votre présentation du projet à un tiers. 
+
+---
+
+**Nos préconisations :**
+<a id="ordreActions"></a> 
+>*Faites des snapshots réguliérement afin de construire l'historique du projet*
+
+>* Renseignez la météo du projet et ajoutez des commentaires*
+
+---
 
 
 
