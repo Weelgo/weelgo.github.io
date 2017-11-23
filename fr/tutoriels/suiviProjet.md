@@ -8,17 +8,17 @@ toc : true
 ## Introduction
 
 
-Votre projet Weelgo est initialisé et vous devez maintenant piloter votre projet. Nous aborderons ce sujet au travers les axes suivants : 
-+ Le rôle et la gestion du planning
-+ La gestion des imprévus sous Weelgo
-+ Analyse et arbitrage
+Votre projet Weelgo est initialisé et vous devez maintenant piloter votre projet. Nous aborderons ce sujet au travers 3 axes : 
+1. Le rôle et la gestion du planning
+2. La gestion des imprévus sous Weelgo
+3. Analyse et arbitrage
 
 
 ### Le management, quesako ?
 
 Comment pouvons-nous définir le management ? Nous n'allons pas ici exposer ce sujet en détail. Néanmoins faisons ensemblre un bref rappel des composantes essentielles du management. 
 
-Manager, c'est jongler avec 4 domaines : 
+Manager, c'est composer avec 4 domaines : 
 
 + L'organisation
 + L'animation, la communication et la motivation de l'équipe
@@ -29,7 +29,23 @@ Il est évident que le manageur ne peut pas être expert dans l'ensemble des dom
 
 Le manageur doit donc s'entourer d'une équipe complémentaire et efficace afin d'avoir des relais d'influences pour compenser certaines de ses faiblesses mais il doit aussi s'armer et utiliser des outils lui permettant d'accomplir sa mission. 
 
-Faisons un focus sur ce dernier point et l'importance d'être correctement outillé.L'outillage d'un manageur doit l'aider au quotidien. Un outil mal adapté et contraignant peut etre un véritable calvère pour le manageur. 
+Cet outillage doit lui permettre de générer des indicateurs fiables et efficace afin d'être efficace dans son rôle.  
+
+Pour rappel, les principaux indicateurs que doit avoir le manageur sont : 
+
++ Le GANTT
++ La droite à 45
++ Le burndown
++ Le calendrier des ressources
+
+Comme vous l'avez déjà vu, Weelgo génère ces 4 indicateurs _automatiquement_
+
+
+Faisons un focus sur l'importance d'être correctement outillé. Un outil adapté est un outil permettant d'etre rapide et efficace dans son domaine de réalisation. Un outil mal adapté et contraignant peut etre un véritable calvère pour le manageur. 
+
+Quels sont les outils du managaur dans sa gestion de projet au quotidien ? Nous en avons identifié 5 : 
+
+
 
 Le management ne doit pas se battre avec ses outils pour générer des plannings et des indicateurs. D'ailleur c'est l'une des raisons de l'inexistance des indicateurs sur un projet. 
 
