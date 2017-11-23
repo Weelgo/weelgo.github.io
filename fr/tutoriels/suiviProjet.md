@@ -69,7 +69,7 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 
 **Nos préconisations :**
 <a id="ordreActions"></a> 
->*Le planning à un sens uniquement si l'équipe lui en donne. Réaliser, adapter et partagez le plannning au maximum avec vos équipes.*
+>*Le planning à un sens uniquement si l'équipe lui en donne. Faites vivre le planning avec votre équipe
 
 >*Partager le planning et les indicateurs. Ils doivent être accessible à chaque instant.* 
 
