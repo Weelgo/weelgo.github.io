@@ -71,7 +71,7 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 
 **Nos préconisations :**
 <a id="ordreActions"></a> 
->*Le planning à un sens uniquement si l'équipe lui en donne. Faites vivre le planning avec votre équipe
+>*Le planning à un sens uniquement si l'équipe lui en donne. Faites vivre le planning avec votre équipe*
 
 >*Partager le planning et les indicateurs. Ils doivent être accessible à chaque instant.* 
 
@@ -164,7 +164,7 @@ Exemple d'utilisation :
 
 **Nos préconisations :**
 <a id="ordreActions"></a> 
->*imitez l'utilisation des dates de début et des dates de fin. *
+>*imitez l'utilisation des dates de début et des dates de fin.*
 
 >*Le recadrage du planning s'effectue uniquement si les charges du réseau le permettent !*
 
@@ -205,7 +205,7 @@ Si vous gérez plusieurs projets en même temps, cela vous aidera dans votre pr�
 <a id="ordreActions"></a> 
 >*Faites des snapshots réguliérement afin de construire l'historique du projet*
 
->* Renseignez la météo du projet et ajoutez des commentaires*
+>*Renseignez la météo du projet et ajoutez des commentaires*
 
 ---
 
