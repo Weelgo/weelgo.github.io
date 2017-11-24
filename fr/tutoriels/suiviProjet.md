@@ -222,8 +222,10 @@ Deux possibilités s'offre à vous :
 1. Les nouvelles dates vous conviennent et vous n'avez donc rien à faire de plus.
 2. Elles ne vont conviennent pas et vous devez donc retravailler votre réseau / organisation afin d'aboutir au résultat voulu. 
 
-La modification du réseau doit être effectué par le responsable du réseau. Cet arbitrage peut avoir été partagé avec l'équipe mais toute modification du réseau reste à la charge du responsable. 
-<a id="historiqueProjet"></a> 
+La modification du réseau doit être effectué par le responsable du réseau. 
+<a id="historiqueProjet"></a>
+Cet arbitrage peut avoir été partagé avec l'équipe mais toute modification du réseau reste à la charge du responsable. 
+ 
 ## 3. Construire l'historique du projet
 
 Dans weelgo, vous avez la possibilité de construire l'historique du projet. Cet historique ou snapshot, permet de prendre une photo du projet à un instant T. 
