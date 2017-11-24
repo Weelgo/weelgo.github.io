@@ -66,7 +66,7 @@ C'est lui qui donne un **cadre de travail** à l'ensemble des intervenants dans 
 Il est donc vital d'avoir un planning mis à jour réguliérement. Cette gestion vivante du planning donne une impression de mouvement et de dynamisme au projet. 
 
 Néanmoins, pour avoir une utilisation optimum du planning,  deux prérequis sont nécessaires  : 
-1. Faites participer vos équipes dans la planification. Ce mode de gestion permettra la responsabilisation de votre équipe et augmentera sa motivation 
+1. **Faites participer vos équipes dans la planification.** Ce mode de gestion permettra la responsabilisation de votre équipe et augmentera sa motivation 
 2. Le planning doit être à jour et accessible à chaque instant. 
 
 **N'acceptez jamais de glissement de délai sans réagir**, même si les retards sont justifiés! Il faut toujours rechercher des solutions pour rattraper les retards et modifier le réseau du projet en conséquence. 
