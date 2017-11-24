@@ -220,10 +220,11 @@ Vous venez d'effectuer les modifications nécessaires afin d'intégrer l'imprév
 
 Deux possibilités s'offre à vous : 
 1. Les nouvelles dates vous conviennent et vous n'avez donc rien à faire de plus.
-2. Elles ne vont conviennent pas et vous devez donc retravailler votre réseau / organisation afin d'aboutir au résultat voulu. 
+2. Elles ne vont conviennent pas et vous devez donc retravailler votre réseau / organisation afin d'aboutir au résultat voulu.
+
+<a id="historiqueProjet"></a>
 
 La modification du réseau doit être effectué par le responsable du réseau. 
-<a id="historiqueProjet"></a>
 Cet arbitrage peut avoir été partagé avec l'équipe mais toute modification du réseau reste à la charge du responsable. 
  
 ## 3. Construire l'historique du projet
@@ -272,7 +273,7 @@ Si vous gérez plusieurs projets en même temps, cela vous aidera dans votre pr�
 ---
 
 **Nos préconisations :**
-<a id="ordreActions"></a> 
+
 >*Faites des snapshots réguliérement afin de construire l'historique du projet*
 
 >*Renseignez la météo du projet et ajoutez des commentaires*
