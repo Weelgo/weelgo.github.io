@@ -18,7 +18,7 @@ Votre projet Weelgo est initialisé et vous devez maintenant piloter votre proje
 
 Comment pouvons-nous définir le management ? Nous n'allons pas ici exposer ce sujet en détail. Néanmoins faisons ensemblre un bref rappel des composantes essentielles du management. 
 
-Manager, c'est composer avec 4 domaines : 
+**Manager, c'est composer avec 4 domaines :** 
 
 + L'organisation
 + L'animation, la communication et la motivation de l'équipe
@@ -27,7 +27,7 @@ Manager, c'est composer avec 4 domaines :
 
 Il est évident que le manageur ne peut pas être expert dans l'ensemble des domaines ci-dessus. Du fait de sa personnalité et de son expérience, un manageur peut avoir des facilités dans l'organisation et l'analyse et être moins efficace dans sa communication. 
 
-Le manageur doit donc s'entourer d'une équipe complémentaire afin d'avoir des relais d'influences pour compenser certaines de ses faiblesses mais il doit aussi s'armer et utiliser des outils lui permettant d'accomplir sa mission. 
+Le manageur doit donc s'entourer d'une **équipe complémentaire** afin d'avoir des relais d'influences pour compenser certaines de ses faiblesses mais il doit aussi s'armer et utiliser des outils lui permettant d'accomplir sa mission. 
 
 Cet outillage doit lui permettre de générer des indicateurs fiables et efficaces afin d'être efficient dans son rôle.  
 
@@ -53,7 +53,7 @@ Une simple série de question permet d'estimer la bonne santé d'un projet  :
 
 Une réponses affirmative à l'ensemble de ces questions nous permet de savoir que le manageur a à sa disposition les moyens pour organiser, animer, communiquer, analyser, prévoir et décider. 
 
-Le planning doit être considéré comme l'élément cléf dans un projet.
+**Le planning doit être considéré comme l'élément cléf dans un projet.**
 
 
 <p align="center">
@@ -61,7 +61,7 @@ Le planning doit être considéré comme l'élément cléf dans un projet.
 </p>
 
 
-C'est lui qui donne un cadre de travail à l'ensemble des intervenants dans le projet. C'est le fil d'ariane qui permet à tous les collaborateurs la possibilité de se situer dans un travail commun et dans une perspective globale. 
+C'est lui qui donne un **cadre de travail** à l'ensemble des intervenants dans le projet. C'est le fil d'ariane qui permet à tous les collaborateurs la possibilité de se situer dans un travail commun et dans une perspective globale. 
 
 Il est donc vital d'avoir un planning mis à jour réguliérement. Cette gestion vivante du planning donne une impression de mouvement et de dynamisme au projet. 
 
@@ -69,9 +69,9 @@ Néanmoins, pour avoir une utilisation optimum du planning,  deux prérequis son
 1. Faites participer vos équipes dans la planification. Ce mode de gestion permettra la responsabilisation de votre équipe et augmentera sa motivation 
 2. Le planning doit être à jour et accessible à chaque instant. 
 
-N'acceptez jamais de glissement de délai sans réagir, même si les retards sont justifiés! Il faut toujours rechercher des solutions pour rattraper les retards et modifier le réseau du projet en conséquence. 
+**N'acceptez jamais de glissement de délai sans réagir**, même si les retards sont justifiés! Il faut toujours rechercher des solutions pour rattraper les retards et modifier le réseau du projet en conséquence. 
  
-C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’importance de la tenue des délais. Une succession de glissements de délais enlève toute crédibilité au planning qui devient rapidement “lettre morte". 
+C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’importance de la tenue des délais. **Une succession de glissements de délais enlève toute crédibilité au planning qui devient rapidement “lettre morte".** 
 
 ---
 
@@ -110,14 +110,14 @@ Ces imprévus ont toutes la même caractéristique. Ils impactent le réseau, un
 
 Dans Weelgo, si le reste à faire est saisi réguliérement, le retard sur une action / ticket est détéctable immédiatement. 
 
-Vue Date Wall : 
+**Vue Date Wall :** 
 
 <p align="center">
 <img src="/fr/img/projetRetadDateWall.png">
 </p>
 
 
-Vue dashboard : 
+**Vue dashboard :** 
 
 <p align="center">
 <img src="/fr/img/projetRetadDashboard.png">
@@ -178,14 +178,14 @@ Forcer une date permet donc de resituer le démarrage ( ou la fin ) d'une action
 
 De plus, Weelgo ne court-circuite pas les charges indiqués sur les actions quand vous renseignez une date. Si les charges du réseau indique une date de fin de l'action au 19/10/2017. SI vous indiquer une date de fin de l'action au 08/12/2017, le planning indiquera une erreur. 
 
-Ajout de la date de fin sur l'action : 
+**Ajout de la date de fin sur l'action :** 
 
 <p align="center">
 <img src="/fr/img/forcerDateFinAction.png">
 </p>
 
 
-Le résultat sur le GANTT
+**Le résultat sur le GANTT :**
 
 <p align="center">
 <img src="/fr/img/forcerDateFinProblemeGantt.png">
@@ -198,13 +198,11 @@ Pour ne pas avoir de message d'erreur dans le GANTT. il faut que la date de fin 
 <img src="/fr/img/forcerDateFinActionOK.png">
 </p>
 
-Le résultat sur le GANTT
+**Le résultat sur le GANTT :**
 
 <p align="center">
 <img src="/fr/img/forcerDateFinGanttOK.png">
 </p>
-
-Exemple d'utilisation : 
 
 ---
 
