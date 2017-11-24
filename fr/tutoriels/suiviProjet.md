@@ -9,9 +9,9 @@ toc : true
 
 
 Votre projet Weelgo est initialisé et vous devez maintenant piloter votre projet. Nous aborderons ce sujet au travers 3 axes : 
-1. L'importance du suivi du planning et des indicateurs
-2. La gestion des imprévus
-3. Construire l'historique du projet
+1. [L'importance du suivi du planning et des indicateurs](#importancePlanning)
+2. [La gestion des imprévus](#gestionImprevus)
+3. [Construire l'historique du projet](#historiqueProjet)
 
 
 ### Le management, quesako ?
@@ -39,7 +39,7 @@ Pour rappel, les principaux indicateurs que doit avoir le manageur sont :
 + La droite à 45
 + Le burndown
 + Le calendrier des ressources
-
+<a id="importancePlanning"></a> 
 Comme vous l'avez déjà vu, Weelgo met à votre disposition l'ensemble de ces indicateurs.
 
 Etudions l'importance de la présence des indicateurs dans un projet et leur répercution sur l'ensemble des domaines évoqués ci-dessus. 
@@ -76,7 +76,7 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 ---
 
 **Nos préconisations :**
-<a id="ordreActions"></a> 
+<a id="gestionImprevus"></a> 
 >*Le planning à un sens uniquement si l'équipe lui en donne. Faites vivre le planning avec votre équipe*
 
 >*Partager le planning et les indicateurs. Ils doivent être accessible à chaque instant.* 
@@ -219,7 +219,7 @@ Exemple d'utilisation :
 ### Analyse et arbitrage. 
 
 Vous venez d'effectuer les modifications nécessaires afin d'intégrer l'imprévu dans votre réseau. Vous pouvez alors analysez les impacts sur votre planification et notamement au niveau des jalons clef. Il y a de fortes chances que les dates des jalons clefs ont été modifiées. 
-
+<a id="historiqueProjet"></a> 
 Deux possibilités s'offre à vous : 
 1. Les nouvelles dates vous conviennent et vous n'avez donc rien à faire de plus.
 2. Elles ne vont conviennent pas et vous devez donc retravailler votre réseau / organisation afin d'aboutir au résultat voulu. 
@@ -238,11 +238,14 @@ Afin de pouvoir consolider l'avancement du projet dans le gantt, burdnow et droi
 
 En plus de pouvoir consolider l'avancement, vous aurez à votre disposition le déroulement du projet. 
 
-Avancement du projet dans les indicateus : 
+**Avancement du projet dans le burdown :**
+
 
 <p align="center">
 <img src="/fr/img/historiqueBurndown.png">
 </p>
+
+**Mise à jour de la droite à 45 :**
 
 
 <p align="center">
@@ -250,7 +253,9 @@ Avancement du projet dans les indicateus :
 </p>
 
 
-Météo général du projet : 
+**Météo général du projet :**
+
+
 <p align="center">
 <img src="/fr/img/historiqueSnap.png">
 </p>
