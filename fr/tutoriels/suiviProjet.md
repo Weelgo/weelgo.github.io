@@ -76,9 +76,9 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 ---
 
 **Nos préconisations :**
-<a id="gestionImprevus"></a> 
->*Le planning à un sens uniquement si l'équipe lui en donne. Faites vivre le planning avec votre équipe*
 
+>*Le planning à un sens uniquement si l'équipe lui en donne. Faites vivre le planning avec votre équipe*
+<a id="gestionImprevus"></a> 
 >*Partager le planning et les indicateurs. Ils doivent être accessible à chaque instant.* 
 
 >*N'acceptez jamais un glissement de délai sans réagir. Trouvez des solutions et adapter votre réseau.* 
@@ -217,11 +217,11 @@ Pour ne pas avoir de message d'erreur dans le GANTT. il faut que la date de fin 
 ### Analyse et arbitrage. 
 
 Vous venez d'effectuer les modifications nécessaires afin d'intégrer l'imprévu dans votre réseau. Vous pouvez alors analysez les impacts sur votre planification et notamement au niveau des jalons clef. Il y a de fortes chances que les dates des jalons clefs ont été modifiées. 
-<a id="historiqueProjet"></a> 
+
 Deux possibilités s'offre à vous : 
 1. Les nouvelles dates vous conviennent et vous n'avez donc rien à faire de plus.
 2. Elles ne vont conviennent pas et vous devez donc retravailler votre réseau / organisation afin d'aboutir au résultat voulu. 
-
+<a id="historiqueProjet"></a> 
 La modification du réseau doit être effectué par le responsable du réseau. Cet arbitrage peut avoir été partagé avec l'équipe mais toute modification du réseau reste à la charge du responsable. 
 
 ## 3. Construire l'historique du projet
