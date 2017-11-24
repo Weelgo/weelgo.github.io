@@ -20,8 +20,6 @@ Comment pouvons-nous définir le management ? Nous n'allons pas ici exposer ce s
 
 Manager, c'est composer avec 4 domaines : 
 
-( mettre illustration PPT )
-
 + L'organisation
 + L'animation, la communication et la motivation de l'équipe
 + Savoir faire-faire
@@ -55,7 +53,15 @@ Une simple série de question permet d'estimer la bonne santé d'un projet  :
 
 Une réponses affirmative à l'ensemble de ces questions nous permet de savoir que le manageur a à sa disposition les moyens pour organiser, animer, communiquer, analyser, prévoir et décider. 
 
-Le planning doit être considéré comme l'élément cléf dans un projet. C'est lui qui donne un cadre de travail à l'ensemble des intervenants dans le projet. C'est le fil d'ariane qui permet à tous les collaborateurs la possibilité de se situer dans un travail commun et dans une perspective globale. 
+Le planning doit être considéré comme l'élément cléf dans un projet.
+
+
+<p align="center">
+<img src="/fr/img/planningDomaine.png">
+</p>
+
+
+C'est lui qui donne un cadre de travail à l'ensemble des intervenants dans le projet. C'est le fil d'ariane qui permet à tous les collaborateurs la possibilité de se situer dans un travail commun et dans une perspective globale. 
 
 Il est donc vital d'avoir un planning mis à jour réguliérement. Cette gestion vivante du planning donne une impression de mouvement et de dynamisme au projet. 
 
@@ -104,9 +110,18 @@ Ces imprévus ont toutes la même caractéristique. Ils impactent le réseau, un
 
 Dans Weelgo, si le reste à faire est saisi réguliérement, le retard sur une action / ticket est détéctable immédiatement. 
 
+Vue Date Wall : 
 
-( Mettre image retard ) 
+<p align="center">
+<img src="/fr/img/projetRetadDateWall.png">
+</p>
 
+
+Vue dashboard : 
+
+<p align="center">
+<img src="/fr/img/projetRetadDashboard.png">
+</p>
 
 Si ce retard est irrattrapable, il peut être de deux sortes : 
 + Soit il a été mal estimé au niveau de la charge de réalisation. Dans se cas, il faut agmenter la charge de réalisation de l'action/ticket
@@ -127,12 +142,16 @@ Si l'imprévu n'est pas lié au projet, cela veut dire qu'un de vos collaborateu
 
 La modification doit alors s'effectué au niveau du calendrier de la ressource. 
 
-( mettre image accès calendrier )
+<p align="center">
+<img src="/fr/img/ajoutDateSpecifique.png">
+</p>
 
 Vous devez indiquer que le collaborateur ne travaillera pas ( ou moins ) durant la période de réalisation de l'imprévu. 
 
 
-( mettre image calendrier )
+<p align="center">
+<img src="/fr/img/calendrierRessource.png">
+</p>
 
 ### L'utilisation des dates de début et date de fin 
 
@@ -141,22 +160,49 @@ Sur les actions et les tickets, vous avez la possibilité de forcer :
 + Une date de début
 + Une date de fin 
 
-( mettre image de date de début / date de fin )
+<p align="center">
+<img src="/fr/img/forcerDateAction.png">
+</p>
 
 Nous avons déjà évoqué l'utilsiation de la durée pour gérer un retard. Les dates de début et date de fin s'utilisent dans 2 cas : 
-1. Pour situer le démarrage d'une action dans le temps. Cette action étant en début de chaine 
+1. Pour situer le démarrage d'une action dans le temps. Par exemple, une action situé en début de réseau, précédé par aucune action mais nécessitant de commencer plus tard dans le temps ( et non à la date de démarrage du projet ).
 
-( mettre image exemple ) 
+<p align="center">
+<img src="/fr/img/actionDebutReseau.png">
+</p>
 
 2.  __recadrer__ le projet dans le temps suite à un retard ou un imprévus non géré correctement ( notamment par un manque de suivi )
 
 
 Forcer une date permet donc de resituer le démarrage ( ou la fin ) d'une action et d'un ticket dans le temps. Vous devez limiter au maximum l'utilisation de cette option. 
 
-De plus, Weelgo ne court-circuite pas les charges indiqués sur les actions quand vous renseignez une date. Si les charges du réseau indique une date de fin de l'action au 15/10/2017. SI vous indiquer une date de fin de l'action au 10/10/2017, le planning indiquera une erreur. 
+De plus, Weelgo ne court-circuite pas les charges indiqués sur les actions quand vous renseignez une date. Si les charges du réseau indique une date de fin de l'action au 19/10/2017. SI vous indiquer une date de fin de l'action au 08/12/2017, le planning indiquera une erreur. 
 
-( mettre image ) 
+Ajout de la date de fin sur l'action : 
 
+<p align="center">
+<img src="/fr/img/forcerDateFinAction.png">
+</p>
+
+
+Le résultat sur le GANTT
+
+<p align="center">
+<img src="/fr/img/forcerDateFinProblemeGantt.png">
+</p>
+
+Pour ne pas avoir de message d'erreur dans le GANTT. il faut que la date de fin que vous indiquez soit positionnée après la date de fin calculée par le réseau ( donc apres le 19/10/2017 ).
+
+
+<p align="center">
+<img src="/fr/img/forcerDateFinActionOK.png">
+</p>
+
+Le résultat sur le GANTT
+
+<p align="center">
+<img src="/fr/img/forcerDateFinGanttOK.png">
+</p>
 
 Exemple d'utilisation : 
 
@@ -184,18 +230,37 @@ La modification du réseau doit être effectué par le responsable du réseau. C
 
 Dans weelgo, vous avez la possibilité de construire l'historique du projet. Cet historique ou snapshot, permet de prendre une photo du projet à un instant T. 
 
-
-( Mettre image historique )
-
 Afin de pouvoir consolider l'avancement du projet dans le gantt, burdnow et droit à 45°, vous devez effectuer un snapshot régulérement. 
+
+<p align="center">
+<img src="/fr/img/historiquePrendreSnap.png">
+</p>
 
 En plus de pouvoir consolider l'avancement, vous aurez à votre disposition le déroulement du projet. 
 
+Avancement du projet dans les indicateus : 
 
-( mettre image )
+<p align="center">
+<img src="/fr/img/historiqueBurndown.png">
+</p>
+
+
+<p align="center">
+<img src="/fr/img/droite45.png">
+</p>
+
+
+Météo général du projet : 
+<p align="center">
+<img src="/fr/img/historiqueSnap.png">
+</p>
 
 
 Lors de la génération d'un snapshot, vous pouvez renseigner la météo du projet ainsi que rajouter des commentaires. 
+
+<p align="center">
+<img src="/fr/img/historiqueMeteoProjet.png">
+</p>
 
 Si vous gérez plusieurs projets en même temps, cela vous aidera dans votre présentation du projet à un tiers. 
 
