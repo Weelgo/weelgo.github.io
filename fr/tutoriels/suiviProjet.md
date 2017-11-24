@@ -9,9 +9,9 @@ toc : true
 
 
 Votre projet Weelgo est initialisé et vous devez maintenant piloter votre projet. Nous aborderons ce sujet au travers 3 axes : 
-[1. L'importance du suivi du planning et des indicateurs](#importancePlanning)
-[2. La gestion des imprévus](#gestionImprevus)
-[3. Construire l'historique du projet](#historiqueProjet)
+1. [L'importance du suivi du planning et des indicateurs](#importancePlanning)
+2. [La gestion des imprévus](#gestionImprevus)
+3. [Construire l'historique du projet](#historiqueProjet)
 
 
 ### Le management, quesako ?
