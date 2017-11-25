@@ -14,6 +14,26 @@ Votre projet Weelgo est initialisé et vous devez maintenant piloter votre proje
 2. [La gestion des imprévus](#gestionImprevus)
 3. [Construire l'historique du projet](#historiqueProjet)
 
+### Rappel : Qui fait quoi dans Weelgo.
+
+Avant de débuter ce tutoriel, faisons un bref rappel de qui doit faire quoi dans Weelgo.
+
+Dans Weelgo, les rôles sont simples. Nous avons : 
+* Le chef de projet. C'est généralement le responsable du réseau
+* Les exécutants des actions / tickets : Ce sont les personnes reponsables des actions et des tickets. Ils sont désignés par le chef de projet. 
+
+Ci-dessous la matrice des rôles: 
+
+
+
+| Can Reorder | 2nd operation |2nd operation |2nd operation |
+| :---: | ---
+|1st operation|Normal Load <br/>Normal Store| Volatile Load <br/>MonitorEnter|Volatile Store<br/> MonitorExit|
+|Normal Load <br/> Normal Store| | | No|
+|Volatile Load <br/> MonitorEnter| No|No|No|
+|Volatile store <br/> MonitorExit| | No|No|
+
+
 
 ### Le management, quesako ?
 
