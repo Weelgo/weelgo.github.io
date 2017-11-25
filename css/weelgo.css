@@ -3,7 +3,10 @@ body, html {
 /* 	font-family: 'Quicksand', sans-serif; */
 	color: #24292e;
 }
-
+.img
+{
+	max-width: 100%;
+}
 .sideBarLv1
 {
 	font-weight: bold;
