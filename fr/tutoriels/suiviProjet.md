@@ -147,10 +147,11 @@ Si vous devez quand même démarrer l'action B, c'est ce cette action n'attendai
 
 Le réseau aurait du être modélisé de la manière suivante : 
 
+<p align="center">
 <img src="/fr/img/actionParallele.png">
-Ou
+Ou        
 <img src="/fr/img/actionLienTemporel.png">
-
+</p>
 
 
 #### Les cas particuliers 
