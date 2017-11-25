@@ -145,7 +145,7 @@ Ou
 
 <img src="/fr/img/actionLienTemporel.png">
 
-Néanmoins, il y a certains cas ou nous pouvons quand même débuter l'action B avant l'action A. Par exemple, des activités préparatives à la réalisation de l'action B. Ces activités n'ont pas nécessaire besoin du livrable de l'action A mais ils peuvent être commencé. 
+Néanmoins, il y a certains cas ou nous pouvons quand même débuter l'action B avant l'action A. Par exemple, des activités préparatives à la réalisation de l'action B. Ces activités n'ont pas nécessairement besoin du livrable de l'action A mais ils peuvent être commencé. 
 
 Cette gestion ne pose pas de problème dans l'outil Weelgo. Vous avez la possibilité : 
 * D'indiquer un avancement sur les tickets, même si l'action n'est pas démarré. 
