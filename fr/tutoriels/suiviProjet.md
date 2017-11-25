@@ -88,12 +88,12 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 
 ## 2. La mise à jour de l'avancement 
 
-Comme nous venons de le voir, indiquer l'avancement du projet est important afin de piloter correctement. Dans l'outil weelgo, l'avancement peut s'effectuer dans les vues suivantes : 
+Comme nous venons de le voir, indiquer l'avancement du projet est important afin de piloter correctement. Dans l'outil weelgo, vous pouvez indiquer l'avancement depuis les vues : 
 * La vue Réseau
 * La vue Organisatin 
 * La vue logique 
 
-Il s'effectue de la manière suivante : 
+L'avancement se renseigne sur les actions et sur les tickets. 
 
 **Pour les actions :**
 
@@ -156,11 +156,20 @@ Cette gestion ne pose pas de problème dans l'outil Weelgo. Vous avez la possibi
 
 L'avancement d'une action est pris en compte par Weelgo quand l'action est démarrée. Vous pouvez indiquer un avancement sur le ticket, néanmoins il ne sera pas pris en compte tant que l'action est non démarée
 
-* Si vous avez pas de ticket associé l'action, vous pouvez la démarrer quand même en utilisant les options associées à l'action. 
+* Démarrer l'action en utilisant les options de démarrage et de cloture des actions. 
 
 ### La gestion des options de démarrage / cloture des actions 
 
+*Attention les options ci dessous sont à utiliser avec précaution.* 
 
+<p align="center">
+<img src="/fr/img/optionsAction.png">
+</p>
+
+Ces options permettent de court-circuiter le fonctionnement logique de déroulement du réseau. 
+Les deux premières options permettent de démarrer ou terminer une action si les livrables de l'action ne sont pas présents. 
+
+Néanmoins, si vous terminez une action sans les livrables nécessaires pour la réaliser. 
 
 ## 3. La gestion des imprévus
 
