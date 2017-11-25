@@ -22,17 +22,14 @@ Dans Weelgo, les rôles sont simples. Nous avons :
 * Le chef de projet. C'est généralement le responsable du réseau
 * Les exécutants des actions / tickets : Ce sont les personnes reponsables des actions et des tickets. Ils sont désignés par le chef de projet. 
 
-Ci-dessous la matrice des rôles: 
+Ci-dessous la matrice des rôles que nous vous conseillons: 
 
+**Le responsable du réseau / chef de projet :** 
++ Il créer la structure et l'organisation du projet
++ Il modifie le réseau, sa strcuture ainsi que les charges de réalisations 
 
-
-| Can Reorder | 2nd operation |2nd operation |2nd operation |
-| :---: | ---
-|1st operation|Normal Load <br/>Normal Store| Volatile Load <br/>MonitorEnter|Volatile Store<br/> MonitorExit|
-|Normal Load <br/> Normal Store| | | No|
-|Volatile Load <br/> MonitorEnter| No|No|No|
-|Volatile store <br/> MonitorExit| | No|No|
-
+**Le responsable d'action :** 
++ Il indique l'avancement et le reste à faire sur ses actions / tickets
 
 
 ### Le management, quesako ?
