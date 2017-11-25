@@ -79,7 +79,7 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 **Nos préconisations :**
 
 >*Le planning à un sens uniquement si l'équipe lui en donne. Faites vivre le planning avec votre équipe*
-<a id="gestionImprevus"></a> 
+<a id="majAvancement"></a> 
 >*Partager le planning et les indicateurs. Ils doivent être accessible à chaque instant.* 
 
 >*N'acceptez jamais un glissement de délai sans réagir. Trouvez des solutions et adapter votre réseau.* 
@@ -88,12 +88,18 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 
 ## 2. La mise à jour de l'avancement 
 
+*Acteurs : Les responsables d'actions, Le chef de projet*
+
+
 Comme nous venons de le voir, indiquer l'avancement du projet est important afin de piloter correctement. Dans l'outil weelgo, vous pouvez indiquer l'avancement depuis les vues : 
 * La vue Réseau
 * La vue Organisatin 
 * La vue logique 
 
-L'avancement se renseigne sur les actions et sur les tickets. 
+L'avancement se renseigne sur les actions et sur les tickets.
+
+**Pour le suivi et la bonne santé du projet, il est nécessaire que l'avancement soit mis à jour par les responsables des actions ou le chef de projet.** 
+
 
 **Pour les actions :**
 
@@ -125,7 +131,7 @@ Dans Weelgo, la mise à jour de l'avancement doit suivre la logique du réseau. 
 <img src="/fr/img/actionLienPhysique.png">
 </p>
 
-L'ordre logique de réalisation est l'action A ( et ses tickets ) puis ensuite l'action B ( et ses tickets ).  Lors du démarrage du projet, l'avancement du projet suivra cette logique. Si ce n'est pas le cas, c'est que le réseau ne correpondait pas à la réalité de réalisation. 
+L'ordre de réalisation est l'action A ( et ses tickets ) puis ensuite l'action B ( et ses tickets ).  Lors du démarrage du projet, l'avancement du projet suivra cette logique. Si ce n'est pas le cas, c'est que le réseau ne correpondait pas à la réalité de réalisation. 
 
 Par exemple, si vous essayez de commencer l'action B sans avoir terminée l'action A. Weelgo vous l'empechera en vous affichant le message suivant :
 
@@ -160,7 +166,9 @@ L'avancement d'une action est pris en compte par Weelgo quand l'action est déma
 
 ### La gestion des options de démarrage / cloture des actions 
 
-*Attention les options ci dessous sont à utiliser avec précaution.* 
+*Acteurs : Le chef de projet*
+
+**Attention les options ci dessous sont à utiliser avec précaution. Il est obligatoire d'avoir l'autorisation du chef de projet avant de réaliser ce type d'opération.** 
 
 <p align="center">
 <img src="/fr/img/optionsAction.png">
@@ -169,9 +177,36 @@ L'avancement d'une action est pris en compte par Weelgo quand l'action est déma
 Ces options permettent de court-circuiter le fonctionnement logique de déroulement du réseau. 
 Les deux premières options permettent de démarrer ou terminer une action si les livrables de l'action ne sont pas présents. 
 
-Néanmoins, si vous terminez une action sans les livrables nécessaires pour la réaliser. 
+Néanmoins, si vous terminez une action sans les livrables nécessaires pour la réaliser cela indique que le livrable en input était pas nécessaire et donc un problème sur la conception de votre réseau. 
+
+Lorsque vous démarrez ou terminez une action sans le livrable en input et meme si le livrable est déposé pendant la réalisation de l'action. Weelgo vous préviens que les livrables en input ne sont plus à jour. 
+
+<p align="center">
+<img src="/fr/img/livrableAmettreAjour.png">
+</p>
+
+Ceci est un comportement normal, cela indique que vous devez vérifier que le livrable fourni vous permet réelement de réaliser votre action. Si oui, vous devez rédémarrer l'action et indiquer le reste à faire suite à la récéption du livrable. 
+
+
+---
+
+**Nos préconisations :**
+
+>*Mettez à jour l'avancement réguliérement.*
+<a id="gestionImprevus"></a>
+>*Vous êtes en présence d'un problème de conception du réseau si vous etes amenez à commencer / terminer des actions sans avoir réaliser les actions précédentes.*
+
+>*Evitez au maximum d'utiliser les options permettant de forcer le démarrage / cloture d'une action.*
+
+>*Faites saisir l'avancement par les responsables des actions.*
+
+---
 
 ## 3. La gestion des imprévus
+
+*Acteurs : Le chef de projet*
+
+**Comme nous allons le voir, une modification du réseau sera nécessaire pour gérer les imprevus. Toutes modifications du réseau doit être réaliser par le chef de projet uniquement.** 
 
 Lors de la réalisation de votre projet, vous allez avoir à gérer des imprévus. C'est la gestion des imprévus qui rend complexe la réalisation d'un projet. 
 
@@ -293,7 +328,10 @@ Pour ne pas avoir de message d'erreur dans le GANTT. il faut que la date de fin 
 
 **Nos préconisations :**
 <a id="ordreActions"></a> 
->*imitez l'utilisation des dates de début et des dates de fin.*
+
+>*Les modifications du réseau doivent être réaliser par le responsable du réseau*
+
+>*Limitez l'utilisation des dates de début et des dates de fin.*
 
 >*Le recadrage du planning s'effectue uniquement si les charges du réseau le permettent !*
 
