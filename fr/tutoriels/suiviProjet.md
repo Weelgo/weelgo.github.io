@@ -137,13 +137,13 @@ Si vous devez quand même démarrer l'action B, c'est ce cette action n'attendai
 
 Le réseau aurait du être modélisé de la manière suivante : 
 
-<p align="center">
 <img src="/fr/img/actionParallele.png">
+
 
 Ou
 
+
 <img src="/fr/img/actionLienTemporel.png">
-</p>
 
 Néanmoins, il y a certains cas ou nous pouvons quand même débuter l'action B avant l'action A. Par exemple, des activités préparatives à la réalisation de l'action B. Ces activités n'ont pas nécessaire besoin du livrable de l'action A mais ils peuvent être commencé. 
 
