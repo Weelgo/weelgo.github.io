@@ -10,6 +10,7 @@ toc : true
 
 Votre projet Weelgo est initialisé et vous devez maintenant piloter votre projet. Nous aborderons ce sujet au travers 3 axes : 
 1. [L'importance du suivi du planning et des indicateurs](#importancePlanning)
+2. [La mise à jour de l'avancement](#majAvancement)
 2. [La gestion des imprévus](#gestionImprevus)
 3. [Construire l'historique du projet](#historiqueProjet)
 
@@ -85,8 +86,83 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 
 ---
 
+## 2. La mise à jour de l'avancement 
 
-## 2. La gestion des imprévus
+Comme nous venons de le voir, indiquer l'avancement du projet est important afin de piloter correctement. Dans l'outil weelgo, l'avancement peut s'effectuer dans les vues suivantes : 
+* La vue Réseau
+* La vue Organisatin 
+* La vue logique 
+
+Il s'effectue de la manière suivante : 
+
+**Pour les actions :**
+
+En cliquant sur "En cours" et en définissant une progression depuis le bouton : <img src="/fr/img/boutonActualiser.png">
+
+<p align="center">
+<img src="/fr/img/actionMajAvancement.png">
+</p>
+
+**Pour les tickets :**
+
+En cliquant sur l'icone suivante : 
+
+<p align="center">
+<img src="/fr/img/ticketMajAvancement1.png">
+</p>
+
+Puis indiquer l'avancement de la même manière que pour l'action
+
+<p align="center">
+<img src="/fr/img/ticketMajAvancement2.png">
+</p>
+
+### Le fonctionnement de l'avancement des actions et des tickets
+
+Dans Weelgo, la mise à jour de l'avancement doit suivre la logique du réseau. Prenons l'exemple du réseau ci-dessous : 
+
+<p align="center">
+<img src="/fr/img/actionLienPhysique.png">
+</p>
+
+L'ordre logique de réalisation est l'action A ( et ses tickets ) puis ensuite l'action B ( et ses tickets ).  Lors du démarrage du projet, l'avancement du projet suivra cette logique. Si ce n'est pas le cas, c'est que le réseau ne correpondait pas à la réalité de réalisation. 
+
+Par exemple, si vous essayez de commencer l'action B sans avoir terminée l'action A. Weelgo vous l'empechera en vous affichant le message suivant :
+
+<p align="center">
+<img src="/fr/img/impossibleStartAction.png">
+</p>
+
+Si vous devez quand même démarrer l'action B, c'est ce cette action n'attendait pas en input le livrable de l'action A. 
+
+Le réseau aurait du être modélisé de la manière suivante : 
+
+<p align="center">
+<img src="/fr/img/actionParallele.png">
+
+Ou
+
+<img src="/fr/img/actionLienTemporel.png">
+</p>
+
+Néanmoins, il y a certains cas ou nous pouvons quand même débuter l'action B avant l'action A. Par exemple, des activités préparatives à la réalisation de l'action B. Ces activités n'ont pas nécessaire besoin du livrable de l'action A mais ils peuvent être commencé. 
+
+Cette gestion ne pose pas de problème dans l'outil Weelgo. Vous avez la possibilité : 
+* D'indiquer un avancement sur les tickets, même si l'action n'est pas démarré. 
+
+<p align="center">
+<img src="/fr/img/majAvancementActionNonStart.png">
+</p>
+
+L'avancement d'une action est pris en compte par Weelgo quand l'action est démarrée. Vous pouvez indiquer un avancement sur le ticket, néanmoins il ne sera pas pris en compte tant que l'action est non démarée
+
+* Si vous avez pas de ticket associé l'action, vous pouvez la démarrer quand même en utilisant les options associées à l'action. 
+
+### La gestion des options de démarrage / cloture des actions 
+
+
+
+## 3. La gestion des imprévus
 
 Lors de la réalisation de votre projet, vous allez avoir à gérer des imprévus. C'est la gestion des imprévus qui rend complexe la réalisation d'un projet. 
 
@@ -227,7 +303,7 @@ Deux possibilités s'offre à vous :
 La modification du réseau doit être effectué par le responsable du réseau. 
 Cet arbitrage peut avoir été partagé avec l'équipe mais toute modification du réseau reste à la charge du responsable. 
  
-## 3. Construire l'historique du projet
+## 4. Construire l'historique du projet
 
 Dans weelgo, vous avez la possibilité de construire l'historique du projet. Cet historique ou snapshot, permet de prendre une photo du projet à un instant T. 
 
