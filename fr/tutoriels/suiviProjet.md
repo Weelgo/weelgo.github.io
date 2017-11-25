@@ -41,9 +41,11 @@ Pour rappel, les principaux indicateurs que doit avoir le manageur sont :
 + Le burndown
 + Le calendrier des ressources
 <a id="importancePlanning"></a> 
-Comme vous l'avez déjà vu, Weelgo met à votre disposition l'ensemble de ces indicateurs.
 
-Etudions l'importance de la présence des indicateurs dans un projet et leur répercution sur l'ensemble des domaines évoqués ci-dessus. 
+
+Vous le savez déjà, Weelgo met à votre disposition l'ensemble de ces indicateurs.
+
+Etudions donc l'importance de la présence des indicateurs dans un projet et leur répercution sur l'ensemble des domaines évoqués ci-dessus. 
 
 ## 1.  L'importance du suivi du planning et des indicateurs
 
@@ -62,24 +64,29 @@ Une réponses affirmative à l'ensemble de ces questions nous permet de savoir q
 </p>
 
 
-C'est lui qui donne un **cadre de travail** à l'ensemble des intervenants dans le projet. C'est le fil d'ariane qui permet à tous les collaborateurs la possibilité de se situer dans un travail commun et dans une perspective globale. 
+C'est lui qui donne un **cadre de travail** à l'ensemble des intervenants dans le projet. C'est le fil d'ariane qui permet à tous les collaborateurs d'avoir la possibilité de se situer dans un travail commun et dans une perspective globale. 
 
 Il est donc vital d'avoir un planning mis à jour réguliérement. Cette gestion vivante du planning donne une impression de mouvement et de dynamisme au projet. 
 
 Néanmoins, pour avoir une utilisation optimum du planning,  deux prérequis sont nécessaires  : 
 1. **Faites participer vos équipes dans la planification.** Ce mode de gestion permettra la responsabilisation de votre équipe et augmentera sa motivation 
-2. Le planning doit être à jour et accessible à chaque instant. 
+2. **Le planning doit être à jour et accessible à chaque instant.** 
 
 **N'acceptez jamais de glissement de délai sans réagir**, même si les retards sont justifiés! Il faut toujours rechercher des solutions pour rattraper les retards et modifier le réseau du projet en conséquence. 
  
-C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’importance de la tenue des délais. **Une succession de glissements de délais enlève toute crédibilité au planning qui devient rapidement “lettre morte".** 
+C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’importance de la tenue des délais.
+
+**Une succession de glissements de délais enlève toute crédibilité au planning qui devient rapidement “lettre morte".** 
 
 ---
 
 **Nos préconisations :**
 
->*Le planning à un sens uniquement si l'équipe lui en donne. Faites vivre le planning avec votre équipe*
+>*Le planning à un sens uniquement si l'équipe lui en donne.*
+
+>*Faites vivre le planning avec votre équipe*
 <a id="majAvancement"></a> 
+
 >*Partager le planning et les indicateurs. Ils doivent être accessible à chaque instant.* 
 
 >*N'acceptez jamais un glissement de délai sans réagir. Trouvez des solutions et adapter votre réseau.* 
@@ -88,7 +95,7 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 
 ## 2. La mise à jour de l'avancement 
 
-*Acteurs : Les responsables d'actions, Le chef de projet*
+*Acteurs : Les responsables d'actions, Le chef de projet.*
 
 
 Comme nous venons de le voir, indiquer l'avancement du projet est important afin de piloter correctement. Dans l'outil weelgo, vous pouvez indiquer l'avancement depuis les vues : 
@@ -111,11 +118,7 @@ En cliquant sur "En cours" et en définissant une progression depuis le bouton :
 
 **Pour les tickets :**
 
-En cliquant sur l'icone suivante : 
-
-<p align="center">
-<img src="/fr/img/ticketMajAvancement1.png">
-</p>
+En cliquant sur l'icone suivante : <img src="/fr/img/ticketMajAvancement1.png">
 
 Puis indiquer l'avancement de la même manière que pour l'action
 
@@ -125,35 +128,38 @@ Puis indiquer l'avancement de la même manière que pour l'action
 
 ### Le fonctionnement de l'avancement des actions et des tickets
 
-Dans Weelgo, la mise à jour de l'avancement doit suivre la logique du réseau. Prenons l'exemple du réseau ci-dessous : 
+Dans Weelgo, la mise à jour de l'avancement doit **suivre la logique du réseau**. 
 
-<p align="center">
+Prenons l'exemple du réseau ci-dessous : 
+
 <img src="/fr/img/actionLienPhysique.png">
-</p>
 
-L'ordre de réalisation est l'action A ( et ses tickets ) puis ensuite l'action B ( et ses tickets ).  Lors du démarrage du projet, l'avancement du projet suivra cette logique. Si ce n'est pas le cas, c'est que le réseau ne correpondait pas à la réalité de réalisation. 
 
-Par exemple, si vous essayez de commencer l'action B sans avoir terminée l'action A. Weelgo vous l'empechera en vous affichant le message suivant :
+L'ordre de réalisation est l'action A ( et ses tickets ) puis ensuite l'action B ( et ses tickets ).  
+
+Si vous essayez de commencer l'action B sans avoir terminée l'action A. Weelgo vous l'empechera en vous affichant le message suivant :
 
 <p align="center">
 <img src="/fr/img/impossibleStartAction.png">
 </p>
 
-Si vous devez quand même démarrer l'action B, c'est ce cette action n'attendait pas en input le livrable de l'action A. 
+Si vous devez quand même démarrer l'action B, c'est ce cette action n'attendait pas en input le livrable de l'action A et donc que votre réseau de correspondait pas à la réalité de réalisation. Cela permet de mettre en évidence des problèmes de conception 
 
 Le réseau aurait du être modélisé de la manière suivante : 
 
 <img src="/fr/img/actionParallele.png">
-
-
 Ou
-
-
 <img src="/fr/img/actionLienTemporel.png">
 
-Néanmoins, il y a certains cas ou nous pouvons quand même débuter l'action B avant l'action A. Par exemple, des activités préparatives à la réalisation de l'action B. Ces activités n'ont pas nécessairement besoin du livrable de l'action A mais ils peuvent être commencé. 
 
-Cette gestion ne pose pas de problème dans l'outil Weelgo. Vous avez la possibilité : 
+
+#### Les cas particuliers 
+
+Néanmoins, il y a certains cas ou nous pouvons quand même débuter l'action B avant l'action A. 
+
+Par exemple, si il existe des activités permettant de préparer la réalisation de l'action B. Ces activités n'ont pas nécessairement besoin du livrable de l'action A mais elles peuvent être commencées. 
+
+Dans ce cas, vous avez la possibilité : 
 * D'indiquer un avancement sur les tickets, même si l'action n'est pas démarré. 
 
 <p align="center">
@@ -175,9 +181,10 @@ L'avancement d'une action est pris en compte par Weelgo quand l'action est déma
 </p>
 
 Ces options permettent de court-circuiter le fonctionnement logique de déroulement du réseau. 
+
 Les deux premières options permettent de démarrer ou terminer une action si les livrables de l'action ne sont pas présents. 
 
-Néanmoins, si vous terminez une action sans les livrables nécessaires pour la réaliser cela indique que le livrable en input était pas nécessaire et donc un problème sur la conception de votre réseau. 
+Néanmoins, si vous terminez une action sans les livrables nécessaires pour la réaliser cela indique que le livrable en input était pas nécessaire. Il y a donc un problème sur la conception sur le réseau. 
 
 Lorsque vous démarrez ou terminez une action sans le livrable en input et meme si le livrable est déposé pendant la réalisation de l'action. Weelgo vous préviens que les livrables en input ne sont plus à jour. 
 
@@ -200,13 +207,15 @@ Ceci est un comportement normal, cela indique que vous devez vérifier que le li
 
 >*Faites saisir l'avancement par les responsables des actions.*
 
+>*Si vous effectuez des actions non autorisées par nature par Weelgo c'est que vous avez des problèmes de conception au niveau du réseau."
+
 ---
 
 ## 3. La gestion des imprévus
 
 *Acteurs : Le chef de projet*
 
-**Comme nous allons le voir, une modification du réseau sera nécessaire pour gérer les imprevus. Toutes modifications du réseau doit être réaliser par le chef de projet uniquement.** 
+**Comme nous allons le voir, une modification du réseau sera nécessaire pour gérer les imprevus. Toutes modifications du réseau doit être réalisées par le chef de projet uniquement.** 
 
 Lors de la réalisation de votre projet, vous allez avoir à gérer des imprévus. C'est la gestion des imprévus qui rend complexe la réalisation d'un projet. 
 
