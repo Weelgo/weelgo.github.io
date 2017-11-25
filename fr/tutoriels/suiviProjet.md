@@ -352,9 +352,9 @@ Vous venez d'effectuer les modifications nécessaires afin d'intégrer l'imprév
 
 Deux possibilités s'offre à vous : 
 1. Les nouvelles dates vous conviennent et vous n'avez donc rien à faire de plus.
+<a id="historiqueProjet"></a>
 2. Elles ne vont conviennent pas et vous devez donc retravailler votre réseau / organisation afin d'aboutir au résultat voulu.
 
-<a id="historiqueProjet"></a>
 
 La modification du réseau doit être effectué par le responsable du réseau. 
 Cet arbitrage peut avoir été partagé avec l'équipe mais toute modification du réseau reste à la charge du responsable. 
