@@ -6,7 +6,7 @@ toc : true
 ---
 
 ## Introduction
-
+---
 
 Votre projet Weelgo est initialisé et vous devez maintenant le piloter. Nous aborderons ce sujet au travers 3 axes : 
 1. [L'importance du suivi du planning et des indicateurs](#importancePlanning)
@@ -22,7 +22,7 @@ Votre projet Weelgo est initialisé et vous devez maintenant le piloter. Nous ab
 Avant de débuter ce tutoriel, faisons un bref rappel de qui doit faire quoi dans Weelgo.
 
 Dans Weelgo, les rôles sont simples. Nous avons : 
-* Le chef de projet. C'est généralement le responsable du réseau
+* Le chef de projet. C'est généralement le responsable du réseau.
 * Les exécutants des actions / tickets : Ce sont les personnes reponsables des actions et des tickets. Ils sont désignés par le chef de projet. 
 
 Ci-dessous la matrice des rôles que nous vous conseillons: 
@@ -70,6 +70,8 @@ Vous le savez déjà, Weelgo met à votre disposition l'ensemble de ces indicate
 Etudions donc l'importance de la présence des indicateurs dans un projet et leur répercution sur l'ensemble des domaines évoqués ci-dessus. 
 
 ## 1.  L'importance du suivi du planning et des indicateurs
+---
+
 
 Une simple série de question permet d'estimer la bonne santé d'un projet  :  
 + Existe t-il un planning ? 
@@ -116,6 +118,8 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 ---
 
 ## 2. La mise à jour de l'avancement 
+---
+
 
 *Acteurs : Les responsables d'actions, Le chef de projet.*
 
@@ -235,6 +239,8 @@ Ceci est un comportement normal, cela indique que vous devez vérifier que le li
 ---
 
 ## 3. La gestion des imprévus
+---
+
 
 *Acteurs : Le chef de projet*
 
@@ -383,6 +389,8 @@ La modification du réseau doit être effectué par le responsable du réseau.
 Cet arbitrage peut avoir été partagé avec l'équipe mais toute modification du réseau reste à la charge du responsable. 
  
 ## 4. La construction de l'historique du projet
+---
+
 
 Dans weelgo, vous avez la possibilité de construire l'historique du projet. Cet historique ou snapshot, permet de prendre une photo du projet à un instant T. 
 
