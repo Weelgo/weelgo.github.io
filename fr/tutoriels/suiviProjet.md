@@ -8,11 +8,14 @@ toc : true
 ## Introduction
 
 
-Votre projet Weelgo est initialisé et vous devez maintenant piloter votre projet. Nous aborderons ce sujet au travers 3 axes : 
+Votre projet Weelgo est initialisé et vous devez maintenant le piloter. Nous aborderons ce sujet au travers 3 axes : 
 1. [L'importance du suivi du planning et des indicateurs](#importancePlanning)
 2. [La mise à jour de l'avancement](#majAvancement)
 2. [La gestion des imprévus](#gestionImprevus)
-3. [Construire l'historique du projet](#historiqueProjet)
+3. [La construction de l'historique du projet](#historiqueProjet)
+
+
+---
 
 ### Rappel : Qui fait quoi dans Weelgo.
 
@@ -30,6 +33,8 @@ Ci-dessous la matrice des rôles que nous vous conseillons:
 
 **Le responsable d'action :** 
 + Il indique l'avancement et le reste à faire sur ses actions / tickets
+
+---
 
 
 ### Le management, quesako ?
@@ -377,7 +382,7 @@ Deux possibilités s'offre à vous :
 La modification du réseau doit être effectué par le responsable du réseau. 
 Cet arbitrage peut avoir été partagé avec l'équipe mais toute modification du réseau reste à la charge du responsable. 
  
-## 4. Construire l'historique du projet
+## 4. La construction de l'historique du projet
 
 Dans weelgo, vous avez la possibilité de construire l'historique du projet. Cet historique ou snapshot, permet de prendre une photo du projet à un instant T. 
 
