@@ -88,9 +88,9 @@ Une réponses affirmative à l'ensemble de ces questions nous permet de savoir q
 </p>
 
 
-C'est lui qui donne un **cadre de travail** à l'ensemble des intervenants dans le projet. C'est le fil d'ariane qui permet à tous les collaborateurs d'avoir la possibilité de se situer dans un travail commun et dans une perspective globale. 
+C'est lui qui donne un **cadre de travail** à l'ensemble des intervenants dans le projet. C'est le fil d'ariane qui permet à tous les collaborateurs d'avoir la possibilité de se situer dans un travail commun et dans une **perspective globale**. 
 
-Il est donc vital d'avoir un planning mis à jour réguliérement. Cette gestion vivante du planning donne une impression de mouvement et de dynamisme au projet. 
+Il est donc vital d'avoir un planning mis à jour réguliérement. Cette gestion vivante du planning donne une impression de **mouvement et de dynamisme** au projet. 
 
 Néanmoins, pour avoir une utilisation optimum du planning,  deux prérequis sont nécessaires  : 
 1. **Faites participer vos équipes dans la planification.** Ce mode de gestion permettra la responsabilisation de votre équipe et augmentera sa motivation 
@@ -126,7 +126,7 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 
 Comme nous venons de le voir, indiquer l'avancement du projet est important afin de piloter correctement. Dans l'outil weelgo, vous pouvez indiquer l'avancement depuis les vues : 
 * La vue Réseau
-* La vue Organisatin 
+* La vue Organisation 
 * La vue logique 
 
 L'avancement se renseigne sur les actions et sur les tickets.
@@ -193,7 +193,7 @@ Dans ce cas, vous avez la possibilité :
 <img src="/fr/img/majAvancementActionNonStart.png">
 </p>
 
-L'avancement d'une action est pris en compte par Weelgo quand l'action est démarrée. Vous pouvez indiquer un avancement sur le ticket, néanmoins il ne sera pas pris en compte tant que l'action est non démarée
+Vous pouvez indiquer un avancement sur le ticket, néanmoins il ne sera pas pris en compte tant que l'action est non démarée
 
 * Démarrer l'action en utilisant les options de démarrage et de cloture des actions. 
 
@@ -207,19 +207,19 @@ L'avancement d'une action est pris en compte par Weelgo quand l'action est déma
 <img src="/fr/img/optionsAction.png">
 </p>
 
-Ces options permettent de court-circuiter le fonctionnement logique de déroulement du réseau. 
+Ces options permettent de **court-circuiter le fonctionnement logique** de réalisation du réseau. 
 
 Les deux premières options permettent de démarrer ou terminer une action si les livrables de l'action ne sont pas présents. 
 
-Néanmoins, si vous terminez une action sans les livrables nécessaires pour la réaliser cela indique que le livrable en input était pas nécessaire. Il y a donc un problème sur la conception sur le réseau. 
+Si vous terminez une action sans avoir les inputs, c'est qu'ils étaient pas nécessaires. Il existe donc un problème de conception du réseau.
 
-Lorsque vous démarrez ou terminez une action sans le livrable en input et meme si le livrable est déposé pendant la réalisation de l'action. Weelgo vous préviens que les livrables en input ne sont plus à jour. 
+Lorsque vous démarrez ou terminez une action sans le livrable en input, lorsque l'action receptionne finalement son input, Weelgo vous préviens que les livrables en entrés ne sont plus à jour. 
 
 <p align="center">
 <img src="/fr/img/livrableAmettreAjour.png">
 </p>
 
-Ceci est un comportement normal, cela indique que vous devez vérifier que le livrable fourni vous permet réelement de réaliser votre action. Si oui, vous devez rédémarrer l'action et indiquer le reste à faire suite à la récéption du livrable. 
+**Ceci est un comportement normal**, cela indique que vous devez vérifier que le livrable fourni vous permet réelement de réaliser votre action. Vous devez donc rédémarrer l'action et indiquer le reste à faire suite à la récéption du livrable. 
 
 
 ---
@@ -262,7 +262,7 @@ Les imprévus liées au projet sont généralement :
 + L'oubli d'une action dans la réalisation du réseau 
 + Une activités qui vient se greffer au projet. 
 
-Ces imprévus ont toutes la même caractéristique. Ils impactent le réseau, une action ou un ticket. C'est donc sur ces éléments que nous devons intervenir pour gérer l'imprévu. 
+Ces imprévus ont toutes la même caractéristique. Ils impactent le réseau, une action ou un ticket. C'est donc sur ces éléments que nous devons intervenir. 
 
 #### Un retard sur une action/ticket
 
@@ -283,9 +283,18 @@ Dans Weelgo, si le reste à faire est saisi réguliérement, le retard sur une a
 
 Si ce retard est irrattrapable, il peut être de deux sortes : 
 + Soit il a été mal estimé au niveau de la charge de réalisation. Dans se cas, il faut agmenter la charge de réalisation de l'action/ticket
+
+<p align="center">
+<img src="/fr/img/ticketModifierCharge.png">
+</p>
+
 + Soit c'est la durée de réalisation qui a été mal estimée. Il faut forcer la durée de réalisation de l'action/ticket pour qu'elle corresponde à la réalité. 
 
-Une action estimé à 4 jh en moyenne peut être réalisé en 2 j de travail par une personne plus expérimenté. Généralement dans ce cas, nous préconisons d'indiquer la charge en fonction de la personne qui traite l'activité. 
+<p align="center">
+<img src="/fr/img/ticketModifierDuree.png">
+</p>
+
+Une action estimé à 4 jh en moyenne peut être réalisé en 2 j de travail par une personne plus expérimenté. Nous préconisons d'indiquer la charge en fonction de la personne qui traite l'activité. 
 
 
 #### L'oubli d'une action / une activité venant se greffer au projet
@@ -329,12 +338,14 @@ Nous avons déjà évoqué l'utilsiation de la durée pour gérer un retard. Les
 <img src="/fr/img/actionDebutReseau.png">
 </p>
 
-2.  __recadrer__ le projet dans le temps suite à un retard ou un imprévus non géré correctement ( notamment par un manque de suivi )
+2.  __Recadrer__ le projet dans le temps suite à un retard ou un imprévus non géré correctement ( notamment par un manque de suivi )
 
 
 Forcer une date permet donc de resituer le démarrage ( ou la fin ) d'une action et d'un ticket dans le temps. Vous devez limiter au maximum l'utilisation de cette option. 
 
-De plus, Weelgo ne court-circuite pas les charges indiqués sur les actions quand vous renseignez une date. Si les charges du réseau indique une date de fin de l'action au 19/10/2017. SI vous indiquer une date de fin de l'action au 08/12/2017, le planning indiquera une erreur. 
+De plus, **Weelgo ne court-circuite pas les charges indiqués sur les actions** quand vous renseignez une date.
+
+Si les charges du réseau indique une date de fin de l'action au 19/10/2017 et que vous indiquez une date de fin de l'action au 08/12/2017, le planning indiquera une erreur. 
 
 **Ajout de la date de fin sur l'action :** 
 
@@ -385,14 +396,15 @@ Deux possibilités s'offre à vous :
 2. Elles ne vont conviennent pas et vous devez donc retravailler votre réseau / organisation afin d'aboutir au résultat voulu.
 
 
-La modification du réseau doit être effectué par le responsable du réseau. 
+**La modification du réseau doit être effectué par le responsable du réseau.**
+
 Cet arbitrage peut avoir été partagé avec l'équipe mais toute modification du réseau reste à la charge du responsable. 
  
 ## 4. La construction de l'historique du projet
 ---
 
 
-Dans weelgo, vous avez la possibilité de construire l'historique du projet. Cet historique ou snapshot, permet de prendre une photo du projet à un instant T. 
+Dans weelgo, vous avez la possibilité de construire l'historique du projet. Cet historique ou snapshot, permet de prendre une photo du projet. 
 
 Afin de pouvoir consolider l'avancement du projet dans le gantt, burdnow et droit à 45°, vous devez effectuer un snapshot régulérement. 
 
