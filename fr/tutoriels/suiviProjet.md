@@ -17,7 +17,7 @@ Votre projet Weelgo est initialisé et vous devez maintenant le piloter. Nous ab
 
 ---
 
-### Rappel : Qui fait quoi dans Weelgo.
+### Rappel : Qui fait quoi dans Weelgo?
 
 Avant de débuter ce tutoriel, faisons un bref rappel de qui doit faire quoi dans Weelgo.
 
@@ -29,7 +29,7 @@ Ci-dessous la matrice des rôles que nous vous conseillons:
 
 **Le responsable du réseau / chef de projet :** 
 + Il créer la structure et l'organisation du projet
-+ Il modifie le réseau, sa strcuture ainsi que les charges de réalisations 
++ Il modifie le réseau, sa strcuture ainsi que les charges de réalisation 
 
 **Le responsable d'action :** 
 + Il indique l'avancement et le reste à faire sur ses actions / tickets
@@ -39,7 +39,7 @@ Ci-dessous la matrice des rôles que nous vous conseillons:
 
 ### Le management, quesako ?
 
-Comment pouvons-nous définir le management ? Nous n'allons pas ici exposer ce sujet en détail. Néanmoins faisons ensemble un bref rappel des composantes essentielles du management. 
+Comment pouvons-nous définir le management ? Nous n'allons pas ici exposer ce sujet en détail, néanmoins faisons ensemble un bref rappel des composantes essentielles du management. 
 
 **Manager, c'est composer avec 4 domaines :** 
 
@@ -58,7 +58,7 @@ Pour rappel, les principaux indicateurs que doit avoir le manageur sont :
 
 + Le PERT
 + Le GANTT
-+ Les Jalons 
++ Les jalons 
 + La droite à 45°
 + Le burndown
 + Le calendrier des ressources
@@ -199,7 +199,7 @@ Vous pouvez indiquer un avancement sur le ticket, néanmoins il ne sera pas pris
 
 ### La gestion des options de démarrage / clôture des actions 
 
-*Acteurs : Le chef de projet*
+*Acteur : Le chef de projet*
 
 **Attention les options ci-dessous sont à utiliser avec précaution. Il est obligatoire d'avoir l'autorisation du chef de projet avant de réaliser ce type d'opération.** 
 
@@ -219,7 +219,7 @@ Lorsque vous démarrez ou terminez une action sans le livrable en input, lorsque
 <img src="/fr/img/livrableAmettreAjour.png">
 </p>
 
-**Ceci est un comportement normal**, cela indique que vous devez vérifier que le livrable fournis vous permet réelement de réaliser votre action. Vous devez donc rédémarrer l'action et indiquer le reste à faire suite à la récéption du livrable. 
+**Ceci est un comportement normal**, cela indique que vous devez vérifier que le livrable fournis vous permet réellement de réaliser votre action. Vous devez donc rédémarrer l'action et indiquer le reste à faire suite à la récéption du livrable. 
 
 
 ---
@@ -242,7 +242,7 @@ Lorsque vous démarrez ou terminez une action sans le livrable en input, lorsque
 ---
 
 
-*Acteurs : Le chef de projet*
+*Acteur : Le chef de projet*
 
 **Comme nous allons le voir, une modification du réseau sera nécessaire pour gérer les imprévus. Toute modification du réseau doit être réalisée par le chef de projet uniquement.** 
 
@@ -288,7 +288,7 @@ Si ce retard est irrattrapable, il peut être de deux sortes :
 <img src="/fr/img/ticketModifierCharge.png">
 </p>
 
-+ Soit c'est la durée de réalisation qui a été mal estimée. Il faut forcer la durée de réalisation de l'action/ticket pour qu'elle corresponde à la réalité. 
++ Soit c'est la durée de réalisation qui a été mal estimée. Il faut forcer la durée de réalisation de l'action / ticket pour qu'elle corresponde à la réalité. 
 
 <p align="center">
 <img src="/fr/img/ticketModifierDuree.png">
@@ -338,7 +338,7 @@ Nous avons déjà évoqué l'utilisation de la durée pour gérer un retard. Les
 <img src="/fr/img/actionDebutReseau.png">
 </p>
 
-2.  __Recadrer__ le projet dans le temps suite à un retard ou un imprévus non géré correctement ( notamment par un manque de suivi )
+2.  __Recadrer__ le projet dans le temps suite à un retard ou un imprévu non géré correctement ( notamment par un manque de suivi )
 
 
 Forcer une date permet donc de resituer le démarrage ( ou la fin ) d'une action et d'un ticket dans le temps. Vous devez limiter au maximum l'utilisation de cette option. 
@@ -388,7 +388,7 @@ Pour ne pas avoir de message d'erreur dans le GANTT. il faut que la date de fin 
 
 ### Analyse et arbitrage. 
 
-Vous venez d'effectuer les modifications nécessaires afin d'intégrer l'imprévu dans votre réseau. Vous pouvez alors analysez les impacts sur votre planification et notamement au niveau des jalons clés. Il y a de fortes chances que les dates des jalons clés ont été modifiées. 
+Vous venez d'effectuer les modifications nécessaires afin d'intégrer l'imprévu dans votre réseau. Vous pouvez alors analysez les impacts sur votre planification et notamement au niveau des jalons clés. Il y a de fortes chances que les dates des jalons clés aient été modifiées. 
 
 Deux possibilités s'offrent à vous : 
 1. Les nouvelles dates vous conviennent et vous n'avez donc rien à faire de plus.
