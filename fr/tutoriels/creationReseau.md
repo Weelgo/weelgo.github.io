@@ -42,7 +42,7 @@ Un projet est un enchaînement d'actions aboutissant à un ou plusieurs livrable
 * Déterminer l'ensemble des livrables constituant le projet
 * Déterminer les actions permettant d'aboutir à ces livrables
 
-Cette succession d'actions / livrables fomera votre réseau. Le réseau étant la colonne vertebrale de votre projet.
+Cette succession d'actions / livrables fomera votre réseau. Le réseau étant la colonne vertébrale de votre projet.
 
 
 Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaires ou de type jalon 
@@ -82,7 +82,7 @@ Pour vous aidez dans votre choix, souvenez-vous que le réseau doit matérialise
 
 L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterminons ainsi les dépendances entre chaque action et leur chronologie.
 
-La solution Weelgo propose 2 types d'ordonnancements. L'ordonnancement "physique" et l'ordonnancement "temporel". 
+La solution Weelgo propose 2 types d'ordonnancements: L'ordonnancement "physique" et l'ordonnancement "temporel". 
 
 L'ordonnancement "physique" est le lien entre 2 actions reliées par un livrable. L'action B attendant le livrable de l'action A afin de commencer.
 
@@ -108,7 +108,7 @@ Lors de la création du réseau, il est nécessaire de considérer les ressource
 
 **Nos préconisations :**
 <a id="repertoire"></a> 
->*Ordonnancez votre projet sans prendre en compte les ressources (ressources infinies). Vous connnaîtrez ainsi le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet.*
+>*Ordonnancez votre projet sans prendre en compte les ressources (ressources infinies). Vous connaîtrez ainsi le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet.*
 
 ---
 
@@ -128,7 +128,7 @@ De nombreux critères peuvent être utilisés pour effectuer ce découpage :
 * Maintenance (éléments échangeables, ordre du démontage) 
 * Documentation (spécifications, dossiers, procédures)
 
-Ce découpage est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau".
+Ce découpage est matérialisé par la création de répertoires et de sous-répertoires dans la vue "Réseau".
 
 <p align="center">
 <img src="/fr/img/repertoire.png">
@@ -217,7 +217,7 @@ Dans cette vue, vous allez pouvoir finaliser l'organisation de votre projet en a
 
 #### Définition
 
-Le ticket dans Weelgo est considéré comme une sous tâche de l'action ( comme une TODO list ). La principale caractéristique du ticket doit être son indépendance vis à vis des autres ticket ( dépendance causale et temporelle ). Cela afin de pouvoir le manipuler facilement dans l'organisation. 
+Le ticket dans Weelgo est considéré comme une sous-tâche de l'action (comme une TODO list). La principale caractéristique du ticket doit être son indépendance vis à vis des autres ticket (dépendance causale et temporelle). Cela afin de pouvoir le manipuler facilement dans l'organisation. 
 
 #### Utilisation des tickets
 
@@ -318,7 +318,7 @@ Une action de 5 jh peut etre réalisée en 10 J.
 Charge de réalisation : 5 jh
 Durée de réalisation : 10J
 
-**Une action / ticket peut être plannifié uniquement si une charge de réalisation est renseignée.** 
+**Une action / ticket peut être plannifié(e) uniquement si une charge de réalisation est renseignée.** 
 
 L'affectation des charges des actions s'effectuent depuis la vue "Réseau" 
 
@@ -348,7 +348,7 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 
 *Vue Weelgo : Logique*
 
-La vue logique vous permet d'avoir une vision compléte de l'enchainement logique de réalisation de votre projet. Vous pouvez ainsi détécter des problèmes d'enchainements et/ou d'ordonnancements sur les actions / tickets.
+La vue logique vous permet d'avoir une vision complète de l'enchaînement logique de réalisation de votre projet. Vous pouvez ainsi détécter des problèmes d'enchaînements et/ou d'ordonnancements sur les actions / tickets.
 <a id="hypoDepart"></a> 
 __La génération du planning étant automatique__, il sera peut etre nécessaire de prioriser certaines actions. Pour cela, cliquer sur <img src="/fr/img/listePriorite.png"> afin d'indiquer la priorité. 
 
@@ -401,7 +401,7 @@ Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiqu
 
 ## Etape 5 : Analyser le planning et les indicateurs
 
-Chez Weelgo, nous pensons que le manageur doit se concentrer sur l'essentiel. C'est à dire le management des hommes, la gestion des problèmes et des arbitrages. Le temps passé à généré des plannings et des indicateurs ne doit plus être à la charge du manageur. C'est pourquoi la solution Weelgo générère automatiquement l'ensemble des outils permettant de piloter le projet. 
+Chez Weelgo, nous pensons que le manageur doit se concentrer sur l'essentiel, c'est à dire le management des hommes, la gestion des problèmes et des arbitrages. Le temps passé à généré des plannings et des indicateurs ne doit plus être à la charge du manageur. C'est pourquoi la solution Weelgo générère automatiquement l'ensemble des outils permettant de piloter le projet. 
 
 ### Le Wall
 
@@ -457,7 +457,7 @@ Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs 
 ---
 **Nos préconisations :**
 
->*Hesitez pas à afficher le calendrier de vos collaborateurs avant de modifier le réseau et / ou les tickets. La vision du calendrier dans le Gantt vous permet d'avoir la vision nécessaire sur la disponibilité de vos collaborateurs et donc vous permettre de modifier votre réseau en connaissance de cause.* 
+>*N'hesitez pas à afficher le calendrier de vos collaborateurs avant de modifier le réseau et / ou les tickets. La vision du calendrier dans le Gantt vous permet d'avoir la vision nécessaire sur la disponibilité de vos collaborateurs et donc vous permettre de modifier votre réseau en connaissance de cause.* 
 
 ---
 
