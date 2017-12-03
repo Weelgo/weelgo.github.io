@@ -7,7 +7,7 @@ toc : true
 
 ## Introduction
 
-Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maitrise ! 
+Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maîtrise ! 
 
 La modélisation d'un projet Weelgo s'effectue en 5 étapes. 
 
@@ -16,16 +16,16 @@ __[Etape 1 : Modéliser son projet](#modeliserProjet)__
 + [Ordonnancement des actions](#ordreActions)
 + [Définition des répertoires](#repertoire)
 
-__[Etape 2 : L'organisation opérationnel du projet](#organisationProjet)__
+__[Etape 2 : L'organisation opérationnelle du projet](#organisationProjet)__
 + [Définition et ajout des tickets](#ajoutTickets) 
 + [Affectation des responsables](#affectationResp)
 + [Partage du réseau](#partageReseau)
-+ [Renseignez des charges de réalisation](#chargeReal)
++ [Renseigner des charges de réalisation](#chargeReal)
 
 __[Etape 3 : Analyse du déroulement logique du projet](#analyseLogique)__
 
 <a id="modeliserProjet"></a> 
-__[Etape 4 : Définition des hyopthèses de départ ( date de début et calendrier des ressources )](#hypoDepart)__
+__[Etape 4 : Définition des hyopthèses de départ (date de début et calendrier des ressources)](#hypoDepart)__
 
 __[Etape 5 : Analyse du planning et des indicateurs](#analysePlanning)__
 
@@ -38,42 +38,42 @@ __[Etape 5 : Analyse du planning et des indicateurs](#analysePlanning)__
 
 ### Définition des actions et des livrables
 
-Un projet est un enchainement d'actions aboutissant à un ou plusieurs livrables. La modélisation du projet consiste donc à : 
+Un projet est un enchaînement d'actions aboutissant à un ou plusieurs livrables. La modélisation du projet consiste donc à : 
 * Déterminer l'ensemble des livrables constituant le projet
 * Déterminer les actions permettant d'aboutir à ces livrables
 
-Cette succession d'action / livrable fomera votre réseau. Le réseau étant la colonne vertebrale de votre projet.
+Cette succession d'actions / livrables fomera votre réseau. Le réseau étant la colonne vertebrale de votre projet.
 
 
-Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaire ou de type jalon 
+Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaires ou de type jalon 
 
 <p align="center">
 <img src="/fr/img/typeLivrable.png">
 </p>
 
-Les livrables jalons sont des livrables que vous souhaitez suivre. Ils apparaitront dans le tableau de bord du projet et bénéficieront d'un suivi particulié. 
+Les livrables jalons sont des livrables que vous souhaitez suivre. Ils apparaîtront dans le tableau de bord du projet et bénéficieront d'un suivi particulier. 
 
 
 Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Que dois-je faire pour réaliser cette action? 
-* Quel sont les inputs nécessaires à la réalisation de cette action? 
+* Quels sont les inputs nécessaires à la réalisation de cette action? 
 * Qu'ai-je en sortie de mon action ? 
 
 
-Gardez en mémoire que vous avez la possibilité de créer des tickets dans actions ( depuis la vue Organisation ). Un choix structurel s'impose donc. Dois-je créer une action ou un ticket? 
+Gardez en mémoire que vous avez la possibilité de créer des tickets dans "Actions" (depuis la vue Organisation). Un choix structurel s'impose donc. Dois-je créer une action ou un ticket? 
 
-Pour vous aidez dans votre choix, souvenez-vous que le réseau doit matérialiser la structure de votre projet. Notamment avec la liste des livrables et des jalons. Si le résultat du ticket et un livrable de haute importante ( application, documentation... ), une action est préférable. Dans le cas contraire, privilégiez le ticket.
+Pour vous aidez dans votre choix, souvenez-vous que le réseau doit matérialiser la structure de votre projet. Notamment avec la liste des livrables et des jalons. Si le résultat du ticket et un livrable de haute importante (application, documentation...), une action est préférable. Dans le cas contraire, privilégiez le ticket.
 
 
 ---
 
 **Nos préconisations :**
 <a id="ordreActions"></a> 
->*Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutot être traitée comme un ticket ( depuis la vue Organisation ).*
+>*Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutôt être traitée comme un ticket (depuis la vue Organisation).*
 
 **Points importants :**
 
->*Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat ( livrable ) ne doit âs être présent dans le réseau.*
+>*Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat (livrable) ne doit pas être présente dans le réseau.*
 
 ---
 
@@ -82,7 +82,7 @@ Pour vous aidez dans votre choix, souvenez-vous que le réseau doit matérialise
 
 L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterminons ainsi les dépendances entre chaque action et leur chronologie.
 
-La solution Weelgo propose 2 type d'ordonnancement. L'ordonnancement "physique" et l'ordonnancement "temporel". 
+La solution Weelgo propose 2 types d'ordonnancements. L'ordonnancement "physique" et l'ordonnancement "temporel". 
 
 L'ordonnancement "physique" est le lien entre 2 actions reliées par un livrable. L'action B attendant le livrable de l'action A afin de commencer.
 
@@ -96,9 +96,9 @@ L'ordonnancement "temporel" correspond à une dépendance temporelle entre 2 act
 <img src="/fr/img/actionLienTemporel.png">
 </p>
 
-Dans weelgo la définition des actions et l'ordonnancement s'effectue en même temps. En effet, lors de la modélisation de votre projet, vous allez naturellement enchainer les actions / livrables pour aboutir au résultat final.  
+Dans Weelgo, la définition des actions et l'ordonnancement s'effectuent en même temps. En effet, lors de la modélisation de votre projet, vous allez naturellement enchaîner les actions / livrables pour aboutir au résultat final.  
 
-Lors de la création du réseau, il est nécessaire de considérer les ressources comme infinies. Cela vous permettra de connaitre le délai minimum possible.
+Lors de la création du réseau, il est nécessaire de considérer les ressources comme infinies. Cela vous permettra de connaître le délai minimum possible.
 
 <p align="center">
 <img src="/fr/img/reseau.png">
@@ -108,7 +108,7 @@ Lors de la création du réseau, il est nécessaire de considérer les ressource
 
 **Nos préconisations :**
 <a id="repertoire"></a> 
->*Ordonnancez votre projet sans prendre en compte les ressources ( ressources infinie ). Vous connnaitrez ainsi le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet.*
+>*Ordonnancez votre projet sans prendre en compte les ressources (ressources infinies). Vous connnaîtrez ainsi le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet.*
 
 ---
 
@@ -118,15 +118,15 @@ Suite à la création du réseau, il est nécessaire de finaliser sa constructio
 
 De nombreux critères peuvent être utilisés pour effectuer ce découpage : 
 
-* Fonctionnalités ( mesurer, asservir )
-* Sous-ensembles physiques ( boitier A , boitier B ) 
-* Responsabilités industrielles ( sous-traitant X, service Y ) 
-* Types de tâches ( Etude, réalisation ) 
-* Spécialités techniques ( mécanique, logiciel ) 
-* Ressources ( Ingénieurs, Techniciens, Outillages ) 
-* Coûts ( devis 1, achat K, sous-traitance X ) 
-* Maintenance ( éléments échangeables, ordre du démontage ) 
-* Documentation ( Spécifications, Dossiers, Procédures )
+* Fonctionnalités (mesurer, asservir)
+* Sous-ensembles physiques (boitier A , boitier B) 
+* Responsabilités industrielles (sous-traitant X, service Y) 
+* Types de tâches (étude, réalisation) 
+* Spécialités techniques (mécanique, logiciel) 
+* Ressources (ingénieurs, techniciens, outillages) 
+* Coûts (devis 1, achat K, sous-traitance X) 
+* Maintenance (éléments échangeables, ordre du démontage) 
+* Documentation (spécifications, dossiers, procédures)
 
 Ce découpage est matérialisé par la création de répertoires et de sous répertoires dans la vue "Réseau".
 
@@ -134,7 +134,7 @@ Ce découpage est matérialisé par la création de répertoires et de sous rép
 <img src="/fr/img/repertoire.png">
 </p>
 
-Nous retrouvons ici deux types de découpages. Un premier découpage de haut niveau correspondant à un découpage par phase ( Mise en place, Développement ), et un découpage par ressource au niveau de la phase de développement. 
+Nous retrouvons ici deux types de découpages. Un premier découpage de haut niveau correspondant à un découpage par phase (mise en place, développement), et un découpage par ressource au niveau de la phase de développement. 
 
 Il est possible de descendre de niveau si nous estimons cela nécessaire.  Ici nous avons, pour chaque ressource, effectué un découpage fonctionnel. 
 
@@ -143,11 +143,11 @@ Il est possible de descendre de niveau si nous estimons cela nécessaire.  Ici n
 </p>
 
 
-Ces répertoires contiendront les différentes actions nécessaire à la réalisation de votre projet. 
+Ces répertoires contiendront les différentes actions nécessaires à la réalisation de votre projet. 
 
 Cette architecture permet, d'avoir une vision globale de la réalisation du projet. Bien évidemment, il est possible de modifier l'affectation du découpage fonctionnelle en fonction des contraintes rencontrées lors de la réalisation du projet. 
 
-De plus, l'ajout d'actions dans les répertoires permet d'afficher le réseau avec des niveaux de détail différents. 
+De plus, l'ajout d'actions dans les répertoires permet d'afficher le réseau avec des niveaux de détails différents. 
 
 __Affichage haut niveau__
 
@@ -183,7 +183,7 @@ Pour affecter des actions à un répertoire, il suffit de sélectionner les acti
 
 
 
-## Etape 2 : L'organisation opérationnel du projet. 
+## Etape 2 : L'organisation opérationnelle du projet. 
 
 *Vue Weelgo : Organisation*
 
@@ -223,9 +223,9 @@ Le ticket dans Weelgo est considéré comme une sous tâche de l'action ( comme 
 
 Ils peuvent être créés en cliquant sur <img src="/fr/img/iconeAjoutTicket.png">. Ils peuvent être déplacés ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
 
-Le livrable etant rattaché à l'action, les tickets n'aboutissent pas à un livrable dans Weelgo. Néanmoins, ils ont des caractéristiques communes. Vous pouvez affecter des responsables aux tickets ainsi que des charges de réalisation. 
+Le livrable étant rattaché à l'action, les tickets n'aboutissent pas à un livrable dans Weelgo. Néanmoins, ils ont des caractéristiques communes. Vous pouvez affecter des responsables aux tickets ainsi que des charges de réalisation. 
 
-Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut sont plus prioritaires que les tickets en dessous.
+Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut sont les plus prioritaires.
 
 <p align="center">
 <img src="/fr/img/prioriteTickets.png">
@@ -243,7 +243,7 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 
 
 **Tips&Astuces :**
->*Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins ils apparaitront pas dans les vues de planification.* 
+>*Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins ils n'apparaîtront pas dans les vues de planification.* 
 
 <p align="center">
 <img src="/fr/img/ticketAvecCharge.png">
@@ -256,7 +256,7 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 
 ### Affectation des responsables
 
-L'affectation des responsables permet de transmette la responsabilité de l'action à un collaborateur. 
+L'affectation des responsables permet de transmettre la responsabilité de l'action à un collaborateur. 
 
 Pour cela, trouvez votre collaborateur depuis le bouton <img src="/fr/img/boutonRessource.png"> et cherchez le depuis la recherche. 
 
@@ -264,7 +264,7 @@ Pour cela, trouvez votre collaborateur depuis le bouton <img src="/fr/img/bouton
 <img src="/fr/img/affectationRessource.png">
 </p>
 
-Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une action ou à un ticket. 
+Une fois séléctionné, il suffit d'affecter (drag&drop) la personne à une action ou à un ticket. 
 
 ( mettre image / GIF )
 
@@ -275,7 +275,7 @@ Une fois séléctionné, il suffit d'affecter ( drag&drop ) la personne à une a
 <a id="chargeReal"></a> 
 
 **Tips&Astuces :**
->*Si l'action contient plusieurs responsable. Nous considérons que l'action sera réalisée par l'ensemble des collaborateurs en même temps ( en fonction de leurs disponibilités ). La charge de réalisation sera alors distribuée entre tous les responsables.* 
+>*Si l'action contient plusieurs responsables, nous considérons que l'action sera réalisée par l'ensemble des collaborateurs en même temps (en fonction de leurs disponibilités). La charge de réalisation sera alors distribuée entre tous les responsables.* 
 
 ---
 
@@ -348,11 +348,11 @@ L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
 
 *Vue Weelgo : Logique*
 
-La vue logique vous permet d'avoir une vision compléte de l'enchainement logique de réalisation de votre projet. Vous pouvez ainsi détécter des problèmes d'enchainements et/ou d'ordonnancement sur les actions / tickets.
+La vue logique vous permet d'avoir une vision compléte de l'enchainement logique de réalisation de votre projet. Vous pouvez ainsi détécter des problèmes d'enchainements et/ou d'ordonnancements sur les actions / tickets.
 <a id="hypoDepart"></a> 
 __La génération du planning étant automatique__, il sera peut etre nécessaire de prioriser certaines actions. Pour cela, cliquer sur <img src="/fr/img/listePriorite.png"> afin d'indiquer la priorité. 
 
-L'ordonnancement s'effectue de haut en bas. L'action la plus haute est plus prioritaire que l'action d'en dessous. 
+L'ordonnancement s'effectue de haut en bas. L'action la plus haute est la plus prioritaire. 
 
 
 ## Etape 4 : Définition des hypothèses de départ
@@ -373,7 +373,7 @@ Avant de vous lancez dans l'analyse du planning de votre projet, il est nécessa
 </p>
 
 
-Sur weelgo les ressources sont, pour l'instant, uniquement des collaborateurs. La gestion des collaborateur s'effectue en gérant leur calendriers. 
+Sur Weelgo les ressources sont, pour l'instant, uniquement des collaborateurs. La gestion des collaborateurs s'effectue en gérant leurs calendriers. 
 
 <p align="center">
 <img src="/fr/img/ajoutDateSpecifique.png">
@@ -391,10 +391,10 @@ Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiqu
 
 **Nos préconisations :**
 
->*N'affectez pas vos collaborateurs à 100%. Prenez une marge, cela permettra d'avoir une gestion de projet plus souple et vous permettre d'absorber plus facilement les aléa de la vie du projet.*
+>*N'affectez pas vos collaborateurs à 100%. Prenez une marge, cela permettra d'avoir une gestion de projet plus souple et vous permettre d'absorber plus facilement les aléas de la vie du projet.*
 <a id="analysePlanning"></a>
 **Tips&Astuces :**
->*La modification du calendrier ou de la productivité générale de la personne impactera le planning depuis le début du projet. Afin de pas modifier le planning déjà réalisé, modifiez la charge à venir du collaborateur en ajoutant des dates spécifiques ( mettre image ).*
+>*La modification du calendrier ou de la productivité générale de la personne impactera le planning depuis le début du projet. Afin de ne pas modifier le planning déjà réalisé, modifiez la charge à venir du collaborateur en ajoutant des dates spécifiques ( mettre image ).*
 
 ---
 
@@ -405,7 +405,7 @@ Chez Weelgo, nous pensons que le manageur doit se concentrer sur l'essentiel. C'
 
 ### Le Wall
 
-Véritable feuille de route du projet, c'est la vision verticale du planing. Vous pouvez identifier immédiatement les actions non planifiées ainsi que le déroulement du projet. 
+Véritable feuille de route du projet, c'est la vision verticale du planning. Vous pouvez identifier immédiatement les actions non planifiées ainsi que le déroulement du projet. 
 
 <p align="center">
 <img src="/fr/img/vueWall.png">
@@ -423,7 +423,7 @@ Véritable feuille de route du projet, c'est la vision verticale du planing. Vou
 
 ### Le Dashboard
 
-Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une vision 360 du projet et de l'ensemble des indicateurs cléfs: 
+Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une vision 360 du projet et de l'ensemble des indicateurs clés: 
 + Les jalons
 + Le burdown 
 + Les problèmes
@@ -441,7 +441,7 @@ Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une visi
 
 **Nos préconisations :**
 
->*Le tableau de bord est idéal dans la communication de l'avancement du projet. Notammement dans une relation client / fournisseur. Vous pouvez communiquer sur l'avancement des livrables-jalons cléfs du projet et de la santé du projet.*
+>*Le tableau de bord est idéal dans la communication de l'avancement du projet. Notammement dans une relation client / fournisseur. Vous pouvez communiquer sur l'avancement des livrables-jalons, clés du projet et de la santé du projet.*
 
 ---
 
@@ -463,7 +463,7 @@ Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs 
 
 ### Le Burndown
 
-Représentation graphique de l'évolution de la quantité de travail restantes par rapport au temps. 
+Représentation graphique de l'évolution de la quantité de travail restante par rapport au temps. 
 
 <p align="center">
 <img src="/fr/img/burndown.png">
@@ -472,12 +472,12 @@ Représentation graphique de l'évolution de la quantité de travail restantes p
 ---
 **Nos préconisations :**
 
->*Attention, une consomation en dessous de la consommation idéal n'est pas forcement preuve de la bonne santé du projet. Seul l'avancement dans le gantt vous le garantira.* 
+>*Attention, une consommation en dessous de la consommation idéale n'est pas forcement preuve de la bonne santé du projet. Seul l'avancement dans le gantt vous le garantira.* 
 
 ---
 
 
-### Le droite à 45
+### Le droite à 45°
 
 Représentation graphique de l'évolution des dates de fin prévisionnelles des jalons du projet. La droite à 45° vous permet de savoir, en un coup d'oeil, l'évolution des différentes dates de livraison prévues. 
 
@@ -487,13 +487,13 @@ La droite à 45° est un puissant outil de détection des dérives et de reporti
 <img src="/fr/img/droite45.png">
 </p>
 
-Remarque : La droite à 45 ci-dessous montre la date de fin prévue pour les livraions du lot1 et du lot2. Nous remarquons ici que la courbe augmente, ce qui indique un retard sur les livraisons des lots. Lorsque la courbe diminue, cela indique de l'avance sur les dates prévues initialement. 
+Remarque : La droite à 45° ci-dessous montre la date de fin prévue pour les livraions du lot1 et du lot2. Nous remarquons ici que la courbe augmente, ce qui indique un retard sur les livraisons des lots. Lorsque la courbe diminue, cela indique de l'avance sur les dates prévues initialement. 
 
 
 ---
 **Nos préconisations :**
 
->*Chaque livrable / jalon à sa propre droite à 45. Cette droite est accesible en cliquant sur le jalon depuis la vue dashboard.* 
+>*Chaque livrable / jalon à sa propre droite à 45°. Cette droite est accesible en cliquant sur le jalon depuis la vue dashboard.* 
 
 <p align="center">
 <img src="/fr/img/droite45Dashboard.png">
