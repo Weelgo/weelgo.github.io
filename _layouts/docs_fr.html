@@ -18,8 +18,8 @@
 
 	  container.innerHTML =
 	      container.innerHTML.replace(
-	          /<h([\d]).*>([^<]+)<\/h([\d])>/gi,
-	          function (str, openLevel, titleText, closeLevel) {
+	    		  /<h([\d]) id="([^"]+)">([^<]+)<\/h([\d])>/gi,
+	          function (str, openLevel,idAnchor, titleText, closeLevel) {
 	              if (openLevel != closeLevel) {
 	                  return str;
 	              }
@@ -35,8 +35,8 @@
 
 	              level = parseInt(openLevel);
 
-	              var anchor = titleText.replace(/ /g, "_");
-	              toc += '<li><a href="#' + anchor + '">' + titleText
+	              
+	              toc += '<li><a href="#' + idAnchor + '">' + titleText
 	                  + '</a>';
 
 	              return str;
