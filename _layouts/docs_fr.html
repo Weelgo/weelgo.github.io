@@ -18,8 +18,8 @@
 
 	  container.innerHTML =
 	      container.innerHTML.replace(
-	          /<h([\d])(.*)>([^<]+)<\/h([\d])>/gi,
-	          function (str,id, openLevel, titleText, closeLevel) {
+	          /<h([\d]).*>([^<]+)<\/h([\d])>/gi,
+	          function (str, openLevel, titleText, closeLevel) {
 	              if (openLevel != closeLevel) {
 	                  return str;
 	              }
