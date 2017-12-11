@@ -24,6 +24,7 @@
 	                  return str;
 	              }
 
+	              openLevel--;
 	              if (openLevel > level) {
 	                  toc += (new Array(openLevel - level + 1)).join('<ul>');
 	              } else if (openLevel < level) {
