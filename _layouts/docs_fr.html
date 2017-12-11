@@ -18,8 +18,8 @@
 
 	  container.innerHTML =
 	      container.innerHTML.replace(
-	          /<h([\d]).*>([^<]+)<\/h([\d])>/gi,
-	          function (str, openLevel, titleText, closeLevel) {
+	          /<h([\d])(.*)>([^<]+)<\/h([\d])>/gi,
+	          function (str,id, openLevel, titleText, closeLevel) {
 	              if (openLevel != closeLevel) {
 	                  return str;
 	              }
@@ -38,8 +38,7 @@
 	              toc += '<li><a href="#' + anchor + '">' + titleText
 	                  + '</a>';
 
-// 	              return '<h' + openLevel + '><a href="#' + anchor + '" id="' + anchor + '">'
-// 	                  + titleText + '</a></h' + closeLevel + '>';
+	              return str;
 	          }
 	      );
 
