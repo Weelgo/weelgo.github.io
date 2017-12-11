@@ -1,6 +1,56 @@
 <!doctype html>
 <html lang="fr">
 <head>{% include header.html %}
+
+<script type="text/javascript">
+  
+  
+  document.addEventListener('DOMContentLoaded', function() {
+	  TableOfContents();
+	}
+	);
+  
+  function TableOfContents(container, output) {
+	  var toc = "";
+	  var level = 0;
+	  var container = document.querySelector(container) || document.querySelector('#contents');
+	  var output = output || '#toc';
+
+	  container.innerHTML =
+	      container.innerHTML.replace(
+	          /<h([\d])>([^<]+)<\/h([\d])>/gi,
+	          function (str, openLevel, titleText, closeLevel) {
+	              if (openLevel != closeLevel) {
+	                  return str;
+	              }
+
+	              if (openLevel > level) {
+	                  toc += (new Array(openLevel - level + 1)).join('<ul>');
+	              } else if (openLevel < level) {
+	                  toc += (new Array(level - openLevel + 1)).join('</li></ul>');
+	              } else {
+	                  toc += (new Array(level+ 1)).join('</li>');
+	              }
+
+	              level = parseInt(openLevel);
+
+	              var anchor = titleText.replace(/ /g, "_");
+	              toc += '<li><a href="#' + anchor + '">' + titleText
+	                  + '</a>';
+
+	              return '<h' + openLevel + '><a href="#' + anchor + '" id="' + anchor + '">'
+	                  + titleText + '</a></h' + closeLevel + '>';
+	          }
+	      );
+
+	  if (level) {
+	      toc += (new Array(level + 1)).join('</ul>');
+	  }
+	  document.querySelector(output).innerHTML += toc;
+	  };
+  
+  </script>
+
 </head>
 <body>
 	
@@ -25,11 +75,12 @@
         <main class="col-12 col-md-8 col-xl-8 py-md-3 pl-md-5" role="main" style="margin-top: 70px;">
           <h1 style="font-size: 48px;font-family: Segoe UI Light;" id="content">{{ page.title }}</h1>
           <p style="font-size: 24px;font-family: Segoe UI Light;">{{ page.description }}</p>
-          
-          {{ content }}
+          <div id="content">
+           {{ content }}
+          </div>         
         </main>
-     	<div class="col-12 col-md-2 col-xl-2" style="padding-top: 90px;border-left: 1px solid rgba(0, 0, 0, 0.1);">
-			  pokpoks pok pok pok 
+     	<div id="toc" class="col-12 col-md-2 col-xl-2" style="padding-top: 90px;border-left: 1px solid rgba(0, 0, 0, 0.1);">
+			  
         </div>
         
       </div>
