@@ -1,6 +1,6 @@
 ---
 layout : docs_fr
-title : Creation d'un réseau : Etape 3 et 4
+title : Déroulement logique du projet et définition des hypothèses de départ
 description : Dans cette partie, nous examinerons l'analyse logique du projet ainsi que la définition des hypothèse de départ
 toc : true
 ---
