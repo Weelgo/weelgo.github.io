@@ -1,7 +1,7 @@
 ---
 layout : docs_fr
-title : Créer et gérer un projet sous Weelgo
-description : Dans ce tutoriel, vous apprendrez à créer un projet Weelgo 
+title : Creation d'un réseau : Etape 3 et 4
+description : Dans cette partie, nous examinerons l'analyse logique du projet ainsi que la définition des hypothèse de départ
 toc : true
 ---
 
