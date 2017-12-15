@@ -1,6 +1,6 @@
 ---
 layout : docs_fr
-title :  Creation d'un réseau : Etape 2
+title :  Creation d'un réseaun, étape 2
 description : Dans cette partie, nous découvrirons l'organisation opérationnelle du projet
 toc : true
 ---
