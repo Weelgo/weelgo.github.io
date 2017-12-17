@@ -5,15 +5,14 @@ description : Dans ce tutoriel, vous apprendez les bonnes pratiques pour gérer 
 toc : true
 ---
 
+*Estimation : 4 minutes*
+
 ## Introduction
 ---
 
 Votre projet Weelgo est initialisé et vous devez maintenant le piloter. Nous aborderons ce sujet au travers 3 axes : 
 1. [L'importance du suivi du planning et des indicateurs](#importancePlanning)
 2. [La mise à jour de l'avancement](#majAvancement)
-2. [La gestion des imprévus](#gestionImprevus)
-3. [La construction de l'historique du projet](#historiqueProjet)
-
 
 ---
 
