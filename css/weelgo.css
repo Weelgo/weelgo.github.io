@@ -7,6 +7,14 @@ img
 {
 	max-width: 100%;
 }
+a
+{
+	color: #008fff;
+}
+a:hover
+{
+	color: #008fff;
+}
 .sideBarLv1
 {
 	font-weight: bold;
