@@ -26,7 +26,14 @@ Déroulement des opérations.
 1 - Emission d'un besoin par le client 
 2 - Reception du besoin par le chef de projet client. 
 3 - Envoi du besoin pour estimation, étude et planification au centre de service 
-4 - 
+4 - Récéption du besoin par le centre de service
+5 - Echange avec le client sur le besoin 
+6 - Transmission de l'étude et de la planification pour validation 
+7 - Réalisation du besoin par le centre de service et suivi par le client. 
+
+
+
+
 
 
 La communication entre le centre de service, l'équipe décisionnelle et le client. 
