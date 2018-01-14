@@ -17,19 +17,41 @@ Le schéma qui sera proposé ci-dessous peut etre appliqué à d'autres domaines
 
 Ci-dessous, la situation géographique des différentes équipes. 
 
+( Mettre image situation géo ) 
+
 Une équipe décisionnelle et un client à Paris, en France. Une équipe de réalisation hors france, en Espagne. 
 
+(Mettre image structure du CDS ) 
 
 
 Déroulement des opérations. 
 
-1 - Emission d'un besoin par le client 
-2 - Reception du besoin par le chef de projet client. 
+1 - Emission d'un besoin par le métier
+2 - Reception du besoin par le chef de projet client. Relecture et échange avec le client
 3 - Envoi du besoin pour estimation, étude et planification au centre de service 
 4 - Récéption du besoin par le centre de service
 5 - Echange avec le client sur le besoin 
 6 - Transmission de l'étude et de la planification pour validation 
 7 - Réalisation du besoin par le centre de service et suivi par le client. 
+
+
+Faisons un focus sur le parcour réalisé par le besoin, il est émis par le métier, envoyé au chef de projet pour relecture. Puis après plusieurs échanges, il est transmis au chef de projet du centre de service. Il est étudié, des échanges entre le centre de service et le chef de projet client ont lieu. Le chef de projet client fais des retours aux métiers. 
+
+En clair, le besoin effectue des aller / retour entre les acteurs suivants 
+
+Le métier, le chef de projet client, le chef de projet du centre de service, les équipes de réalisation. 
+
+Un besoin est composé de un ou plusieurs fichiers ( word, excel, ppt ), qui sont stockés sur le serveur client ainsi que sur le serveur du centre de service. Et les versions sont échangés entre les différents acteurs par mail. 
+
+( Mettre image échange )
+
+
+
+Une fois le besoin que le besoin est mature pour l'ensemble des acteurs, l'équipe du centre de service effectue une étude qui comprend un devis ainsi qu'un planning de réalisation. 
+
+Cette étude est transmise par mail, ici aussi, plusieurs aller / retour peuvent s'effectuer entre le client et le centre de service avant que l'étude soit validé par le client. 
+
+Une fois validée, le centre de service réalise le besoin et. Etudions cette partie. 
 
 
 
