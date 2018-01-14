@@ -54,14 +54,32 @@ Cette étude est transmise par mail, ici aussi, plusieurs aller / retour peuvent
 Une fois validée, le centre de service réalise le besoin et. Etudions cette partie. 
 
 
+Avant le lancement de la réalisation, les projets sont modélisé sur un outil de gestion de projet type Ms-project ou un outil similaire. 
+
+Une fois partagé à l'équipe, la réalisation commence. A fréquence régulière le chef de projet demande l'avancement des opérations à son équipe, pilote l'équipe et génère des rapports d'avancement. 
+
+
+( Mettre image entre l'équipe de réalisation et le CP ) 
+
+De manière hebdomadaire, le chef de projet informe son homologue client sur l'avancement. 
+
+Cette information s'effectue lors des comités projets. Lors de ces comités, les parties discutent : 
+=> Des actions à réaliser
+=> Des dernières informations 
+=> Des décisions à prendre
+=> Des risques et problèmes en cours 
+=> De l'avancement
+
+Ces informations sont transmises via un RIDA ( Relevé, information, décision, action ) et un partage des indicateurs d'avancement ( Gantt, burndown ) 
+
+
+( Mettre image fréquence réalisation comité ) 
 
 
 
 
-La communication entre le centre de service, l'équipe décisionnelle et le client. 
 
 
-Instance de pilotage 
 
 
 
