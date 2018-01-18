@@ -73,6 +73,8 @@
 				  			<div style="margin-bottom: 10px;">
 						  		{% for lev3 in lev2.sub %} 
 						  		<div style="padding-left: 20px;">
+						  		{{ page.id }}
+						  		{{ lev2.id }}
 						  			<a class="sideBarLv2" {% if page.id == lev2.id %}style="font-weight: bold;"{% endif %} href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev3.path }}">{{ lev3.name }}</a>
 						  		</div>
 						  		{% endfor %} 
@@ -92,7 +94,7 @@
           </div>          
            
         </main>
-     	<div id="toc" class="col-12 col-md-3 col-xl-3" style="padding-top: 90px;border-left: 1px solid rgba(0, 0, 0, 0.1);position: fixed;right: 0px;">
+     	<div id="toc" class="col-12 col-md-3 col-xl-3" style="padding-top: 90px;border-left: 1px solid rgba(0, 0, 0, 0.2);position: fixed;right: 0px;">
 			  
         </div>
         
