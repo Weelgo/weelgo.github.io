@@ -86,7 +86,7 @@
 	},
 	{
 		"name": "Etudes de cas",
-		"path": "",
+		"path": "etudes_de_cas",
 		"backgroundColor": "#008fff",
 		"color": "white",
 		"id": "345klj3",
