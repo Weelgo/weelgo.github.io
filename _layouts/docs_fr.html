@@ -74,8 +74,8 @@
 						  		{% for lev3 in lev2.sub %} 
 						  		<div style="padding-left: 20px;">
 						  		{{ page.id }}
-						  		{{ lev2.id }}
-						  			<a class="sideBarLv2" {% if page.id == lev2.id %}style="font-weight: bold;"{% endif %} href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev3.path }}">{{ lev3.name }}</a>
+						  		{{ lev3.id }}
+						  			<a class="sideBarLv2" {% if page.id == lev3.id %}style="font-weight: bold;"{% endif %} href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev3.path }}">{{ lev3.name }}</a>
 						  		</div>
 						  		{% endfor %} 
 					  		</div>
