@@ -62,7 +62,7 @@
 	},
 	{
 		"name": "Vidéos",
-		"path": "",
+		"path": "videos",
 		"backgroundColor": "#00debc",
 		"color": "white",
 		"id": "fj246kj",
@@ -105,7 +105,7 @@
 	},
 	{
 		"name": "Documentation",
-		"path": "",
+		"path": "documentation",
 		"backgroundColor": "#00debc",
 		"color": "white",
 		"id": "kglyo356j"
