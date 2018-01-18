@@ -3,6 +3,7 @@ layout : docs_fr
 title : Créer et gérer un projet sous Weelgo
 description : Dans ce tutoriel, vous apprendrez à créer un projet Weelgo 
 toc : true
+group : createNetwork
 ---
 
 *Estimation : 4 minutes*

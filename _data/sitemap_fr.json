@@ -6,36 +6,44 @@
 			{
 				"name": "Créer un réseau",
 				"path": "creationReseau_etp1_modelisation",
+				"group": "createNetwork",
 				"sub": [
 					{
 						"name": "Etape 1 : modélisation",
-						"path": "creationReseau_etp1_modelisation"
+						"path": "creationReseau_etp1_modelisation",
+						"group": "createNetwork"
 					},
 					{
 						"name": "Etape 2 : organisation",
-						"path": "creationReseau_etp2_organisation"
+						"path": "creationReseau_etp2_organisation",
+						"group": "createNetwork"
 					},
 					{
 						"name": "Etape 3 : déroulement",
-						"path": "creationReseau_etp3_deroulementHypothese"
+						"path": "creationReseau_etp3_deroulementHypothese",
+						"group": "createNetwork"
 					},
 					{
 						"name": "Etape 4 : analyse",
-						"path": "creationReseau_etp4_analyse"
+						"path": "creationReseau_etp4_analyse",
+						"group": "createNetwork"
 					}
 				]
 			},
 			{
 				"name": "Le suivi de projet",
 				"path": "suiviProjet_etp1_suiviPlanningEtAvancement",
+				"group": "followUp",
 				"sub": [
 					{
 						"name": "Etape 1 : Suivi, planning et avancement",
-						"path": "suiviProjet_etp1_suiviPlanningEtAvancement"
+						"path": "suiviProjet_etp1_suiviPlanningEtAvancement",
+						"group": "followUp"
 					},
 					{
 						"name": "Etape 2 : Imprévus et historique",
-						"path": "suiviProjet_etp2_imprevusEtHistorique"
+						"path": "suiviProjet_etp2_imprevusEtHistorique",
+						"group": "followUp"
 					}
 				]
 			},
