@@ -3,6 +3,7 @@ layout : docs_fr
 title : Weelgo en Solo player
 description : Dans ce tutoriel, vous découvrirez une utilisation de Weelgo en mode solo
 toc : true
+id : fkel24
 ---
 
 ## Weelgo, le mode solo
