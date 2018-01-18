@@ -1,1 +1,42 @@
-[{"name": "Tutoriels","path": "tutoriels","sub": [{"name": "- Créer un réseau","path": "creationReseau"},{"name": "- Le suivi de projet","path": "suiviProjet"},{"name": "- Weelgo en Agile","path": "weelgoAgile"},{"name": "- Weelgo en Solo","path": "weelgoSolo"}] }]
+[
+	{
+		"name": "Tutoriels",
+		"path": "tutoriels",
+		"sub": [
+			{
+				"name": "- Créer un réseau",
+				"path": "creationReseau",
+				"sub": [
+					{
+						"name": "- Etape 1 : modélisation",
+						"path": "creationReseau_etp1_modelisation"
+					},
+					{
+						"name": "- Etape 2 : organisation",
+						"path": "creationReseau_etp2_organisation"
+					},
+					{
+						"name": "- Etape 3 : déroulement",
+						"path": "creationReseau_etp3_deroulementHypothese"
+					},
+					{
+						"name": "- Etape 4 : analyse",
+						"path": "creationReseau_etp4_analyse"
+					}
+				]
+			},
+			{
+				"name": "- Le suivi de projet",
+				"path": "suiviProjet"
+			},
+			{
+				"name": "- Weelgo en Agile",
+				"path": "weelgoAgile"
+			},
+			{
+				"name": "- Weelgo en Solo",
+				"path": "weelgoSolo"
+			}
+		]
+	}
+]
