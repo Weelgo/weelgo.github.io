@@ -1,101 +1,94 @@
 <!doctype html>
 <html lang="fr">
-<head>{% include header.html %}
+<head>
+{% include header.html %}
 
 <script type="text/javascript">
-  
-  
-  document.addEventListener('DOMContentLoaded', function() {
-	  TableOfContents();
-	}
-	);
-  
-  function TableOfContents(container, output) {
-	  var toc = "";
-	  var level = 0;
-	  var container = document.querySelector(container) || document.querySelector('#contents');
-	  var output = output || '#toc';
+	document.addEventListener('DOMContentLoaded', function() {
+		TableOfContents();
+	});
 
-	  container.innerHTML =
-	      container.innerHTML.replace(
-	    		  /<h([\d]) id="([^"]+)">([^<]+)<\/h([\d])>/gi,
-	          function (str, openLevel,idAnchor, titleText, closeLevel) {
-	              if (openLevel != closeLevel) {
-	                  return str;
-	              }
+	function TableOfContents(container, output) {
+		var toc = "";
+		var level = 0;
+		var container = document.querySelector(container)
+				|| document.querySelector('#contents');
+		var output = output || '#toc';
 
-	              openLevel--;
-	              if (openLevel > level) {
-	                  toc += (new Array(openLevel - level + 1)).join('<ul>');
-	              } else if (openLevel < level) {
-	                  toc += (new Array(level - openLevel + 1)).join('</li></ul>');
-	              } else {
-	                  toc += (new Array(level+ 1)).join('</li>');
-	              }
+		container.innerHTML = container.innerHTML.replace(
+				/<h([\d]) id="([^"]+)">([^<]+)<\/h([\d])>/gi, function(str,
+						openLevel, idAnchor, titleText, closeLevel) {
+					if (openLevel != closeLevel) {
+						return str;
+					}
 
-	              level = parseInt(openLevel);
+					openLevel--;
+					if (openLevel > level) {
+						toc += (new Array(openLevel - level + 1)).join('<ul>');
+					} else if (openLevel < level) {
+						toc += (new Array(level - openLevel + 1))
+								.join('</li></ul>');
+					} else {
+						toc += (new Array(level + 1)).join('</li>');
+					}
 
-	              
-	              toc += '<li><a href="#' + idAnchor + '">' + titleText
-	                  + '</a>';
+					level = parseInt(openLevel);
 
-	              return str;
-	          }
-	      );
+					toc += '<li><a href="#' + idAnchor + '">' + titleText
+							+ '</a>';
 
-	  if (level) {
-	      toc += (new Array(level + 1)).join('</ul>');
-	  }
-	  document.querySelector(output).innerHTML += toc;
-	  };
-  
-  </script>
+					return str;
+				});
+
+		if (level) {
+			toc += (new Array(level + 1)).join('</ul>');
+		}
+		document.querySelector(output).innerHTML += toc;
+	};
+</script>
 
 </head>
 <body>
-	
-	
+
+
 	{% include docs-navbar.html %}
-	
+
 	<div class="container-fluid">
-      <div class="row flex-xl-nowrap"">
-        <div class="col-12 col-md-2 col-xl-2" style="padding-top: 50px;border-right: 1px solid rgba(0, 0, 0, 0.1);padding-left: 0px;padding-right: 0px;">        
-			  {% for lev1 in site.data.sitemap_fr %}
-			  	<div style="margin-bottom: 12px;">
-			  		<div style="padding:10px;font-weight:bold;background-color:{{ lev1.backgroundColor}}; color: {{ lev1.color }};">{{ lev1.name }}</div>
-<!-- 			  		<a class="sideBarLv1" href="{{ site.baseurl }}/fr/{{ lev1.path }}">{{ lev1.name }}</a> -->
-			  		{% for lev2 in lev1.sub %} 
-			  		<div style="padding-left: 0px;">
-			  			<a class="sideBarLv2" href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev2.path }}">{{ lev2.name }}</a>
-			  		</div>			  		
-			  		{% if page.group == lev2.group %}
-				  		{% for lev3 in lev2.sub %} 
-				  		<div style="padding-left: 20px;">
-				  			<a class="sideBarLv2" href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev3.path }}">{{ lev3.name }}</a>
-				  		</div>
-				  		{% endfor %} 
-				  	{% endif %}
-			  		{% endfor %} 	
-			  	</div>
-			 	
-			{% endfor %}
-        </div>
-        <main class="col-12 col-md-7 col-xl-7 py-md-3 pl-md-5" role="main" style="margin-top: 70px;">
-          <h1 style="font-size: 48px;font-family: Segoe UI Light;" id="content">{{ page.title }}</h1>
-          <p style="font-size: 24px;font-family: Segoe UI Light;">{{ page.description }}</p>
-          <div id="contents">
-          {{ content }}
-          </div>          
-           
-        </main>
-     	<div id="toc" class="col-12 col-md-3 col-xl-3" style="padding-top: 90px;border-left: 1px solid rgba(0, 0, 0, 0.1);position: fixed;right: 0px;">
-			  
-        </div>
-        
-      </div>
-    </div>
-	
-	
-	 {% include scripts.html %}
+		<div class="row flex-xl-nowrap"">
+			<div class="col-12 col-md-2 col-xl-2" style="padding-top: 62px; border-right: 1px solid rgba(0, 0, 0, 0.1); padding-left: 0px; padding-right: 0px;">
+				{% for lev1 in site.data.sitemap_fr %}
+				<div>
+					<div style="padding: 10px; font-weight: bold; background-color: {{">{{ lev1.name }}</div>
+					<!-- 			  		<a class="sideBarLv1" href="{{ site.baseurl }}/fr/{{ lev1.path }}">{{ lev1.name }}</a> -->
+					<div style="padding: 12px;">
+						{% for lev2 in lev1.sub %}
+						<div style="padding-left: 0px;">
+							<a class="sideBarLv2" href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev2.path }}">{{ lev2.name }}</a>
+						</div>
+						{% if page.group == lev2.group %} {% for lev3 in lev2.sub %}
+						<div style="padding-left: 20px;">
+							<a class="sideBarLv2" href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev3.path }}">{{ lev3.name }}</a>
+						</div>
+						{% endfor %} {% endif %} {% endfor %}
+					</div>
+				</div>
+
+				{% endfor %}
+			</div>
+			<main class="col-12 col-md-7 col-xl-7 py-md-3 pl-md-5" role="main" style="margin-top: 70px;">
+			<h1 style="font-size: 48px; font-family: Segoe UI Light;" id="content">{{ page.title }}</h1>
+			<p style="font-size: 24px; font-family: Segoe UI Light;">{{ page.description }}</p>
+			<div id="contents">{{ content }}</div>
+
+			</main>
+			<div id="toc" class="col-12 col-md-3 col-xl-3" style="padding-top: 90px; border-left: 1px solid rgba(0, 0, 0, 0.1); position: fixed; right: 0px;">
+
+			</div>
+
+		</div>
+	</div>
+
+
+	{% include scripts.html %}
 </body>
 </html>
