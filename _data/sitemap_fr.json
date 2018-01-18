@@ -4,7 +4,7 @@
 		"path": "tutoriels",
 		"sub": [
 			{
-				"name": "- Créer un réseau",
+				"name": "Créer un réseau",
 				"path": "creationReseau_etp1_modelisation",
 				"sub": [
 					{
@@ -26,15 +26,25 @@
 				]
 			},
 			{
-				"name": "- Le suivi de projet",
-				"path": "suiviProjet"
+				"name": "Le suivi de projet",
+				"path": "suiviProjet_etp1_suiviPlanningEtAvancement",
+				"sub": [
+					{
+						"name": "Etape 1 : Suivi, planning et avancement",
+						"path": "suiviProjet_etp1_suiviPlanningEtAvancement"
+					},
+					{
+						"name": "Etape 2 : Imprévus et historique",
+						"path": "suiviProjet_etp2_imprevusEtHistorique"
+					}
+				]
 			},
 			{
-				"name": "- Weelgo en Agile",
+				"name": "Weelgo en Agile",
 				"path": "weelgoAgile"
 			},
 			{
-				"name": "- Weelgo en Solo",
+				"name": "Weelgo en Solo",
 				"path": "weelgoSolo"
 			}
 		]
