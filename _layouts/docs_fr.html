@@ -69,7 +69,7 @@
 				  		<div style="padding-left: 0px;">
 				  			<a class="sideBarLv2" {% if page.id == lev2.id %}style="font-weight: bold;"{% endif %} href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev2.path }}">{{ lev2.name }}</a>
 				  		</div>			  		
-				  		{% if page.group == lev2.group %}
+				  		{% if page.group and page.group == lev2.group %}
 				  			<div style="margin-bottom: 10px;">
 						  		{% for lev3 in lev2.sub %} 
 						  		<div style="padding-left: 20px;">
