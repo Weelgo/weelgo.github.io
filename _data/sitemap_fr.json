@@ -2,6 +2,8 @@
 	{
 		"name": "Tutoriels",
 		"path": "tutoriels",
+		"backgroundColor": "#008fff",
+		"color": "white",
 		"sub": [
 			{
 				"name": "Créer un réseau",
@@ -36,7 +38,7 @@
 				"group": "followUp",
 				"sub": [
 					{
-						"name": "Etape 1 : Suivi, planning et avancement",
+						"name": "Etape 1 : Suivi, planning",
 						"path": "suiviProjet_etp1_suiviPlanningEtAvancement",
 						"group": "followUp"
 					},
@@ -60,6 +62,8 @@
 	{
 		"name": "Vidéos",
 		"path": "",
+		"backgroundColor": "#00debc",
+		"color": "white",
 		"sub": [
 			{
 				"name": "Aperçu 360°",
@@ -78,6 +82,8 @@
 	{
 		"name": "Etudes de cas",
 		"path": "",
+		"backgroundColor": "#008fff",
+		"color": "white",
 		"sub": [
 			{
 				"name": "Weelgo en Agile",
@@ -91,6 +97,8 @@
 	},
 	{
 		"name": "Documentation",
-		"path": ""
+		"path": "",
+		"backgroundColor": "#00debc",
+		"color": "white"
 	}
 ]
