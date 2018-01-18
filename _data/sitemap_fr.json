@@ -66,5 +66,23 @@
 				"path": "weelgoSolo"
 			}
 		]
+	},
+	{
+		"name": "Etudes de cas",
+		"path": "",
+		"sub": [
+			{
+				"name": "Weelgo en Agile",
+				"path": "weelgoAgile"
+			},
+			{
+				"name": "Weelgo en Solo",
+				"path": "weelgoSolo"
+			}
+		]
+	},
+	{
+		"name": "Documentation",
+		"path": ""
 	}
 ]
