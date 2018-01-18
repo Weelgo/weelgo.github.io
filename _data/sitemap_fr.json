@@ -5,22 +5,22 @@
 		"sub": [
 			{
 				"name": "- Créer un réseau",
-				"path": "creationReseau",
+				"path": "creationReseau_etp1_modelisation",
 				"sub": [
 					{
-						"name": "- Etape 1 : modélisation",
+						"name": "Etape 1 : modélisation",
 						"path": "creationReseau_etp1_modelisation"
 					},
 					{
-						"name": "- Etape 2 : organisation",
+						"name": "Etape 2 : organisation",
 						"path": "creationReseau_etp2_organisation"
 					},
 					{
-						"name": "- Etape 3 : déroulement",
+						"name": "Etape 3 : déroulement",
 						"path": "creationReseau_etp3_deroulementHypothese"
 					},
 					{
-						"name": "- Etape 4 : analyse",
+						"name": "Etape 4 : analyse",
 						"path": "creationReseau_etp4_analyse"
 					}
 				]
