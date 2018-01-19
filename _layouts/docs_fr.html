@@ -103,7 +103,7 @@
 	            <div class="btn-group" role="group" aria-label="">
 	            {% assign loopIndex=0 %}
 	          	{% for lev3 in lvl2Elem.sub %}
-	          		<a href="" class="btn {% if loopIndex == subLevelIndex %}btn-success{% endif %} btn-md">{{ loopIndex | plus:1 }} : {{ lev3.name }}</a>
+	          		<a href="" class="btn {% if loopIndex == subLevelIndex %}btn-success{% else %}btn-secondary{% endif %} btn-md">{{ loopIndex | plus:1 }} : {{ lev3.name }}</a>
 	          		{% assign loopIndex = loopIndex | plus:1 %}
 	          	{% endfor %}
 	          	</div> 
