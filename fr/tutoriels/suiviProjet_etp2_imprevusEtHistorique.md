@@ -16,8 +16,6 @@ Votre projet Weelgo est en cours de réalisation. Vous aller devoir gérer des i
 2. [La construction de l'historique du projet](#historiqueProjet)
 
 
-*Estimation : 4 minutes*
-
 ## 1. La gestion des imprévus
 ---
 

@@ -14,7 +14,7 @@ __[Etape 2 : L'organisation opérationnelle du projet](#organisationProjet)__
 + [Partage du réseau](#partageReseau)
 + [Renseigner des charges de réalisation](#chargeReal)
 
-*Estimation : 4 minutes*
+
 ## Etape 2 : L'organisation opérationnelle du projet. 
 
 *Vue Weelgo : Organisation*

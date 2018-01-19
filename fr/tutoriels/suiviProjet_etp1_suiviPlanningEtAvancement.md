@@ -8,7 +8,6 @@ id : fzt356
 readingEstimation : 4
 ---
 
-*Estimation : 4 minutes*
 
 ## Introduction
 ---

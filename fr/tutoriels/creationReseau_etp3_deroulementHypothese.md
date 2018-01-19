@@ -8,7 +8,6 @@ id: LKZ3567
 readingEstimation : 2
 ---
 
-*Estimation : 2 minutes*
 
 ## Etape 3 : Analyser le déroulement logique du projet
 
