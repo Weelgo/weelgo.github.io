@@ -75,6 +75,7 @@
 				  			<a class="sideBarLv2" {% if page.id == lev2.id %}style="font-weight: bold;"{% endif %} href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev2.path }}">{{ lev2.name }}</a>
 				  		</div>			  		
 				  		{% if page.group and page.group == lev2.group %}
+				  		{% assign lvl2Elem=lev2 %} 
 				  			<div style="margin-bottom: 10px;">
 				  				{% assign loopIndex=0 %}
 						  		{% for lev3 in lev2.sub %} 
@@ -98,6 +99,9 @@
         </div>
         <main class="col-12 col-md-7 col-xl-7 py-md-3 pl-md-5" role="main" style="margin-top: 70px;">
           <h1 style="font-size: 35px;font-family: Segoe UI Light;font-weight: bold;" id="content">{{ pageTitle }}</h1>
+          {% if lvl2Elem %}
+          	Spoooooooooooook
+          {% endif %}
           <p style="font-size: 24px;font-family: Segoe UI Light;">{{ page.description }}</p>
           <div id="contents">
           {{ content }}
