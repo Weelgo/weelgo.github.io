@@ -12,16 +12,11 @@ Le centre de service a pour but de réaliser, concevoir et maintenir des applica
 
 Le schéma qui sera proposé ci-dessous peut etre appliqué à d'autres domaines que l'informatique. 
 
-## Fonctionnement du centre de service avant Weelgo
-
-
-## Contexte
+### Contexte
 
 Les équipes sont géographiquement distantes . Le client et l'équipe décisionnelle sont en France. L'équipe de réalisation en Espagne. 
 
 ( Mettre image situation géo ) 
-
-
 
 L'organisation au sein des structure et la suivante : 
 
@@ -33,11 +28,10 @@ Les chefs de projets s'assurent du bon déroulement des développements. Pour ce
 
 La structure du client est similiaire. Un responsable au dessus recevant des reportings des chefs de projets. Les chefs de projets clients doivent garantir le bon déroulement des développements réalisés par le centre de service. Ils ont aussi pour rôle de fluidifier et synchroniser les échanges avec les autres services.
 
-
 Lors d'une nouvelle demande de réalisation, le processus est le suivant : 
 
 1 - Emission d'un besoin par le métier
-2 - Reception du besoin par le chef de projet client. Relecture et échange avec le client
+2 - Reception du besoin par le chef de projet client. Relecture et échanges avec le client
 3 - Envoi du besoin pour estimation, étude et planification au centre de service 
 4 - Récéption du besoin par le centre de service
 5 - Echange avec le client sur le besoin 
@@ -45,8 +39,7 @@ Lors d'une nouvelle demande de réalisation, le processus est le suivant :
 7 - Réalisation du besoin par le centre de service et suivi par le client. 
 
 
-Effectuons un focus sur le parcour réalisé par le besoin. Il est émis par le métier, envoyé au chef de projet pour relecture. 
-Après plusieurs échanges, il est transmis au chef de projet du centre de service pour prise en comtpe. S'en suit différents échanges jusqu'a ce que l'ensemble des acteurs soient au diapason sur le besoin. 
+## Fonctionnement du centre de service avant Weelgo
 
 
 Ce besoin est composé de un ou plusieurs fichiers ( word, excel, ppt ), qui sont stockés sur le serveur client ainsi que sur le serveur du centre de service. Et les versions sont échangés entre les différents acteurs par mail. 
@@ -69,14 +62,19 @@ L'information est sanctuarisée lors des comités projets. Lors de ces comités,
 => Des dernières informations 
 => Des décisions à prendre
 => Des risques et problèmes en cours 
-=> De l'avancement
+=> De l'avancement des opérations
 
 Ces informations sont inscrites dans un RIDA ( Relevé, information, décision, action ).
 
 
-## Analyse des problèmes 
+### Analyse des problèmes 
 
-
+=> La visibilité transverse de l'ensemble du processus 
+=> Le nombre d'échange entre les différents acteurs. 
+=> La disponibilité des livrables
+=> Le versionning des documents
+=> Le partage de l'avancement avec l'équipe
+=> Le partage de l'avancement avec le client
 
 
 
