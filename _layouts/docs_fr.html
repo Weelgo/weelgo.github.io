@@ -60,7 +60,8 @@
 	<div class="container-fluid">
       <div class="row flex-xl-nowrap"">
         <div class="col-12 col-md-2 col-xl-2" style="padding-top: 62px;border-right: 1px solid rgba(0, 0, 0, 0.2);padding-left: 0px;padding-right: 0px;"> 
-        	  {% assign pageTitle=page.title %}       
+        	  {% assign pageTitle=page.title %}     
+        	  {% assign subLevelIndex=0 %}  
 			  {% for lev1 in site.data.sitemap_fr %}
 			  	<div>
 			  		<div style="padding:10px;font-weight:bold;background-color:{{ lev1.backgroundColor}}; color: {{ lev1.color }};">{{ lev1.name }}</div>
@@ -79,11 +80,12 @@
 						  		{% for lev3 in lev2.sub %} 
 							  		{% if page.id == lev3.id %}
 							  			{% assign pageTitle=lev3.name %}
+							  			{% assign subLevelIndex=loopIndex %}
 							  		{% endif %}
 							  		<div style="padding-left: 20px;">
 							  			<a class="sideBarLv2" {% if page.id == lev3.id %}style="font-weight: bold;"{% endif %} href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev3.path }}">{{ loopIndex+1 }}{{ lev3.name }}</a>
 							  		</div>
-							  		{% increment loopIndex %}
+							  		{% assign loopIndex=loopIndex|plus:1 %}
 						  		{% endfor %} 
 					  		</div>
 					  	{% endif %}
