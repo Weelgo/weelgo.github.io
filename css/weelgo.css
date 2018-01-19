@@ -77,3 +77,9 @@ a:hover
     color: #c8c9ca;
     background-color: #D5D5D5;
 }
+
+.btn-success {
+    color: #fff;
+    background-color: #00d0b0;
+    border-color: #00b79a;
+}
