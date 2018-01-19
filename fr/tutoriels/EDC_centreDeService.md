@@ -78,7 +78,6 @@ Ces informations sont inscrites dans un RIDA ( Relevé, information, décision, 
 
 
 
-
 ## Fonctionnement du centre de service avec Weelgo
 
 ## Avantage et bénéfice
