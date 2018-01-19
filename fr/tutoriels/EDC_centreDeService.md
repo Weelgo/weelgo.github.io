@@ -3,7 +3,6 @@ layout : docs_fr
 title : Etude de cas : Weelgo en centre de service
 description : Etude de cas sur l'utilisation de wWeelgo en centre de service
 toc : true
-readingEstimation : 5
 ---
 
 ## Introduction
@@ -15,17 +14,28 @@ Le schéma qui sera proposé ci-dessous peut etre appliqué à d'autres domaines
 
 ## Fonctionnement du centre de service avant Weelgo
 
-
-Ci-dessous, la situation géographique des différentes équipes. 
+Les équipes sont distantes géographiquement. Le client et l'équipe décisionnelle sont en France. L'équipe de réalisation en Espagne. 
 
 ( Mettre image situation géo ) 
 
+
+
 Une équipe décisionnelle et un client à Paris, en France. Une équipe de réalisation hors france, en Espagne. 
+
+La structure interne des acteurs est la suivante : 
+
+
 
 (Mettre image structure du CDS ) 
 
+Le centre de service dispose d'un responsable des opérations. Ce responsable est informé du bon déroulement des opérations par des reporting effectués par les chefs de projets. 
 
-Déroulement des opérations. 
+Les chefs de projets s'assure du bon déroulement des développements. Pour cela, ils sont garants des plannings, de la génération des indicateurs de pilotage ainsi que de l'animation de l'équipe. Ils doivent aussi effectuer des reportings auprès de leurs homologues client 
+
+La structure du client est similiaire. Un responsable au dessus recevant des reportings des chefs de projets. Les chefs de projets clients doivent garantir le bon déroulement des développements réalisés par le centre de service. Ils ont aussi pour rôle de fluidifier et synchroniser les échanges avec les autres services.
+
+
+Lors d'une nouvelle demande de réalisation, le processus est le suivant : 
 
 1 - Emission d'un besoin par le métier
 2 - Reception du besoin par le chef de projet client. Relecture et échange avec le client
@@ -36,13 +46,11 @@ Déroulement des opérations.
 7 - Réalisation du besoin par le centre de service et suivi par le client. 
 
 
-Faisons un focus sur le parcour réalisé par le besoin, il est émis par le métier, envoyé au chef de projet pour relecture. Puis après plusieurs échanges, il est transmis au chef de projet du centre de service. Il est étudié, des échanges entre le centre de service et le chef de projet client ont lieu. Le chef de projet client fais des retours aux métiers. 
+Effectuons un focus sur le parcour réalisé par le besoin. Il est émis par le métier, envoyé au chef de projet pour relecture. 
+Après plusieurs échanges, il est transmis au chef de projet du centre de service pour prise en comtpe. S'en suit différents échanges jusqu'a ce que l'ensemble des acteurs soient au diapason sur le besoin. 
 
-En clair, le besoin effectue des aller / retour entre les acteurs suivants 
 
-Le métier, le chef de projet client, le chef de projet du centre de service, les équipes de réalisation. 
-
-Un besoin est composé de un ou plusieurs fichiers ( word, excel, ppt ), qui sont stockés sur le serveur client ainsi que sur le serveur du centre de service. Et les versions sont échangés entre les différents acteurs par mail. 
+Ce besoin est composé de un ou plusieurs fichiers ( word, excel, ppt ), qui sont stockés sur le serveur client ainsi que sur le serveur du centre de service. Et les versions sont échangés entre les différents acteurs par mail. 
 
 ( Mettre image échange )
 
