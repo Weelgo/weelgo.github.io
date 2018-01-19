@@ -79,7 +79,7 @@
 				  				{% assign loopIndex=0 %}
 						  		{% for lev3 in lev2.sub %} 
 							  		{% if page.id == lev3.id %}
-							  			{% assign pageTitle=lev3.name %}
+							  			{% assign pageTitle=lev2.name | append : lev3.name %}
 							  			{% assign subLevelIndex=loopIndex %}
 							  		{% endif %}
 							  		<div style="padding-left: 20px;">
