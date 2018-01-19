@@ -99,18 +99,20 @@
 			{% endfor %}
         </div>
         <main class="col-12 col-md-7 col-xl-7 py-md-3 pl-md-5" role="main" style="margin-top: 70px;">
-          <h1 style="font-size: 35px;font-family: Segoe UI Light;font-weight: bold;" id="content">{{ pageTitle }}</h1>
-          <div style="font-style: italic;">Estimation : {{ page.readingEstimation }} minutes</div>
-          {% if lvl2Elem and lvl1Path %}
-	            <div class="btn-group" role="group" aria-label="" style="margin-top: 10px;">
-	            {% assign loopIndex=0 %}
-	          	{% for lev3 in lvl2Elem.sub %}
-	          		<a href="{{ site.baseurl }}/fr/{{ lvl1Path }}/{{ lev3.path }}" class="btn {% if loopIndex == subLevelIndex %}btn-success{% else %}btn-secondary{% endif %} btn-md">{{ loopIndex | plus:1 }} : {{ lev3.name }}</a>
-	          		{% assign loopIndex = loopIndex | plus:1 %}
-	          	{% endfor %}
-	          	</div> 
-          {% endif %}
-          <p style="font-size: 24px;font-family: Segoe UI Light;">{{ page.description }}</p>
+		  <div style="margin-bottom: 20px;">        
+	          <h1 style="font-size: 35px;font-family: Segoe UI Light;font-weight: bold;" id="content">{{ pageTitle }}</h1>
+	          <div style="font-style: italic;">Estimation : {{ page.readingEstimation }} minutes</div>
+	          {% if lvl2Elem and lvl1Path %}
+		            <div class="btn-group" role="group" aria-label="" style="margin-top: 10px;">
+		            {% assign loopIndex=0 %}
+		          	{% for lev3 in lvl2Elem.sub %}
+		          		<a href="{{ site.baseurl }}/fr/{{ lvl1Path }}/{{ lev3.path }}" class="btn {% if loopIndex == subLevelIndex %}btn-success{% else %}btn-secondary{% endif %} btn-md">{{ loopIndex | plus:1 }} : {{ lev3.name }}</a>
+		          		{% assign loopIndex = loopIndex | plus:1 %}
+		          	{% endfor %}
+		          	</div> 
+	          {% endif %}
+	          <p style="font-size: 24px;font-family: Segoe UI Light;">{{ page.description }}</p>
+          </div>
           <div id="contents">
           {{ content }}
           </div>          
