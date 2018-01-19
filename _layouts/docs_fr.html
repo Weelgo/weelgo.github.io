@@ -100,7 +100,13 @@
         <main class="col-12 col-md-7 col-xl-7 py-md-3 pl-md-5" role="main" style="margin-top: 70px;">
           <h1 style="font-size: 35px;font-family: Segoe UI Light;font-weight: bold;" id="content">{{ pageTitle }}</h1>
           {% if lvl2Elem %}
-          	Spoooooooooooook
+	            <div class="btn-group" role="group" aria-label="">
+	            {% assign loopIndex=0 %}
+	          	{% for lev3 in lvl2Elem.sub %}
+	          		<a href="" class="btn btn-success btn-lg">{{ loopIndex | plus:1 }} : {{ lev3.name }}</a>
+	          		{% assign loopIndex = loopIndex | plus:1 %}
+	          	{% endfor %}
+	          	</div> 
           {% endif %}
           <p style="font-size: 24px;font-family: Segoe UI Light;">{{ page.description }}</p>
           <div id="contents">
