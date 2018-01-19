@@ -86,5 +86,15 @@ a:hover
 .btn-success:hover {
     color: #fff;
     background-color: #009d85;
-    border-color: #00b79a;
+    border-color: #009d85;
+}
+.btn-secondary {
+    color: #292b2c;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-secondary:hover {
+    color: #008fff;
+    background-color: #009d85;
+    border-color: #009d85;
 }
