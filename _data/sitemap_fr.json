@@ -13,25 +13,25 @@
 				"id": "hjfk34",
 				"sub": [
 					{
-						"name": "Etape 1 : modélisation",
+						"name": "Modélisation",
 						"path": "creationReseau_etp1_modelisation",
 						"group": "createNetwork",
 						"id": "thl23"
 					},
 					{
-						"name": "Etape 2 : organisation",
+						"name": "Organisation",
 						"path": "creationReseau_etp2_organisation",
 						"group": "createNetwork",
 						"id": "hkdl345"
 					},
 					{
-						"name": "Etape 3 : déroulement",
+						"name": "Déroulement",
 						"path": "creationReseau_etp3_deroulementHypothese",
 						"group": "createNetwork",
 						"id": "LKZ3567"
 					},
 					{
-						"name": "Etape 4 : analyse",
+						"name": "Analyse",
 						"path": "creationReseau_etp4_analyse",
 						"group": "createNetwork",
 						"id": "fkel235"
@@ -45,13 +45,13 @@
 				"id": "jkg689k",
 				"sub": [
 					{
-						"name": "Etape 1 : Suivi, planning",
+						"name": "Suivi, planning",
 						"path": "suiviProjet_etp1_suiviPlanningEtAvancement",
 						"group": "followUp",
 						"id": "fzt356"
 					},
 					{
-						"name": "Etape 2 : Imprévus et historique",
+						"name": "Imprévus et historique",
 						"path": "suiviProjet_etp2_imprevusEtHistorique",
 						"group": "followUp",
 						"id": "oknr847"
