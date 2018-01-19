@@ -5,6 +5,7 @@ description : Dans cette partie, nous examinerons l'analyse logique du projet ai
 toc : true
 group : createNetwork
 id: LKZ3567
+readingEstimation : 2
 ---
 
 *Estimation : 2 minutes*

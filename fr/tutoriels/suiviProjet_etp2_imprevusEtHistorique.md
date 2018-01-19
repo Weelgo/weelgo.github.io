@@ -5,6 +5,7 @@ description : Dans ce tutoriel, vous apprendez les bonnes pratiques pour gérer 
 toc : true
 group : followUp
 id : oknr847
+readingEstimation : 4
 ---
 
 ## Introduction

@@ -3,6 +3,7 @@ layout : docs_fr
 title : Etude de cas : Weelgo en centre de service
 description : Etude de cas sur l'utilisation de wWeelgo en centre de service
 toc : true
+readingEstimation : 5
 ---
 
 ## Introduction

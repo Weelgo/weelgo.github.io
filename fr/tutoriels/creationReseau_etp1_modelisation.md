@@ -5,6 +5,7 @@ description : Dans ce tutoriel, vous apprendrez à créer un projet Weelgo
 toc : true
 group : createNetwork
 id : thl23
+readingEstimation : 4
 ---
 
 *Estimation : 4 minutes*

@@ -5,6 +5,7 @@ description : Dans ce tutoriel, vous apprendez les bonnes pratiques pour gérer 
 toc : true
 group : followUp
 id : fzt356
+readingEstimation : 4
 ---
 
 *Estimation : 4 minutes*

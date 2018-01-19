@@ -5,6 +5,7 @@ description : Dans cette partie, nous découvrirons l'organisation opérationnel
 toc : true
 group : createNetwork
 id : hkdl345
+readingEstimation : 4
 ---
 
 __[Etape 2 : L'organisation opérationnelle du projet](#organisationProjet)__

@@ -4,6 +4,7 @@ title : Weelgo et l'agilité
 description : Dans ce tutoriel, vous apprendrez à utiliser Weelgo dans un process Agile - Scrum
 toc : true
 id : oepg359
+readingEstimation : 5
 ---
 
 
