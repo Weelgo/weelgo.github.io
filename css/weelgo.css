@@ -89,12 +89,12 @@ a:hover
     border-color: #009d85;
 }
 .btn-secondary {
-    color: #292b2c;
+    color: #008fff;
     background-color: #fff;
     border-color: #ccc;
 }
 .btn-secondary:hover {
     color: #008fff;
-    background-color: #009d85;
-    border-color: #009d85;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
 }
