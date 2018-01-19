@@ -83,3 +83,8 @@ a:hover
     background-color: #00d0b0;
     border-color: #00b79a;
 }
+.btn-success:hover {
+    color: #fff;
+    background-color: #009d85;
+    border-color: #00b79a;
+}
