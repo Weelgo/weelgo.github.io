@@ -124,14 +124,14 @@
 				"name": "Weelgo en Agile",
 				"description": "",
 				"path": "weelgoAgile",
-				"enable": "false",
+				"enable": "true",
 				"id": "oepg359"
 			},
 			{
 				"name": "Weelgo en Solo",
 				"description": "",
 				"path": "weelgoSolo",
-				"enable": "false",
+				"enable": "true",
 				"id": "fkel24"
 			}
 		]
