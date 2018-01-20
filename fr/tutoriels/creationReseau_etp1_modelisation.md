@@ -29,7 +29,7 @@ C'est cette succession d'actions et de  livrables qui fomera votre réseau. Le r
 
 ### Les actions et les livrables
 
-Dans un premier temps, il est nécessaire de définir l'ensemble des livrables qui compose votre projets. Identifier les livrables nécessaires aux projets vous permettra de déterminer les actions à réaliser. 
+Dans un premier temps, il est nécessaire de définir l'ensemble des livrables qui composent votre projets. Identifier les livrables nécessaires aux projets vous permettra de déterminer les actions à réaliser. 
 
 Sur Weelgo les livrables peuvent être de 3 types: neutre, intermédiaire et jalon.
 
