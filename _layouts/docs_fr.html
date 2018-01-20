@@ -122,10 +122,11 @@
           </div>
           <div id="contents">
            {% if page.youtubeLink %}
-          		<div class="visible-lg"><iframe id="presVideo" width="1066" height="600" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-				<div class="visible-md"><iframe id="presVideo" width="800" height="450" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-				<div class="visible-sm"><iframe id="presVideo" width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-				<div class="visible-xs"><iframe id="presVideo" width="300" height="160" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+           		<div class="d-block d-xl-block"><iframe id="presVideo" width="1066" height="600" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          		<div class="d-block d-lg-block d-xl-none"><iframe id="presVideo" width="1066" height="600" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+				<div class="d-block d-md-block d-lg-none"><iframe id="presVideo" width="800" height="450" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+				<div class="d-block d-sm-block d-md-none"><iframe id="presVideo" width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+				<div class="d-block d-sm-none"><iframe id="presVideo" width="300" height="160" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
            {% endif %}
           {{ content }}
           </div>          
