@@ -63,6 +63,10 @@
         	  {% assign pageTitle=page.title %}     
         	  {% assign pageDescription=page.description %}   
         	  {% assign subLevelIndex=0 %}  
+        	  {% if page.id == lev1.id %}
+        	  		{% assign pageTitle=lev1.name %}
+			  		{% assign pageDescription=lev1.description %}
+        	  {% endif %}
 			  {% for lev1 in site.data.sitemap_fr %}			    
 			  	<div>
 			  		<div style="padding:10px;font-weight:bold;background-color:{{ lev1.backgroundColor}}; color: {{ lev1.color }};">{{ lev1.name }}</div>
