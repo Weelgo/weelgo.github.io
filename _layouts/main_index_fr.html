@@ -24,13 +24,18 @@
 					<img class="img-responsive" style="display: inline;" alt="" src="/fr/img/{{ lev1.thumbnail }}">
 				</div>
 				<div class="text-center" style="font-size: 23px; margin-bottom: 30px;">{{ lev1.name }}</div>
-				
-				{% if lev1.sub %}
-				<div style="margin-bottom: 10px;">
-					{% for lev2 in lev1.sub %} 
-						<a href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev2.path }}">{{ lev2.name }}</a><br>
-					 {% endfor %}
-				</div>
+				{% if lev1.soon and lev1.soon == 'true' %}
+					<div style="margin-bottom: 10px;font-style: italic;">
+					Bientôt disponible
+					</div>	
+				{% else %}
+					{% if lev1.sub %}
+					<div style="margin-bottom: 10px;">
+						{% for lev2 in lev1.sub %} 
+							<a href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev2.path }}">{{ lev2.name }}</a><br>
+						 {% endfor %}
+					</div>
+					{% endif %}
 				{% endif %}
 				
 			</div>			 
