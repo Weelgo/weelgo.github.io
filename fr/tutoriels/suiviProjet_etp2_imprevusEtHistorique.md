@@ -12,8 +12,8 @@ readingEstimation : 4
 ---
 
 Votre projet Weelgo est en cours de réalisation. Vous aller devoir gérer des imprévus ainsi que commencer à construire l'historique du projet pour pouvoir suivre son déroulement.
-1. [La gestion des imprévus](#gestionImprevus)
-2. [La construction de l'historique du projet](#historiqueProjet)
+* La gestion des imprévus
+* La construction de l'historique du projet
 
 
 ## 1. La gestion des imprévus
