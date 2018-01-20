@@ -81,7 +81,7 @@ L'ordonnancement "temporel" correspond à une dépendance temporelle entre 2 act
 </p>
 
 Dans Weelgo, la définition des actions et l'ordonnancement s'effectuent en même temps. En effet, lors de la modélisation de votre projet, vous allez naturellement enchaîner les actions / livrables pour aboutir au résultat final.  
-<a id="repertoire"></a> 
+
 Lors de la création du réseau, il est nécessaire de considérer les ressources comme infinies. Cela vous permettra de connaître le délai minimum possible.
 
 <p align="center">
@@ -91,7 +91,7 @@ Lors de la création du réseau, il est nécessaire de considérer les ressource
 ---
 
 **Nos préconisations :**
-
+<a id="repertoire"></a> 
 >*Ordonnancez votre projet sans prendre en compte les ressources (ressources infinies). Vous connaîtrez ainsi le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet.*
 
 ---
