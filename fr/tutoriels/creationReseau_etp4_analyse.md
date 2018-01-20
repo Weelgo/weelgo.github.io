@@ -8,12 +8,11 @@ id : fkel235
 readingEstimation : 2
 ---
 
-
-## Etape 5 : Analyser le planning et les indicateurs
+## Introduction
 
 Chez Weelgo, nous pensons que le manageur doit se concentrer sur l'essentiel, c'est à dire le management des hommes, la gestion des problèmes et des arbitrages. Le temps passé à généré des plannings et des indicateurs ne doit plus être à la charge du manageur. C'est pourquoi la solution Weelgo générère automatiquement l'ensemble des outils permettant de piloter le projet. 
 
-### Le Wall
+## Le Wall
 
 Véritable feuille de route du projet, c'est la vision verticale du planning. Vous pouvez identifier immédiatement les actions non planifiées ainsi que le déroulement du projet. 
 
@@ -31,7 +30,7 @@ Véritable feuille de route du projet, c'est la vision verticale du planning. Vo
 ---
 
 
-### Le Dashboard
+## Le Dashboard
 
 Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une vision 360 du projet et de l'ensemble des indicateurs clés: 
 + Les jalons
@@ -55,7 +54,7 @@ Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une visi
 
 ---
 
-### Le Gantt
+## Le Gantt
 
 Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs nécessaires afin de prendre des décisions et des arbitrages. 
 
@@ -71,7 +70,7 @@ Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs 
 
 ---
 
-### Le Burndown
+## Le Burndown
 
 Représentation graphique de l'évolution de la quantité de travail restante par rapport au temps. 
 
@@ -87,7 +86,7 @@ Représentation graphique de l'évolution de la quantité de travail restante pa
 ---
 
 
-### Le droite à 45°
+## Le droite à 45°
 
 Représentation graphique de l'évolution des dates de fin prévisionnelles des jalons du projet. La droite à 45° vous permet de savoir, en un coup d'oeil, l'évolution des différentes dates de livraison prévues. 
 

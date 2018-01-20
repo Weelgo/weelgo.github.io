@@ -8,25 +8,22 @@ id : hkdl345
 readingEstimation : 4
 ---
 
-__[Etape 2 : L'organisation opérationnelle du projet](#organisationProjet)__
-+ [Définition et ajout des tickets](#ajoutTickets) 
-+ [Affectation des responsables](#affectationResp)
-+ [Partage du réseau](#partageReseau)
-+ [Renseigner des charges de réalisation](#chargeReal)
+## Introduction
 
+Nous allons aborder ici l'organisation opérationnelle du projet. Le réseau que vous avez intialisé lors de l'étape 1 est le socle vous permettant d'organiser votre projet. 
 
-## Etape 2 : L'organisation opérationnelle du projet. 
+## L'organisation opérationnelle du projet. 
 
 *Vue Weelgo : Organisation*
 
-La vue Organisation de Weelgo représente le projet sous une forme hierachique ou WBS ( Work Breakdown Structure ). C'est à dire un organigramme des actions du projet. 
+La vue Organisation de Weelgo représente le projet sous une forme hierachique ou WBS ( Work Breakdown Structure ). C'est à dire un organigramme des actions du projet.  
 
-Cet organigramme est construit de la manière suivante : 
+Ce WBS est généré à partir du réseau du projet. Il est onstruit de la manière suivante : 
 + Les répertoires correspondent aux différents niveaux du WBS
 + Les actions correspondent au niveau le plus bas. 
 
 
-Projet :
+Réseau du projet :
 
 <p align="center">
 <img src="/fr/img/reseau.png">
@@ -39,7 +36,7 @@ Vue WBS :
 </p>
 
 <a id="ajoutTickets"></a> 
-Dans cette vue, vous allez pouvoir finaliser l'organisation de votre projet en ajoutant :
+C'est dans cet espace que vous allez pouvoir finaliser l'organisation de votre projet en ajoutant :
 + Les tickets associés aux actions
 + Ajouter des responsables
 + Ajouter des charges de réalisation 
@@ -47,11 +44,11 @@ Dans cette vue, vous allez pouvoir finaliser l'organisation de votre projet en a
 
 ### Définition et ajout des tickets
 
-#### Définition
+**Définition**
 
 Le ticket dans Weelgo est considéré comme une sous-tâche de l'action (comme une TODO list). La principale caractéristique du ticket doit être son indépendance vis à vis des autres ticket (dépendance causale et temporelle). Cela afin de pouvoir le manipuler facilement dans l'organisation. 
 
-#### Utilisation des tickets
+**Utilisation des tickets**
 
 Ils peuvent être créés en cliquant sur <img src="/fr/img/iconeAjoutTicket.png">. Ils peuvent être déplacés ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
 
@@ -69,12 +66,15 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 **Nos préconisations :**
 
 >*Considérer les tickets comme la TODO list de l'action.* 
+
 >*Un ticket doit être le plus indépendant possible par rapport aux autres tickets.* 
 
 <a id="affectationResp"></a> 
 
 
 **Tips&Astuces :**
+
+>*Les tickets sont priorisés de haut en bas.*
 >*Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins ils n'apparaîtront pas dans les vues de planification.* 
 
 <p align="center">
@@ -83,7 +83,7 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 <img src="/fr/img/ticketSansCharge.png">
 </p>
 
->*Les tickets sont priorisés de haut en bas.*
+
 ---
 
 ### Affectation des responsables
@@ -97,8 +97,6 @@ Pour cela, trouvez votre collaborateur depuis le bouton <img src="/fr/img/bouton
 </p>
 
 Une fois séléctionné, il suffit d'affecter (drag&drop) la personne à une action ou à un ticket. 
-
-( mettre image / GIF )
 
 ---
 <a id="partageReseau"></a> 

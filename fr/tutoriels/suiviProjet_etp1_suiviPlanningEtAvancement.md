@@ -12,9 +12,9 @@ readingEstimation : 4
 ## Introduction
 ---
 
-Votre projet Weelgo est initialisé et vous devez maintenant le piloter. Nous aborderons ce sujet au travers 3 axes : 
-1. [L'importance du suivi du planning et des indicateurs](#importancePlanning)
-2. [La mise à jour de l'avancement](#majAvancement)
+Votre projet Weelgo est initialisé et vous devez maintenant le piloter. Nous aborderons ce sujet au travers 2 axes : 
+* L'importance du suivi du planning et des indicateurs
+* La mise à jour de l'avancement
 
 ---
 
@@ -70,7 +70,7 @@ Vous le savez déjà, Weelgo met à votre disposition l'ensemble de ces indicate
 
 Etudions donc l'importance de la présence des indicateurs dans un projet et leur répercution sur l'ensemble des domaines évoqués ci-dessus. 
 
-## 1.  L'importance du suivi du planning et des indicateurs
+## L'importance du suivi du planning et des indicateurs
 ---
 
 
@@ -118,7 +118,7 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 
 ---
 
-## 2. La mise à jour de l'avancement 
+## La mise à jour de l'avancement 
 ---
 
 
@@ -181,7 +181,7 @@ Ou
 </p>
 
 
-#### Les cas particuliers 
+** Les cas particuliers **
 
 Néanmoins, il y a certains cas où nous pouvons quand même débuter l'action B avant l'action A. 
 

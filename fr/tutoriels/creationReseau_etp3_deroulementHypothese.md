@@ -8,8 +8,12 @@ id: LKZ3567
 readingEstimation : 2
 ---
 
+## Introduction
 
-## Etape 3 : Analyser le déroulement logique du projet
+Abordons maintenant l'analyse logique de déroulement du projet ainsi que la mise en place des hypothèses de départ. Suite à cela, vous serez en capacité de démarrer le début des opérations. 
+
+
+## Analyser le déroulement logique du projet
 
 *Vue Weelgo : Logique*
 
@@ -20,7 +24,7 @@ __La génération du planning étant automatique__, il sera peut etre nécessair
 L'ordonnancement s'effectue de haut en bas. L'action la plus haute est la plus prioritaire. 
 
 
-## Etape 4 : Définition des hypothèses de départ
+## Définition des hypothèses de départ
 
 *Vue Weelgo : Date Wall*
 
