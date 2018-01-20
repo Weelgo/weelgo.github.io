@@ -8,6 +8,12 @@ id : hkdl345
 readingEstimation : 4
 ---
 
+## Introduction
+
+
+Nous allons aborder ici l'organisation opérationnelle du projet. Le réseau que vous avez intialisé sur la vue "Réseau" sert de base à la construction de cette organisation. 
+
+
 __[L'organisation opérationnelle du projet](#organisationProjet)__
 + [Définition et ajout des tickets](#ajoutTickets) 
 + [Affectation des responsables](#affectationResp)
