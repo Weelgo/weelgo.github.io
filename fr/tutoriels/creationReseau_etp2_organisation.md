@@ -98,8 +98,6 @@ Pour cela, trouvez votre collaborateur depuis le bouton <img src="/fr/img/bouton
 
 Une fois séléctionné, il suffit d'affecter (drag&drop) la personne à une action ou à un ticket. 
 
-( mettre image / GIF )
-
 ---
 <a id="partageReseau"></a> 
 **Nos préconisations :**
