@@ -13,9 +13,7 @@ readingEstimation : 4
 
 Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maîtrise ! 
 
-La modélisation d'un projet Weelgo s'effectue en 5 étapes. 
-
-__[Etape 1 : Modéliser son projet](#modeliserProjet)__
+__[Modéliser son projet](#modeliserProjet)__
 + [Définition des actions et des livrables](#definitionActionsLivrables)
 + [Ordonnancement des actions](#ordreActions)
 + [Définition des répertoires](#repertoire)
@@ -24,7 +22,7 @@ __[Etape 1 : Modéliser son projet](#modeliserProjet)__
 
 
 <a id="definitionActionsLivrables"></a> 
-## Etape 1 : Modéliser son projet 
+## Modéliser son projet 
 
 
 *Vue Weelgo : Réseau*
