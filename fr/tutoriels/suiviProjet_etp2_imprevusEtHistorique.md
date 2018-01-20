@@ -12,8 +12,6 @@ readingEstimation : 4
 ---
 
 Votre projet Weelgo est en cours de réalisation. Vous aller devoir gérer des imprévus ainsi que commencer à construire l'historique du projet pour pouvoir suivre son déroulement.
-* La gestion des imprévus
-* La construction de l'historique du projet
 
 
 ## 1. La gestion des imprévus
@@ -42,7 +40,7 @@ Les imprévus liés au projet sont généralement :
 
 Ces imprévus ont toutes la même caractéristique. Ils impactent le réseau, une action ou un ticket. C'est donc sur ces éléments que nous devons intervenir. 
 
-#### Un retard sur une action/ticket
+** Un retard sur une action/ticket **
 
 Dans Weelgo, si le reste à faire est saisi réguliérement, le retard sur une action / ticket est détéctable immédiatement. 
 
@@ -75,7 +73,7 @@ Si ce retard est irrattrapable, il peut être de deux sortes :
 Une action estimée à 4 jh en moyenne peut être réalisée en 2 j de travail par une personne plus expérimentée. Nous préconisons d'indiquer la charge en fonction de la personne qui traite l'activité. 
 
 
-#### L'oubli d'une action / une activité venant se greffer au projet
+** L'oubli d'une action / une activité venant se greffer au projet **
 
 Si une activité doit être rajouter dans le projet, vous devez déjà identifié son type : Action ou ticket. 
 
