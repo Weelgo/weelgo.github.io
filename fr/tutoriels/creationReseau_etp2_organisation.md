@@ -10,16 +10,7 @@ readingEstimation : 4
 
 ## Introduction
 
-
 Nous allons aborder ici l'organisation opérationnelle du projet. Le réseau que vous avez intialisé lors de l'étape 1 est le socle vous permettant d'organiser votre projet. 
-
-
-__[L'organisation opérationnelle du projet](#organisationProjet)__
-+ [Définition et ajout des tickets](#ajoutTickets) 
-+ [Affectation des responsables](#affectationResp)
-+ [Partage du réseau](#partageReseau)
-+ [Renseigner des charges de réalisation](#chargeReal)
-
 
 ## L'organisation opérationnelle du projet. 
 
