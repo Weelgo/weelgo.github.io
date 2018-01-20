@@ -14,6 +14,7 @@
 				"path": "creationReseau_etp1_modelisation",
 				"group": "createNetwork",
 				"id": "hjfk34",
+				"enable": "true",
 				"sub": [
 					{
 						"name": "Modélisation",
@@ -51,6 +52,7 @@
 				"path": "suiviProjet_etp1_suiviPlanningEtAvancement",
 				"group": "followUp",
 				"id": "jkg689k",
+				"enable": "true",
 				"sub": [
 					{
 						"name": "Suivi, planning",
@@ -83,24 +85,28 @@
 				"name": "Vidéo présentation",
 				"description": "Cette vidéo est une présentation rapide de la plateforme Weelgo.",
 				"path": "videoPresentation",
+				"enable": "true",
 				"id": "gkej3467"
 			},
 			{
 				"name": "Aperçu 360°",
 				"description": "Dans cette vidéo vous verrez un aperçu des principales fonctionnalités offertes par Weelgo.",
 				"path": "apercu360",
+				"enable": "true",
 				"id": "gjerk245"
 			},
 			{
 				"name": "Création d'un réseau Weelgo",
 				"description": "Dans cette vidéo vous apprendrez à créer un réseau en utilisant l'éditeur de réseau.",
 				"path": "creationReseauWeelgo",
+				"enable": "true",
 				"id": "8732hjk"
 			},
 			{
 				"name": "Planning : recadrage automatique",
 				"description": "Dans cette vidéo vous apprendrez à recadrer automatiquement un planning.",
 				"path": "planningRecadrageAuto",
+				"enable": "true",
 				"id": "kjrn34j"
 			}
 		]
@@ -118,12 +124,14 @@
 				"name": "Weelgo en Agile",
 				"description": "",
 				"path": "weelgoAgile",
+				"enable": "true",
 				"id": "oepg359"
 			},
 			{
 				"name": "Weelgo en Solo",
 				"description": "",
 				"path": "weelgoSolo",
+				"enable": "true",
 				"id": "fkel24"
 			}
 		]
