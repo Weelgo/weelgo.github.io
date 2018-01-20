@@ -13,24 +13,25 @@ readingEstimation : 4
 
 Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maîtrise ! 
 
-Nous allons aborder, lors de cette première partie, comment nous pouvons modéliser un projet sous Weelgo. 
-
+Abordons maintenant la modélisation d'un projet. 
 
 <a id="definitionActionsLivrables"></a> 
 ## Modéliser son projet 
 
-
 *Vue Weelgo : Réseau*
 
-### Définition des actions et des livrables
-
-Un projet est un enchaînement d'actions aboutissant à un ou plusieurs livrables. La modélisation du projet consiste donc à : 
+Quesqu'un projet ? Un projet est la réalisation d'un ensemble d'actions aboutissant a un ou plusieurs livrables. 
+La modélisation du projet consiste donc à : 
 * Déterminer l'ensemble des livrables constituant le projet
 * Déterminer les actions permettant d'aboutir à ces livrables
 
-Cette succession d'actions / livrables fomera votre réseau. Le réseau étant la colonne vertébrale de votre projet.
+C'est cette succession d'actions et de  livrables qui fomera votre réseau. Le réseau étant la colonne vertébrale de votre projet.
 
-Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaires ou de type jalon. 
+### Les actions et les livrables
+
+Dans un premier temps, il est nécessaire de définir l'ensemble des livrables qui compose votre projets. Identifier les livrables nécessaires aux projets vous permettra de déterminer les actions à réaliser. 
+
+Sur Weelgo les livrables peuvent être de 3 types: neutre, intermédiaire et jalon.
 
 <p align="center">
 <img src="/fr/img/typeLivrable.png">
@@ -38,11 +39,10 @@ Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaires o
 
 Les livrables jalons sont des livrables que vous souhaitez suivre. Ils apparaîtront dans le tableau de bord du projet et bénéficieront d'un suivi particulier. 
 
-
-Pour chaque action, il est nécessaire de se poser les questions suivantes :
-* Que dois-je faire pour réaliser cette action? 
+Une fois l'ensemble des livrables identifiées, vous devez les associer à des actions. Pour chaque livrable, posez-vous les questions suivantes : 
+* Que dois-je faire pour réaliser ce livrable? 
 * Quels sont les inputs nécessaires à la réalisation de cette action? 
-* Qu'ai-je en sortie de mon action ? 
+
 
 Vous aurez la possibilité de créer des tickets depuis la vue Organisation. Un choix structurel s'impose donc. Dois-je créer une action ou un ticket? 
 
