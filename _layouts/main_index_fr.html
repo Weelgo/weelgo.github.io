@@ -18,6 +18,25 @@
 		</div>
 		<div class="row">
 
+			 {% for lev1 in site.data.sitemap_fr %}
+			 <div class="col-md-3 col-sm-12 text-center">
+				<div class="text-center" style="margin-top: 30px; margin-bottom: 30px;">
+					<img class="img-responsive" style="display: inline;" alt="" src="/fr/img/{{ lev1.thumbnail }}">
+				</div>
+				<div class="text-center" style="font-size: 23px; margin-bottom: 30px;">{{ lev1.name }}</div>
+				
+				{% if lev1.sub %}
+				<div style="margin-bottom: 10px;">
+					{% for lev2 in lev1.sub %} 
+						<a href="tutoriels/creationReseau_etp1_modelisation">{{ lev2.name }}</a><br>
+					 {% endfor %}
+				</div>
+				{% endif %}
+				
+			</div>			 
+			 {% endfor %}
+			 
+			 
 			<div class="col-md-3 col-sm-12 text-center">
 				<div class="text-center" style="margin-top: 30px; margin-bottom: 30px;">
 					<img class="img-responsive" style="display: inline;" alt="" src="/fr/img/tutorials.png">
