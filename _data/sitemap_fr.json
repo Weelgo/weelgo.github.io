@@ -80,6 +80,12 @@
 		"thumbnail": "videos.png",
 		"sub": [
 			{
+				"name": "Vidéo présentation",
+				"description": "Cette vidéo est une présentation rapide de la plateforme Weelgo.",
+				"path": "videoPresentation",
+				"id": "gkej3467"
+			},
+			{
 				"name": "Aperçu 360°",
 				"description": "Dans cette vidéo vous verrez un aperçu des principales fonctionnalités offertes par Weelgo.",
 				"path": "apercu360",
