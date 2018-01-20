@@ -13,8 +13,8 @@ readingEstimation : 4
 ---
 
 Votre projet Weelgo est initialisé et vous devez maintenant le piloter. Nous aborderons ce sujet au travers 3 axes : 
-> L'importance du suivi du planning et des indicateurs
-> La mise à jour de l'avancement
++L'importance du suivi du planning et des indicateurs
++La mise à jour de l'avancement
 
 ---
 
