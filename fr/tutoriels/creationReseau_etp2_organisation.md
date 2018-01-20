@@ -8,14 +8,14 @@ id : hkdl345
 readingEstimation : 4
 ---
 
-__[Etape 2 : L'organisation opérationnelle du projet](#organisationProjet)__
+__[L'organisation opérationnelle du projet](#organisationProjet)__
 + [Définition et ajout des tickets](#ajoutTickets) 
 + [Affectation des responsables](#affectationResp)
 + [Partage du réseau](#partageReseau)
 + [Renseigner des charges de réalisation](#chargeReal)
 
 
-## Etape 2 : L'organisation opérationnelle du projet. 
+## L'organisation opérationnelle du projet. 
 
 *Vue Weelgo : Organisation*
 
