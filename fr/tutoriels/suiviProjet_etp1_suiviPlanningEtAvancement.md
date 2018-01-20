@@ -12,7 +12,7 @@ readingEstimation : 4
 ## Introduction
 ---
 
-Votre projet Weelgo est initialisé et vous devez maintenant le piloter. Nous aborderons ce sujet au travers 3 axes : 
+Votre projet Weelgo est initialisé et vous devez maintenant le piloter. Nous aborderons ce sujet au travers 2 axes : 
 * L'importance du suivi du planning et des indicateurs
 * La mise à jour de l'avancement
 
