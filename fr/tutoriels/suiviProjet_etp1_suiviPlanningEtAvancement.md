@@ -1,7 +1,7 @@
 ---
 layout : docs_fr
 title : Gérez un projet Weelgo ! 
-description : Dans ce tutoriel, vous apprendez les bonnes pratiques pour gérer correctement un projet Weelgo au quotidien
+description : 
 toc : true
 group : followUp
 id : fzt356

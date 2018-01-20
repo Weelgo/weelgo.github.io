@@ -1,7 +1,7 @@
 ---
 layout : docs_fr
 title : Créer et gérer un projet sous Weelgo
-description : Dans ce tutoriel, vous apprendrez à créer un projet Weelgo 
+description : 
 toc : true
 group : createNetwork
 id : thl23

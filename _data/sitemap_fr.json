@@ -17,28 +17,28 @@
 				"sub": [
 					{
 						"name": "Modélisation",
-						"description": "",
+						"description": "Dans ce tutoriel, vous apprendrez à créer un projet Weelgo.",
 						"path": "creationReseau_etp1_modelisation",
 						"group": "createNetwork",
 						"id": "thl23"
 					},
 					{
 						"name": "Organisation",
-						"description": "",
+						"description": "Dans cette partie, nous découvrirons l'organisation opérationnelle du projet.",
 						"path": "creationReseau_etp2_organisation",
 						"group": "createNetwork",
 						"id": "hkdl345"
 					},
 					{
 						"name": "Déroulement",
-						"description": "",
+						"description": "Dans cette partie, nous examinerons l'analyse logique du projet ainsi que la définition des hypothèse de départ.",
 						"path": "creationReseau_etp3_deroulementHypothese",
 						"group": "createNetwork",
 						"id": "LKZ3567"
 					},
 					{
 						"name": "Analyse",
-						"description": "",
+						"description": "L'analyse du planning et des indicateurs.",
 						"path": "creationReseau_etp4_analyse",
 						"group": "createNetwork",
 						"id": "fkel235"
@@ -54,14 +54,14 @@
 				"sub": [
 					{
 						"name": "Suivi, planning",
-						"description": "",
+						"description": "Dans ce tutoriel, vous apprendez les bonnes pratiques pour gérer correctement un projet Weelgo au quotidien.",
 						"path": "suiviProjet_etp1_suiviPlanningEtAvancement",
 						"group": "followUp",
 						"id": "fzt356"
 					},
 					{
 						"name": "Imprévus et historique",
-						"description": "",
+						"description": "Dans ce tutoriel, vous apprendez les bonnes pratiques pour gérer correctement un projet Weelgo au quotidien.",
 						"path": "suiviProjet_etp2_imprevusEtHistorique",
 						"group": "followUp",
 						"id": "oknr847"

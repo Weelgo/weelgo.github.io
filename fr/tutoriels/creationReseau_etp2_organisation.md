@@ -1,7 +1,7 @@
 ---
 layout : docs_fr
 title :  L'organisation opérationnelle du projet
-description : Dans cette partie, nous découvrirons l'organisation opérationnelle du projet
+description : 
 toc : true
 group : createNetwork
 id : hkdl345
