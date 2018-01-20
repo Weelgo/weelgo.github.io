@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Tutoriels",
+		"description": "",
 		"path": "tutoriels",
 		"backgroundColor": "#008fff",
 		"color": "white",
@@ -9,30 +10,35 @@
 		"sub": [
 			{
 				"name": "Créer un réseau",
+				"description": "",
 				"path": "creationReseau_etp1_modelisation",
 				"group": "createNetwork",
 				"id": "hjfk34",
 				"sub": [
 					{
 						"name": "Modélisation",
+						"description": "",
 						"path": "creationReseau_etp1_modelisation",
 						"group": "createNetwork",
 						"id": "thl23"
 					},
 					{
 						"name": "Organisation",
+						"description": "",
 						"path": "creationReseau_etp2_organisation",
 						"group": "createNetwork",
 						"id": "hkdl345"
 					},
 					{
 						"name": "Déroulement",
+						"description": "",
 						"path": "creationReseau_etp3_deroulementHypothese",
 						"group": "createNetwork",
 						"id": "LKZ3567"
 					},
 					{
 						"name": "Analyse",
+						"description": "",
 						"path": "creationReseau_etp4_analyse",
 						"group": "createNetwork",
 						"id": "fkel235"
@@ -41,18 +47,21 @@
 			},
 			{
 				"name": "Le suivi de projet",
+				"description": "",
 				"path": "suiviProjet_etp1_suiviPlanningEtAvancement",
 				"group": "followUp",
 				"id": "jkg689k",
 				"sub": [
 					{
 						"name": "Suivi, planning",
+						"description": "",
 						"path": "suiviProjet_etp1_suiviPlanningEtAvancement",
 						"group": "followUp",
 						"id": "fzt356"
 					},
 					{
 						"name": "Imprévus et historique",
+						"description": "",
 						"path": "suiviProjet_etp2_imprevusEtHistorique",
 						"group": "followUp",
 						"id": "oknr847"
@@ -63,6 +72,7 @@
 	},
 	{
 		"name": "Vidéos",
+		"description": "",
 		"path": "videos",
 		"backgroundColor": "#00debc",
 		"color": "white",
@@ -71,16 +81,19 @@
 		"sub": [
 			{
 				"name": "Aperçu 360°",
-				"path": "suiviProjet",
+				"description": "Dans cette vidéo vous verrez un aperçu des principales fonctionnalités offertes par Weelgo.",
+				"path": "apercu360",
 				"id": "gjerk245"
 			},
 			{
 				"name": "Création d'un réseau Weelgo",
+				"description": "",
 				"path": "weelgoAgile",
 				"id": "8732hjk"
 			},
 			{
 				"name": "Planning : recadrage automatique",
+				"description": "",
 				"path": "weelgoSolo",
 				"id": "kjrn34j"
 			}
@@ -88,6 +101,7 @@
 	},
 	{
 		"name": "Etudes de cas",
+		"description": "",
 		"path": "etudes_de_cas",
 		"backgroundColor": "#008fff",
 		"color": "white",
@@ -96,11 +110,13 @@
 		"sub": [
 			{
 				"name": "Weelgo en Agile",
+				"description": "",
 				"path": "weelgoAgile",
 				"id": "oepg359"
 			},
 			{
 				"name": "Weelgo en Solo",
+				"description": "",
 				"path": "weelgoSolo",
 				"id": "fkel24"
 			}
@@ -108,6 +124,7 @@
 	},
 	{
 		"name": "Documentation",
+		"description": "",
 		"path": "documentation",
 		"backgroundColor": "#00debc",
 		"color": "white",
