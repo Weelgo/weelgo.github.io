@@ -15,13 +15,6 @@ Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Wee
 
 Nous allons aborder, lors de cette première partie, comment nous pouvons modéliser un projet sous Weelgo. 
 
-__[Modéliser son projet](#modeliserProjet)__
-+ [Définition des actions et des livrables](#definitionActionsLivrables)
-+ [Ordonnancement des actions](#ordreActions)
-+ [Définition des répertoires](#repertoire)
-
-
-
 
 <a id="definitionActionsLivrables"></a> 
 ## Modéliser son projet 
@@ -29,7 +22,7 @@ __[Modéliser son projet](#modeliserProjet)__
 
 *Vue Weelgo : Réseau*
 
-### Définition des actions et des livrables
+**Définition des actions et des livrables**
 
 Un projet est un enchaînement d'actions aboutissant à un ou plusieurs livrables. La modélisation du projet consiste donc à : 
 * Déterminer l'ensemble des livrables constituant le projet
@@ -68,7 +61,7 @@ Pour vous aidez dans votre choix, souvenez-vous que le réseau doit matérialise
 
 ---
 
-### Ordonnancement des actions
+**Ordonnancement des actions**
 
 
 L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterminons ainsi les dépendances entre chaque action et leur chronologie.
@@ -103,7 +96,7 @@ Lors de la création du réseau, il est nécessaire de considérer les ressource
 
 ---
 
-### Définition des répertoires 
+**Définition des répertoires** 
 
 Suite à la création du réseau, il est nécessaire de finaliser sa construction en le structurant. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet.
 
