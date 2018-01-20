@@ -135,6 +135,7 @@
 		"backgroundColor": "#00debc",
 		"color": "white",
 		"id": "kglyo356j",
-		"thumbnail": "documentation.png"
+		"thumbnail": "documentation.png",
+		"soon" : "true"
 	}
 ]
