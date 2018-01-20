@@ -148,7 +148,9 @@
           {{ content }}
           
           {% if nextLevel and nextLevelPath%}
-          		<a href="{{ nextLevelPath }}" class="btn btn-success btn-md"><i class="glyphicon glyphicon-circle-arrow-right"></i> Etape Suivante : {{ nextLevel.name }}</a>
+          	<div style="margin-bottom: 50px;">
+          		<a href="{{ nextLevelPath }}" class="btn btn-success btn-md"><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span> Etape Suivante : {{ nextLevel.name }}</a>
+          	</div>
           {% endif %}
           </div>          
            
