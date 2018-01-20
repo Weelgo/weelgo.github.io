@@ -28,7 +28,7 @@
 				{% if lev1.sub %}
 				<div style="margin-bottom: 10px;">
 					{% for lev2 in lev1.sub %} 
-						<a href="tutoriels/creationReseau_etp1_modelisation">{{ lev2.name }}</a><br>
+						<a href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev2.path }}">{{ lev2.name }}</a><br>
 					 {% endfor %}
 				</div>
 				{% endif %}
