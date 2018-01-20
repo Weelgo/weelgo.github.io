@@ -87,14 +87,14 @@
 			},
 			{
 				"name": "Création d'un réseau Weelgo",
-				"description": "",
-				"path": "weelgoAgile",
+				"description": "Dans cette vidéo vous apprendrez à créer un réseau en utilisant l'éditeur de réseau.",
+				"path": "creationReseauWeelgo",
 				"id": "8732hjk"
 			},
 			{
 				"name": "Planning : recadrage automatique",
-				"description": "",
-				"path": "weelgoSolo",
+				"description": "Dans cette vidéo vous apprendrez à recadrer automatiquement un planning.",
+				"path": "planningRecadrageAuto",
 				"id": "kjrn34j"
 			}
 		]
