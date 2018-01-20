@@ -13,6 +13,8 @@ readingEstimation : 4
 
 Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maîtrise ! 
 
+Nous allons aborder, lors de cette première partie, comment nous pouvons modéliser un projet sous Weelgo. 
+
 __[Modéliser son projet](#modeliserProjet)__
 + [Définition des actions et des livrables](#definitionActionsLivrables)
 + [Ordonnancement des actions](#ordreActions)
@@ -35,8 +37,7 @@ Un projet est un enchaînement d'actions aboutissant à un ou plusieurs livrable
 
 Cette succession d'actions / livrables fomera votre réseau. Le réseau étant la colonne vertébrale de votre projet.
 
-
-Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaires ou de type jalon 
+Ces livrables peuvent être de 3 types. Des livrables neutres, intermédiaires ou de type jalon. 
 
 <p align="center">
 <img src="/fr/img/typeLivrable.png">
@@ -50,8 +51,7 @@ Pour chaque action, il est nécessaire de se poser les questions suivantes :
 * Quels sont les inputs nécessaires à la réalisation de cette action? 
 * Qu'ai-je en sortie de mon action ? 
 
-
-Gardez en mémoire que vous avez la possibilité de créer des tickets dans "Actions" (depuis la vue Organisation). Un choix structurel s'impose donc. Dois-je créer une action ou un ticket? 
+Vous aurez la possibilité de créer des tickets depuis la vue Organisation. Un choix structurel s'impose donc. Dois-je créer une action ou un ticket? 
 
 Pour vous aidez dans votre choix, souvenez-vous que le réseau doit matérialiser la structure de votre projet. Notamment avec la liste des livrables et des jalons. Si le résultat du ticket et un livrable de haute importante (application, documentation...), une action est préférable. Dans le cas contraire, privilégiez le ticket.
 
