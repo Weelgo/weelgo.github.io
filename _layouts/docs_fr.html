@@ -121,6 +121,12 @@
 	          <p style="font-size: 19px;font-family: Segoe UI Light;margin-top: 20px;">{{ pageDescription }}</p>
           </div>
           <div id="contents">
+           {% if page.youtubeLink %}
+          		<div class="visible-lg"><iframe id="presVideo" width="1066" height="600" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+				<div class="visible-md"><iframe id="presVideo" width="800" height="450" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+				<div class="visible-sm"><iframe id="presVideo" width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+				<div class="visible-xs"><iframe id="presVideo" width="300" height="160" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+           {% endif %}
           {{ content }}
           </div>          
            
