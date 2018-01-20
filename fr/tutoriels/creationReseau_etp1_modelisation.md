@@ -22,6 +22,7 @@ Abordons maintenant la modélisation d'un projet.
 
 Quesqu'un projet ? Un projet est la réalisation d'un ensemble d'actions aboutissant a un ou plusieurs livrables.
 
+
 La modélisation du projet consiste donc à : 
 * Déterminer l'ensemble des livrables constituant le projet
 * Déterminer les actions permettant d'aboutir à ces livrables
