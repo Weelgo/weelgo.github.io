@@ -65,7 +65,7 @@
 	<div class="container-fluid">
       <div class="row flex-xl-nowrap"">
         <div class="col-12 col-md-2 col-xl-2" style="padding-top: 62px;border-right: 1px solid rgba(0, 0, 0, 0.2);padding-left: 0px;padding-right: 0px;"> 
-        	  {% assign pageTitle=page.title %}     
+        	  {% assign pageTitle=page.title %}
         	  {% assign pageDescription=page.description %}   
         	  {% assign subLevelIndex=0 %}  
         	  {% if page.id == lev1.id %}
@@ -123,7 +123,12 @@
 	          {% if lvl2Elem and lvl1Path %}
 		            <div class="btn-group" role="group" aria-label="" style="margin-top: 10px;">
 		            {% assign loopIndex=0 %}
+		            {% assign nextIndex = subLevelIndex | plus:1 %}
 		          	{% for lev3 in lvl2Elem.sub %}
+		          		
+		          		{% if loopIndex==nextIndex%}
+		          			{% assign nextLevel = lev3 %}
+		          		{% endif %}
 		          		<a href="{{ site.baseurl }}/fr/{{ lvl1Path }}/{{ lev3.path }}" class="btn {% if loopIndex == subLevelIndex %}btn-success{% else %}btn-secondary{% endif %} btn-md">{{ loopIndex | plus:1 }} : {{ lev3.name }}</a>
 		          		{% assign loopIndex = loopIndex | plus:1 %}
 		          	{% endfor %}
@@ -140,6 +145,10 @@
 				<div class="d-block d-sm-none"><iframe id="presVideo" width="300" height="160" src="https://www.youtube.com/embed/{{ page.youtubeLink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
            {% endif %}
           {{ content }}
+          
+          {% if nextLevel %}
+          		<a href="" class="btn btn-success btn-md">{{ loopIndex | plus:1 }} : {{ nextLevel.name }}</a>
+          {% endif %}
           </div>          
            
         </main>
