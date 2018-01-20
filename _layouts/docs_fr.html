@@ -128,6 +128,7 @@
 		          		
 		          		{% if loopIndex==nextIndex%}
 		          			{% assign nextLevel = lev3 %}
+		          			{% assign nextLevelPath = site.baseurl | append : '/fr/' | append : lvl1Path | append : '/' | append : lev3.path "%}
 		          		{% endif %}
 		          		<a href="{{ site.baseurl }}/fr/{{ lvl1Path }}/{{ lev3.path }}" class="btn {% if loopIndex == subLevelIndex %}btn-success{% else %}btn-secondary{% endif %} btn-md">{{ loopIndex | plus:1 }} : {{ lev3.name }}</a>
 		          		{% assign loopIndex = loopIndex | plus:1 %}
@@ -146,8 +147,8 @@
            {% endif %}
           {{ content }}
           
-          {% if nextLevel %}
-          		<a href="" class="btn btn-success btn-md">{{ loopIndex | plus:1 }} : {{ nextLevel.name }}</a>
+          {% if nextLevel and nextLevelPath%}
+          		<a href="{{ nextLevelPath }}" class="btn btn-success btn-md">Suivant : {{ nextLevel.name }} >></a>
           {% endif %}
           </div>          
            
