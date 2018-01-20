@@ -10,7 +10,10 @@ readingEstimation : 4
 
 ## Introduction
 
-Nous allons aborder ici l'organisation opérationnelle du projet. Le réseau que vous avez intialisé lors de l'étape 1 est le socle vous permettant d'organiser votre projet. 
+Dans cette partie, nous allons aborder les notions d'organisations opérationnelles au travers le WBS ( Work Breakdown Structure ) généré automatiquement par Weelgo. 
+
+Ce WBS est issu du réseau mis en place dans l'étape 1. 
+
 
 ## L'organisation opérationnelle du projet. 
 
