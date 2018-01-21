@@ -94,10 +94,6 @@ L'affectation des responsables permet de transmettre la responsabilité de l'act
 
 Pour cela, trouvez votre collaborateur depuis le bouton <img src="/fr/img/boutonRessource.png"> et cherchez le depuis la recherche. 
 
-<p align="center">
-<img src="/fr/img/affectationRessource.png">
-</p>
-
 Une fois séléctionné, il suffit d'affecter (drag&drop) la personne à une action ou à un ticket. 
 
 ---
@@ -152,13 +148,13 @@ Durée de réalisation : 10J
 
 **Une action / ticket peut être plannifié(e) uniquement si une charge de réalisation est renseignée.** 
 
-L'affectation des charges des actions s'effectuent depuis la vue "Réseau" 
+L'affectation des charges des **actions** s'effectuent depuis la vue "Réseau"
 
 <p align="center">
 <img src="/fr/img/affectationChargeAction.png">
 </p>
 
-L'affectation des charges des tickets s'effectuent depuis la vue "Organisation"
+L'affectation des charges des **tickets** s'effectuent depuis la vue "Organisation"
 
 <p align="center">
 <img src="/fr/img/affectationChargeTicket.png">
