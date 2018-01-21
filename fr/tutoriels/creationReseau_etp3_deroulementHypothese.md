@@ -65,6 +65,6 @@ Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiqu
 
 
 **Tips&Astuces :**
->*La modification du calendrier ou de la productivité générale de la personne impactera le planning depuis le début du projet. Afin de ne pas modifier le planning déjà réalisé, modifiez la charge à venir du collaborateur en ajoutant des dates spécifiques ( mettre image ).*
+>*La modification du calendrier ou de la productivité générale de la personne impactera le planning depuis le début du projet. Afin de ne pas modifier le planning déjà réalisé, modifiez la charge à venir du collaborateur en ajoutant des dates spécifiques.*
 
 ---
