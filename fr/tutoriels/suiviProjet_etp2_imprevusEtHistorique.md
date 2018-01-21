@@ -113,7 +113,7 @@ Nous avons déjà évoqué l'utilisation de la durée pour gérer un retard. Les
 <img src="/fr/img/actionDebutReseau.png">
 </p>
 
-* __Recadrer__ le projet dans le temps suite à un retard ou un imprévu non géré correctement ( notamment par un manque de suivi )
+* Pour __Recadrer__ le projet dans le temps suite à un retard ou un imprévu non géré correctement ( notamment par un manque de suivi )
 
 
 Forcer une date permet donc de resituer le démarrage ( ou la fin ) d'une action et d'un ticket dans le temps. Vous devez limiter au maximum l'utilisation de cette option. 
