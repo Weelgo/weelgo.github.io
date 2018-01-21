@@ -119,6 +119,7 @@
 		"color": "white",
 		"id": "345klj3",
 		"thumbnail": "studyCase.png",
+		"soon" : "true",
 		"sub": [
 			{
 				"name": "Weelgo en Agile",
