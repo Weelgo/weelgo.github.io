@@ -10,7 +10,7 @@ readingEstimation : 2
 
 ## Introduction
 
-Abordons maintenant l'analyse logique de déroulement du projet ainsi que la mise en place des hypothèses de départ. Suite à cela, vous serez en capacité de démarrer le début des opérations. 
+Abordons maintenant l'analyse logique du déroulement du projet ainsi que la mise en place des hypothèses de départ. Suite à cela, vous serez en capacité de démarrer le début des opérations. 
 
 
 ## Analyser le déroulement logique du projet
