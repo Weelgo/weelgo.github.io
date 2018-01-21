@@ -107,13 +107,13 @@ Sur les actions et les tickets, vous avez la possibilité de forcer :
 </p>
 
 Nous avons déjà évoqué l'utilisation de la durée pour gérer un retard. Les dates de début et dates de fin s'utilisent dans 2 cas : 
-1. Pour situer le démarrage d'une action dans le temps. Par exemple, une action située en début de réseau, précédée par aucune action mais nécessitant de commencer plus tard dans le temps (et non à la date de démarrage du projet).
+* Pour situer le démarrage d'une action dans le temps. Par exemple, une action située en début de réseau, précédée par aucune action mais nécessitant de commencer plus tard dans le temps (et non à la date de démarrage du projet).
 
 <p align="center">
 <img src="/fr/img/actionDebutReseau.png">
 </p>
 
-2.  __Recadrer__ le projet dans le temps suite à un retard ou un imprévu non géré correctement ( notamment par un manque de suivi )
+* __Recadrer__ le projet dans le temps suite à un retard ou un imprévu non géré correctement ( notamment par un manque de suivi )
 
 
 Forcer une date permet donc de resituer le démarrage ( ou la fin ) d'une action et d'un ticket dans le temps. Vous devez limiter au maximum l'utilisation de cette option. 
