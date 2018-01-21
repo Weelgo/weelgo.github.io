@@ -19,9 +19,9 @@ Ce WBS est issu du réseau mis en place dans l'étape 1.
 
 *Vue Weelgo : Organisation*
 
-La vue Organisation de Weelgo représente le projet sous une forme hierachique ou WBS ( Work Breakdown Structure ). C'est à dire un organigramme des actions du projet.  
+La vue Organisation de Weelgo représente le projet sous une forme hierachique ou WBS. C'est à dire un organigramme des actions du projet.  
 
-Ce WBS est généré à partir du réseau du projet. Il est onstruit de la manière suivante : 
+Ce WBS,généré à partir du réseau du projet, est construit de la manière suivante : 
 + Les répertoires correspondent aux différents niveaux du WBS
 + Les actions correspondent au niveau le plus bas. 
 
@@ -47,13 +47,12 @@ C'est dans cet espace que vous allez pouvoir finaliser l'organisation de votre p
 
 ### Définition et ajout des tickets
 
-**Définition**
 
 Le ticket dans Weelgo est considéré comme une sous-tâche de l'action (comme une TODO list). La principale caractéristique du ticket doit être son indépendance vis à vis des autres ticket (dépendance causale et temporelle). Cela afin de pouvoir le manipuler facilement dans l'organisation. 
 
 **Utilisation des tickets**
 
-Ils peuvent être créés en cliquant sur <img src="/fr/img/iconeAjoutTicket.png">. Ils peuvent être déplacés ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
+Ils peuvent être créés en cliquant sur l'icône <img src="/fr/img/iconeAjoutTicket.png">. Ils peuvent être déplacés ( via du drag&drop ) dans la liste des tickets ou dans d'autres actions. 
 
 Le livrable étant rattaché à l'action, les tickets n'aboutissent pas à un livrable dans Weelgo. Néanmoins, ils ont des caractéristiques communes. Vous pouvez affecter des responsables aux tickets ainsi que des charges de réalisation. 
 
