@@ -13,7 +13,6 @@ readingEstimation : 4
 
 Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maîtrise ! 
 
-Abordons maintenant la modélisation d'un projet. 
 
 <a id="definitionActionsLivrables"></a> 
 ## Modéliser son projet 
@@ -22,8 +21,7 @@ Abordons maintenant la modélisation d'un projet.
 
 Quesqu'un projet ? Un projet est la réalisation d'un ensemble d'actions aboutissant a un ou plusieurs livrables.
 
-
-La modélisation du projet consiste donc à : 
+Dans weelgo, la modélisation commence par :  
 * Déterminer l'ensemble des livrables constituant le projet
 * Déterminer les actions permettant d'aboutir à ces livrables
 
@@ -31,7 +29,7 @@ C'est cette succession d'actions et de  livrables qui fomera votre réseau. Le r
 
 ### Les actions et les livrables
 
-Dans un premier temps, il est nécessaire de définir l'ensemble des livrables qui composent votre projets. Identifier les livrables nécessaires aux projets vous permettra de déterminer les actions à réaliser. 
+Dans un premier temps, vous devez identifier l'ensemble des livrables qui composent votre projet. 
 
 Sur Weelgo les livrables peuvent être de 3 types: neutre, intermédiaire et jalon.
 
@@ -41,15 +39,13 @@ Sur Weelgo les livrables peuvent être de 3 types: neutre, intermédiaire et jal
 
 Les livrables jalons sont des livrables que vous souhaitez suivre. Ils apparaîtront dans le tableau de bord du projet et bénéficieront d'un suivi particulier. 
 
-Une fois l'ensemble des livrables identifiées, vous devez les associer à des actions. Pour chaque livrable, posez-vous les questions suivantes : 
+Connaitre l'ensemble des livrables attendus est une très bonne base pour identifier les actions nécessaires à leurs réalisations.
+
+Pour chaque livrable, posez-vous les questions suivantes : 
 * Que dois-je faire pour réaliser ce livrable? 
 * Quels sont les inputs nécessaires à la réalisation de cette action? 
 
-
-Vous aurez la possibilité de créer des tickets depuis la vue Organisation. Un choix structurel s'impose donc. Dois-je créer une action ou un ticket? 
-
-Pour vous aidez dans votre choix, souvenez-vous que le réseau doit matérialiser la structure de votre projet. Notamment avec la liste des livrables et des jalons. Si le résultat du ticket et un livrable de haute importante (application, documentation...), une action est préférable. Dans le cas contraire, privilégiez le ticket.
-
+Le réseau étant la structure du projet, indiquez uniquement les livrables de haute importante ( application, documentation... ). En effet, vous aurez la possibilité de créer des tickets pour chaque actions. Les tickets vous permettront de ne pas surchargere réseau avec des activités "microscopiques". 
 
 ---
 
