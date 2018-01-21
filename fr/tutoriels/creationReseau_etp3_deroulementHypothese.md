@@ -55,6 +55,7 @@ Ajoutez les calendriers de vos collaborateurs et definissez des dates spécifiqu
 <img src="/fr/img/calendrierRessource.png">
 </p>
 
+Pour définir une plage sur un calendrier, cliquez sur 2 dates. Une fenêtre vous permettra de définir la disponibilité du collaborateur sur la période. 
 
 ---
 
