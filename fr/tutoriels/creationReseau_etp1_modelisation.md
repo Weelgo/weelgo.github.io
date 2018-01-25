@@ -47,17 +47,15 @@ Pour chaque livrable, posez-vous les questions suivantes :
 
 Le réseau étant la structure du projet, indiquez uniquement les livrables de haute importante ( application, documentation... ). En effet, vous aurez la possibilité de créer des tickets pour chaque actions. Les tickets vous permettront de ne pas surchargere réseau avec des activités "microscopiques". 
 
----
 
-**Nos préconisations :**
-<a id="ordreActions"></a> 
+
+> **Nos préconisations :**
+> <a id="ordreActions"></a> 
 > *Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutôt être traitée comme un ticket (depuis la vue Organisation).*
 
-**Points importants :**
+> **Points importants :**
+> *Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat (livrable) ne doit pas être présente dans le réseau.*
 
->*Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat (livrable) ne doit pas être présente dans le réseau.*
-
----
 
 ### Ordonnancement des actions
 
