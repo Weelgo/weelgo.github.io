@@ -51,7 +51,7 @@ Le réseau étant la structure du projet, indiquez uniquement les livrables de h
 
 **Nos préconisations :**
 <a id="ordreActions"></a> 
->*Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutôt être traitée comme un ticket (depuis la vue Organisation).*
+> *Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutôt être traitée comme un ticket (depuis la vue Organisation).*
 
 **Points importants :**
 
