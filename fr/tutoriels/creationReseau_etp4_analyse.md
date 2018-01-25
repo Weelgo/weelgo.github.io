@@ -27,7 +27,7 @@ Véritable feuille de route du projet, c'est la vision verticale du planning. Vo
 
 **Nos préconisations :**
 
->Entre le vue Organisation et la vue Gantt, cette représentation est idéale pour le pilotage  de l'équipe au quotidien. Lors de la réunion journalière, en un clin d'oeil, l'ensemble de l'équipe connait les actions à réaliser ainsi que l'état du projet.
+>Cette représentation est idéale pour le pilotage  de l'équipe au quotidien. Lors de la réunion journalière, en un clin d'oeil, l'ensemble de l'équipe connait les actions à réaliser ainsi que l'état du projet.
 
 ---
 
