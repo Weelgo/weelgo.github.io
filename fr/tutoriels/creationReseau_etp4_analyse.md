@@ -27,7 +27,7 @@ Véritable feuille de route du projet, c'est la vision verticale du planning. Vo
 
 **Nos préconisations :**
 
->*Entre le vue Organisation et la vue Gantt, cette représentation est idéale pour le pilotage  de l'équipe au quotidien. Lors de la réunion journalière, en un clin d'oeil, l'ensemble de l'équipe connait les actions à réaliser ainsi que l'état du projet.* 
+>Entre le vue Organisation et la vue Gantt, cette représentation est idéale pour le pilotage  de l'équipe au quotidien. Lors de la réunion journalière, en un clin d'oeil, l'ensemble de l'équipe connait les actions à réaliser ainsi que l'état du projet.
 
 ---
 
@@ -52,7 +52,7 @@ Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une visi
 
 **Nos préconisations :**
 
->*Le tableau de bord est idéal dans la communication de l'avancement du projet. Notammement dans une relation client / fournisseur. Vous pouvez communiquer sur l'avancement des livrables-jalons, clés du projet et de la santé du projet.*
+>Le tableau de bord est idéal dans la communication de l'avancement du projet. Notammement dans une relation client / fournisseur. Vous pouvez communiquer sur l'avancement des livrables-jalons, clés du projet et de la santé du projet.
 
 ---
 
@@ -68,7 +68,7 @@ Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs 
 ---
 **Nos préconisations :**
 
->*N'hésitez pas à afficher le calendrier de vos collaborateurs avant de modifier le réseau et / ou les tickets. La vision du calendrier dans le Gantt vous permet d'avoir la vision nécessaire sur la disponibilité de vos collaborateurs et donc vous permettre de modifier votre réseau en connaissance de cause.* 
+>N'hésitez pas à afficher le calendrier de vos collaborateurs avant de modifier le réseau et / ou les tickets. La vision du calendrier dans le Gantt vous permet d'avoir la vision nécessaire sur la disponibilité de vos collaborateurs et donc vous permettre de modifier votre réseau en connaissance de cause.
 
 ---
 
@@ -83,7 +83,7 @@ Représentation graphique de l'évolution de la quantité de travail restante pa
 ---
 **Nos préconisations :**
 
->*Attention, une consommation en dessous de la consommation idéale n'est pas forcement preuve de la bonne santé du projet. Seul l'avancement dans le gantt vous le garantira.* 
+>Attention, une consommation en dessous de la consommation idéale n'est pas forcement preuve de la bonne santé du projet. Seul l'avancement dans le gantt vous le garantira.
 
 ---
 
@@ -104,7 +104,7 @@ Remarque : La droite à 45° ci-dessous montre la date de fin prévue pour les l
 ---
 **Nos préconisations :**
 
->*Chaque livrable / jalon à sa propre droite à 45°. Cette droite est accesible en cliquant sur le jalon depuis la vue dashboard.* 
+>Chaque livrable / jalon à sa propre droite à 45°. Cette droite est accesible en cliquant sur le jalon depuis la vue dashboard.
 
 <p align="center">
 <img src="/fr/img/droite45Dashboard.png">
