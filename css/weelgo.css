@@ -105,3 +105,9 @@ blockquote {
 	border:1px solid black;
     border-left: 0.25em solid #008fff;
 }
+
+blockquote > p
+{
+	margin-bottom: 0px;
+	
+}
