@@ -109,6 +109,7 @@ blockquote {
 
 blockquote > p
 {
-	margin-bottom: 0px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	
 }
