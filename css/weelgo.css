@@ -102,7 +102,8 @@ a:hover
 blockquote {
     padding: 0 1em;
 /*     color: #6a737d; */
-	border:1px solid black;
+/* 	border:1px solid black; */
+	background-color: #dff1ff;
     border-left: 0.25em solid #008fff;
 }
 
