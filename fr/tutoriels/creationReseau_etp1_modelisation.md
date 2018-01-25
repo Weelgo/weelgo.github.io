@@ -87,7 +87,7 @@ Lors de la création du réseau, il est nécessaire de considérer les ressource
 
 **Nos préconisations :**
 <a id="repertoire"></a> 
->*Ordonnancez votre projet sans prendre en compte les ressources (ressources infinies). Vous connaîtrez ainsi le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet.*
+>Ordonnancez votre projet sans prendre en compte les ressources (ressources infinies). Vous connaîtrez ainsi le délai minimum de réalisation de votre projet et vous pourrez déterminer le nombre maximum de personne pouvant être affecté sur votre projet.
 
 ---
 
@@ -156,6 +156,6 @@ Pour affecter des actions à un répertoire, il suffit de sélectionner les acti
 <a id="organisationProjet"></a> 
 **Nos préconisations :**
 
->*Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet.*
+>Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet.
 
 ---
