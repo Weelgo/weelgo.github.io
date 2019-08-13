@@ -24,12 +24,12 @@
 			{% for lev1 in site.data.sitemap_fr %}
 			<div class="col-md-4">
 
-				<div class="card mb-4 shadow-sm text-center">
+				<div class="card mb-4 text-center">
 					<span style="font-size: 4em;margin-top: 20px;"><i class="{{ lev1.icon }}"></i></span>
 					<div class="card-body">
 						<h5 class="card-title">{{ lev1.name }}</h5>
 						<p class="card-text">{{ lev1.description }}</p>
-						<a href="{{ site.baseurl }}/fr/{{ lev1.path }}/" class="btn btn-primary">Consulter</a>
+						<a href="{{ site.baseurl }}/fr/{{ lev1.path }}/" class="btn btn-primary stretched-link">Consulter</a>
 					</div>
 				</div>
 			</div>
