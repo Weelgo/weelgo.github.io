@@ -7,6 +7,7 @@
 		"color": "white",
 		"id": "fj345j",
 		"thumbnail": "tutorials.png",
+		"icon":"fal fa-rocket",
 		"sub": [
 			{
 				"name": "Créer un réseau",
@@ -80,6 +81,7 @@
 		"color": "white",
 		"id": "fj246kj",
 		"thumbnail": "videos.png",
+		"icon":"fal fa-graduation-cap",
 		"sub": [
 			{
 				"name": "Vidéo présentation",
@@ -119,7 +121,7 @@
 		"color": "white",
 		"id": "345klj3",
 		"thumbnail": "studyCase.png",
-		"soon" : "true",
+		"icon":"fal fa-book",
 		"sub": [
 			{
 				"name": "Weelgo en Agile",
