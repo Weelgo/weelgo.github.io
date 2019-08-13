@@ -12,13 +12,13 @@
 			{% assign currentData=lev1 %}
 		{% endif %}
 	{% endfor %}
-	<div class="container" style="margin-top: 95px;">
+	<div class="container">
 
-		<div class="row">
-			<h1 class="text-center" style="margin-bottom: 20px; width: 100%;">{{ currentData.name }}</h1>
+		<div>
+			<h1 class="text-center" style="margin-bottom: 20px;">{{ currentData.name }}</h1>
 
 			<div class="lead text-center"
-				style="margin-top: 20px; margin-bottom: 30px;width: 100%;">{{ currentData.description }}</div>
+				style="margin-top: 20px; margin-bottom: 30px;;">{{ currentData.description }}</div>
 		</div>	
 		{% if currentData.hasCategory == 'true' %}
 			{% for parts in currentData.sub %}		
