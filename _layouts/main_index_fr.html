@@ -22,11 +22,10 @@
 		<div class="row">
 
 			{% for lev1 in site.data.sitemap_fr %}
-			<div class="card-deck">
+			<div class="col-md-4">
 
-				<div class="card shadow-sm text-center">
-					<img class="img-responsive" style="display: inline;" alt=""
-						src="/fr/img/{{ lev1.thumbnail }}">
+				<div class="card mb-4 shadow-sm text-center">
+					<i class="fa fa-rocket" aria-hidden="true"></i>
 					<div class="card-body">
 						<h5 class="card-title">{{ lev1.name }}</h5>
 						<p class="card-text">{{ lev1.description }}</p>
