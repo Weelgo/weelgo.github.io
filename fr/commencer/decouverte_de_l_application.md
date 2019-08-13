@@ -1,7 +1,6 @@
 ---
 layout : docs_fr
 title : Créer et gérer un projet sous Weelgo
-description : Super méga description.
 id : thl23
 readingEstimation : 4
 ---
