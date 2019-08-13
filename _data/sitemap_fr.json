@@ -1,8 +1,8 @@
 [
 	{
-		"name": "Tutoriels",
+		"name": "Commencer",
 		"description": "",
-		"path": "tutoriels",
+		"path": "commencer",
 		"backgroundColor": "#008fff",
 		"color": "white",
 		"id": "fj345j",
@@ -73,9 +73,9 @@
 		]
 	},
 	{
-		"name": "Vidéos",
+		"name": "Tutoriels / Etudes de cas",
 		"description": "",
-		"path": "videos",
+		"path": "tutoriels",
 		"backgroundColor": "#00debc",
 		"color": "white",
 		"id": "fj246kj",
@@ -112,7 +112,7 @@
 		]
 	},
 	{
-		"name": "Etudes de cas",
+		"name": "Articles",
 		"description": "",
 		"path": "etudes_de_cas",
 		"backgroundColor": "#008fff",
@@ -136,15 +136,5 @@
 				"id": "fkel24"
 			}
 		]
-	},
-	{
-		"name": "Documentation",
-		"description": "",
-		"path": "documentation",
-		"backgroundColor": "#00debc",
-		"color": "white",
-		"id": "kglyo356j",
-		"thumbnail": "documentation.png",
-		"soon" : "true"
 	}
 ]
