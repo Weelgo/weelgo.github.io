@@ -12,49 +12,49 @@
 		"sub": [
 			{
 				"name": "Découverte de l'application",
-				"description": "",
+				"description": "Découverte de l'application.",
 				"path": "découverte_de_l_application",
 				"id": "hjfk34",
 				"enable": "true"
 			},
 			{
 				"name": "Découverte des news",
-				"description": "",
+				"description": "Découverte des news.",
 				"path": "decouvertes_des_news",
 				"id": "jkg689k",
 				"enable": "true"
 			},
 			{
 				"name": "Ma todo liste",
-				"description": "",
+				"description": "Ma todo liste.",
 				"path": "ma_tofo_liste",
 				"id": "jkg689k",
 				"enable": "true"
 			},
 			{
 				"name": "Mon clendrier",
-				"description": "",
+				"description": "Mon clendrier.",
 				"path": "mon_calendrier",
 				"id": "jkg689k",
 				"enable": "true"
 			},
 			{
 				"name": "Le forum",
-				"description": "",
+				"description": "Le forum.",
 				"path": "le_forum",
 				"id": "jkg689k",
 				"enable": "true"
 			},
 			{
 				"name": "Le projet",
-				"description": "",
+				"description": "Le projet.",
 				"path": "le_projet",
 				"id": "jkg689k",
 				"enable": "true"
 			},
 			{
 				"name": "La roadmap",
-				"description": "",
+				"description": "La roadmap.",
 				"path": "la_roadmap",
 				"id": "jkg689k",
 				"enable": "true"
