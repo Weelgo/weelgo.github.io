@@ -13,7 +13,7 @@
 			{
 				"name": "Découverte de l'application",
 				"description": "Découverte de l'application.",
-				"path": "découverte_de_l_application",
+				"path": "decouverte_de_l_application",
 				"id": "hjfk34",
 				"enable": "true",
 				"image":""
@@ -29,7 +29,7 @@
 			{
 				"name": "Ma todo liste",
 				"description": "Ma todo liste.",
-				"path": "ma_tofo_liste",
+				"path": "ma_todo_liste",
 				"id": "jkg689k",
 				"enable": "true",
 				"image":""
