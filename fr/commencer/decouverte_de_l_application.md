@@ -1,9 +1,7 @@
 ---
 layout : docs_fr
 title : Créer et gérer un projet sous Weelgo
-description : 
-toc : true
-group : createNetwork
+description :
 id : thl23
 readingEstimation : 4
 ---
