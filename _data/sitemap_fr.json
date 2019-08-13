@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Commencer",
+		"name2": "Commencer avec Weelgo",
 		"description": "Apprenez les notions de base et développez votre activité",
 		"path": "commencer",		
 		"id": "fj345j",		
@@ -67,6 +68,7 @@
 	},
 	{
 		"name": "Tutoriels",
+		"name2": "Les tutoriels Weelgo",
 		"description": "Tutoriels pour débutants et experts vous aidant à développer vos compétences.",
 		"path": "tutoriels",
 		"backgroundColor": "#00debc",
@@ -112,6 +114,7 @@
 	},
 	{
 		"name": "Articles / Etude de cas",
+		"name2": "Weelgo - Articles / Etude de cas",
 		"description": "Des articles et des études de cas super cool.",
 		"path": "etudes_de_cas",
 		"backgroundColor": "#008fff",
