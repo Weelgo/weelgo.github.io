@@ -107,14 +107,14 @@ C’est la seule attitude qui peut sensibiliser les acteurs du projet à l’imp
 
 **Nos préconisations :**
 
->*Le planning à un sens uniquement si l'équipe lui en donne.*
+>Le planning a un sens uniquement si l'équipe lui en donne.
 
->*Faites vivre le planning avec votre équipe*
+>Faites vivre le planning avec votre équipe.
 <a id="majAvancement"></a> 
 
->*Partager le planning et les indicateurs. Ils doivent être accessibles à chaque instant.* 
+>Partager le planning et les indicateurs. Ils doivent être accessibles à chaque instant.
 
->*N'acceptez jamais un glissement de délai sans réagir. Trouvez des solutions et adapter votre réseau.* 
+>N'acceptez jamais un glissement de délai sans réagir. Trouvez des solutions et adapter votre réseau. 
 
 ---
 
@@ -227,12 +227,12 @@ Lorsque vous démarrez ou terminez une action sans le livrable en input, lorsque
 
 **Nos préconisations :**
 
->*Mettez à jour l'avancement réguliérement.*
+>Mettez à jour l'avancement réguliérement.
 <a id="gestionImprevus"></a>
->*Vous êtes en présence d'un problème de conception du réseau si vous êtes amenez à commencer / terminer des actions sans avoir réaliser les actions précédentes.*
+>Vous êtes en présence d'un problème de conception du réseau si vous êtes amenez à commencer / terminer des actions sans avoir réaliser les actions précédentes.
 
->*Evitez au maximum d'utiliser les options permettant de forcer le démarrage / clôture d'une action.*
+>Evitez au maximum d'utiliser les options permettant de forcer le démarrage / clôture d'une action.
 
->*Faites saisir l'avancement par les responsables des actions.*
+>Faites saisir l'avancement par les responsables des actions.
 
->*Si vous effectuez des actions non autorisées par nature par Weelgo c'est que vous avez des problèmes de conception au niveau du réseau."
+>Si vous effectuez des actions non autorisées par nature par Weelgo c'est que vous avez des problèmes de conception au niveau du réseau.

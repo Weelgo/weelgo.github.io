@@ -67,17 +67,17 @@ Les tickets sont priorisés de haut en bas. Les tickets situés le plus en haut 
 
 **Nos préconisations :**
 
->*Considérer les tickets comme la TODO list de l'action.* 
+>Considérer les tickets comme la TODO list de l'action.
 
->*Un ticket doit être le plus indépendant possible par rapport aux autres tickets.* 
+>Un ticket doit être le plus indépendant possible par rapport aux autres tickets. 
 
 <a id="affectationResp"></a> 
 
 
 **Tips&Astuces :**
 
->*Les tickets sont priorisés de haut en bas.*
->*Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins ils n'apparaîtront pas dans les vues de planification.* 
+>Les tickets sont priorisés de haut en bas.
+>Un ticket sans charge de réalisation peut être géré comme un ticket avec une charge. Néanmoins ils n'apparaîtront pas dans les vues de planification.
 
 <p align="center">
 <img src="/fr/img/ticketAvecCharge.png">
@@ -99,11 +99,11 @@ Une fois séléctionné, il suffit d'affecter (drag&drop) la personne à une act
 ---
 <a id="partageReseau"></a> 
 **Nos préconisations :**
->*Affectez un responsable unique à une action.*
+>Affectez un responsable unique à une action.
 <a id="chargeReal"></a> 
 
 **Tips&Astuces :**
->*Si l'action contient plusieurs responsables, nous considérons que l'action sera réalisée par l'ensemble des collaborateurs en même temps (en fonction de leurs disponibilités). La charge de réalisation sera alors distribuée entre tous les responsables.* 
+>Si l'action contient plusieurs responsables, nous considérons que l'action sera réalisée par l'ensemble des collaborateurs en même temps (en fonction de leurs disponibilités). La charge de réalisation sera alors distribuée entre tous les responsables. 
 
 ---
 
@@ -123,11 +123,11 @@ Nous vous conseillons d'effectuer ce partage une fois que vous avez indiqué l'e
 ---
 <a id="partageReseau"></a> 
 **Nos préconisations :**
->*Partagez le réseau après avoir effectué les affectations des responsables.*
+>Partagez le réseau après avoir effectué les affectations des responsables.
 <a id="chargeReal"></a> 
 
 **Tips&Astuces :**
->*Vous pouvez partager le réseau à tout moment. De plus vous pouvez créer une URL cryptée afin de partager le réseau à des membres extérieurs au projet et non inscrit sur Weelgo.* 
+>Vous pouvez partager le réseau à tout moment. De plus vous pouvez créer une URL cryptée afin de partager le réseau à des membres extérieurs au projet et non inscrit sur Weelgo. 
 
 ---
 
@@ -164,10 +164,10 @@ L'affectation des charges des **tickets** s'effectuent depuis la vue "Organisati
 
 **Nos préconisations :**
 <a id="analyseLogique"></a> 
->*Demandez aux responsables d'actions / tickets de renseigner la charge de réalisation. Cela permettra d'avoir une planification réaliste ainsi que de responsabiliser les acteurs à la réalisation du projet.* 
+>Demandez aux responsables d'actions / tickets de renseigner la charge de réalisation. Cela permettra d'avoir une planification réaliste ainsi que de responsabiliser les acteurs à la réalisation du projet. 
 
->*De plus vous donnerez l'opportunité de communiquer sur le réseau de réalisation du projet et ainsi faire des ajustements si nécessaire.*
+>De plus vous donnerez l'opportunité de communiquer sur le réseau de réalisation du projet et ainsi faire des ajustements si nécessaire.
 
->*Ne confondez pas la charge de réalisation et la durée de réalisation. Lors de la saisie de la charge de réalisation, ne prenez pas en compte les hypothèses de productivité. Ces hypothèses seront gérées au niveau du planning des collaborateurs*
+>Ne confondez pas la charge de réalisation et la durée de réalisation. Lors de la saisie de la charge de réalisation, ne prenez pas en compte les hypothèses de productivité. Ces hypothèses seront gérées au niveau du planning des collaborateurs.
 
 ---

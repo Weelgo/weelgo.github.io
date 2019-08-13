@@ -153,11 +153,11 @@ Pour ne pas avoir de message d'erreur dans le GANTT. il faut que la date de fin 
 **Nos préconisations :**
 <a id="ordreActions"></a> 
 
->*Les modifications du réseau doivent être réalisées par le responsable du réseau*
+>Les modifications du réseau doivent être réalisées par le responsable du réseau.
 
->*Limitez l'utilisation des dates de début et des dates de fin.*
+>Limitez l'utilisation des dates de début et des dates de fin.
 
->*Le recadrage du planning s'effectue uniquement si les charges du réseau le permettent !*
+>Le recadrage du planning s'effectue uniquement si les charges du réseau le permettent !
 
 ---
 
@@ -224,8 +224,8 @@ Si vous gérez plusieurs projets en même temps, cela vous aidera dans votre pr�
 
 **Nos préconisations :**
 
->*Faites des snapshots réguliérement afin de construire l'historique du projet*
+>Faites des snapshots réguliérement afin de construire l'historique du projet.
 
->*Renseignez la météo du projet et ajoutez des commentaires*
+>Renseignez la météo du projet et ajoutez des commentaires.
 
 ---
