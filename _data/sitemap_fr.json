@@ -69,7 +69,7 @@
 		]
 	},
 	{
-		"name": "Tutoriels / Etudes de cas",
+		"name": "Tutoriels",
 		"description": "Tutoriels pour débutants et experts vous aidant à développer vos compétences.",
 		"path": "tutoriels",
 		"backgroundColor": "#00debc",
