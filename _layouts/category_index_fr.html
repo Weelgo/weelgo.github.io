@@ -25,7 +25,9 @@
 			<div class="card-deck">				
 				{% for card in parts.sub %}
 				<div class="card">
-				  <img src="..." class="card-img-top" alt="...">
+				  {% if card.image != blank %}
+				  	<img src="..." class="card-img-top" alt="...">
+				  {% endif %}
 				  <div class="card-body">
 				    <p class="card-text">{{ currentData.description }}</p>
 				  </div>
@@ -37,7 +39,9 @@
 			<div class="card-columns">	
 			{% for card in currentData.sub %}
 			<div class="card">
-			  <img src="..." class="card-img-top" alt="...">
+			  {% if card.image != blank %}
+				<img src="..." class="card-img-top" alt="...">
+			  {% endif %}
 			  <div class="card-body">
 			    <p class="card-text">{{ currentData.description }}</p>
 			  </div>

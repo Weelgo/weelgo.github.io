@@ -15,49 +15,56 @@
 				"description": "Découverte de l'application.",
 				"path": "découverte_de_l_application",
 				"id": "hjfk34",
-				"enable": "true"
+				"enable": "true",
+				"image":""
 			},
 			{
 				"name": "Découverte des news",
 				"description": "Découverte des news.",
 				"path": "decouvertes_des_news",
 				"id": "jkg689k",
-				"enable": "true"
+				"enable": "true",
+				"image":""
 			},
 			{
 				"name": "Ma todo liste",
 				"description": "Ma todo liste.",
 				"path": "ma_tofo_liste",
 				"id": "jkg689k",
-				"enable": "true"
+				"enable": "true",
+				"image":""
 			},
 			{
 				"name": "Mon clendrier",
 				"description": "Mon clendrier.",
 				"path": "mon_calendrier",
 				"id": "jkg689k",
-				"enable": "true"
+				"enable": "true",
+				"image":""
 			},
 			{
 				"name": "Le forum",
 				"description": "Le forum.",
 				"path": "le_forum",
 				"id": "jkg689k",
-				"enable": "true"
+				"enable": "true",
+				"image":""
 			},
 			{
 				"name": "Le projet",
 				"description": "Le projet.",
 				"path": "le_projet",
 				"id": "jkg689k",
-				"enable": "true"
+				"enable": "true",
+				"image":""
 			},
 			{
 				"name": "La roadmap",
 				"description": "La roadmap.",
 				"path": "la_roadmap",
 				"id": "jkg689k",
-				"enable": "true"
+				"enable": "true",
+				"image":""
 			}
 		]
 	},
@@ -77,28 +84,32 @@
 				"description": "Cette vidéo est une présentation rapide de la plateforme Weelgo.",
 				"path": "videoPresentation",
 				"enable": "true",
-				"id": "gkej3467"
+				"id": "gkej3467",
+				"image":""
 			},
 			{
 				"name": "Aperçu 360°",
 				"description": "Dans cette vidéo vous verrez un aperçu des principales fonctionnalités offertes par Weelgo.",
 				"path": "apercu360",
 				"enable": "true",
-				"id": "gjerk245"
+				"id": "gjerk245",
+				"image":""
 			},
 			{
 				"name": "Création d'un réseau Weelgo",
 				"description": "Dans cette vidéo vous apprendrez à créer un réseau en utilisant l'éditeur de réseau.",
 				"path": "creationReseauWeelgo",
 				"enable": "true",
-				"id": "8732hjk"
+				"id": "8732hjk",
+				"image":""
 			},
 			{
 				"name": "Planning : recadrage automatique",
 				"description": "Dans cette vidéo vous apprendrez à recadrer automatiquement un planning.",
 				"path": "planningRecadrageAuto",
 				"enable": "true",
-				"id": "kjrn34j"
+				"id": "kjrn34j",
+				"image":""
 			}
 		]
 	},
@@ -118,14 +129,16 @@
 				"description": "",
 				"path": "weelgoAgile",
 				"enable": "true",
-				"id": "oepg359"
+				"id": "oepg359",
+				"image":""
 			},
 			{
 				"name": "Weelgo en Solo",
 				"description": "",
 				"path": "weelgoSolo",
 				"enable": "true",
-				"id": "fkel24"
+				"id": "fkel24",
+				"image":""
 			}
 		]
 	}
