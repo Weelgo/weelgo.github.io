@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Commencer",
-		"description": "",
+		"description": "Apprenez les notions de base",
 		"path": "commencer",
 		"backgroundColor": "#008fff",
 		"color": "white",
@@ -74,7 +74,7 @@
 	},
 	{
 		"name": "Tutoriels / Etudes de cas",
-		"description": "",
+		"description": "Tutoriels pour débutants et experts vous aidant à développer vos compétences.",
 		"path": "tutoriels",
 		"backgroundColor": "#00debc",
 		"color": "white",
@@ -112,8 +112,8 @@
 		]
 	},
 	{
-		"name": "Articles",
-		"description": "",
+		"name": "Articles / Etude de cas",
+		"description": "Des articles et des études de cas super cool.",
 		"path": "etudes_de_cas",
 		"backgroundColor": "#008fff",
 		"color": "white",
