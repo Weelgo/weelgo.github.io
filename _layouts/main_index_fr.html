@@ -10,38 +10,32 @@
 	<div class="container" style="margin-top: 95px;">
 
 		<div class="row">
-			<h1 class="text-center" style="margin-bottom: 20px; width: 100%;">Weelgo Documentation</h1>
+			<h1 class="text-center" style="margin-bottom: 20px; width: 100%;">Weelgo
+				Documentation</h1>
 
-			<p class="lead text-center" style="margin-top: 20px; margin-bottom: 10px;">Profitez de la documentation de Weelgo pour vous aider à
-				conceptualiser et réaliser vos projets. Au fur et à mesure des retours d'expériences, nous étoffons notre banque d'études et la partageons avec
-				vous.</p>
+			<p class="lead text-center"
+				style="margin-top: 20px; margin-bottom: 10px;">Profitez de la
+				documentation de Weelgo pour vous aider à conceptualiser et réaliser
+				vos projets. Au fur et à mesure des retours d'expériences, nous
+				étoffons notre banque d'études et la partageons avec vous.</p>
 		</div>
 		<div class="row">
 
-			 {% for lev1 in site.data.sitemap_fr %}
-			 <div class="col-md-3 col-sm-12 text-center">
-				<div class="text-center" style="margin-top: 30px; margin-bottom: 30px;">
-					<img class="img-responsive" style="display: inline;" alt="" src="/fr/img/{{ lev1.thumbnail }}">
-				</div>
-				<div class="text-center" style="font-size: 23px; margin-bottom: 30px;">{{ lev1.name }}</div>
-				{% if lev1.soon and lev1.soon == 'true' %}
-					<div style="margin-bottom: 10px;font-style: italic;">
-					Bientôt disponible
-					</div>	
-				{% else %}
-					{% if lev1.sub %}
-					<div style="margin-bottom: 10px;">
-						{% for lev2 in lev1.sub %} 
-							{% if lev2.enable == 'true' %}
-								<a href="{{ site.baseurl }}/fr/{{ lev1.path }}/{{ lev2.path }}">{{ lev2.name }}</a><br>
-							{% endif %}
-						 {% endfor %}
+			{% for lev1 in site.data.sitemap_fr %}
+			<div class="col-md-4">
+
+				<div class="card mb-4 shadow-sm">
+					<img class="img-responsive" style="display: inline;" alt=""
+						src="/fr/img/{{ lev1.thumbnail }}">
+					<div class="card-body">
+						<h5 class="card-title">{{ lev1.name }}</h5>
+						<p class="card-text">Some quick example text to build on the
+							card title and make up the bulk of the card's content.</p>
+						<a href="{{ site.baseurl }}/fr/{{ lev1.path }}/" class="btn btn-primary">Go somewhere</a>
 					</div>
-					{% endif %}
-				{% endif %}
-				
-			</div>			 
-			 {% endfor %}
+				</div>
+			</div>
+			{% endfor %}
 		</div>
 
 	</div>
