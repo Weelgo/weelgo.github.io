@@ -2,11 +2,8 @@
 	{
 		"name": "Commencer",
 		"description": "Apprenez les notions de base et développez votre activité",
-		"path": "commencer",
-		"backgroundColor": "#008fff",
-		"color": "white",
-		"id": "fj345j",
-		"thumbnail": "tutorials.png",
+		"path": "commencer",		
+		"id": "fj345j",		
 		"icon": "fal fa-rocket",
 		"hasCategory":"false",
 		"sub": [
@@ -63,7 +60,7 @@
 				"description": "La roadmap.",
 				"path": "la_roadmap",
 				"id": "jkg689k",
-				"enable": "false",
+				"enable": "true",
 				"image":""
 			}
 		]
