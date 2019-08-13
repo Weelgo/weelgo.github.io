@@ -18,12 +18,22 @@
 			<h1 class="text-center" style="margin-bottom: 20px; width: 100%;">{{ currentData.name }}</h1>
 
 			<p class="lead text-center"
-				style="margin-top: 20px; margin-bottom: 30px;">Profitez de la
-				documentation de Weelgo pour vous aider à conceptualiser et réaliser
-				vos projets. Au fur et à mesure des retours d'expériences, nous
-				étoffons notre banque d'études et la partageons avec vous.</p>
+				style="margin-top: 20px; margin-bottom: 30px;">{{ currentData.description }}</p>
 		</div>	
 
+		{% for parts in currentData.sub %}		
+		<div class="card-deck">
+			
+			{% for card in parts.sub %}
+			<div class="card">
+			  <img src="..." class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			  </div>
+			</div>
+			{% endfor %}
+		</div>	
+		{% endfor %}
 	</div>
 
 
