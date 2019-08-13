@@ -23,7 +23,8 @@
 		{% if currentData.hasCategory == 'true' %}
 			{% for parts in currentData.sub %}		
 			<div class="card-deck">				
-				{% for card in parts.sub %}				
+				{% for card in parts.sub %}		
+				{% if card.enable == 'true' %}		
 				<div class="card">
 				  {% if card.image != '' %}
 				  	<img src="..." class="card-img-top" alt="...">
@@ -33,12 +34,14 @@
 				    <a href="#" class="stretched-link">Consulter</a>
 				  </div>
 				</div>
+				{% endif %}
 				{% endfor %}
 			</div>	
 			{% endfor %}
 		{% else %}
 			<div class="card-columns">	
 			{% for card in currentData.sub %}
+			{% if card.enable == 'true' %}
 			<div class="card">					
 			  {% if card.image != '' %}
 				<img src="..." class="card-img-top" alt="...">
@@ -47,7 +50,8 @@
 			    <p class="card-text">{{ card.description }}</p>
 			    <a href="#" class="stretched-link">Consulter</a>
 			  </div>
-			</div>			
+			</div>		
+			 {% endif %}	
 			{% endfor %}
 			</div>	
 		{% endif %}
