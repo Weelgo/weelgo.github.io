@@ -24,7 +24,7 @@
 		{% if currentData.hasCategory == 'true' %}
 			{% for parts in currentData.sub %}
 			<div class="lead text-center" style="font-weight: 500;margin-bottom: 30px;font-size: 1.5em;">{{ parts.name }}</div>
-			<div class="card-deck" style="margin-bottom: 36px;">				
+			<div class="card-columns" style="margin-bottom: 36px;">				
 				{% for card in parts.sub %}		
 				{% if card.enable == 'true' %}		
 				<div class="card">
