@@ -9,6 +9,16 @@ body, html {
 /* 	max-width: 100%; */
 /* } */
 
+a
+{
+	color: #1db9db;
+		
+}
+a:hover
+{
+	color: #1db9db;
+	text-decoration: underline;
+}
 blockquote {
     padding: 0 1em;
 /*     color: #6a737d; */
