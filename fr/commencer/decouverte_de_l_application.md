@@ -11,7 +11,6 @@ readingEstimation : 4
 Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maîtrise ! 
 
 
-<a id="definitionActionsLivrables"></a> 
 ## Modéliser son projet 
 
 *Vue Weelgo : Réseau*
