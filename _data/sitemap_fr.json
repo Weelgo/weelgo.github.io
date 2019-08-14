@@ -105,7 +105,7 @@
 						"path": "ma_todo_liste",
 						"id": "zrfhgryh",
 						"enable": "true",
-						"image": ""
+						"image": "montain_297x176.jpg"
 					}
 				]
 			},
@@ -115,7 +115,25 @@
 				"path": "apercu360",
 				"enable": "true",
 				"id": "gjerk245",
-				"image": ""
+				"image": "",
+				"sub": [
+					{
+						"name": "Découverte de l'application",
+						"description": "Découverte de l'application.",
+						"path": "decouverte_de_l_application",
+						"id": "zfefgh",
+						"enable": "true",
+						"image": "montain_297x176.jpg"
+					},
+					{
+						"name": "Découverte des news",
+						"description": "Découverte des news.",
+						"path": "decouvertes_des_news",
+						"id": "tjurtg",
+						"enable": "true",
+						"image": "robot_297x176.jpg"
+					}
+				]
 			},
 			{
 				"name": "Création d'un réseau Weelgo",
@@ -123,7 +141,33 @@
 				"path": "creationReseauWeelgo",
 				"enable": "true",
 				"id": "8732hjk",
-				"image": ""
+				"image": "",
+				"sub": [
+					{
+						"name": "Découverte de l'application",
+						"description": "Découverte de l'application.",
+						"path": "decouverte_de_l_application",
+						"id": "zfefgh",
+						"enable": "true",
+						"image": "montain_297x176.jpg"
+					},
+					{
+						"name": "Découverte des news",
+						"description": "Découverte des news.",
+						"path": "decouvertes_des_news",
+						"id": "tjurtg",
+						"enable": "true",
+						"image": "robot_297x176.jpg"
+					},
+					{
+						"name": "Ma todo liste",
+						"description": "Ma todo liste.",
+						"path": "ma_todo_liste",
+						"id": "zrfhgryh",
+						"enable": "true",
+						"image": "montain_297x176.jpg"
+					}
+				]
 			}
 		]
 	},
