@@ -22,7 +22,8 @@
 			<div style="margin-top: 10px; margin-bottom: 40px;text-align: center;"><a href="{{ site.baseurl }}/fr/" style="margin-right: 10px;"><i class="fas fa-arrow-left" style="margin-right: 7px;"></i>Retour</a></div>
 		</div>	
 		{% if currentData.hasCategory == 'true' %}
-			{% for parts in currentData.sub %}		
+			{% for parts in currentData.sub %}
+			<div class="lead text-center">{{ parts.name }}</div>
 			<div class="card-deck">				
 				{% for card in parts.sub %}		
 				{% if card.enable == 'true' %}		
