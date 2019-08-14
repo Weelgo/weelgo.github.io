@@ -24,19 +24,17 @@
 		{% if currentData.hasCategory == 'true' %}
 			{% for parts in currentData.sub %}
 			<div class="lead text-center" style="font-weight: 500;margin-bottom: 30px;font-size: 1.5em;">{{ parts.name }}</div>
-			<div class="row" style="margin-bottom: 36px;">				
+			<div class="card-deck" style="margin-bottom: 36px;">				
 				{% for card in parts.sub %}		
-				{% if card.enable == 'true' %}	
-				<div class="col">	
+				{% if card.enable == 'true' %}		
 				<div class="card">
 				  {% if card.image != '' %}
 				  	<img src="img/{{ card.image }}" class="card-img-top">
 				  {% endif %}
 				  <div class="card-body">
 				    <p class="card-text">{{ card.description }}</p>
-				    <a href="{{ card.path }}" class="stretched-link">Consulter <i class="fas fa-arrow-right" style="margin-left: 7px;"></i></a>
+				    <a href="{{ card.path }}" class="btn btn-primary btn-sm stretched-link">Consulter <i class="fas fa-arrow-right" style="margin-left: 7px;"></i></a>
 				  </div>
-				</div>
 				</div>
 				{% endif %}
 				{% endfor %}
