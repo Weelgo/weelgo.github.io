@@ -39,3 +39,7 @@ blockquote > p
 	border-color: #1db9db;
 	color: #1db9db;
 }
+.articleContent img
+{
+	max-width: 100%;
+}
