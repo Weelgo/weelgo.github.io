@@ -105,6 +105,14 @@
 						"id": "zrfhgryh",
 						"enable": "true",
 						"image": "montain_297x176.jpg"
+					},
+					{
+						"name": "Découverte des news",
+						"description": "Découverte des news.",
+						"path": "decouvertes_des_news",
+						"id": "tjurtg",
+						"enable": "true",
+						"image": "robot_297x176.jpg"
 					}
 				]
 			},
