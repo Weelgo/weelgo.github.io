@@ -3,10 +3,10 @@
 		"name": "Commencer",
 		"name2": "Commencer avec Weelgo",
 		"description": "Apprenez les notions de base et développez votre activité",
-		"path": "commencer",		
-		"id": "fj345j",		
+		"path": "commencer",
+		"id": "fj345j",
 		"icon": "fal fa-rocket",
-		"hasCategory":"false",
+		"hasCategory": "false",
 		"sub": [
 			{
 				"name": "Découverte de l'application",
@@ -14,7 +14,7 @@
 				"path": "decouverte_de_l_application",
 				"id": "hjfk34",
 				"enable": "true",
-				"image":"montain_297x176.jpg"
+				"image": "montain_297x176.jpg"
 			},
 			{
 				"name": "Découverte des news",
@@ -22,7 +22,7 @@
 				"path": "decouvertes_des_news",
 				"id": "jkg689k",
 				"enable": "true",
-				"image":"robot_297x176.jpg"
+				"image": "robot_297x176.jpg"
 			},
 			{
 				"name": "Ma todo liste",
@@ -30,7 +30,7 @@
 				"path": "ma_todo_liste",
 				"id": "jkg689k",
 				"enable": "true",
-				"image":""
+				"image": ""
 			},
 			{
 				"name": "Mon clendrier",
@@ -38,7 +38,7 @@
 				"path": "mon_calendrier",
 				"id": "jkg689k",
 				"enable": "true",
-				"image":""
+				"image": ""
 			},
 			{
 				"name": "Le forum",
@@ -46,7 +46,7 @@
 				"path": "le_forum",
 				"id": "jkg689k",
 				"enable": "true",
-				"image":""
+				"image": ""
 			},
 			{
 				"name": "Le projet",
@@ -54,7 +54,7 @@
 				"path": "le_projet",
 				"id": "jkg689k",
 				"enable": "true",
-				"image":""
+				"image": ""
 			},
 			{
 				"name": "La roadmap",
@@ -62,7 +62,7 @@
 				"path": "la_roadmap",
 				"id": "jkg689k",
 				"enable": "true",
-				"image":""
+				"image": ""
 			}
 		]
 	},
@@ -70,10 +70,10 @@
 		"name": "Tutoriels",
 		"name2": "Les tutoriels Weelgo",
 		"description": "Tutoriels pour débutants et experts vous aidant à développer vos compétences.",
-		"path": "tutoriels",		
+		"path": "tutoriels",
 		"id": "fj246kj",
 		"icon": "fal fa-graduation-cap",
-		"hasCategory":"true",
+		"hasCategory": "true",
 		"sub": [
 			{
 				"name": "Vidéo présentation",
@@ -81,7 +81,33 @@
 				"path": "videoPresentation",
 				"enable": "true",
 				"id": "gkej3467",
-				"image":""
+				"image": "",
+				"sub": [
+					{
+						"name": "Découverte de l'application",
+						"description": "Découverte de l'application.",
+						"path": "decouverte_de_l_application",
+						"id": "zfefgh",
+						"enable": "true",
+						"image": "montain_297x176.jpg"
+					},
+					{
+						"name": "Découverte des news",
+						"description": "Découverte des news.",
+						"path": "decouvertes_des_news",
+						"id": "tjurtg",
+						"enable": "true",
+						"image": "robot_297x176.jpg"
+					},
+					{
+						"name": "Ma todo liste",
+						"description": "Ma todo liste.",
+						"path": "ma_todo_liste",
+						"id": "zrfhgryh",
+						"enable": "true",
+						"image": ""
+					}
+				]
 			},
 			{
 				"name": "Aperçu 360°",
@@ -89,7 +115,7 @@
 				"path": "apercu360",
 				"enable": "true",
 				"id": "gjerk245",
-				"image":""
+				"image": ""
 			},
 			{
 				"name": "Création d'un réseau Weelgo",
@@ -97,7 +123,7 @@
 				"path": "creationReseauWeelgo",
 				"enable": "true",
 				"id": "8732hjk",
-				"image":""
+				"image": ""
 			}
 		]
 	},
@@ -105,10 +131,10 @@
 		"name": "Articles / Etude de cas",
 		"name2": "Weelgo - Articles / Etude de cas",
 		"description": "Des articles et des études de cas super cool.",
-		"path": "articles_etudes_de_cas",		
-		"id": "345klj3",		
+		"path": "articles_etudes_de_cas",
+		"id": "345klj3",
 		"icon": "fal fa-book",
-		"hasCategory":"false",
+		"hasCategory": "false",
 		"sub": [
 			{
 				"name": "Weelgo en Agile",
@@ -116,7 +142,7 @@
 				"path": "weelgoAgile",
 				"enable": "true",
 				"id": "oepg359",
-				"image":""
+				"image": ""
 			},
 			{
 				"name": "Weelgo en Solo",
@@ -124,7 +150,7 @@
 				"path": "weelgoSolo",
 				"enable": "true",
 				"id": "fkel24",
-				"image":""
+				"image": ""
 			}
 		]
 	}
