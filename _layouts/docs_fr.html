@@ -2,17 +2,19 @@
 <html lang="fr">
 <head>{% include header.html %}
 </head>
-<body>
+<body class="coloredBackground">
 	
 	
 	{% include docs-navbar.html %}
 	
-	<div class="container">
-     
-	      <h1 id="content" style="text-align: center;">{{ page.title }}</h1>
-	      <div style="font-style: italic;margin-top: 20px;text-align: center;">Estimation : {{ page.readingEstimation }} minutes</div>     
-	      
-      
+	
+	
+		<div class="container">     
+		      <h1 id="content" style="text-align: center;">{{ page.title }}</h1>
+		      <div style="font-style: italic;margin-top: 20px;text-align: center;">Estimation : {{ page.readingEstimation }} minutes</div>     
+	    </div>
+	
+	<div class="container" style="background-color: white;">     
 	      <div style="margin-bottom:30px;">
 	      {{ content }}
 	      </div>
