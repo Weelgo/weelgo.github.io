@@ -30,7 +30,7 @@
 				  	<img src="img/{{ card.image }}" class="card-img-top">
 				  {% endif %}
 				  <div class="card-body">
-				    <p class="card-text">{{ card.name }}</p>				    
+				    <p class="card-title">{{ card.name }}</p>				    
 				  </div>
 				  <div  class="card-footer" style="background-color: white;border-top: 0px solid white;">
 				  	<a href="{{ card.path }}" class="stretched-link">Consulter <i class="fas fa-arrow-right" style="margin-left: 7px;"></i></a>
@@ -43,7 +43,7 @@
 
 		{% for card in currentData.articles %}
 		<div class="row">
-			<div class="card mb-3" style="max-width: 540px;">
+			<div class="card mb-3" style="max-width: 540px;margin-left: auto;margin-right: auto;">
 				<div class="row no-gutters">
 					<div class="col-md-4">
 						<img src="img/{{ card.image }}" class="card-img">
@@ -54,8 +54,8 @@
 							<p class="card-text">This is a wider card with supporting
 								text below as a natural lead-in to additional content. This
 								content is a little bit longer.</p>
-							<p class="card-text">
-								<small class="text-muted">Last updated 3 mins ago</small>
+							<p class="card-text" style="text-align: right;">
+								<small class="text-muted"><a href="{{ card.path }}" class="stretched-link">Lire <i class="fas fa-arrow-right" style="margin-left: 7px;"></i></a></small>
 							</p>
 						</div>
 					</div>
