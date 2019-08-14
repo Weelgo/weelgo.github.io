@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>{% include header.html %}
+
+
+</head>
+<body  class="coloredBackground">
+	{% include docs-navbar.html %}
+
+	{% for lev1 in site.data.sitemap_fr %}
+		{% if page.id == lev1.id %}
+			{% assign currentData=lev1 %}
+		{% endif %}
+	{% endfor %}
+	<div class="container">
+
+		<div>
+			<h1 class="text-center" style="margin-bottom: 20px;">{{ currentData.name2 }}</h1>
+
+			<div class="lead text-center"
+				style="margin-top: 20px; margin-bottom: 10px;">{{ currentData.description }}</div>
+			<div style="margin-top: 10px; margin-bottom: 40px;text-align: center;"><a href="{{ site.baseurl }}/fr/" style="margin-right: 10px;"><i class="fas fa-arrow-left" style="margin-right: 7px;"></i>Retour</a></div>
+		</div>			
+	</div>
+
+
+	{% include scripts.html %}
+</body>
+</html>

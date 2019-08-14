@@ -76,7 +76,7 @@
 		"hasCategory": "true",
 		"sub": [
 			{
-				"name": "Cours sur la planification",				
+				"name": "Cours sur la planification",
 				"path": "videoPresentation",
 				"enable": "true",
 				"id": "gkej3467",
@@ -117,7 +117,7 @@
 				]
 			},
 			{
-				"name": "Cours sur la communication",				
+				"name": "Cours sur la communication",
 				"path": "apercu360",
 				"enable": "true",
 				"id": "gjerk245",
@@ -142,7 +142,7 @@
 				]
 			},
 			{
-				"name": "Cours sur le gestion de projet",				
+				"name": "Cours sur le gestion de projet",
 				"path": "creationReseauWeelgo",
 				"enable": "true",
 				"id": "8732hjk",
@@ -177,29 +177,58 @@
 		]
 	},
 	{
-		"name": "Articles / Etude de cas",
-		"name2": "Weelgo - Articles / Etude de cas",
+		"name": "Etude de cas / Articles",
+		"name2": "Articles / Etude de cas",
 		"description": "Des articles et des études de cas super cool.",
-		"path": "articles_etudes_de_cas",
+		"path": "articles_et_etudes_de_cas",
 		"id": "345klj3",
 		"icon": "fal fa-book",
 		"hasCategory": "false",
-		"sub": [
+		"studyCases": [
 			{
-				"name": "Weelgo en Agile",
+				"name": "Cas 1",
 				"description": "",
-				"path": "weelgoAgile",
-				"enable": "true",
+				"path": "cas_1",
 				"id": "oepg359",
-				"image": ""
+				"image": "montain_297x176.jpg"
 			},
 			{
-				"name": "Weelgo en Solo",
+				"name": "Cas 1",
 				"description": "",
-				"path": "weelgoSolo",
-				"enable": "true",
-				"id": "fkel24",
-				"image": ""
+				"path": "cas_1",
+				"id": "hjity3466",
+				"image": "montain_297x176.jpg"
+			}
+		],
+		"articles": [
+			{
+				"name": "Article 1",
+				"description": "",
+				"path": "article_1",
+				"id": "klooiltege",
+				"image": "montain_297x176.jpg"
+			},
+			{
+				"name": "Article 2",
+				"description": "",
+				"path": "article_2",
+				"id": "rtgrth26i",
+				"image": "montain_297x176.jpg"
+			}
+			,
+			{
+				"name": "Article 3",
+				"description": "",
+				"path": "article_3",
+				"id": "rgeer34",
+				"image": "montain_297x176.jpg"
+			},
+			{
+				"name": "Article 4",
+				"description": "",
+				"path": "article_4",
+				"id": "tjyterg",
+				"image": "montain_297x176.jpg"
 			}
 		]
 	}
