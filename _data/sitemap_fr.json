@@ -210,14 +210,14 @@
 		"articles": [
 			{
 				"name": "Article 1",
-				"description": "",
+				"description": "Super article qui raconte des trucs super.",
 				"path": "article_1",
 				"id": "klooiltege",
 				"image": "montain_297x176.jpg"
 			},
 			{
 				"name": "Article 2",
-				"description": "",
+				"description": "Super article qui raconte des trucs super.",
 				"path": "article_2",
 				"id": "rtgrth26i",
 				"image": "montain_297x176.jpg"
@@ -225,14 +225,14 @@
 			,
 			{
 				"name": "Article 3",
-				"description": "",
+				"description": "Super article qui raconte des trucs super.",
 				"path": "article_3",
 				"id": "rgeer34",
 				"image": "montain_297x176.jpg"
 			},
 			{
 				"name": "Article 4",
-				"description": "",
+				"description": "Super article qui raconte des trucs super.",
 				"path": "article_4",
 				"id": "tjyterg",
 				"image": "montain_297x176.jpg"

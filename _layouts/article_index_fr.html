@@ -23,7 +23,7 @@
 		</div>
 		
 		<div class="lead text-center" style="font-weight: 500;margin-bottom: 30px;font-size: 1.5em;">Etudes de cas</div>
-		<div class="card-deck" style="margin-bottom: 36px;">
+		<div class="card-deck" style="margin-bottom: 50px;">
 		{% for card in currentData.studyCases %}
 				<div class="card text-center">
 				  {% if card.image != '' %}
@@ -43,19 +43,17 @@
 
 		{% for card in currentData.articles %}
 		<div class="row">
-			<div class="card mb-3" style="max-width: 540px;margin-left: auto;margin-right: auto;">
+			<div class="card mb-3" style="max-width: 600px;margin-left: auto;margin-right: auto;">
 				<div class="row no-gutters">
 					<div class="col-md-4">
 						<img src="img/{{ card.image }}" class="card-img">
 					</div>
 					<div class="col-md-8">
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">This is a wider card with supporting
-								text below as a natural lead-in to additional content. This
-								content is a little bit longer.</p>
+							<h5 class="card-title">{{ card.name }}</h5>
+							<p class="card-text">{{ card.description }}</p>
 							<p class="card-text" style="text-align: right;">
-								<small class="text-muted"><a href="{{ card.path }}" class="stretched-link">Lire <i class="fas fa-arrow-right" style="margin-left: 7px;"></i></a></small>
+								<a href="{{ card.path }}" class="stretched-link">Lire <i class="fas fa-arrow-right" style="margin-left: 7px;"></i></a>
 							</p>
 						</div>
 					</div>
