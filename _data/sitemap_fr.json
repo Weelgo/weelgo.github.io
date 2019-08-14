@@ -76,8 +76,7 @@
 		"hasCategory": "true",
 		"sub": [
 			{
-				"name": "Vidéo présentation",
-				"description": "Cette vidéo est une présentation rapide de la plateforme Weelgo.",
+				"name": "Cours sur la planification",				
 				"path": "videoPresentation",
 				"enable": "true",
 				"id": "gkej3467",
@@ -110,8 +109,7 @@
 				]
 			},
 			{
-				"name": "Aperçu 360°",
-				"description": "Dans cette vidéo vous verrez un aperçu des principales fonctionnalités offertes par Weelgo.",
+				"name": "Cours sur la communication",				
 				"path": "apercu360",
 				"enable": "true",
 				"id": "gjerk245",
@@ -136,8 +134,7 @@
 				]
 			},
 			{
-				"name": "Création d'un réseau Weelgo",
-				"description": "Dans cette vidéo vous apprendrez à créer un réseau en utilisant l'éditeur de réseau.",
+				"name": "Cours sur le gestion de projet",				
 				"path": "creationReseauWeelgo",
 				"enable": "true",
 				"id": "8732hjk",
