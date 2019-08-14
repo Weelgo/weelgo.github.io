@@ -193,9 +193,16 @@
 				"image": "montain_297x176.jpg"
 			},
 			{
-				"name": "Cas 1",
+				"name": "Cas 2",
 				"description": "",
-				"path": "cas_1",
+				"path": "cas_2",
+				"id": "hjity3466",
+				"image": "montain_297x176.jpg"
+			},
+			{
+				"name": "Cas 3",
+				"description": "",
+				"path": "cas_3",
 				"id": "hjity3466",
 				"image": "montain_297x176.jpg"
 			}
