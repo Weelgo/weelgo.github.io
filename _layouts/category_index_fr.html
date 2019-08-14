@@ -32,8 +32,10 @@
 				  	<img src="img/{{ card.image }}" class="card-img-top">
 				  {% endif %}
 				  <div class="card-body">
-				    <p class="card-text">{{ card.description }}</p>
-				    <a href="{{ card.path }}" class="stretched-link">Consulter <i class="fas fa-arrow-right" style="margin-left: 7px;"></i></a>
+				    <p class="card-text">{{ card.description }}</p>				    
+				  </div>
+				  <div  class="card-footer" style="background-color: white;border-top: 0px solid white;">
+				  	<a href="{{ card.path }}" class="stretched-link">Consulter <i class="fas fa-arrow-right" style="margin-left: 7px;"></i></a>
 				  </div>
 				</div>
 				{% endif %}
