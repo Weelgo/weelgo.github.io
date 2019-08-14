@@ -31,7 +31,7 @@ Dans un premier temps, vous devez identifier l'ensemble des livrables qui compos
 Sur Weelgo les livrables peuvent être de 3 types: neutre, intermédiaire et jalon.
 
 <p align="center">
-<img src="/fr/img/typeLivrable.png">
+<img src="img/typeLivrable.png">
 </p>
 
 Les livrables jalons sont des livrables que vous souhaitez suivre. Ils apparaîtront dans le tableau de bord du projet et bénéficieront d'un suivi particulier. 
