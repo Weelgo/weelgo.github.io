@@ -30,3 +30,12 @@ blockquote > p
 {
 	background-image: linear-gradient(to right, #f3f3f3, #fffffe);
 }
+.btn-primary {
+	background-color: #1db9db;
+	border-color: #1db9db;
+}
+.btn-primary:hover {
+	background-color: white;
+	border-color: #1db9db;
+	color: #1db9db;
+}
