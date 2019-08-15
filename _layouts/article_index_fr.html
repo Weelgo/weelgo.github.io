@@ -45,9 +45,11 @@
 		<div class="row">
 			<div class="card mb-3" style="max-width: 600px;margin-left: auto;margin-right: auto;">
 				<div class="row no-gutters">
+					{% if card.image != '' %}
 					<div class="col-md-4">
 						<img src="{{ card.path }}/{{ card.image }}" class="card-img">
 					</div>
+					{% endif %}
 					<div class="col-md-8">
 						<div class="card-body">
 							<h5 class="card-title">{{ card.name }}</h5>
