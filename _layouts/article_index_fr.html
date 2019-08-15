@@ -27,7 +27,7 @@
 		{% for card in currentData.studyCases %}
 				<div class="card text-center">
 				  {% if card.image != '' %}
-				  	<img src="img/{{ card.image }}" class="card-img-top">
+				  	<img src="{{ card.path }}/{{ card.image }}" class="card-img-top">
 				  {% endif %}
 				  <div class="card-body">
 				    <p class="card-title">{{ card.name }}</p>				    
@@ -46,7 +46,7 @@
 			<div class="card mb-3" style="max-width: 600px;margin-left: auto;margin-right: auto;">
 				<div class="row no-gutters">
 					<div class="col-md-4">
-						<img src="img/{{ card.image }}" class="card-img">
+						<img src="{{ card.path }}/{{ card.image }}" class="card-img">
 					</div>
 					<div class="col-md-8">
 						<div class="card-body">
