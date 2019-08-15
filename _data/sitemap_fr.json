@@ -14,7 +14,7 @@
 				"path": "decouverte_de_l_application",
 				"id": "hjfk34",
 				"enable": "true",
-				"image": "montain_297x176.jpg"
+				"image": "preview.jpg"
 			},
 			{
 				"name": "Découverte des news",
@@ -22,7 +22,7 @@
 				"path": "decouvertes_des_news",
 				"id": "jkg689k",
 				"enable": "true",
-				"image": "robot_297x176.jpg"
+				"image": ""
 			},
 			{
 				"name": "Ma todo liste",
@@ -88,7 +88,7 @@
 						"path": "decouverte_de_l_application",
 						"id": "zfefgh",
 						"enable": "true",
-						"image": "montain_297x176.jpg"
+						"image": ""
 					},
 					{
 						"name": "Découverte des news",
@@ -96,7 +96,7 @@
 						"path": "decouvertes_des_news",
 						"id": "tjurtg",
 						"enable": "true",
-						"image": "robot_297x176.jpg"
+						"image": ""
 					},
 					{
 						"name": "Ma todo liste",
@@ -104,7 +104,7 @@
 						"path": "ma_todo_liste",
 						"id": "zrfhgryh",
 						"enable": "true",
-						"image": "montain_297x176.jpg"
+						"image": ""
 					},
 					{
 						"name": "Découverte des news",
@@ -112,7 +112,7 @@
 						"path": "decouvertes_des_news",
 						"id": "tjurtg",
 						"enable": "true",
-						"image": "robot_297x176.jpg"
+						"image": ""
 					}
 				]
 			},
@@ -129,7 +129,7 @@
 						"path": "decouverte_de_l_application",
 						"id": "zfefgh",
 						"enable": "true",
-						"image": "montain_297x176.jpg"
+						"image": ""
 					},
 					{
 						"name": "Découverte des news",
@@ -137,7 +137,7 @@
 						"path": "decouvertes_des_news",
 						"id": "tjurtg",
 						"enable": "true",
-						"image": "robot_297x176.jpg"
+						"image": ""
 					}
 				]
 			},
@@ -154,7 +154,7 @@
 						"path": "decouverte_de_l_application",
 						"id": "zfefgh",
 						"enable": "true",
-						"image": "montain_297x176.jpg"
+						"image": ""
 					},
 					{
 						"name": "Découverte des news",
@@ -162,7 +162,7 @@
 						"path": "decouvertes_des_news",
 						"id": "tjurtg",
 						"enable": "true",
-						"image": "robot_297x176.jpg"
+						"image": ""
 					},
 					{
 						"name": "Ma todo liste",
@@ -170,7 +170,7 @@
 						"path": "ma_todo_liste",
 						"id": "zrfhgryh",
 						"enable": "true",
-						"image": "montain_297x176.jpg"
+						"image": ""
 					}
 				]
 			}
@@ -190,21 +190,21 @@
 				"description": "",
 				"path": "cas_1",
 				"id": "oepg359",
-				"image": "montain_297x176.jpg"
+				"image": ""
 			},
 			{
 				"name": "Cas 2",
 				"description": "",
 				"path": "cas_2",
 				"id": "hjity3466",
-				"image": "montain_297x176.jpg"
+				"image": ""
 			},
 			{
 				"name": "Cas 3",
 				"description": "",
 				"path": "cas_3",
 				"id": "hjity3466",
-				"image": "montain_297x176.jpg"
+				"image": ""
 			}
 		],
 		"articles": [
@@ -213,14 +213,14 @@
 				"description": "Super article qui raconte des trucs super.",
 				"path": "article_1",
 				"id": "klooiltege",
-				"image": "montain_297x176.jpg"
+				"image": ""
 			},
 			{
 				"name": "Article 2",
 				"description": "Super article qui raconte des trucs super.",
 				"path": "article_2",
 				"id": "rtgrth26i",
-				"image": "montain_297x176.jpg"
+				"image": ""
 			}
 			,
 			{
@@ -228,14 +228,14 @@
 				"description": "Super article qui raconte des trucs super.",
 				"path": "article_3",
 				"id": "rgeer34",
-				"image": "montain_297x176.jpg"
+				"image": ""
 			},
 			{
 				"name": "Article 4",
 				"description": "Super article qui raconte des trucs super.",
 				"path": "article_4",
 				"id": "tjyterg",
-				"image": "montain_297x176.jpg"
+				"image": ""
 			}
 		]
 	}
