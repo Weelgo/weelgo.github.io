@@ -6,14 +6,25 @@ readingEstimation : 4
 ---
 
 
-## Introduction
-
-Ce tutoriel s'adresse aux personnes souhaitant piloter un projet via l'outil Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maîtrise ! 
+# DRAFT : En cours d'écriture
 
 
-## Modéliser son projet 
+Ce tutoriel va vous expliquer le fonctionnement des news dans l'outil Weelgo. 
 
-*Vue Weelgo : Réseau*
+## Principe des news
+
+Dans Weelgo, les news sont toutes les informations et modifications effectuées sur les tracks de vos projets.
+
+Veuillez-trouver ci-dessous la liste des actions générant une news : 
+
+* Création d'un track
+
+
+-------------------
+
+## L'interface 
+
+Les news sont accessibles depuis votre espace personnel. 
 
 Quesqu'un projet ? Un projet est la réalisation d'un ensemble d'actions aboutissant a un ou plusieurs livrables.
 
