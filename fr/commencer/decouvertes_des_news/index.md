@@ -12,7 +12,7 @@ readingEstimation : 4
 
 Une news est une notification indiquant qu'une modification a été effectuée sur les tracks de vos projets. 
 
-Elle est générée quand une personne rattachée au projet effectue les opérations suivantes : 
+Elle est générée quand une personne effectue les opérations suivantes : 
 * Création d'un track
 * Modification d'un track (date, description, responsable...)
 * Ajout d'un message dans un track 
