@@ -10,9 +10,9 @@ readingEstimation : 4
 
 ## Quesqu'une news ? 
 
-Dans Weelgo, une news est une notification indiquant qu'une modification a été effectuée sur les tracks de vos projets. 
+Une news est une notification indiquant qu'une modification a été effectuée sur les tracks de vos projets. 
 
-Une news est générée quand une personne rattachée au projet effectue les opérations suivantes : 
+Elle est générée quand une personne rattachée au projet effectue les opérations suivantes : 
 * Création d'un track
 * Modification d'un track (date, description, responsable...)
 * Ajout d'un message dans un track 
@@ -34,6 +34,22 @@ Ou depuis l'accès rapide en haut à gauche
 
 **Ajouter image raccourci rapide**
 
-## Fonctionnalités de l'espace
+## L'interface de l'espace
+
+L'espace news est divisé en en 2 parties. 
+
+Une partie contenant l'ensemble des news et une deuxième partie contenant les news que vous n'avez pas encore lues. 
+
+Les dernières news sont affichées en haut de la liste. 
+
+Vous trouverez la description du track ainsi que le dernier message ou événement effectué
+
+Vous pouvez indiquer que vous avez lu une news en cliquant sur le bouton "NOM DU BOUTON". Vous avez aussi la possibilité de mettre toutes les news "non lues" en "lues" en cliquant sur "NOM DU BOUTON". 
+
+Depuis l'interface vous pouvez flagger les tracks que vous souhaitez suivre en cliquant sur "METTRE ICONE". 
+
+
+
+
 
 
