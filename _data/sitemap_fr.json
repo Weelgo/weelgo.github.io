@@ -9,7 +9,7 @@
 		"hasCategory": "false",
 		"sub": [
 			{				
-				"description": "Présentation des concepts et du vocabulaire utilisé dans Weelgo",
+				"description": "Vocabulaire utilisé dans Weelgo",
 				"path": "lexique",
 				"id": "comm_000",
 				"enable": "true",
@@ -24,7 +24,7 @@
 				"image": ""
 			},
 			{				
-				"description": "Présentation des news et de leurs fonctionnements",
+				"description": "Les news et de leurs fonctionnements",
 				"path": "decouvertes_des_news",
 				"id": "comm_002",
 				"enable": "true",
