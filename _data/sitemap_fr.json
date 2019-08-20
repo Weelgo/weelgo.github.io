@@ -26,7 +26,7 @@
 			},
 			{
 				"name": "Les notifications",
-				"description": "Présentation du système de notification,
+				"description": "Présentation du système de notification",
 				"path": "les_notifications",
 				"id": "comm_003",
 				"enable": "true",
