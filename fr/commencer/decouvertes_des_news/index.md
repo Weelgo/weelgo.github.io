@@ -15,7 +15,7 @@ Elle est générée quand une personne effectue les opérations suivantes :
 * Modification d'un track (date, description, responsable...)
 * Ajout d'un message dans un track 
 
-> **Points importants :**
+> **Point important :**
 > Les opérations effectuées sur les réseaux (ajout, modification, suppression) ne génèrent pas de news. 
 > 
 
