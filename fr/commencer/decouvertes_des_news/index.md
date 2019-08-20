@@ -28,9 +28,12 @@ Vous accédez à vos news depuis votre home page en cliquant sur le bouton "News
 <img src="newsInterface.jpg">
 </p>
 
-## L'interface de l'espace
 
-Vous trouverez dans l'espace news, 2 onglets. Un onglet pour afficher l'ensemble des news et un onglet pour afficher uniquement les news que vous n'avez pas encore lues. 
+## L'interface
+
+Vous trouverez dans l'espace news deux onglets. 
+
+Un onglet pour afficher l'ensemble des news et un onglet pour afficher uniquement les news que vous n'avez pas encore lues. 
 
 <p align="center">
 <img src="newsEspace1.jpg">
@@ -38,11 +41,15 @@ Vous trouverez dans l'espace news, 2 onglets. Un onglet pour afficher l'ensemble
 
 Les dernières news sont affichées en haut de la liste. 
 
-
-
 Vous trouverez la description du track ainsi que le dernier message ou événement effectué
 
-Vous pouvez indiquer que vous avez lu une news en cliquant sur le bouton "NOM DU BOUTON". Vous avez aussi la possibilité de mettre toutes les news "non lues" en "lues" en cliquant sur "NOM DU BOUTON". 
+<p align="center">
+<img src="espaceNewsDescription.jpg">
+</p>
+
+Vous pouvez indiquer que vous avez lu une news en cliquant sur le bouton "Marqué comme lu". 
+
+> Vous avez aussi la possibilité de mettre toutes les news "non lues" en "lues" en cliquant sur "NOM DU BOUTON". 
 
 Depuis l'interface vous pouvez flagger les tracks que vous souhaitez suivre en cliquant sur "METTRE ICONE". 
 
