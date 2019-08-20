@@ -9,6 +9,14 @@
 		"hasCategory": "false",
 		"sub": [
 			{
+				"name": "Lexique",
+				"description": "Présentation des concepts et du vocabulaire utilisé dans Weelgo",
+				"path": "lexique",
+				"id": "comm_000",
+				"enable": "true",
+				"image": "lexique.jpg"
+			},		
+			{
 				"name": "Familiarisation avec l'interface de Weelgo",
 				"description": "Partez sur de bonnes bases en explorant l'espace de travail et en apprenant les termes clés et les fonctions essentielles qui vous aideront à être opérationnel.",
 				"path": "decouverte_de_l_application",
