@@ -78,7 +78,9 @@ Depuis les raccourcis rapide, vous pouvez basculer l'affichage des news en mode 
 <img src="raccourciModeCompact.jpg">
 </p>
 
-Ce mode permet d'afficher uniquement le nom du track. La description et le dernier message n'apparaissent plus. 
+Ce mode permet d'afficher uniquement le nom du track. 
+
+La description et le dernier message n'apparaissent plus. 
 
 <p align="center">
 <img src="weelgoModeCompact.jpg">
