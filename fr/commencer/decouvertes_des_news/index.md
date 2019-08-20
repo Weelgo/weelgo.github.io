@@ -8,7 +8,7 @@ readingEstimation : 4
 
 # DRAFT : En cours d'écriture
 
-## Quesqu'une news ? 
+## Les news, présentation.
 
 Une news est une notification indiquant qu'une modification a été effectuée sur les tracks de vos projets. 
 
