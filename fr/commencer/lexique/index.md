@@ -30,7 +30,7 @@ Le réseau est l'outil de conceptualisation des projets.
 
 Un réseau est un enchainement d'actions et de livrables qui permet de modéliser le déroulement logique du projet. Le réseau est la première étape permettant de générer une planification du projet.
 
-### Une Action 
+### Une action 
 
 Un action action est un élément du réseau. L'action représente le travail à réalisé. Il contient un titre, un responsable, une charge etc..
 
@@ -58,7 +58,7 @@ La roadmap est l'outil de pilotage haut niveau de Weelgo. Une roadmap contient d
 
 Une roadmap peut être branché à un projet/forum pour récupérer de l'information en direct sur l'avancement des opérations. 
 
-### Utilisateur virtuel
+### L'utilisateur virtuel
 
 Un utilisateur virtuel est ou utilisateur créé par le responsable du projet. Cet utilisateur à les même caratéristiques qu'un utilisateur normal.
 
