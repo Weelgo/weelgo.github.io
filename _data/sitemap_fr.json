@@ -25,14 +25,6 @@
 				"image": "news.jpg"
 			},
 			{
-				"name": "Les notifications",
-				"description": "Présentation du système de notification,
-				"path": "les_notifications",
-				"id": "jkg689k",
-				"enable": "true",
-				"image": "notification.jpg"
-			},
-			{
 				"name": "Ma todo liste",
 				"description": "Ma todo liste.",
 				"path": "ma_todo_liste",
