@@ -66,7 +66,11 @@ Vous pouvez indiquer que vous avez lu une news en cliquant sur le bouton "Marqu√
 
 ### Suivre des tracks
 
-Depuis cet espace, vous pouvez flagger des tracks afin de pouvoir les suivre. Pour cela, cliquez sur l'icone <img src="iconeFlag.jpg">
+Depuis cet espace, vous pouvez flagger des tracks afin de pouvoir les suivre.
+
+<p align="center">
+<img src="iconeFlag.jpg">
+</p>
 
 Flagger un track fera apparaitre un liseret rouge autour de celui-ci.
 
@@ -81,6 +85,20 @@ Vous pouvez afficher uniquement les tracks que vous avez flagg√©s en cliquant su
 <img src="raccourciTrackFlagge.jpg">
 </p>
 
+### Le mode compact
+
+Depuis les raccourcis rapide, vous pouvez basculer l'affichage des news en mode compact. 
+
+
+<p align="center">
+<img src="raccourciModeCompact.jpg">
+</p>
+
+Ce mode permet d'afficher uniquement le nom du track. La description et le dernier message n'apparaissent plus. 
+
+<p align="center">
+<img src="weelgoModeCompact.jpg">
+</p>
 
 
 
