@@ -41,8 +41,8 @@
 				"image": ""
 			},
 			{
-				"name": "Mon clendrier",
-				"description": "Mon clendrier.",
+				"name": "Mon calendrier",
+				"description": "Mon calendrier.",
 				"path": "mon_calendrier",
 				"id": "jkg689k",
 				"enable": "true",
