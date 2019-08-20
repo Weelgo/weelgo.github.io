@@ -5,10 +5,9 @@ id : thl23
 readingEstimation : 4
 ---
 
-
-# DRAFT : En cours d'écriture
-
-## Présentation.
+<p align="center">
+<img src="news.jpg">
+</p>
 
 Une news est une notification indiquant qu'une modification a été effectuée sur les tracks de vos projets. 
 
@@ -24,6 +23,9 @@ Elle est générée quand une personne effectue les opérations suivantes :
 ## L'accès aux news 
 
 Vous accédez à vos news depuis votre home page en cliquant sur le bouton "News" dans le menu principal ou le menu de navigation rapide. 
+
+
+
 
 
 <p align="center">
