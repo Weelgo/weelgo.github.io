@@ -8,8 +8,7 @@
 		"icon": "fal fa-rocket",
 		"hasCategory": "false",
 		"sub": [
-			{
-				"name": "Lexique",
+			{				
 				"description": "Présentation des concepts et du vocabulaire utilisé dans Weelgo",
 				"path": "lexique",
 				"id": "comm_000",
@@ -24,16 +23,14 @@
 				"enable": "true",
 				"image": ""
 			},
-			{
-				"name": "Les news",
+			{				
 				"description": "Présentation des news et de leurs fonctionnements",
 				"path": "decouvertes_des_news",
 				"id": "comm_002",
 				"enable": "true",
 				"image": "news.jpg"
 			},
-			{
-				"name": "Les notifications",
+			{				
 				"description": "Présentation du système de notification",
 				"path": "les_notifications",
 				"id": "comm_003",
