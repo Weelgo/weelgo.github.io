@@ -9,8 +9,8 @@
 		"hasCategory": "false",
 		"sub": [
 			{
-				"name": "Découverte de l'application",
-				"description": "Découverte de l'application.",
+				"name": "Familiarisation avec l'interface de Weelgo",
+				"description": "Partez sur de bonnes bases en explorant l'espace de travail et en apprenant les termes clés et les fonctions essentielles qui vous aideront à être opérationnel.",
 				"path": "decouverte_de_l_application",
 				"id": "hjfk34",
 				"enable": "true",
