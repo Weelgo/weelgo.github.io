@@ -8,7 +8,7 @@ readingEstimation : 4
 
 # DRAFT : En cours d'écriture
 
-## Les news, présentation.
+## Présentation.
 
 Une news est une notification indiquant qu'une modification a été effectuée sur les tracks de vos projets. 
 
@@ -22,25 +22,23 @@ Elle est générée quand une personne effectue les opérations suivantes :
 
 ## L'accès aux news 
 
-Vous accédez à vos news depuis votre home page en cliquant sur le bouton "News"
-
-**Ajouter image home page**
+Vous accédez à vos news depuis votre home page en cliquant sur le bouton "News" dans le menu principal ou le menu de navigation rapide. 
 
 <p align="center">
-<img src="typeLivrable.png">
+<img src="newsInterface.jpg">
 </p>
-
-Ou depuis l'accès rapide en haut à gauche 
-
-**Ajouter image raccourci rapide**
 
 ## L'interface de l'espace
 
-L'espace news est divisé en en 2 parties. 
+Vous trouverez dans l'espace news, 2 onglets. Un onglet pour afficher l'ensemble des news et un onglet pour afficher uniquement les news que vous n'avez pas encore lues. 
 
-Une partie contenant l'ensemble des news et une deuxième partie contenant les news que vous n'avez pas encore lues. 
+<p align="center">
+<img src="newsEspace1.jpg">
+</p>
 
 Les dernières news sont affichées en haut de la liste. 
+
+
 
 Vous trouverez la description du track ainsi que le dernier message ou événement effectué
 
