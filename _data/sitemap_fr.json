@@ -17,8 +17,8 @@
 				"image": "preview.jpg"
 			},
 			{
-				"name": "Découverte des news",
-				"description": "Découverte des news.",
+				"name": "Les news",
+				"description": "Présentation des news et de leurs fonctionnements",
 				"path": "decouvertes_des_news",
 				"id": "jkg689k",
 				"enable": "true",
