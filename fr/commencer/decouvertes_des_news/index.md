@@ -1,6 +1,5 @@
 ---
 layout : docs_fr
-title : Découverte des news
 id : thl23
 readingEstimation : 4
 ---
