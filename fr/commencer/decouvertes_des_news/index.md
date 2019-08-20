@@ -1,5 +1,6 @@
 ---
 layout : docs_fr
+title : Découverte des news
 id : thl23
 readingEstimation : 4
 ---
@@ -24,14 +25,6 @@ Elle est générée quand une personne effectue les opérations suivantes :
 Vous accédez à vos news depuis votre home page en cliquant sur le bouton "News" dans le menu principal ou le menu de navigation rapide. 
 
 
-
-
-
-<p align="center">
-<img src="newsInterface.jpg">
-</p>
-
-
 ## L'interface
 
 Vous trouverez dans l'espace news deux onglets. 
@@ -48,22 +41,12 @@ Les dernières news sont affichées en haut de la liste.
 
 Vous trouverez la description du track ainsi que le dernier message ou événement effectué
 
-
-<p align="center">
-<img src="espaceNewsDescription.jpg">
-</p>
-
-
 Vous pouvez indiquer que vous avez lu une news en cliquant sur le bouton "Marqué comme lu". 
 
 
 > **Astuce :**
 > Vous avez aussi la possibilité de mettre toutes les news "non lues" en "lues" en cliquant sur "Tout marquer comme lu". 
 > 
-<p align="center">
-<img src="toutMarqueCommeLu.jpg">
-</p>
-
 
 ### Suivre des tracks
 
