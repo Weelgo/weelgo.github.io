@@ -12,7 +12,7 @@
 				"name": "Familiarisation avec l'interface de Weelgo",
 				"description": "Partez sur de bonnes bases en explorant l'espace de travail et en apprenant les termes clés et les fonctions essentielles qui vous aideront à être opérationnel.",
 				"path": "decouverte_de_l_application",
-				"id": "hjfk34",
+				"id": "comm_001",
 				"enable": "true",
 				"image": "preview.jpg"
 			},
@@ -20,15 +20,23 @@
 				"name": "Les news",
 				"description": "Présentation des news et de leurs fonctionnements",
 				"path": "decouvertes_des_news",
-				"id": "jkg689k",
+				"id": "comm_002",
 				"enable": "true",
 				"image": "news.jpg"
+			},
+			{
+				"name": "Les notifications",
+				"description": "Présentation du système de notification,
+				"path": "les_notifications",
+				"id": "comm_003",
+				"enable": "true",
+				"image": "notification.jpg"
 			},
 			{
 				"name": "Ma todo liste",
 				"description": "Ma todo liste.",
 				"path": "ma_todo_liste",
-				"id": "jkg689k",
+				"id": "comm_004",
 				"enable": "true",
 				"image": ""
 			},
@@ -36,7 +44,7 @@
 				"name": "Mon calendrier",
 				"description": "Mon calendrier.",
 				"path": "mon_calendrier",
-				"id": "jkg689k",
+				"id": "comm_005",
 				"enable": "true",
 				"image": ""
 			},
@@ -44,7 +52,7 @@
 				"name": "Le forum",
 				"description": "Le forum.",
 				"path": "le_forum",
-				"id": "jkg689k",
+				"id": "comm_006",
 				"enable": "true",
 				"image": ""
 			},
@@ -52,7 +60,7 @@
 				"name": "Le projet",
 				"description": "Le projet.",
 				"path": "le_projet",
-				"id": "jkg689k",
+				"id": "comm_007",
 				"enable": "true",
 				"image": ""
 			},
@@ -60,7 +68,7 @@
 				"name": "La roadmap",
 				"description": "La roadmap.",
 				"path": "la_roadmap",
-				"id": "jkg689k",
+				"id": "comm_008",
 				"enable": "true",
 				"image": ""
 			}
