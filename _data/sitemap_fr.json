@@ -16,15 +16,13 @@
 				"image": "lexique.jpg"
 			},		
 			{
-				"name": "Familiarisation avec l'interface",
-				"description": "Partez sur de bonnes bases en explorant l'espace de travail et en apprenant les termes clés et les fonctions essentielles qui vous aideront à être opérationnel.",
+				"description": "Familiarisez vous avec l'interface et artez sur de bonnes bases en explorant l'espace de travail et en apprenant les termes clés et les fonctions essentielles qui vous aideront à être opérationnel.",
 				"path": "interface_weelgo",
 				"id": "comm_001",
 				"enable": "true",
 				"image": "interface.jpg"
 			},
 			{
-				"name": "Initialiser un projet",
 				"description": "Initialiser votre premier projet.",
 				"path": "initialiser_projet",
 				"id": "comm_002",
