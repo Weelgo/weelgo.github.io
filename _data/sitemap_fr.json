@@ -32,7 +32,6 @@
 				"image": "initProjet.jpg"
 			},
 			{
-				"name": "Vos outils",
 				"description": "Présentation de vos outils.",
 				"path": "vos_outils",
 				"id": "comm_005",
