@@ -23,60 +23,37 @@
 				"enable": "true",
 				"image": "interface.jpg"
 			},
+			{
+				"name": "Initialiser un projet",
+				"description": "Initialiser votre premier projet.",
+				"path": "initialiser_projet",
+				"id": "comm_002",
+				"enable": "true",
+				"image": "initProjet.jpg"
+			},
 			{				
 				"description": "Les news et de leurs fonctionnements",
 				"path": "decouvertes_des_news",
-				"id": "comm_002",
+				"id": "comm_003",
 				"enable": "true",
 				"image": "news.jpg"
 			},
 			{				
 				"description": "Présentation du système de notification",
 				"path": "les_notifications",
-				"id": "comm_003",
+				"id": "comm_004",
 				"enable": "true",
 				"image": "notification.jpg"
 			},
 			{
-				"name": "Ma todo liste",
-				"description": "Ma todo liste.",
-				"path": "ma_todo_liste",
-				"id": "comm_004",
-				"enable": "true",
-				"image": ""
-			},
-			{
-				"name": "Mon calendrier",
-				"description": "Mon calendrier.",
-				"path": "mon_calendrier",
+				"name": "Vos outils",
+				"description": "Présentation de vos outils.",
+				"path": "vos_outils",
 				"id": "comm_005",
 				"enable": "true",
-				"image": ""
+				"image": "outil.jpg"
 			},
-			{
-				"name": "Le forum",
-				"description": "Le forum.",
-				"path": "le_forum",
-				"id": "comm_006",
-				"enable": "true",
-				"image": ""
-			},
-			{
-				"name": "Le projet",
-				"description": "Le projet.",
-				"path": "le_projet",
-				"id": "comm_007",
-				"enable": "true",
-				"image": ""
-			},
-			{
-				"name": "La roadmap",
-				"description": "La roadmap.",
-				"path": "la_roadmap",
-				"id": "comm_008",
-				"enable": "true",
-				"image": ""
-			}
+			
 		]
 	},
 	{
