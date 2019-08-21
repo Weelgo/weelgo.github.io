@@ -32,7 +32,7 @@
 				"image": "initProjet.jpg"
 			},
 			{
-				"description": "Présentation de vos outils.",
+				"description": "Présentation de votre todo-list et de votre calendrier.",
 				"path": "vos_outils",
 				"id": "comm_005",
 				"enable": "true",
