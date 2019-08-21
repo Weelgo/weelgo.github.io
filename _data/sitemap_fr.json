@@ -18,10 +18,10 @@
 			{
 				"name": "Familiarisation avec l'interface de Weelgo",
 				"description": "Partez sur de bonnes bases en explorant l'espace de travail et en apprenant les termes clés et les fonctions essentielles qui vous aideront à être opérationnel.",
-				"path": "decouverte_de_l_application",
+				"path": "interface_weelgo",
 				"id": "comm_001",
 				"enable": "true",
-				"image": ""
+				"image": "interface.jpg"
 			},
 			{				
 				"description": "Les news et de leurs fonctionnements",
