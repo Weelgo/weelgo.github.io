@@ -31,6 +31,14 @@
 				"enable": "true",
 				"image": "initProjet.jpg"
 			},
+			{
+				"name": "Vos outils",
+				"description": "Présentation de vos outils.",
+				"path": "vos_outils",
+				"id": "comm_005",
+				"enable": "true",
+				"image": "outil.jpg"
+			},
 			{				
 				"description": "Les news et de leurs fonctionnements",
 				"path": "decouvertes_des_news",
@@ -45,15 +53,7 @@
 				"enable": "true",
 				"image": "notification.jpg"
 			},
-			{
-				"name": "Vos outils",
-				"description": "Présentation de vos outils.",
-				"path": "vos_outils",
-				"id": "comm_005",
-				"enable": "true",
-				"image": "outil.jpg"
-			},
-			
+					
 		]
 	},
 	{
