@@ -33,17 +33,25 @@ Ce menu apparait en Blanc pour indique que vous êtes dans vos espaces personnel
 <img src="menuPeros.jpg">
 </p>
 
+Depuis ce menu de navigation vous pouvez accéder aux différents outils qui seront configurés pour afficher les informations des différents projets que vous suivez. 
+
+La todo-list et le calendrier seront filtré sur vous par défaut. 
+
+Vous pouvez accèder à ces espaces depuis toutes l'application en utilisation le menu de raccourcis rapides. 
+
+<p align="center">
+<img src="menuPersoRapide.jpg">
+</p>
+
+
+
 **Espace projet : en bleu**
 
 <p align="center">
 <img src="menuProjet.jpg">
 </p>
 
-### L'espace personnel
 
-
-
-### L'espace projet
 
 
 > **Point important :**
