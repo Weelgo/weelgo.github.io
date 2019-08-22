@@ -13,7 +13,7 @@ readingEstimation : 8
 
 L'interface de navigation est composé d'un double menu.
 
-Une frise fixe contenant :
+**Une frise fixe** contenant :
 * Les raccourcis rapides vers vos outils
 * Un accès à vos favoris ainsi qu'au différents projets 
 * Un accès au menu de configuration de compte. 
@@ -23,7 +23,7 @@ Une frise fixe contenant :
 </p>
 
 
-Un menu de navigation contextuel propre à chaque espace. 
+**Un menu de navigation contextuel** propre à chaque espace. 
 
 Ce menu apparait en Blanc pour indiquer que vous êtes dans vos espaces personnels et en bleu pour les espaces projets
 
