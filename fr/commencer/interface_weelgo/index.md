@@ -18,12 +18,11 @@ L'interface de navigation est composé d'un double menu.
 * Un accès à vos favoris ainsi qu'au différents projets 
 * Un accès au menu de configuration de compte. 
 
-<p align="center">
-<img src="friseFixe.jpg">
-</p>
-
-
 **Un menu de navigation contextuel** propre à chaque espace. 
+
+<p align="center">
+<img src="doubleMenu.jpg">
+</p>
 
 ### Menu contextuel : espace personnel
 
