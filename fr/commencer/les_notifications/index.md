@@ -16,6 +16,7 @@ Elle est générée quand :
 * Quand quelqu'un utilisation la fonctionnalité "flyer" sur un track
 
 ## Comment notifier quelqu'un
+--------------
 
 ### Notifier un track
 
@@ -41,6 +42,7 @@ Vous pouvez aussi envoyer une notification sur un message posté par un collabor
 >
 
 ## Comment accéder aux notifications
+--------------
 
 L'accès au notification s'effectue depuis le menu de raccourci rapide situé en haut à gauche. 
 
