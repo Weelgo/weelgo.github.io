@@ -9,14 +9,14 @@
 		"hasCategory": "false",
 		"sub": [
 			{				
-				"description": "Vocabulaire utilisé dans Weelgo",
+				"description": "Vocabulaire utilisé dans Weelgo.",
 				"path": "lexique",
 				"id": "comm_000",
 				"enable": "true",
 				"image": "lexique.jpg"
 			},		
 			{
-				"description": "Familiarisez vous avec l'interface et partez sur de bonnes bases en explorant l'espace de travail.",
+				"description": "Familiarisez vous avec l'interface de navigation.",
 				"path": "interface_weelgo",
 				"id": "comm_001",
 				"enable": "true",
@@ -37,14 +37,14 @@
 				"image": "outil.jpg"
 			},
 			{				
-				"description": "Les news et de leurs fonctionnements",
+				"description": "Les news et de leurs fonctionnements.",
 				"path": "decouvertes_des_news",
 				"id": "comm_003",
 				"enable": "true",
 				"image": "news.jpg"
 			},
 			{				
-				"description": "Présentation du système de notification",
+				"description": "Présentation du système de notification.",
 				"path": "les_notifications",
 				"id": "comm_004",
 				"enable": "true",
