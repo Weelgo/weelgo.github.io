@@ -18,7 +18,9 @@ La todo-list est un outil contenant les actions des forums et réseaux de vos pr
 </p>
 
 
-Par défaut, elle est filtrée sur votre nom. Elle est multi-projet et affiche l'ensemble des actions de vos projets. 
+Par défaut, elle est filtrée sur votre nom. 
+
+Elle est multi-projet et affiche l'ensemble des actions des projets séléctionnés
 
 > **Point important :**
 > Les actions contenant l'icône <img src="iconeManagement.jpg"> sont des actions provenant du réseau du projet. Il est impossible de modifier la date de début et la date de fin de ce type d'action depuis la todo-list
