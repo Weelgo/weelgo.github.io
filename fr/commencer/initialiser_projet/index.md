@@ -18,7 +18,7 @@ La création de projet peut s'effectuer depuis votre page principal.
 </p>
 
 ### Etape 1 : Créez votre projet
------------------------
+--------------
 
 * Cliquez sur le bouton "Créer un projet" et indiquez un nom pour ce projet. 
 
@@ -31,9 +31,10 @@ La création de projet peut s'effectuer depuis votre page principal.
 > 
 
 ### Etape 2 : Définissez vos objectifs
+--------------
 
 ### Etape 3 : 
-
+--------------
 
 
 
