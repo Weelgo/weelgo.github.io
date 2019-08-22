@@ -9,8 +9,6 @@ readingEstimation : 8
 </p>
 
 
-## L'interface de navigation
-
 L'interface de navigation est composé d'un double menu.
 
 **Une frise fixe** contenant :
@@ -25,6 +23,7 @@ L'interface de navigation est composé d'un double menu.
 </p>
 
 ### Menu contextuel : espace personnel
+-----------------
 
 <p align="center">
 <img src="menuPeros.jpg">
@@ -43,10 +42,8 @@ Vous pouvez accèder à ces espaces depuis toutes l'application en utilisation l
 > La todo-list et le calendrier seront filtré sur vous par défaut. 
 > 
 
-
-
-
 ### Menu contextuel : espace projet
+-----------------
 
 <p align="center">
 <img src="menuProjet.jpg">
@@ -55,6 +52,7 @@ Vous pouvez accèder à ces espaces depuis toutes l'application en utilisation l
 Lorsque vous entrez dans un projet, un menu spécifique au projet apparait. 
 
 #### Le menu du réseau
+-----------------
 
 Sur la partie "réseau" des projets, le menu de navigation s'affiche à gauche. 
 
