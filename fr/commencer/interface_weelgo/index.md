@@ -63,7 +63,7 @@ Sur la partie "réseau" des projets, le menu de navigation s'affiche à gauche.
 <img src="menuReseau.jpg">
 </p>
 
-Ce menu vous permets de naviguer dans les différents écrans spécifiques à l'espace de pilotage avancé du projet. 
+Ce menu vous permet de naviguer dans les différents écrans spécifiques à l'espace de pilotage avancé du projet. 
 
 Vous pouvez revenir dans vos espaces personnels en cliquant sur le logo **"Weelgo"** ou dans l'espace projet en cliquant sur sur le bouton **"Home"**.
 
