@@ -20,11 +20,13 @@ Elle est générée quand une personne effectue les opérations suivantes :
 > 
 
 ## L'accès aux news 
+---------------------
 
 Vous accédez à vos news depuis votre home page en cliquant sur le bouton "News" dans le menu principal ou le menu de navigation rapide. 
 
 
 ## L'interface
+---------------------
 
 Vous trouverez dans l'espace news deux onglets. 
 
@@ -48,6 +50,7 @@ Vous pouvez indiquer que vous avez lu une news en cliquant sur le bouton "Marqu�
 > 
 
 ### Suivre des tracks
+---------------------
 
 Depuis cet espace, vous pouvez flagger des tracks afin de pouvoir les suivre.
 
@@ -69,6 +72,7 @@ Vous pouvez afficher uniquement les tracks que vous avez flaggés en cliquant su
 </p>
 
 ### Le mode compact
+---------------------
 
 Depuis les raccourcis rapide, vous pouvez basculer l'affichage des news en mode compact. 
 
