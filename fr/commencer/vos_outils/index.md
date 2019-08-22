@@ -1,1 +1,59 @@
-Page outil
+---
+layout : docs_fr
+id : th003
+readingEstimation : 8
+---
+
+<p align="center">
+<img src="outil.jpg">
+</p>
+
+
+## La todo-list
+
+La todo-list est un outil contenant les actions des forums et réseaux de vos projets. 
+
+<p align="center">
+<img src="maTodoList.jpg">
+</p>
+
+
+Par défaut, elle est filtrée sur votre nom. Elle est multi-projet et affiche l'ensemble des actions de vos projets. 
+
+> **Point important :**
+> Les actions contenant l'icône <img src="iconeManagement.jpg"> sont des actions provenant du réseau du projet. Il est impossible de modifier la date de début et la date de fin de ce type d'action depuis la todo-list
+> 
+
+Vous pouvez filtrer la todo-list en utilisant le menu prévu à cet effet. 
+
+<p align="center">
+<img src="menuFiltreTodo.jpg">
+</p>
+
+Une fois un filtre ajouté, il s'affiche en dessous du menu. Vous pouvez supprimer le filtre en cliquant dessus. 
+
+### Organisation et code couleur des tickets
+
+Les tickets sont ordonnancés du plus récent au plus ancien en fonction des dates de débuts renseignées. 
+
+Lorsqu'un ticket est en retard, il apparait en couleur. 
+
+Le code couleur est le suivant. 
+
+**Rouge :**
+
+* Action issue du réseau : Le reste à faire de l'action génère un retard qui entraine un retard sur le jalon de fin du projet
+
+* Action issue du forum : La date du jour est supérieure à la date de fin.
+
+**Orange :** Concerne uniquement les action issues d'un réseau
+
+L'action est en retard est la date de fin recalculée impacte le planning du projet sans impacter la date de fin du dernier jalons. 
+
+**Vert :** 
+
+* L'action est dans les temps et aucun retard n'est à déplorer. 
+
+
+
+
