@@ -25,9 +25,7 @@ L'interface de navigation est composé d'un double menu.
 
 **Un menu de navigation contextuel** propre à chaque espace. 
 
-Ce menu apparait en Blanc pour indiquer que vous êtes dans vos espaces personnels et en bleu pour les espaces projets
-
-### Espace personnel : en blanc
+### Menu contextuel : espace personnel
 
 <p align="center">
 <img src="menuPeros.jpg">
@@ -45,7 +43,7 @@ La todo-list et le calendrier seront filtré sur vous par défaut.
 
 
 
-### Espace projet : en bleu
+### Menu contextuel : espace projet
 
 <p align="center">
 <img src="menuProjet.jpg">
@@ -65,6 +63,9 @@ Sur la partie "réseau" des projets, le menu de navigation s'affiche à gauche.
 Ce menu vous permets de naviguer dans les différents écrans spécifiques à l'espace de pilotage avancé du projet. 
 
 Vous pouvez revenir dans vos espaces personnels en cliquant sur le logo Weelgo ou dans l'espace projet en cliquant sur sur le bouton "Home"
+
+ **Remarque :** Les espaces projets sont en bleus et les espaces personnels en blancs. 
+ 
 
 > **Point important :**
 > Vous pouvez duppliquer une fenêtre en cliquant sur le raccourcis suivant :  <img src="raccourcisDupplication.jpg">
