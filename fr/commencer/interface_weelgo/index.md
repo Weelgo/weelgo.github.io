@@ -38,7 +38,11 @@ Vous pouvez accèder à ces espaces depuis toutes l'application en utilisation l
 <img src="menuPersoRapide.jpg">
 </p>
 
-La todo-list et le calendrier seront filtré sur vous par défaut. 
+
+> **Point important :**
+> La todo-list et le calendrier seront filtré sur vous par défaut. 
+> 
+
 
 
 
