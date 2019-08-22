@@ -5,7 +5,7 @@ readingEstimation : 8
 ---
 
 <p align="center">
-<img src="interface.jpg">
+<img src="interfaceGrand.jpg">
 </p>
 
 
