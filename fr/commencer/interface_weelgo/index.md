@@ -72,6 +72,7 @@ Vous pouvez revenir dans vos espaces personnels en cliquant sur le logo **"Weelg
 
 > **Point important :**
 > Vous pouvez duppliquer une fenêtre en cliquant sur le raccourcis suivant :  <img src="raccourcisDupplication.jpg">
+> 
 > Ce raccourcis est présent dans toutes les pages de l'application.
 > 
 
