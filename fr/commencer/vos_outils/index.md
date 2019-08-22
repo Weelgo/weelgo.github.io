@@ -50,13 +50,35 @@ Le code couleur est le suivant.
 
 * Action issue du forum : La date du jour est supérieure à la date de fin.
 
+<p align="center">
+<img src="actionRouge.jpg">
+</p>
+
 **Orange :** Concerne uniquement les action issues d'un réseau
 
 L'action est en retard est la date de fin recalculée impacte le planning du projet sans impacter la date de fin du dernier jalons. 
 
+<p align="center">
+<img src="actionOrange.jpg">
+</p>
+
+**Violet :** 
+
+* L'action est suspendue 
+
+<p align="center">
+<img src="actionViolette.jpg">
+</p>
+
+
 **Vert / blanc :** 
 
 * L'action est dans les temps et aucun retard n'est à déplorer. 
+
+<p align="center">
+<img src="actionVerte.jpg">
+</p>
+
 
 
 
