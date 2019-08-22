@@ -10,6 +10,7 @@ readingEstimation : 8
 
 
 ## La todo-list
+---------------
 
 La todo-list est un outil contenant les actions des forums et réseaux de vos projets. 
 
@@ -82,6 +83,7 @@ L'action est en retard est la date de fin recalculée impacte le planning du pro
 </p>
 
 ## Le calendrier
+---------------
 
 Le calendrier contient l'ensemble des actions positionné dans le temps. 
 
@@ -107,6 +109,7 @@ Vous pouvez accéder à l'action en cliquant dessus.
 </p>
 
 ## Le forum
+---------------
 
 Le forum contient l'ensemble des tracks des projets sélectionnés
 
