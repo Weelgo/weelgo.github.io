@@ -14,8 +14,8 @@ readingEstimation : 8
 L'interface de navigation est composé d'un double menu.
 
 **Une frise fixe** contenant :
-* Les raccourcis rapides vers vos outils
-* Un accès à vos favoris ainsi qu'au différents projets 
+* Les raccourcis rapides vers vos outils.
+* Un accès à vos favoris ainsi qu'au différents projets. 
 * Un accès au menu de configuration de compte. 
 
 **Un menu de navigation contextuel** propre à chaque espace. 
