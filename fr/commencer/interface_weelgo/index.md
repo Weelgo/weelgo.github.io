@@ -65,13 +65,13 @@ Sur la partie "réseau" des projets, le menu de navigation s'affiche à gauche.
 
 Ce menu vous permets de naviguer dans les différents écrans spécifiques à l'espace de pilotage avancé du projet. 
 
-Vous pouvez revenir dans vos espaces personnels en cliquant sur le logo Weelgo ou dans l'espace projet en cliquant sur sur le bouton "Home"
+Vous pouvez revenir dans vos espaces personnels en cliquant sur le logo **"Weelgo"** ou dans l'espace projet en cliquant sur sur le bouton **"Home"**.
 
  **Remarque :** Les espaces projets sont en bleus et les espaces personnels en blancs. 
  
 
 > **Point important :**
 > Vous pouvez duppliquer une fenêtre en cliquant sur le raccourcis suivant :  <img src="raccourcisDupplication.jpg">
-> Ce raccourcis est présent dans toutes les pages de l'application
+> Ce raccourcis est présent dans toutes les pages de l'application.
 > 
 
