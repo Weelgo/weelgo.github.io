@@ -32,11 +32,15 @@ Vous pouvez filtrer la todo-list en utilisant le menu prévu à cet effet.
 
 Une fois un filtre ajouté, il s'affiche en dessous du menu. Vous pouvez supprimer le filtre en cliquant dessus. 
 
+> **Remarque :**
+> Lorsque vous créez un nouveau projet, il est automatiquement ajouté à la liste des projets de la todo-list. 
+> 
+
 ### Organisation et code couleur des tickets
 
 Les tickets sont ordonnancés du plus récent au plus ancien en fonction des dates de débuts renseignées. 
 
-Lorsqu'un ticket est en retard, il apparait en couleur. 
+Lorsqu'un ticket est en retard, il apparaît en couleur. 
 
 Le code couleur est le suivant. 
 
@@ -50,9 +54,10 @@ Le code couleur est le suivant.
 
 L'action est en retard est la date de fin recalculée impacte le planning du projet sans impacter la date de fin du dernier jalons. 
 
-**Vert :** 
+**Vert / blanc :** 
 
 * L'action est dans les temps et aucun retard n'est à déplorer. 
+
 
 
 
