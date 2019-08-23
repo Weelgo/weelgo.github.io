@@ -9,7 +9,7 @@
 		"hasCategory": "false",
 		"sub": [
 			{				
-				"description": "Vocabulaire utilisé dans Weelgo.",
+				"description": "Présentation du vocabulaire utilisé dans Weelgo.",
 				"path": "lexique",
 				"id": "comm_000",
 				"enable": "true",
