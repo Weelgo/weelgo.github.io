@@ -4,10 +4,6 @@ id : th003
 readingEstimation : 8
 ---
 
-<p align="center">
-<img src="outil.jpg">
-</p>
-
 
 ## La todo-list
 ---------------
