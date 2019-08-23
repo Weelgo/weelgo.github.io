@@ -30,8 +30,22 @@
 				"image": "initProjet.jpg"
 			},
 			{
-				"description": "Présentation de votre todo-list et de votre calendrier.",
-				"path": "vos_outils",
+				"description": "Présentation de la todo-list.",
+				"path": "la_todolist",
+				"id": "comm_003",
+				"enable": "true",
+				"image": "outil.jpg"
+			},
+			{
+				"description": "Présentation du calendrier.",
+				"path": "le_calendrier",
+				"id": "comm_004",
+				"enable": "true",
+				"image": "outil.jpg"
+			},
+			{
+				"description": "Présentation du forum.",
+				"path": "le_forum",
 				"id": "comm_005",
 				"enable": "true",
 				"image": "outil.jpg"
@@ -39,14 +53,14 @@
 			{				
 				"description": "Les news et de leurs fonctionnements.",
 				"path": "decouvertes_des_news",
-				"id": "comm_003",
+				"id": "comm_006",
 				"enable": "true",
 				"image": "news.jpg"
 			},
 			{				
 				"description": "Présentation du système de notification.",
 				"path": "les_notifications",
-				"id": "comm_004",
+				"id": "comm_007",
 				"enable": "true",
 				"image": "notification.jpg"
 			},
