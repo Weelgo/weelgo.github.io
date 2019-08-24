@@ -109,7 +109,7 @@
 						"path": "configurez_actions",
 						"id": "prj004",
 						"enable": "true",
-						"image": ""
+						"image": "configurezActions.png"
 					},
 					{
 						"name": "Configurez le projet",
