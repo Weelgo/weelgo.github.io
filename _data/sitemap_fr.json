@@ -84,9 +84,8 @@
 				"image": "",
 				"sub": [
 					{
-						"name": "Découverte de l'application",
-						"description": "Découverte de l'application.",
-						"path": "decouverte_de_l_application",
+						"name": "Créer un réseau Weelgo",
+						"path": "creer_reseau_weelgo",
 						"id": "zfefgh",
 						"enable": "true",
 						"image": ""
