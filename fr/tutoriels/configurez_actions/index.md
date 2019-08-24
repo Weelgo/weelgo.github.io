@@ -89,10 +89,10 @@ Quand vous définissez une date sur une action, cette action est parallélisée 
 <img src="actionOptionAutre.png">
 </p>
 
-**Inclure dans la todo-list : ** Cette option permet d'afficher dans la todo-list du responsable l'action. Par défaut, elle n'est pas cochée pour ne pas perturber les todo-list avec des actions non finalisées.
+**Inclure dans la todo-list :** Cette option permet d'afficher dans la todo-list du responsable l'action. Par défaut, elle n'est pas cochée pour ne pas perturber les todo-list avec des actions non finalisées.
 Les actions non inclues dans les todo-list arbore le symbole <img src="symboleTodo.png">
 
-**En brouillon : ** Permet d'indiquer que l'action n'est pas finalisée. Une cléf apparait sur le réseau <img src="symboleBrouillon.png"> et l'action est grisée au niveau du gantt
+**En brouillon :** Permet d'indiquer que l'action n'est pas finalisée. Une cléf apparait sur le réseau <img src="symboleBrouillon.png"> et l'action est grisée au niveau du gantt
 
 <p align="center">
 <img src="actionBrouillonGantt.png">
