@@ -5,7 +5,6 @@ id : tuCR002
 readingEstimation : 10
 ---
 
-
 ## L'organisation opérationnelle du projet. 
 
 *Vue Weelgo : Organisation*
