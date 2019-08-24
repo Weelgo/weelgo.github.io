@@ -77,42 +77,55 @@
 		"hasCategory": "true",
 		"sub": [
 			{
-				"name": "Créer un réseau Weelgo",
+				"name": "Créer un projet sous Weelgo : bonne pratique",
 				"path": "videoPresentation",
 				"enable": "true",
 				"id": "gkej3467",
 				"image": "",
 				"sub": [
 					{
-						"name": "Modéliser son projet",
-						"path": "creer_reseau_weelgo",
-						"id": "zfefgh",
+						"name": "Définissez vos objectifs",
+						"path": "definir_objectifs",
+						"id": "prj001",
+						"enable": "true",
+						"image": ""
+					},
+					{
+						"name": "Gérez vos todo-list",
+						"path": "gestion_todoList",
+						"id": "prj002",
+						"enable": "true",
+						"image": ""
+					},
+					{
+						"name": "Modélisez le projet",
+						"path": "modilisez_projet",
+						"id": "prj003",
 						"enable": "true",
 						"image": "creerReseau.jpg"
 					},
 					{
-						"name": "L'organisation opérationnelle du projet",
-						"path": "organisation_operationnelle_projet",
-						"id": "tjurtg",
+						"name": "Configurez les actions",
+						"path": "configurez_actions",
+						"id": "prj004",
 						"enable": "true",
-						"image": ""
+						"image": "creerReseau.jpg"
 					},
 					{
-						"name": "Ma todo liste",
-						"description": "Ma todo liste.",
-						"path": "ma_todo_liste",
-						"id": "zrfhgryh",
+						"name": "Configurez le projet",
+						"path": "configurez_projet",
+						"id": "prj005",
 						"enable": "true",
-						"image": ""
+						"image": "creerReseau.jpg"
 					},
 					{
-						"name": "Découverte des news",
-						"description": "Découverte des news.",
-						"path": "decouvertes_des_news",
-						"id": "tjurtg",
+						"name": "Partagez le projet",
+						"path": "partagez_projet",
+						"id": "prj006",
 						"enable": "true",
-						"image": ""
-					}
+						"image": "creerReseau.jpg"
+					}				
+					
 				]
 			},
 			{
