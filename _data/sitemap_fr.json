@@ -77,7 +77,7 @@
 		"hasCategory": "true",
 		"sub": [
 			{
-				"name": "Créer un projet sous Weelgo : bonne pratique",
+				"name": "Créer un projet : les bonnes pratiques",
 				"path": "videoPresentation",
 				"enable": "true",
 				"id": "gkej3467",
@@ -109,21 +109,21 @@
 						"path": "configurez_actions",
 						"id": "prj004",
 						"enable": "true",
-						"image": "creerReseau.jpg"
+						"image": ""
 					},
 					{
 						"name": "Configurez le projet",
 						"path": "configurez_projet",
 						"id": "prj005",
 						"enable": "true",
-						"image": "creerReseau.jpg"
+						"image": ""
 					},
 					{
-						"name": "Partagez le projet",
+						"name": "Partagez a vos collaborateurs",
 						"path": "partagez_projet",
 						"id": "prj006",
 						"enable": "true",
-						"image": "creerReseau.jpg"
+						"image": ""
 					}				
 					
 				]
