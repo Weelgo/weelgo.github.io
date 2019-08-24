@@ -4,7 +4,6 @@ id : tuCR001
 readingEstimation : 10
 ---
 
-## Introduction
 
 Ce tutoriel s'adresse aux personnes souhaitant modéliser un projet sous Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maîtrise ! 
 
@@ -15,8 +14,9 @@ La modélisation d'un projet Weelgo correspond à :
 
 
 <a id="definitionActionsLivrables"></a> 
-## Modéliser son projet 
 
+## Modéliser son projet 
+-------------------------
 
 *Vue Weelgo : Réseau*
 
@@ -164,6 +164,3 @@ Pour affecter des actions à un répertoire, il suffit de sélectionner les acti
 >*Effectuez des découpages simples. Au plus proche de la réalité. Des découpages complexes peuvent compliquer la gestion de votre projet.*
 
 ---
-
-
-
