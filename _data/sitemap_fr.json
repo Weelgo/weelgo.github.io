@@ -116,7 +116,7 @@
 						"path": "configurez_projet",
 						"id": "prj005",
 						"enable": "true",
-						"image": ""
+						"image": "configurezProjet.png"
 					},
 					{
 						"name": "Partagez le projet",
