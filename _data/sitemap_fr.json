@@ -85,14 +85,14 @@
 				"sub": [
 					{
 						"name": "Définissez vos objectifs",
-						"path": "definir_objectifs",
+						"path": "definissez_objectifs",
 						"id": "prj001",
 						"enable": "true",
 						"image": ""
 					},
 					{
 						"name": "Gérez vos todo-list",
-						"path": "gestion_todoList",
+						"path": "gerez_todoList",
 						"id": "prj002",
 						"enable": "true",
 						"image": ""
