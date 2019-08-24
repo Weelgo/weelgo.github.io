@@ -1,9 +1,7 @@
-
 ---
 layout : docs_fr
-title : Modéliser son projet 
-description : Dans ce tutoriel, vous apprendrez à modéliser un projet. 
-toc : true
+id : tuCR001
+readingEstimation : 10
 ---
 
 ## Introduction
