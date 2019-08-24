@@ -119,7 +119,7 @@
 						"image": ""
 					},
 					{
-						"name": "Partagez a vos collaborateurs",
+						"name": "Partagez le projet",
 						"path": "partagez_projet",
 						"id": "prj006",
 						"enable": "true",
