@@ -131,25 +131,6 @@ Ces répertoires contiendront les différentes actions nécessaires à la réali
 
 Cette architecture permet, d'avoir une vision globale de la réalisation du projet. Bien évidemment, il est possible de modifier l'affectation du découpage fonctionnelle en fonction des contraintes rencontrées lors de la réalisation du projet. 
 
-De plus, l'ajout d'actions dans les répertoires permet d'afficher le réseau avec des niveaux de détails différents. 
-
-__Affichage haut niveau__
-
-<p align="center">
-<img src="reseauHautNiveau.png">
-</p>
-
-__Affichage niveau intermédiaire__
-
-<p align="center">
-<img src="reseauNiveauIntermediaire.png">
-</p>
-
-__Affichage complet__ 
-
-<p align="center">
-<img src="reseauComplet.png">
-</p>
 
 Pour affecter des actions à un répertoire, il suffit de sélectionner les actions et tracer un trait vers le répertoire souhaité. 
 
