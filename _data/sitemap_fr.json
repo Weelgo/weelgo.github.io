@@ -77,23 +77,22 @@
 		"hasCategory": "true",
 		"sub": [
 			{
-				"name": "Cours sur la planification",
+				"name": "Créer un réseau Weelgo",
 				"path": "videoPresentation",
 				"enable": "true",
 				"id": "gkej3467",
 				"image": "",
 				"sub": [
 					{
-						"name": "Créer un réseau Weelgo",
+						"name": "Modéliser son projet",
 						"path": "creer_reseau_weelgo",
 						"id": "zfefgh",
 						"enable": "true",
 						"image": "creerReseau.jpg"
 					},
 					{
-						"name": "Découverte des news",
-						"description": "Découverte des news.",
-						"path": "decouvertes_des_news",
+						"name": "L'organisation opérationnelle du projet",
+						"path": "organisation_operationnelle_projet",
 						"id": "tjurtg",
 						"enable": "true",
 						"image": ""
