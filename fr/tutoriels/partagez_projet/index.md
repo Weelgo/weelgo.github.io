@@ -44,6 +44,7 @@ Une fois le projet partagé, l'utilisateur reçoit un message lui prevenant que 
 **Remarque :** L'interface Weelgo ne vous permet pas de savoir si quelqu'un à accepter une invitation ou si il a encore le projet en visibilité. 
 
 ## Les URL cryptée
+------------------------
 
 Depuis l'écran de partage, vous pouvez créer une url cryptée. 
 
