@@ -19,7 +19,18 @@ Pour cela, cliquez sur le bouton "Snaphot".
 <img src="boutonSnapshot.png">
 </p>
 
-Puis sur le bouton <img src="prendreSnapshot.png"> .
+Puis sur le bouton <img src="prendreSnapshot.png"> . Cela génère un snapshot qui est une photo du projet au moment de la prise du snapshot. 
+
+<p align="center">
+<img src="snapshot.png">
+</p>
+
+Vous pouvez naviguer dans les différents snapshot en cliquant dessus. 
+
+<p align="center">
+<img src="snapshotPris.png">
+</p>
+
 
 ---
 **Nos préconisations :**
