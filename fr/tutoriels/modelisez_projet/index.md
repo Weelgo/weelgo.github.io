@@ -4,9 +4,6 @@ id : tuCR001
 readingEstimation : 10
 ---
 
-## Modélisez le projet
-------------------------
-
 Ce tutoriel s'adresse aux personnes souhaitant modéliser un projet sous Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maîtrise ! 
 
 La modélisation d'un projet Weelgo correspond à : 
