@@ -71,7 +71,7 @@ Si vous cochez la case "Util Logic.", vous permettez à l'utilisateur de modifie
 
 **Tips&Astuces :**
 
->*Le partage par URL crypté, avec le droit de modifier l'avancement, vous permet  d'inclure des collaborateurs externes dans la réalisation de vos projets même si ils n'ont pas de compte Weelgo. .*
+>*Le partage par URL cryptée, avec le droit de modifier l'avancement, vous permet  d'inclure des collaborateurs externes dans la réalisation de vos projets même s'ils n'ont pas de compte Weelgo. .*
 
 ---
 
