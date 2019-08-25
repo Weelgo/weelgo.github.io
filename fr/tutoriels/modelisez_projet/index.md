@@ -4,6 +4,8 @@ id : tuCR001
 readingEstimation : 10
 ---
 
+## Modélisez le projet
+------------------------
 
 Ce tutoriel s'adresse aux personnes souhaitant modéliser un projet sous Weelgo. Au travers de ce tutoriel, nous vous rappelerons certains grands principes de gestion de projet. Nous vous fournirons aussi une méthodologie vous permettant de structurer et démarrer votre projet en toute maîtrise ! 
 
@@ -18,7 +20,7 @@ La modélisation d'un projet Weelgo correspond à :
 
 *Vue Weelgo : Réseau*
 
-## Définition des actions et des livrables
+### Définition des actions et des livrables
 ------------------------
 
 Un projet est un enchaînement d'actions aboutissant à un ou plusieurs livrables. La modélisation du projet consiste donc à : 
@@ -60,7 +62,7 @@ Pour vous aidez dans votre choix, souvenez-vous que le réseau doit matérialise
 
 ---
 
-## Ordonnancement des actions
+### Ordonnancement des actions
 ------------------------
 
 L'ordonnancement  permet de mettre en ordre l'ensemble des actions. Nous déterminons ainsi les dépendances entre chaque action et leur chronologie.
@@ -95,7 +97,7 @@ Lors de la création du réseau, il est nécessaire de considérer les ressource
 
 ---
 
-## Définition des répertoires 
+### Définition des répertoires 
 ------------------------
 
 Suite à la création du réseau, il est nécessaire de finaliser sa construction en le structurant. Cette structure, ou découpage, permettra de faciliter la compréhension et la gestion au quotidien du projet.
