@@ -13,7 +13,8 @@ La configuration par défaut est la suivante :
 </p>
 
 
-### Affectation de l'action et des charges
+## Affectation de l'action et des charges
+------------------------
 
 Le responsable par défaut est le responsable du projet ou du repertoire de l'action. 
 
@@ -32,7 +33,8 @@ Pour cela, trouvez votre collaborateur depuis le bouton <img src="boutonAjoutCol
 
 ---
 
-### Renseignez des charges de réalisation
+## Renseignez des charges de réalisation
+------------------------
 
 Lors de cette étape, vous devez indiquer la charge de réalisation des actions et des tickets.
 
@@ -68,7 +70,8 @@ L'affectation des charges des tickets s'effectuent depuis l'onglet "Ticket" des 
 
 ---
 
-### Les options de date de début et date de fin
+## Les options de date de début et date de fin
+------------------------
 
 Sur l'action, vous avez la possibilité de définir une date de début et/ou une date de fin. Cela permet de positionné manuellement l'action sur une date fixe.
 
@@ -83,7 +86,8 @@ Quand vous définissez une date sur une action, cette action est parallélisée 
 
 ---
 
-### Les options supplémentaires
+## Les options supplémentaires
+------------------------
 
 <p align="center">
 <img src="actionOptionAutre.png">
