@@ -18,7 +18,7 @@ Abordons maintenant la configuration du projet et la mise en place des hypothès
 Avant de vous lancez dans l'analyse du planning de votre projet, il est nécessaire de définir la date de début du projet. La première action de votre réseau commencera à cette date. 
 
 <p align="center">
-<img src="configurerDateDebut.png.png">
+<img src="configurerDateDebut.png">
 </p>
 
 ---
@@ -49,7 +49,7 @@ L'option d'activation de la date potentielle manuel désactivera le calcul des d
 Sur Weelgo les ressources sont uniquement des collaborateurs. La gestion des collaborateurs s'effectue en gérant leurs calendriers. 
 
 <p align="center">
-<img src="confProjetCalendrier.png.png">
+<img src="confProjetCalendrier.png">
 </p>
 
 
