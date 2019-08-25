@@ -13,7 +13,7 @@ Chez Weelgo, nous estimons que le manageur doit se concentrer sur l'essentiel, c
 Analysons maintenant ces outils de pilotage. 
 
 
-## Le Dashboard
+### Le Dashboard
 ------------------------
 
 Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une vision 360 du projet et de l'ensemble des indicateurs clés: 
@@ -33,30 +33,22 @@ Le Dashboard est le tableau de bord du projet. Cette vue permet d'avoir une visi
 
 ---
 
-## Le Gantt
+### Le Gantt
 ------------------------
 
 Principal outil du pilotage de projet. Le gantt Weelgo regroupe les indicateurs nécessaires afin de prendre des décisions et des arbitrages. 
 
 <p align="center">
-<img src="/fr/img/gantt.png">
+<img src="gantt.png">
 </p>
 
-
----
-**Nos préconisations :**
-
->N'hésitez pas à afficher le calendrier de vos collaborateurs avant de modifier le réseau et / ou les tickets. La vision du calendrier dans le Gantt vous permet d'avoir la vision nécessaire sur la disponibilité de vos collaborateurs et donc vous permettre de modifier votre réseau en connaissance de cause.
-
----
-
-## Le Burndown
+### Le Burndown
 ------------------------
 
 Représentation graphique de l'évolution de la quantité de travail restante par rapport au temps. 
 
 <p align="center">
-<img src="/fr/img/burndown.png">
+<img src="burndown.png">
 </p>
 
 ---
@@ -67,7 +59,7 @@ Représentation graphique de l'évolution de la quantité de travail restante pa
 ---
 
 
-## Le droite à 45°
+### La droite à 45°
 ------------------------
 
 Représentation graphique de l'évolution des dates de fin prévisionnelles des jalons du projet. La droite à 45° vous permet de savoir, en un coup d'oeil, l'évolution des différentes dates de livraison prévues. 
@@ -75,7 +67,7 @@ Représentation graphique de l'évolution des dates de fin prévisionnelles des 
 La droite à 45° est un puissant outil de détection des dérives et de reporting de projet. 
 
 <p align="center">
-<img src="/fr/img/droite45.png">
+<img src="droite45.png">
 </p>
 
 Remarque : La droite à 45° ci-dessous montre la date de fin prévue pour les livraions du lot1 et du lot2. Nous remarquons ici que la courbe augmente, ce qui indique un retard sur les livraisons des lots. Lorsque la courbe diminue, cela indique de l'avance sur les dates prévues initialement. 
@@ -84,10 +76,10 @@ Remarque : La droite à 45° ci-dessous montre la date de fin prévue pour les l
 ---
 **Nos préconisations :**
 
->Chaque livrable / jalon à sa propre droite à 45°. Cette droite est accesible en cliquant sur le jalon depuis la vue dashboard.
+>Chaque livrable / jalon à sa propre droite à 45°. Cette droite est accesible en cliquant sur le jalon depuis la vue dashboard puis sur l'onglet "Analyse".
 
 <p align="center">
-<img src="/fr/img/droite45Dashboard.png">
+<img src="droite45Dashboard.png">
 </p>
 
 ---
