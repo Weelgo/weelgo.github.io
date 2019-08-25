@@ -11,7 +11,7 @@ readingEstimation : 5
 Abordons maintenant la configuration du projet et la mise en place des hypothèse de départ. 
 
 
-## Définition de la date de début du projet
+### Définition de la date de début du projet
 ------------------------
 
 
@@ -28,7 +28,7 @@ Avant de vous lancez dans l'analyse du planning de votre projet, il est nécessa
 
 ---
 
-## Définition des options du projet
+### Définition des options du projet
 ------------------------
 
 
@@ -43,7 +43,7 @@ La désactivation de la planification automatique vous obligera à linéariser v
 L'option d'activation de la date potentielle manuel désactivera le calcul des dates potentiels de l'application. Seules les dates renseignées par les utilisateurs seront prises en compte dans l'affichage des dates potentielles. 
 
 
-## Définition du calendrier des collaborateurs
+### Définition du calendrier des collaborateurs
 ------------------------
 
 Sur Weelgo les ressources sont uniquement des collaborateurs. La gestion des collaborateurs s'effectue en gérant leurs calendriers. 
