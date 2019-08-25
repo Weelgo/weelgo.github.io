@@ -5,13 +5,32 @@ readingEstimation : 5
 ---
 
 
-## Les indicateurs de pilotage
+## Les outils de pilotage
 ------------------------
 
 Chez Weelgo, nous estimons que le manageur doit se concentrer sur l'essentiel, c'est à dire le management des hommes, la gestion des problèmes et des arbitrages. Le temps passé à généré des plannings et des indicateurs ne doit plus être à la charge du manageur. C'est pourquoi la solution Weelgo générère automatiquement l'ensemble des outils permettant de piloter le projet. 
 
 Analysons maintenant ces outils de pilotage. 
 
+### Prendre des snapshots
+------------------------
+
+Afin de générer correctement les indicateurs de pilotage, il est important de prendre régulièrement des snapshots de vos projets. 
+
+Pour cela, cliquez sur le bouton "Snaphot".
+
+<p align="center">
+<img src="boutonSnapshot.png">
+</p>
+
+Puis sur le bouton <img src="prendreSnapshot.png"> .
+
+---
+**Nos préconisations :**
+
+>Faites un snapshot juste après l'initalisation du projet puis 1 fois par semaine. Cela permet d'avoir un bon suivi de l'avancement du projet. 
+
+---
 
 ### Le Dashboard
 ------------------------
