@@ -129,6 +129,44 @@
 				]
 			},
 			{
+				"name": "Créer une roadmap : les bonnes pratiques",
+				"path": "videoPresentation",
+				"enable": "true",
+				"id": "gkej3467",
+				"image": "",
+				"sub": [
+					{
+						"name": "Définissez vos objectifs",
+						"path": "definissez_objectifs",
+						"id": "road001",
+						"enable": "true",
+						"image": ""
+					},
+					{
+						"name": "Modélisez votre roadmap",
+						"path": "modelisez_roadmap",
+						"id": "road002",
+						"enable": "true",
+						"image": ""
+					},
+					{
+						"name": "Connectez vos projets à votre roadmap",
+						"path": "connectez_roadmap",
+						"id": "road003",
+						"enable": "true",
+						"image": ""
+					},
+					{
+						"name": "Définissez votre rapport standardisé",
+						"path": "definissez_rapport_standardise",
+						"id": "road004",
+						"enable": "true",
+						"image": ""
+					}
+					
+				]
+			},
+			{
 				"name": "Cours sur la communication",
 				"path": "apercu360",
 				"enable": "true",
