@@ -78,7 +78,6 @@
 		"sub": [
 			{
 				"name": "Créer un projet : les bonnes pratiques",
-				"path": "videoPresentation",
 				"enable": "true",
 				"id": "gkej3467",
 				"image": "",
@@ -130,9 +129,8 @@
 			},
 			{
 				"name": "Créer une roadmap : les bonnes pratiques",
-				"path": "videoPresentation",
 				"enable": "true",
-				"id": "gkej3467",
+				"id": "gkej3500",
 				"image": "",
 				"sub": [
 					{
@@ -168,7 +166,6 @@
 			},
 			{
 				"name": "Cours sur la communication",
-				"path": "apercu360",
 				"enable": "true",
 				"id": "gjerk245",
 				"image": "",
@@ -193,7 +190,6 @@
 			},
 			{
 				"name": "Cours sur le gestion de projet",
-				"path": "creationReseauWeelgo",
 				"enable": "true",
 				"id": "8732hjk",
 				"image": "",
