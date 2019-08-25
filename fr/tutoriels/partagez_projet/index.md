@@ -4,6 +4,9 @@ id : tuCR006
 readingEstimation : 10
 ---
 
+## Partagez le projet
+------------------------
+
 Vous avez modélisé et initialisé votre projet. Un planning est généré et vous souhaitez maintenant partager le projet à vos collaborateurs. 
 
 Pour cela, cliquez sur le bouton partagez depuis la page principal du projet
@@ -22,7 +25,7 @@ Une fois sur la page de partage vous pouvez :
 <img src="ecranPartage.png">
 </p>
 
-## Partagez un projet. 
+### Définition des droits 
 ------------------------
 
 L'ajout d'un responsable permet de définir un nouveau responsable sur le projet. 
@@ -43,7 +46,7 @@ Une fois le projet partagé, l'utilisateur reçoit un message lui prevenant que 
 
 **Remarque :** L'interface Weelgo ne vous permet pas de savoir si quelqu'un à accepter une invitation ou si il a encore le projet en visibilité. 
 
-## Les URL cryptée
+### Les URL cryptées
 ------------------------
 
 Depuis l'écran de partage, vous pouvez créer une url cryptée. 
