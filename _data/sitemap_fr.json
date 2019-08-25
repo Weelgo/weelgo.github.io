@@ -125,7 +125,7 @@
 						"image": "partagezProjet.png"
 					},
 					{
-						"name": "Les indicateurs de pilotage",
+						"name": "Les outils de pilotage",
 						"path": "indicateur_pilotage",
 						"id": "prj007",
 						"enable": "true",
