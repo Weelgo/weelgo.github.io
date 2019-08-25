@@ -4,16 +4,10 @@ id : tuCR005
 readingEstimation : 5
 ---
 
-
-## Configurez le projet
-------------------------
-
 Abordons maintenant la configuration du projet et la mise en place des hypothèse de départ. 
-
 
 ### Définition de la date de début du projet
 ------------------------
-
 
 Avant de vous lancez dans l'analyse du planning de votre projet, il est nécessaire de définir la date de début du projet. La première action de votre réseau commencera à cette date. 
 
@@ -30,7 +24,6 @@ Avant de vous lancez dans l'analyse du planning de votre projet, il est nécessa
 
 ### Définition des options du projet
 ------------------------
-
 
 <p align="center">
 <img src="optionProjet.png">
