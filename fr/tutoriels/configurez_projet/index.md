@@ -4,6 +4,9 @@ id : tuCR005
 readingEstimation : 5
 ---
 
+## Configurez le projet
+------------------------
+
 Abordons maintenant la configuration du projet et la mise en place des hypothèse de départ. 
 
 ### Définition de la date de début du projet
