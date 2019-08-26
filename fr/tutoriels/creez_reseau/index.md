@@ -18,7 +18,7 @@ Dans ce travaux pratique, nous allons voir les différentes étapes pour créer 
 **Le dashboard**
 
 <p align="center">
-<img src="reseauCible.png">
+<img src="dashboardCible.png">
 </p>
 
 
@@ -98,6 +98,13 @@ Vous devez avoir le résultat suivant.
 Renommez ensuite le livrable : 
 * click droit sur le livrable.
 * renommer.
+
+---
+**Points importants :**
+
+>*Vous pouvez modifier le type de livrable (neutre, intermédiaire, jalon). Les livrables jalons apparaitront sous forme de coupe. Ils seront affichés dans le dashboard et dans la droite à 45° ainsi que dans la home page du projet.*
+
+---
 
 Continuer à créer les actions et livrables pour obtenir le réseau suivant : 
 
