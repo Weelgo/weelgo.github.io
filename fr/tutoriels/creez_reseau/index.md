@@ -28,17 +28,7 @@ Dans ce travaux pratique, nous allons voir les différentes étapes pour créer 
 <img src="ganttCible.png">
 </p>
 
-**Le burdown**
-
-<p align="center">
-<img src="burndownCible.png">
-</p>
-
-**Le plan de charge**
-
-<p align="center">
-<img src="planDeChargeCible.png">
-</p>
+ainsi que les autres indicateurs de pilotage (burndown/droite45/plan de charge)
 
 ### Etape 1 : Créez le projet
 ------------------------
