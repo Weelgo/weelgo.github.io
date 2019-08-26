@@ -112,7 +112,7 @@ Vous pouvez déplacer les actions et livrables sur l'espace de travail :
 ---
 **Points importants :**
 
->*Toutes les opérations de création d'actions et livrables sont accessibles depuis le click droit de la souris et le menu contextuel associé
+>*Toutes les opérations de création d'actions et livrables sont accessibles depuis le click droit de la souris et le menu contextuel associé.*
 
 ---
 
@@ -153,16 +153,103 @@ Effectuer les même opération pour les répertoires :
 * Production
 
 
+### Etape 3 : Configurez les actions
+------------------------
 
+Le réseau est initialisé, nous allons maintenant configurer les actions. 
+
+Faites un double click gauche sur la première action. Un panel s'ouvre. 
+
+<p align="center">
+<img src="panelConfigurationAction.png">
+</p>
+
+Dans ce panel, vous pouvez configurer la charge de travail, le responsable, la durée...
+
+Ajouter une charge de travail de 5 jours-homme. 
+
+Cliquer sur le bouton "+" pour modifier le responsable de l'action
+
+<p align="center">
+<img src="boutonPlusResponsable.png">
+</p>
+
+Renseignez le nom du responsable. S'il n'est pas dans Weelgo, l'application vous proposera de créer un utilisateur virtuel.
+
+<p align="center">
+<img src="creerUtilisateurVirtuel.png">
+</p>
 
 ---
-
-**Nos préconisations :**
-<a id="ordreActions"></a> 
->*Le réseau doit être structuré par des actions fournissant des livrables clés. Une action n'aboutissant pas à un livrable de haute importance doit plutôt être traitée comme un ticket (depuis la vue Organisation).*
 
 **Points importants :**
 
->*Une action doit forcement aboutir à un livrable ou plusieurs livrables. Une action n'aboutissant à aucun résultat (livrable) ne doit pas être présente dans le réseau.*
+>*Le responsable par défaut et le responsable du projet ou du répertoire de l'action.* 
+
+>*Les utilisateurs virtuels sont associés au projet. Lors de la création de l'utilisateur, vous pouvez re-utiliser un utilsateur virtuel d'un projet dont vous avez la visibilté.* 
 
 ---
+
+Vous venez d'initaliser votre première action. 
+
+Continuez à initialiser les autres actions. 
+
+---
+
+### Etape 4 : Configurez le projet. 
+------------------------
+
+Cliquez sur l'icone <img src="iconeConfigProjet.png">.
+
+La page du projet s'affiche. Effectuez les opérations suivantes : 
+* Renseignez alors la date de début du projet. 
+* Ajoutez les calendriers de vos ressources. 
+
+<p align="center">
+<img src="configurerProjet.png">
+</p>
+
+Pour chaque ressource, définissez le taux de productivité ainsi que son calendrier 
+
+<p align="center">
+<img src="calendrier.png">
+</p>
+
+---
+
+**Tips&Astuces :**
+>*Pour modifier une plage, cliquez sur une date puis sur une deuxème date. Une fenêtre s'affichera vous permettant de modifier la plage entre les deux dates.*
+
+---
+
+#### La liste de priorité
+
+Vous pouvez retravailler la liste de priorité du projet en cliquant sur le bouton "Liste de priorité" en haut à gauche de l'écran. 
+
+
+
+### Etape 6 : Profitez des indicateurs. 
+------------------------
+
+Vous venez d'initialiser votre projet. Vous pouvez profiter des indicateurs de pilotage en cliquant sur le bouton 
+<img src="boutonAnalyse.png">. 
+
+Effectuez un snapshot du projet pour avoir une capture du projet à son début. Pour cela, cliquez sur le bouton <img src="boutonSnapshot.png"> puis sur "Prendre un snapshot". 
+
+---
+
+**Tips&Astuces :**
+>*Pensez à prendre un snapshot du projet régulièrement afin de consolider les indicateurs de pilotage du projet. 
+
+---
+
+### Etape 7 : Partagez le projet à vos collaborateurs
+------------------------
+
+Il ne reste plus qu'a partager le projet à vos collaborateurs. Pour cela, aller sur la page principal du projet et cliquez sur le bouton "Partager". 
+
+<p align="center">
+<img src="ecranProjetPartager.png">
+</p>
+
+Ajoutez vos collaborateurs et configurez les droits. Pour cette partie, je vous invite à lire le tutoriel [ici](http://docs.weelgo.com/fr/tutoriels/partagez_projet/>)
