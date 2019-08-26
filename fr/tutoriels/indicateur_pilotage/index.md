@@ -4,6 +4,9 @@ id : tuCR007
 readingEstimation : 5
 ---
 
+## Les indicateurs de pilotage
+------------------------
+
 Chez Weelgo, nous estimons que le manageur doit se concentrer sur l'essentiel, c'est à dire le management des hommes, la gestion des problèmes et des arbitrages. Le temps passé à généré des plannings et des indicateurs ne doit plus être à la charge du manageur. C'est pourquoi la solution Weelgo générère automatiquement l'ensemble des outils permettant de piloter le projet. 
 
 Analysons maintenant ces outils de pilotage. 
