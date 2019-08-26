@@ -77,6 +77,29 @@
 		"hasCategory": "true",
 		"sub": [
 			{
+				"name": "Travaux pratiques",
+				"enable": "true",
+				"id": "gkej3500",
+				"image": "",
+				"sub": [
+					{
+						"name": "Créez un réseau",
+						"path": "creez_reseau",
+						"id": "TP001",
+						"enable": "true",
+						"image": "creezReseau.png"
+					},
+					{
+						"name": "Créez une roadmap",
+						"path": "creez_roadmap",
+						"id": "TP002",
+						"enable": "true",
+						"image": "creezRoadmap.png"
+					}					
+				]
+			},
+			
+			{
 				"name": "Créer un projet : les bonnes pratiques",
 				"enable": "true",
 				"id": "gkej3467",
