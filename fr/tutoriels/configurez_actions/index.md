@@ -4,6 +4,9 @@ id : tuCR003
 readingEstimation : 10
 ---
 
+## Configurez les actions
+------------------------
+
 Vous avez initialisé un réseau d'actions et vous devez maintenant les configurer pour finaliser votre réseau. 
 
 La configuration par défaut est la suivante : 
