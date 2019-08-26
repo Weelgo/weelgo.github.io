@@ -4,7 +4,7 @@ id : TP001
 readingEstimation : 20
 ---
 
-## TP : Créez un projet
+## Workshop : Créez un projet
 ------------------------
 
 Dans ce travaux pratique, nous allons voir les différentes étapes pour créer le projet suivant :
