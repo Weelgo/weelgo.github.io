@@ -1,7 +1,7 @@
 ---
 layout : docs_fr
 id : TP001
-readingEstimation : 15
+readingEstimation : 20
 ---
 
 ## TP : Créez un projet
@@ -82,7 +82,7 @@ Nous allons maintenant associé un livrable à l'action:
 Vous devez avoir le résultat suivant. 
 
 <p align="center">
-<img src="actionLivrable1png">
+<img src="actionLivrable1.png">
 </p>
 
 Renommez ensuite le livrable : 
