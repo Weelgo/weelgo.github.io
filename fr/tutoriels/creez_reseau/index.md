@@ -15,6 +15,8 @@ Dans ce travaux pratique, nous allons voir les différentes étapes pour créer 
 <img src="reseauCible.png">
 </p>
 
+et les indicateurs de pilotage associé :
+
 **Le dashboard**
 
 <p align="center">
@@ -28,7 +30,6 @@ Dans ce travaux pratique, nous allons voir les différentes étapes pour créer 
 <img src="ganttCible.png">
 </p>
 
-ainsi que les autres indicateurs de pilotage (burndown/droite45/plan de charge)
 
 ### Etape 1 : Créez le projet
 ------------------------
