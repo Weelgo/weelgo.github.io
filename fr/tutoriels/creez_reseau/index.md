@@ -102,16 +102,7 @@ Continuer à créer les actions et livrables pour obtenir le réseau suivant :
 <img src="reseauCible.png">
 </p>
 
-Vous pouvez déplacer les actions et livrables sur l'espace de travail :
-* maintenez le click gauche sur l'item et déplacez le.
-
-
----
-**Points importants :**
-
->*Toutes les opérations de création d'actions et livrables sont accessibles depuis le click droit de la souris et le menu contextuel associé.*
-
----
+Pour déplacer les actions et livrables sur l'espace de travail, maintenez le click gauche sur l'item et déplacez les.
 
 
 #### Créez les repertoires et associez les actions/livrables
@@ -137,7 +128,7 @@ Une fois les repertoires ajoutés, associez les actions/livrables :
 <img src="selectionMultiple.png">
 </p>
 
-* Une fois les actions séléctionnées, faites un click droit (maintenir) et dirigez la souris vers le répertoire. Une flèche va apparaitre. 
+* Une fois les actions séléctionnées, faites un click droit (maintenir) et dirigé la souris vers le répertoire. 
 
 <p align="center">
 <img src="associerReseauRepertoire.png">
@@ -145,10 +136,7 @@ Une fois les repertoires ajoutés, associez les actions/livrables :
 
 * acceptez l'association. 
 
-Effectuer les même opération pour les répertoires : 
-* Post-production
-* Production
-
+Effectuer les même opération pour les actions restantes. Distribué les dans les autres répertoires. 
 
 ### Etape 3 : Configurez les actions
 ------------------------
@@ -206,7 +194,11 @@ La page du projet s'affiche. Effectuez les opérations suivantes :
 <img src="configurerProjet.png">
 </p>
 
-Pour chaque ressource, définissez le taux de productivité ainsi que son calendrier 
+Pour chaque ressource, définissez :
+* le taux de productivité 
+* son calendrier en cliquant sur "Ajouter des dates spécifiques"
+
+Quand vous ajoutez des dates spécifiques, le calendrier s'affiche. Vous pouvez alors modifier plus finemenet la productivité. 
 
 <p align="center">
 <img src="calendrier.png">
@@ -219,19 +211,17 @@ Pour chaque ressource, définissez le taux de productivité ainsi que son calend
 
 ---
 
-#### La liste de priorité
-
-Vous pouvez retravailler la liste de priorité du projet en cliquant sur le bouton "Liste de priorité" en haut à gauche de l'écran. 
-
-
-
-### Etape 6 : Profitez des indicateurs. 
+### Etape 6 : Effectuez un premier snapshots. 
 ------------------------
 
-Vous venez d'initialiser votre projet. Vous pouvez profiter des indicateurs de pilotage en cliquant sur le bouton 
-<img src="boutonAnalyse.png">. 
+Vous venez d'initialiser votre projet. Vous devez maintenant effectuez un snapshot du projet pour avoir une capture du projet à son début. 
 
-Effectuez un snapshot du projet pour avoir une capture du projet à son début. Pour cela, cliquez sur le bouton <img src="boutonSnapshot.png"> puis sur "Prendre un snapshot". 
+Pour cela, cliquez sur le bouton <img src="boutonSnapshot.png"> puis sur "Prendre un snapshot". 
+
+<p align="center">
+<img src="prendreSnapshot.png">
+</p>
+
 
 ---
 
@@ -245,8 +235,10 @@ Effectuez un snapshot du projet pour avoir une capture du projet à son début. 
 
 Il ne reste plus qu'a partager le projet à vos collaborateurs. Pour cela, aller sur la page principal du projet et cliquez sur le bouton "Partager". 
 
+La page de partage s'ouvre et vous pouvez ajouter vos collaborateurs et configurez les droits. Pour cette partie, je vous invite à lire le tutoriel [ici](http://docs.weelgo.com/fr/tutoriels/partagez_projet/)
+
 <p align="center">
 <img src="ecranProjetPartager.png">
 </p>
 
-Ajoutez vos collaborateurs et configurez les droits. Pour cette partie, je vous invite à lire le tutoriel [ici](http://docs.weelgo.com/fr/tutoriels/partagez_projet/>)
+
