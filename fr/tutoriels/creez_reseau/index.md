@@ -166,6 +166,10 @@ Renseignez le nom du responsable. S'il n'est pas dans Weelgo, l'application vous
 <img src="creerUtilisateurVirtuel.png">
 </p>
 
+Vous venez d'initaliser votre première action. 
+
+Continuez à initialiser les autres actions. 
+
 ---
 
 **Points importants :**
@@ -173,12 +177,6 @@ Renseignez le nom du responsable. S'il n'est pas dans Weelgo, l'application vous
 >*Le responsable par défaut et le responsable du projet ou du répertoire de l'action.* 
 
 >*Les utilisateurs virtuels sont associés au projet. Lors de la création de l'utilisateur, vous pouvez re-utiliser un utilsateur virtuel d'un projet dont vous avez la visibilté.* 
-
----
-
-Vous venez d'initaliser votre première action. 
-
-Continuez à initialiser les autres actions. 
 
 ---
 
@@ -199,7 +197,7 @@ Pour chaque ressource, définissez :
 * le taux de productivité 
 * son calendrier en cliquant sur "Ajouter des dates spécifiques"
 
-Quand vous ajoutez des dates spécifiques, le calendrier s'affiche. Vous pouvez alors modifier plus finemenet la productivité. 
+Quand vous ajoutez des dates spécifiques, le calendrier s'affiche. Vous pouvez alors modifier plus finemenet la productivité en cliquant sur les dates du calendrier. 
 
 <p align="center">
 <img src="calendrier.png">
@@ -222,6 +220,13 @@ Pour cela, cliquez sur le bouton <img src="boutonSnapshot.png"> puis sur "Prendr
 <p align="center">
 <img src="prendreSnapshot.png">
 </p>
+
+Le snapshot est alors enregistré et disponible. 
+
+<p align="center">
+<img src="snapshotPris.png">
+</p>
+
 
 
 ---
