@@ -17,6 +17,8 @@ Dans ce workshop, nous allons voir les différentes étapes pour créer la roadm
 ### Etape 1 : Créez le projet de type Roadmap
 ------------------------
 
+<img src="test.gif">
+
 Allez sur votre page d'accueil et cliquer sur le bouton.
 
 <p align="center">
