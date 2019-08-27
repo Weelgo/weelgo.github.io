@@ -7,7 +7,7 @@ readingEstimation : 20
 ## Workshop : Créez un projet
 ------------------------
 
-Dans ce travaux pratique, nous allons voir les différentes étapes pour créer le projet suivant :
+Dans ce workshop, nous allons voir les différentes étapes pour créer le projet suivant :
 
 **Le réseau**
 
