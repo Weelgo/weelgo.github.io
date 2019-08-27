@@ -248,6 +248,3 @@ La page de partage s'ouvre et vous pouvez ajouter vos collaborateurs et configur
 </p>
 
 
-<img src="exemple.gif">
-
-
