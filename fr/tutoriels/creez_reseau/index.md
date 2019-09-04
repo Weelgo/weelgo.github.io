@@ -177,7 +177,7 @@ Pour chaque ressource, définissez :
 Quand vous ajoutez des dates spécifiques, le calendrier s'affiche. Vous pouvez alors modifier plus finemenet la productivité en cliquant sur les dates du calendrier. 
 
 <p align="center">
-<img src="calendrier.png">
+<img src="modifCalendrier.gif">
 </p>
 
 ---
