@@ -97,13 +97,9 @@ Les faits sont de l'information que vous allez rattacher à votre roadmap. Ils a
 <img src="ajoutFait.gif">
 </p>
 
-
 ---
 **Recommandation:**
 
 >*Il est important de prendre réguliérement des snapshots afin de pouvoir consolider l'historique de la roadmap.*
 
 ---
-
-
-
