@@ -37,22 +37,20 @@ Allez dans l'espace que vous venez de créer et cliquez sur
 
 Maintenant vous allez éditer la structure pour créer les jalons et les phases
 
-** Création des phases **
-------------------------
+**Création des phases**
 
 <p align="center">
 <img src="creationPhase.gif">
 </p>
 
-** Création des jalons **
-------------------------
+**Création des jalons**
 
 <p align="center">
 <img src="creationJalon.gif">
 </p>
 
-** Ajout du groupe **
-------------------------
+**Ajout du groupe**
+
 
 Nous allons mainteant ajouter le groupe "Vidéo". 
 
@@ -60,10 +58,9 @@ Nous allons mainteant ajouter le groupe "Vidéo".
 <img src="creationGroupe.gif">
 </p>
 
-** Modification du style **
-------------------------
+**Modification du style**
 
-Vous pouvez modifier la couleur e tle style des items en allant dant l'onglet style
+Vous pouvez modifier la couleur et le style des items en allant dant l'onglet style
 
 <p align="center">
 <img src="changerCouleurItem.png">
