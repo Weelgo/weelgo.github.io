@@ -124,20 +124,15 @@ Vous avez créé le réseau, nous allons maintenant créer les répertoires :
 
 Une fois les repertoires ajoutés, associez les actions/livrables : 
 * Selectionnez les actions et livrable en maintenant le click droit sur l'espace de travail et séléctionnez les actions et livrables. 
-
-<p align="center">
-<img src="selectionMultiple.png">
-</p>
-
 * Une fois les actions séléctionnées, faites un click droit (maintenir) et dirigé la souris vers le répertoire. 
-
-<p align="center">
-<img src="associerReseauRepertoire.png">
-</p>
-
 * acceptez l'association. 
 
+<p align="center">
+<img src="ajoutActionGroupe.gif">
+</p>
+
 Effectuer les même opération pour les actions restantes. Distribué les dans les autres répertoires. 
+
 
 ### Etape 3 : Configurez les actions
 ------------------------
