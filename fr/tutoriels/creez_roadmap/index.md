@@ -93,6 +93,6 @@ Afin de faire vivre votre roadmap, vous pouvez ajouter des faits sur les jalons 
 Les faits sont de l'information que vous allez rattacher à votre roadmap. Ils apparaitront dans le journal de bord lorsque vous ferez des snapshots. 
 
 <p align="center">
-<img src="ajouterFaits.gif">
+<img src="ajoutFait.gif">
 </p>
 
