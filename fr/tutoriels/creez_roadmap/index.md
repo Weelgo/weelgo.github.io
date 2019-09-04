@@ -91,48 +91,11 @@ Pour cela, allez dans le Journal de bord et cliquez sur
 
 #### Ajoutez un faits. 
 
-Votre roadmap va vivre et vous devez pouvoir intégrer de l'information dans les différent
+Afin de faire vivre votre roadmap, vous pouvez ajouter des faits sur les jalons et les phases. 
 
-
-#### Prendre des snapshots. 
-
-
-Faites un click droit sur l'espace de travail et cliquez sur "Créer action". 
+Les faits sont de l'information que vous allez rattacher à votre roadmap. Ils apparaitront dans le journal de bord lorsque vous ferez des snapshots. 
 
 <p align="center">
-<img src="menuContextuelCreerAction.png">
+<img src="ajouterFaits.gif">
 </p>
-
-L'action apparait. Renommez la :
-* click droit sur l'action.
-* renommer.
-
-Nous allons maintenant associé un livrable à l'action: 
-* click droit sur l'action.
-* Créer livrable.
-
-Vous devez avoir le résultat suivant. 
-
-<p align="center">
-<img src="actionLivrable1.png">
-</p>
-
-Renommez ensuite le livrable : 
-* click droit sur le livrable.
-* renommer.
-
----
-**Points importants :**
-
->*Vous pouvez modifier le type de livrable (neutre, intermédiaire, jalon). Les livrables jalons apparaitront sous forme de coupe. Ils seront affichés dans le dashboard et dans la droite à 45° ainsi que dans la home page du projet.*
-
----
-
-Continuer à créer les actions et livrables pour obtenir le réseau suivant : 
-
-<p align="center">
-<img src="reseauCible.png">
-</p>
-
-Pour déplacer les actions et livrables sur l'espace de travail, maintenez le click gauche sur l'item et déplacez les.
 
