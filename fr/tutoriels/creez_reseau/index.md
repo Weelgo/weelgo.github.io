@@ -45,50 +45,32 @@ Indiquez un nom et cliquez sur "OK"
 ### Etape 2 : Créer le réseau
 ------------------------
 
-Allez sur le réseau en cliquant sur le bouton "Réseau"
+* Allez sur le réseau en cliquant sur le bouton "Réseau"
 
 <p align="center">
 <img src="boutonReseau.png">
 </p>
 
-La page vierge du réseau s'affiche. Pour ajouter des actions, cliquez sur le bouton "Editer" 
+
+#### Ajout d'une action 
+
+* Cliquez sur le bouton "Editer" pour ajouter des actions. Un panel contenant les outils d'édition s'affiche.
+* Faites un click droit sur l'espace de travail et cliquez sur "Créer action" puis renommez-la.
 
 <p align="center">
-<img src="boutonEditer.png">
+<img src="ajoutAction.gif">
 </p>
 
-Le panel contenant les outils d'édition s'affiche.
 
-<p align="center">
-<img src="panelEdition.png">
-</p>
-
-#### Ajout d'une action et d'un livrable
-
-
-Faites un click droit sur l'espace de travail et cliquez sur "Créer action". 
-
-<p align="center">
-<img src="menuContextuelCreerAction.png">
-</p>
-
-L'action apparait. Renommez la :
-* click droit sur l'action.
-* renommer.
+#### Ajout d'un livrable
 
 Nous allons maintenant associé un livrable à l'action: 
 * click droit sur l'action.
-* Créer livrable.
-
-Vous devez avoir le résultat suivant. 
+* Créez livrable puis renommez-le.
 
 <p align="center">
-<img src="actionLivrable1.png">
+<img src="ajoutLivrable.gif">
 </p>
-
-Renommez ensuite le livrable : 
-* click droit sur le livrable.
-* renommer.
 
 ---
 **Points importants :**
