@@ -74,7 +74,8 @@ Repositionnez les éléments et modifiez leurs couleurs.
 
 ---
 
-**Prendre le premier snapshot**
+
+### Etape 3 : Prendre le premier snapshot
 
 Votre roadmap est initialisé, vous devez prendre votre premier snapshot afin de pouvoir sauvegarder cet état initial. 
 
@@ -85,7 +86,7 @@ Pour cela, allez dans le Journal de bord et cliquez sur
 </p>
 
 
-### Etape 3 :  Ajoutez un faits
+### Etape 4 :  Ajoutez un faits
 ------------------------
 
 Afin de faire vivre votre roadmap, vous pouvez ajouter des faits sur les jalons et les phases. 
@@ -97,10 +98,12 @@ Les faits sont de l'information que vous allez rattacher à votre roadmap. Ils a
 </p>
 
 
-### Etape 4 :  Prendre un snapshot
-------------------------
+---
+**Recommandation:**
 
-Vous allez maintenant pouvoir prendre réguliérement des snapshots afin de pouvoir consolider un historique de votre roadmap.
+>*Il est important de prendre réguliérement des snapshots afin de pouvoir consolider l'historique de la roadmap.*
+
+---
 
 
 
