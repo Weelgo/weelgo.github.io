@@ -75,6 +75,7 @@ Repositionnez les éléments et modifiez leurs couleurs.
 **Tips&Astuces:**
 
 >*Vous pouvez bloquer le déplacement horizontal des ietems en cliquant sur le bouton <img src="boutonDeplacementVertical.png">.*
+
 ---
 
 **Prendre le premier snapshot**
