@@ -37,20 +37,13 @@ Allez dans l'espace que vous venez de créer et cliquez sur
 
 Maintenant vous allez éditer la structure pour créer les jalons et les phases
 
-**Création des phases**
+**Création des phases et jalons**
 
 <p align="center">
-<img src="creationPhase.gif">
-</p>
-
-**Création des jalons**
-
-<p align="center">
-<img src="creationJalon.gif">
+<img src="ajoutPhasesEtJalons.gif">
 </p>
 
 **Ajout du groupe**
-
 
 Nous allons mainteant ajouter le groupe "Vidéo". 
 
@@ -86,7 +79,10 @@ Pour cela, allez dans le Journal de bord et cliquez sur
 </p>
 
 
-#### Ajoutez un faits. 
+### Etape 3 :  Ajoutez un faits
+------------------------
+
+
 
 Afin de faire vivre votre roadmap, vous pouvez ajouter des faits sur les jalons et les phases. 
 
