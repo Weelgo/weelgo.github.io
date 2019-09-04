@@ -25,7 +25,6 @@ Allez sur votre page d'accueil et cliquer sur le bouton.
 
 Indiquez un nom et cliquez sur "OK"
 
-<img src="test.gif">
 
 ### Etape 2 : Créer la roadmap
 ------------------------
@@ -48,19 +47,26 @@ Ajoutons maintenant les jalons.
 <img src="creationJalon.gif">
 </p>
 
-Ajout des groupes et changements
-
 Nous allons mainteant ajouter le groupe "Vidéo". 
 
 <p align="center">
-<img src="ajoutGroupe.gif">
+<img src="creationGroupe.gif">
 </p>
+
 
 Vous pouvez modifier la couleur des items en allant dant l'onglet style
 
 <p align="center">
 <img src="changerCouleurItem.png">
 </p>
+
+Repositionnez les éléments et modifiez leurs couleurs. 
+
+---
+**Tips&Astuces:**
+
+>*Vous pouvez bloquer le déplacement horizontal des ietems en cliquant sur le bouton <img src="boutonDeplacementVertical.png">.*
+---
 
 **Prendre le premier snapshot**
 
