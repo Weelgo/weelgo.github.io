@@ -194,17 +194,11 @@ Vous venez d'initialiser votre projet. Vous devez maintenant effectuez un snapsh
 
 Pour cela, cliquez sur le bouton <img src="boutonSnapshot.png"> puis sur "Prendre un snapshot". 
 
-<p align="center">
-<img src="prendreSnapshot.png">
-</p>
-
 Le snapshot est alors enregistré et disponible. 
 
 <p align="center">
-<img src="snapshotPris.png">
+<img src="prendreSnapshot.gif">
 </p>
-
-
 
 ---
 
