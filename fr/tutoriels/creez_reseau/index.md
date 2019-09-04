@@ -91,17 +91,13 @@ Pour déplacer les actions et livrables sur l'espace de travail, maintenez le cl
 #### Créez les repertoires et associez les actions/livrables
 
 Vous avez créé le réseau, nous allons maintenant créer les répertoires : 
+* Mettez vous en mode édition
 * Cliquez sur le bouton "+" 
-
-<p align="center">
-<img src="boutonAjoutRepertoire.png">
-</p>
-
 * Saisissez le nom du répertoire
-* Recommencez pour créer l'arborescence suivante 
+* Recommencez pour créer les répertoires restants
 
 <p align="center">
-<img src="arborescenceRepertoire.png">
+<img src="creationRepertoire.gif">
 </p>
 
 Une fois les repertoires ajoutés, associez les actions/livrables : 
