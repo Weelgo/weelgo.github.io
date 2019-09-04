@@ -37,10 +37,16 @@ Allez dans l'espace que vous venez de créer et cliquez sur
 
 Maintenant vous allez éditer la structure pour créer les jalons et les phases
 
-**Création des phases et jalons**
+**Création des phases**
 
 <p align="center">
-<img src="ajoutPhasesEtJalons.gif">
+<img src="creationPhase.gif">
+</p>
+
+**Création des jalons**
+
+<p align="center">
+<img src="creationJalon.gif">
 </p>
 
 **Ajout du groupe**
@@ -82,8 +88,6 @@ Pour cela, allez dans le Journal de bord et cliquez sur
 ### Etape 3 :  Ajoutez un faits
 ------------------------
 
-
-
 Afin de faire vivre votre roadmap, vous pouvez ajouter des faits sur les jalons et les phases. 
 
 Les faits sont de l'information que vous allez rattacher à votre roadmap. Ils apparaitront dans le journal de bord lorsque vous ferez des snapshots. 
@@ -91,4 +95,12 @@ Les faits sont de l'information que vous allez rattacher à votre roadmap. Ils a
 <p align="center">
 <img src="ajoutFait.gif">
 </p>
+
+
+### Etape 4 :  Prendre un snapshot
+------------------------
+
+Vous allez maintenant pouvoir prendre réguliérement des snapshots afin de pouvoir consolider un historique de votre roadmap.
+
+
 
