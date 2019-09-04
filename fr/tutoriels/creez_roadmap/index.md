@@ -86,7 +86,7 @@ Pour cela, allez dans le Journal de bord et cliquez sur
 </p>
 
 
-### Etape 4 :  Ajoutez un faits
+### Etape 4 :  Ajoutez un fait
 ------------------------
 
 Afin de faire vivre votre roadmap, vous pouvez ajouter des faits sur les jalons et les phases. 
