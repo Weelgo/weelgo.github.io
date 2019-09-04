@@ -35,17 +35,24 @@ Allez dans l'espace que vous venez de créer et cliquez sur
 <img src="InitieRoadmap.png">
 </p>
 
-Maintenant vous allez éditer la structure et créer les phases du projets. 
+Maintenant vous allez éditer la structure pour créer les jalons et les phases
+
+** Création des phases **
+------------------------
 
 <p align="center">
 <img src="creationPhase.gif">
 </p>
 
-Ajoutons maintenant les jalons. 
+** Création des jalons **
+------------------------
 
 <p align="center">
 <img src="creationJalon.gif">
 </p>
+
+** Ajout du groupe **
+------------------------
 
 Nous allons mainteant ajouter le groupe "Vidéo". 
 
@@ -53,8 +60,10 @@ Nous allons mainteant ajouter le groupe "Vidéo".
 <img src="creationGroupe.gif">
 </p>
 
+** Modification du style **
+------------------------
 
-Vous pouvez modifier la couleur des items en allant dant l'onglet style
+Vous pouvez modifier la couleur e tle style des items en allant dant l'onglet style
 
 <p align="center">
 <img src="changerCouleurItem.png">
