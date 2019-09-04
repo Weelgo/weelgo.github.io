@@ -32,7 +32,7 @@ Indiquez un nom et cliquez sur "OK"
 Allez dans l'espace que vous venez de créer et cliquez sur 
 
 <p align="center">
-<img src="InitieRoadmap.png">
+<img src="InitierRoadmap.png">
 </p>
 
 Maintenant vous allez éditer la structure pour créer les jalons et les phases
