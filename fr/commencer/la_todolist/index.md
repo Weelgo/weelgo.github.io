@@ -10,14 +10,16 @@ readingEstimation : 8
 
 La todo-list est un outil contenant les actions des forums et réseaux de vos projets. 
 
+Elle est accessible depuis votre espace personnel ou depuis les espaces projets. 
+
 <p align="center">
 <img src="maTodoList.jpg">
 </p>
 
 
-Par défaut, elle est filtrée sur votre nom. 
+Votre todo-list est filtrée sur vous par défaut. 
 
-Elle est multi-projet et affiche l'ensemble des actions des projets séléctionnés
+Elle est multi-projet et affiche l'ensemble des actions des projets séléctionnés.
 
 > **Point important :**
 > Les actions contenant l'icône <img src="iconeManagement.jpg"> sont des actions provenant du réseau du projet. Il est impossible de modifier la date de début et la date de fin de ce type d'action depuis la todo-list
@@ -25,11 +27,13 @@ Elle est multi-projet et affiche l'ensemble des actions des projets séléctionn
 
 Vous pouvez filtrer la todo-list en utilisant le menu prévu à cet effet. 
 
+Une fois un filtre ajouté, il s'affiche en dessous du menu. Vous pouvez supprimer le filtre en cliquant dessus. 
+
 <p align="center">
-<img src="menuFiltreTodo.jpg">
+<img src="todoListFiltre.gif">
 </p>
 
-Une fois un filtre ajouté, il s'affiche en dessous du menu. Vous pouvez supprimer le filtre en cliquant dessus. 
+
 
 > **Remarque :**
 > Lorsque vous créez un nouveau projet, il est automatiquement ajouté à la liste des projets de la todo-list. 
