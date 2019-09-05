@@ -20,7 +20,7 @@ Depuis le calendrier, vous pouvez modifier les dates de début et les date de fi
 Une fenêtre de choix apparait pour vour permettre de faire la modification. 
 
 <p align="center">
-<img src="choixDateCalendrier.jpg">
+<img src="modifierDateCalendrier.gif">
 </p>
 
 
