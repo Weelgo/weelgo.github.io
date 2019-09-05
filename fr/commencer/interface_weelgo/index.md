@@ -4,9 +4,8 @@ id : th003
 readingEstimation : 8
 ---
 
-<p align="center">
-<img src="interface.jpg">
-</p>
+## L'interface de navigation
+---------------
 
 Dans Weelgo, la navigation s'effectue au travers de l'utilisation d'un double menu se situant dans la partie haute de l'application. 
 
