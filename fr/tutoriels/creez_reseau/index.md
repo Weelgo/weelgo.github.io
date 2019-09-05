@@ -211,7 +211,7 @@ Il ne reste plus qu'a partager le projet à vos collaborateurs. Pour cela, aller
 La page de partage s'ouvre et vous pouvez ajouter vos collaborateurs et configurez les droits. Pour cette partie, je vous invite à lire le tutoriel [ici](http://docs.weelgo.com/fr/tutoriels/partagez_projet/)
 
 <p align="center">
-<img src="ecranProjetPartager.png">
+<img src="partage.gif">
 </p>
 
 
