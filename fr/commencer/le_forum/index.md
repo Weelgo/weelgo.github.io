@@ -18,14 +18,14 @@ Le forum contient l'ensemble des tracks des projets sélectionnés
 Vous pouvez filtrer sur le type d'information que vous souhaitez en utilsant les filtres rapides à gauche. 
 
 <p align="center">
-<img src="filtreRapide.jpg">
+<img src="forumFiltre.gif">
 </p>
 
 
 La zone de recherche vous permets de chercher une information rapidement. 
 
 <p align="center">
-<img src="champRechercheImage.jpg">
+<img src="forumRecherche.gif">
 </p>
 
 Pour accéder au contenu du track, cliquez dessus. 
