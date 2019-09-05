@@ -76,19 +76,9 @@ Vous pouvez afficher uniquement les tracks que vous avez flaggés en cliquant su
 
 Depuis les raccourcis rapide, vous pouvez basculer l'affichage des news en mode compact. 
 
+Ce mode permet d'afficher uniquement le nom du track. La description et le dernier message n'apparaissent plus. 
+
 
 <p align="center">
-<img src="raccourciModeCompact.jpg">
+<img src="modeCompact.gif">
 </p>
-
-Ce mode permet d'afficher uniquement le nom du track. 
-
-La description et le dernier message n'apparaissent plus. 
-
-<p align="center">
-<img src="weelgoModeCompact.jpg">
-</p>
-
-
-
-
