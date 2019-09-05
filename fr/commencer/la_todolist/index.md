@@ -90,10 +90,10 @@ Vous pouvez modifier le statut d'une action en la déplaçant dans les différen
 <img src="todoListeDeplacement.gif">
 </p>
 
-Pour modifier l'avancement, cliquez sur l'icone <img src="iconeAvancement.png.jpg"> et renseignez les informations.
+Pour modifier l'avancement, cliquez sur l'icone <img src="iconeAvancement.png"> et renseignez les informations.
 
 <p align="center">
-<img src="todoListAvancemen.gif">
+<img src="todoListAvancement.gif">
 </p>
 
 > **Remarque :**
