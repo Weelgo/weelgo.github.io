@@ -8,19 +8,21 @@ readingEstimation : 8
 <img src="interface.jpg">
 </p>
 
-
-L'interface de navigation est composé d'un double menu.
-
-**Une frise fixe** contenant :
-* Les raccourcis rapides vers vos outils.
-* Un accès à vos favoris ainsi qu'au différents projets. 
-* Un accès au menu de configuration de compte. 
-
-**Un menu de navigation contextuel** propre à chaque espace. 
+Dans Weelgo, la navigation s'effectue au travers de l'utilisation d'un double menu se situant dans la partie haute de l'application. 
 
 <p align="center">
 <img src="doubleMenu.jpg">
 </p>
+
+Cette interface est composée : 
+
+**D'une frise fixe** contenant :
+* Les raccourcis rapides vers vos outils.
+* Un accès à vos favoris ainsi qu'au différents projets. 
+* Un accès au menu de configuration de compte. 
+
+**D'un menu de navigation contextuel** propre à chaque espace. 
+
 
 ### Menu contextuel : espace personnel
 -----------------
@@ -29,9 +31,9 @@ L'interface de navigation est composé d'un double menu.
 <img src="menuPeros.jpg">
 </p>
 
-Depuis ce menu de navigation vous pouvez accéder aux différents outils qui seront configurés pour afficher les informations des différents projets que vous suivez. 
+Depuis ce menu de navigation, vous pouvez accéder aux différents outils qui seront configurés pour afficher les informations des différents projets que vous suivez. 
 
-Vous pouvez accèder à ces espaces depuis toutes l'application en utilisation le menu de raccourcis rapides. 
+Vous pouvez accéder à ces espaces depuis toute l'application en utilisation le menu de raccourcis rapides. 
 
 <p align="center">
 <img src="menuPersoRapide.jpg">
@@ -45,11 +47,13 @@ Vous pouvez accèder à ces espaces depuis toutes l'application en utilisation l
 ### Menu contextuel : espace projet
 -----------------
 
+Lorsque vous entrez dans un projet, un menu spécifique au projet apparaît. 
+
 <p align="center">
 <img src="menuProjet.jpg">
 </p>
 
-Lorsque vous entrez dans un projet, un menu spécifique au projet apparait. 
+Ce menu permet de naviguer vers les différents outils du projet. 
 
 #### Le menu du réseau
 -----------------
