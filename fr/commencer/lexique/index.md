@@ -12,11 +12,11 @@ readingEstimation : 4
 ### Track
 --------------
 
-Un track est conteneur d'informations typé (tâche, question, idée, risque...). 
+Un track est un conteneur d'informations typés (tâche, question, idée, risque...). 
 
 Il contient une description, un/des responsables, des dates de début ou de fin et il peut être rattaché à un tags. 
 
-Un track sert à diffuser et stocker de l'information. Cette information est partagé à l'ensemble des collaborateurs qui peuvent intéragir sur le track. 
+Un track sert à diffuser et stocker de l'information. Cette information est partagée à l'ensemble des collaborateurs qui peuvent interagir sur le track. 
 
 
 ### Notification
@@ -31,28 +31,28 @@ La notification est très pratique pour pointer un message ou à un track à un 
 
 Le réseau est l'outil de conceptualisation des projets. 
 
-Un réseau est un enchainement d'actions et de livrables qui permet de modéliser le déroulement logique du projet. Le réseau est la première étape permettant de générer une planification du projet.
+Un réseau est un enchaînement d'actions et de livrables qui permettent de modéliser le déroulement logique du projet. Le réseau est la première étape permettant de générer une planification du projet.
 
 ### Une action 
 --------------
 
-Un action action est un élément du réseau. L'action représente le travail à réalisé. Il contient un titre, un responsable, une charge etc..
+Une action action est un élément du réseau. L'action représente le travail à réalisé. Il contient un titre, un responsable, une charge, etc..
 
-Une fois intégré et configuré dans un réseau, l'action apparait dans les todo-list des utilisateurs. 
+Une fois intégré et configuré dans un réseau, l'action apparaît dans les todo-list des utilisateurs. 
 
 ### Livrable
 --------------
 
 Le livrable est un élément du réseau. Il correspond au résultat d'une ou plusieurs actions.
 
-Un livrable peut être du type neutre, intermédiaire ou Jalon. Lorsque le livrable est un livrable jalon, il apparait dans les indicateurs de pilotage du projet. 
+Un livrable peut être du type neutre, intermédiaire ou Jalon. Lorsque le livrable est un livrable jalon, il apparaît dans les indicateurs de pilotage du projet. 
 
 ### Forum
 --------------
 
-Le fourm est l'espace de communication de Weelgo. Un forum contient l'ensemble des tracks générés par les participants. 
+Le forum est l'espace de communication de Weelgo. Un forum contient l'ensemble des tracks générés par les participants. 
 
-Un forum ne contient pas d'espace de pilotage de projet avancé (réseau, gantt, droit45...)
+Un forum ne contient pas d'espace de pilotage de projet avancé. (réseau, gantt, droit45...)
 
 ### Projet
 --------------
