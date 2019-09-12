@@ -26,14 +26,20 @@ Vous pouvez filtrer sur le type d'information que vous souhaitez en utilsant les
 </p>
 
 
-La zone de recherche vous permets de chercher une information rapidement. 
+La zone de recherche vous permets de chercher une information rapidement 
 
 <p align="center">
 <img src="forumRecherche.gif">
 </p>
 
-Pour accéder au contenu du track, cliquez dessus. 
 
 > **Astuce :**
 > Vous pouvez afficher uniquement les tracks que vous suivez en cliquant sur le bouton <img src="filtreSuivi.jpg">
 > 
+
+Depuis cet espace, vous pouvez aussi créer de nouveau track. Ces tracks seront automatiquement diffusés à l'ensemble des collaborateurs partagés sur le projet. 
+
+<p align="center">
+<img src="creerTrackForum.gif">
+</p>
+
