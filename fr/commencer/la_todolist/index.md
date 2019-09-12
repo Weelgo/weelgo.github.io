@@ -14,9 +14,7 @@ C'est au travers de cet outil que vos équipes vont pouvoir connaitre les action
 
 Elle est accessible depuis votre espace personnel ou depuis les espaces projets. 
 
-Par défaut, la todo-list est configurée pour afficher uniquement vos actions. 
-
-Elle est multi-projet et affiche l'ensemble des actions des projets séléctionnés.
+Par défaut, la todo-list est multi-projet et elle est configurée pour afficher uniquement vos actions. 
 
 > **Point important :**
 > Les actions contenant l'icône <img src="iconeManagement.jpg"> sont des actions provenant du réseau du projet. Il est impossible de modifier la date de début et la date de fin de ce type d'action depuis la todo list
