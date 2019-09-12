@@ -8,6 +8,8 @@ readingEstimation : 4
 <img src="news.jpg">
 </p>
 
+Plus vous et votre équipe communiquerez, plus de l'information circulera. Afin de pouvoir cibler l'information qui vous concerne, nous avis mis en place un système de notification vous permettant de ne pas rater une information importante. 
+
 Une news est une notification indiquant qu'une modification a été effectuée sur les tracks de vos projets. 
 
 Elle est générée quand une personne effectue les opérations suivantes : 
