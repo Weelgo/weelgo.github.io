@@ -18,7 +18,7 @@ Le calendrier contient l'ensemble des actions positionné dans le temps.
 <img src="monCalendrier.jpg">
 </p>
 
-Comme pour la todo-list, vous pouvez filtrer les actions. 
+Comme pour la todo list, vous pouvez filtrer les actions. 
 
 Depuis le calendrier, vous pouvez modifier les dates de début et les date de fin en cliquant sur une date pour une ligne donnée.
 
