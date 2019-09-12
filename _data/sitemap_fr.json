@@ -16,13 +16,6 @@
 				"image": "lexique.jpg"
 			},		
 			{
-				"description": "Familiarisez vous avec l'interface de navigation.",
-				"path": "interface_weelgo",
-				"id": "comm_001",
-				"enable": "true",
-				"image": "interface.jpg"
-			},
-			{
 				"description": "Initialiser votre premier projet.",
 				"path": "initialiser_projet",
 				"id": "comm_002",
