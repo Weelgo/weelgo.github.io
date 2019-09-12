@@ -14,10 +14,6 @@ C'est au travers de cet outil que vos équipes vont pouvoir connaitre les action
 
 Elle est accessible depuis votre espace personnel ou depuis les espaces projets. 
 
-<p align="center">
-<img src="maTodoList.jpg">
-</p>
-
 Par défaut, la todo-list est configurée pour afficher uniquement vos actions. 
 
 Elle est multi-projet et affiche l'ensemble des actions des projets séléctionnés.
