@@ -8,20 +8,38 @@
 		"icon": "fal fa-rocket",
 		"hasCategory": "false",
 		"sub": [
-			{				
-				"description": "Présentation du vocabulaire utilisé dans Weelgo.",
-				"path": "lexique",
-				"id": "comm_000",
-				"enable": "true",
-				"image": "lexique.jpg"
-			},		
 			{
-				"description": "Initialiser votre premier projet.",
-				"path": "initialiser_projet",
-				"id": "comm_002",
+				"name": "Apprendre les bases",
 				"enable": "true",
-				"image": "initProjet.jpg"
+				"id": "apprendreBase001",
+				"image": "",
+				"sub": [
+					{
+						"description": "Initialiser votre premier projet.",
+						"path": "initialiser_projet",
+						"id": "base_001",
+						"enable": "true",
+						"image": "initProjet.jpg"
+					},
+					{
+						"description": "Créer, attribuer des tracks",
+						"path": "creer_track",
+						"id": "base_002",
+						"enable": "true",
+						"image": "initProjet.jpg"
+					},	
+					{				
+						"description": "Présentation du vocabulaire utilisé dans Weelgo.",
+						"path": "lexique",
+						"id": "comm_000",
+						"enable": "true",
+						"image": "lexique.jpg"
+					}				
+				]
 			},
+			
+		
+
 			{
 				"description": "Présentation de la todo-list.",
 				"path": "la_todolist",
