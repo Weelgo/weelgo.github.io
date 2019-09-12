@@ -15,7 +15,7 @@
 				"image": "",
 				"sub": [
 					{
-						"description": "Initialiser votre premier projet.",
+						"description": "Initialiser votre premier projet",
 						"path": "initialiser_projet",
 						"id": "base_001",
 						"enable": "true",
@@ -29,7 +29,7 @@
 						"image": "initProjet.jpg"
 					},	
 					{				
-						"description": "Présentation du vocabulaire utilisé dans Weelgo.",
+						"description": "Présentation du vocabulaire utilisé dans Weelgo",
 						"path": "lexique",
 						"id": "comm_000",
 						"enable": "true",
@@ -37,44 +37,49 @@
 					}				
 				]
 			},
-			
-		
-
 			{
-				"description": "Présentation de la todo-list.",
-				"path": "la_todolist",
-				"id": "comm_003",
+				"name": "Découvrez les outils",
 				"enable": "true",
-				"image": "todolist.jpg"
-			},
-			{
-				"description": "Présentation du calendrier.",
-				"path": "le_calendrier",
-				"id": "comm_004",
-				"enable": "true",
-				"image": "calendrier.jpg"
-			},
-			{
-				"description": "Présentation du forum.",
-				"path": "le_forum",
-				"id": "comm_005",
-				"enable": "true",
-				"image": "forumVignette.jpg"
-			},
-			{				
-				"description": "Les news et de leurs fonctionnements.",
-				"path": "decouvertes_des_news",
-				"id": "comm_006",
-				"enable": "true",
-				"image": "news.jpg"
-			},
-			{				
-				"description": "Présentation du système de notification.",
-				"path": "les_notifications",
-				"id": "comm_007",
-				"enable": "true",
-				"image": "notification.jpg"
-			},
+				"id": "decouvrerOutils",
+				"image": "",
+				"sub": [
+					{
+						"description": "La todo-list.",
+						"path": "la_todolist",
+						"id": "comm_003",
+						"enable": "true",
+						"image": "todolist.jpg"
+					},
+					{
+						"description": "Le calendrier.",
+						"path": "le_calendrier",
+						"id": "comm_004",
+						"enable": "true",
+						"image": "calendrier.jpg"
+					},
+					{
+						"description": "Le forum.",
+						"path": "le_forum",
+						"id": "comm_005",
+						"enable": "true",
+						"image": "forumVignette.jpg"
+					},
+					{				
+						"description": "Les news et de leurs fonctionnements.",
+						"path": "decouvertes_des_news",
+						"id": "comm_006",
+						"enable": "true",
+						"image": "news.jpg"
+					},
+					{				
+						"description": "Présentation du système de notification.",
+						"path": "les_notifications",
+						"id": "comm_007",
+						"enable": "true",
+						"image": "notification.jpg"
+					}				
+				]
+			},	
 					
 		]
 	},
