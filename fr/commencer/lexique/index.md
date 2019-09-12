@@ -8,9 +8,12 @@ readingEstimation : 4
 <img src="lexique.jpg">
 </p>
 
+Weelgo est un outil innovant dans le monde de la gestion de projet et de l'information. Nous avons donc été amenés à définir de nouvelles idées et de nouveaux concepts. 
 
-### Track
---------------
+Vous trouverez dans ce lexique le vocabulaire utilisé dans l'ensemble des outils mis à votre disposition. 
+
+
+**Track :**
 
 Un track est un conteneur d'informations typés (tâche, question, idée, risque...). 
 
