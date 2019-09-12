@@ -8,6 +8,10 @@ readingEstimation : 4
 ## Le forum
 ---------------
 
+Dans Weelgo, le forum est l'espace de communication du projet. C'est l'endroit ou l'équipe va pouvoir déposer des idées, des questions et y répondre. 
+
+Des alertes, des risques et des problèmes y seront déclarés. Permettant ainsi à l'ensemble des acteurs de pouvoir être informés en temps réel des événements se déroulant sur le projet.
+
 Le forum contient l'ensemble des tracks des projets sélectionnés
 
 <p align="center">
