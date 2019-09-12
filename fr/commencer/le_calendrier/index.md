@@ -32,6 +32,6 @@ Une fenêtre de choix apparait pour vour permettre de faire la modification.
 Vous pouvez accéder à l'action en cliquant dessus. 
 
 <p align="center">
-<img src="afficherTrackCalendrier.jpg">
+<img src="ouvrirTrackCalendrier.gif">
 </p>
 
