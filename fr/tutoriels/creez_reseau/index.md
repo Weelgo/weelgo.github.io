@@ -7,6 +7,10 @@ readingEstimation : 20
 ## Workshop : Créez un projet
 ------------------------
 
+
+
+Chaque équipe utilise Weelgo différemment pour gérer ses projets. Toutefois, certaines opérations sont les mêmes pour toutes les équipes.
+
 Dans ce workshop, nous allons voir les différentes étapes pour créer le projet suivant :
 
 **Le réseau**
