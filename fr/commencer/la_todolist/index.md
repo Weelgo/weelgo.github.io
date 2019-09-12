@@ -8,7 +8,9 @@ readingEstimation : 8
 ## La todo list
 ---------------
 
-La todo list est un outil contenant les actions des forums et réseaux de vos projets. 
+Outil incontournable aujourd'hui, la todo-list est l'endroit contenant l'ensemble des actions de vos projets. 
+
+C'est au travers de cet outil que vos équipes vont pouvoir connaitre les actions à réaliser et indiquer leur avancement. 
 
 Elle est accessible depuis votre espace personnel ou depuis les espaces projets. 
 
@@ -16,8 +18,7 @@ Elle est accessible depuis votre espace personnel ou depuis les espaces projets.
 <img src="maTodoList.jpg">
 </p>
 
-
-Votre todo list est filtrée sur vous par défaut. 
+Par défaut, la todo-list est configurée pour afficher uniquement vos actions. 
 
 Elle est multi-projet et affiche l'ensemble des actions des projets séléctionnés.
 
