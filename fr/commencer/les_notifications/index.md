@@ -8,7 +8,9 @@ readingEstimation : 4
 <img src="notification.jpg">
 </p>
 
-Une notification correspond à un événement qui vous cible particulièrement.  
+Plus vous et votre équipe discuterez ou créerez et terminerez des tâches, plus vous allez avoir besoin d'indiquer à vos collaborateurs de l'information importante qu'il ne doit pas rater. Pour cela, nous avons mis en place un système de notification qui permet de cibler précisement de l'information à quelqu'un.
+
+Une notification correspond donc à un événement qui vous cible particulièrement.  
 
 Elle est générée quand : 
 * Un track est créé et que vous êtes indiqué comme étant le responsable du track
