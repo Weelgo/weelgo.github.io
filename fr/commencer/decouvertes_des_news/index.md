@@ -8,7 +8,7 @@ readingEstimation : 4
 <img src="news.jpg">
 </p>
 
-Plus vous et votre équipe communiquerez, plus de l'information circulera. Afin de pouvoir cibler l'information qui vous concerne, nous avis mis en place un système de notification vous permettant de ne pas rater une information importante. 
+Lors de l'utilisation de Weelgo par vous et vos équipes, il est important que l'information qui concerne un collaborateur lui soit communiquée. Pour cela, nous avons mis en place un système de notification efficace vous assurant que l'information transmise dans Weelgo est correctement diffusée aux équipes. 
 
 Une news est une notification indiquant qu'une modification a été effectuée sur les tracks de vos projets. 
 
