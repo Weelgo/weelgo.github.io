@@ -6,7 +6,7 @@
 		"path": "commencer",
 		"id": "fj345j",
 		"icon": "fal fa-rocket",
-		"hasCategory": "false",
+		"hasCategory": "true",
 		"sub": [
 			{
 				"name": "Apprendre les bases",
