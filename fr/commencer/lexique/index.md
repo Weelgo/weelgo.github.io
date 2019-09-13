@@ -4,9 +4,8 @@ id : th321
 readingEstimation : 4
 ---
 
-<p align="center">
-<img src="lexique.jpg">
-</p>
+## Lexique
+---------------
 
 Weelgo est un outil innovant dans le monde de la gestion de projet et de l'information. Nous avons donc été amenés à définir de nouvelles idées et de nouveaux concepts. 
 
