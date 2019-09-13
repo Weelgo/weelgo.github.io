@@ -191,7 +191,7 @@
 						"path": "connectez_roadmap",
 						"id": "road003",
 						"enable": "true",
-						"image": ""
+						"image": "connectezRoadmap.png"
 					},
 					{
 						"name": "Définissez votre rapport standardisé",
