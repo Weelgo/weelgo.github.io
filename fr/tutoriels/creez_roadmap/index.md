@@ -7,6 +7,10 @@ readingEstimation : 20
 ## Workshop : Créer une roadmap
 ------------------------
 
+La roadmap est l'outil de suivi "haut niveau" de Weelgo. Une roadmap vous permettra de définir les grandes phases et jalons que vous souhaitez piloter. 
+
+Le projet étant un outil de gestion opérationnelle, la roadmap est un outil de gestion stratégique. Elle est utile pour avoir une vision globale de l'avancement des différents chantiers et de retrouver de l'information structurée et standardisée. 
+
 Dans ce workshop, nous allons voir les différentes étapes pour créer la roadmap suivante :
 
 <p align="center">
