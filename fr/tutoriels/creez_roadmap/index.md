@@ -39,7 +39,7 @@ Allez dans l'espace que vous venez de créer et cliquez sur
 <img src="initierRoadmap.png">
 </p>
 
-Maintenant vous allez éditer la structure pour créer les jalons et les phases
+Maintenant vous allez éditer la structure pour créer les jalons et les phases.
 
 **Création des phases**
 
@@ -107,3 +107,5 @@ Les faits sont de l'information que vous allez rattacher à votre roadmap. Ils a
 >*Il est important de prendre réguliérement des snapshots afin de pouvoir consolider l'historique de la roadmap.*
 
 ---
+
+Vous venez d'initialiser votre première roadmap. Veuillez consulter les tutoriaux avancés afin de pouvoir approfondir l'utilisation de cet outil.
