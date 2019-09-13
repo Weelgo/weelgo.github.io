@@ -41,3 +41,23 @@ Une fois le track créé, il est automatiquement diffusé dans le forum du proje
 > **Remarque :**
 > Créer des tracks est vital pour la bonne santé du projet. Un flux régulier d'information permet de créer et garder une dynamique de travail et de groupe. 
 > 
+
+### Créer un fil de track
+
+Une information a de la valeur uniquement si elle est contextualisé. Il est important d'avoir accès au compte-rendu de réunion qui est rattaché à l'action que vous traitez. 
+
+Pour cela, il est possible de lier les tracks entre eux. Ce lien permettra de naviguer entre les différents tracks. 
+
+Pour créer un track lié, positionnez vous sur un track et cliquez sur le bouton "Créer un track lié". 
+
+<p align="center">
+<img src="creationTrackLie.gif">
+</p>
+
+
+Vous pouvez aussi lier un track déjà existant.
+
+<p align="center">
+<img src="ajoutLienTrack.gif">
+</p>
+
