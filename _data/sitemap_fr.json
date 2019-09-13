@@ -187,13 +187,6 @@
 						"image": ""
 					},
 					{
-						"name": "Modélisez votre roadmap",
-						"path": "modelisez_roadmap",
-						"id": "road002",
-						"enable": "true",
-						"image": ""
-					},
-					{
 						"name": "Connectez vos projets à votre roadmap",
 						"path": "connectez_roadmap",
 						"id": "road003",
