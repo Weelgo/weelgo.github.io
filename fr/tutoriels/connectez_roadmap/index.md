@@ -1,4 +1,3 @@
-
 ---
 layout : docs_fr
 id : co001
