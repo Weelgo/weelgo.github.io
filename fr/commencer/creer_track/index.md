@@ -44,7 +44,7 @@ Une fois le track créé, il est automatiquement diffusé dans le forum du proje
 
 ### Créer un fil de track
 
-Une information a de la valeur uniquement si elle est contextualisé. Il est important d'avoir accès au compte-rendu de réunion qui est rattaché à l'action que vous traitez. 
+Une information a de la valeur uniquement si elle est contextualisée. Par exemple, il est important d'avoir accès au compte-rendu de réunion qui est rattaché à l'action que vous traitez. 
 
 Pour cela, il est possible de lier les tracks entre eux. Ce lien permettra de naviguer entre les différents tracks. 
 
