@@ -131,5 +131,9 @@ Si vous acceptez la date, alors l'ensemble du projet sera impacté.
 <img src="recadragePlanning.gif">
 </p>
 
+L'action et l'ensemble du projet est alors recadré. 
+
+Vous pouvez maintenant prendre un snapshot afin d'historiser la modification. 
+
 **Bonne pratique :**
 >*Il est important de ne pas laisser des actions en retard. Une action dont la date de fin est inférieure à la date du jour doit être recadrée.*
