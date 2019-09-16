@@ -1,0 +1,91 @@
+---
+layout : docs_fr
+id : co001
+readingEstimation : 15
+---
+
+## Suivez et pilotez vos projets
+------------------------
+
+Vous avez créé votre projet et votre équipe commence à réaliser le travail. 
+
+Il est temps de suivre l'évolution des opérations !
+
+En plus d'être un outil de planification efficace, Weelgo permet de suivre finement le déroulement des projets grace aux différentes vues de pilotage projet.
+* Home page du projet
+* Dashboard
+* Gantt
+* Droite à 45
+* Burndown
+
+C'est au travers ces vues que vous allez pouvoir identifier les problèmes et pouvoir intervenir rapidement afin de maitriser le timing. 
+
+### La home page du projet. 
+
+La première vue vous indiquant la tendance du projet est la home page du projet. En effet, depuis cette vue vous avez une première vue 360.
+
+<p align="center">
+<img src="vueHomePage.png">
+</p>
+
+La timeline indiquera en rouge les jalons en retard et en vert les jalons terminées ainsi que les points importants à suivre ou à traiter. 
+
+Vous avez aussi un récapitulatif des points important à suivre ou à traiter.
+
+Depuis cette vue, vous pouvez déjà répondre aux questions et intéragir sur ces points chauds. 
+
+<p align="center">
+<img src="lectureHomePage.gif">
+</p>
+
+### Le dashboard de pilotage
+
+La home page est intéressant pour avoir une vision rapide. Néanmoins ce sont les outils d'analyse qui vous permettront de piloter votre projet. 
+
+Vous trouverez ces outils dans l'onglet "Analyse". 
+
+Allons immédiatemnt sur le dashboard du projet. 
+
+Nous trouvons la timeline de la home page avec plus de détail avec les dates de fin potentielles apparaissant en pointillées. 
+
+<p align="center">
+<img src="vueDashboard.png">
+</p>
+
+Vous avez aussi un indicateur de progression macro.
+
+<p align="center">
+<img src="indicateurRetard.png">
+</p>
+
+Ici il vous indique que le projet à 6 % d'avancement est il est en retard de 36 %.
+
+En dessous de la timeline, la liste des actions problématiques. Les actions dont la date de fin apparait en rouge sont des actions dont la date de fin est situé avant la date du jour.
+
+<p align="center">
+<img src="listeActionProbleme.png">
+</p>
+
+La section des "Problèmes" contient deux tableaux : 
+* Tâches avec toutes les entrées livrées : Ce sont les actions qui n'ont pas de prérequis non terminées. Elles n'ont aucune raison apparente ni logique de ne pas être réalisée. 
+* Tâches avec certaines entrées non livrées : Ce sont des actions qui sont en dépendances avec d'autres actions qui sont en retard. Généralement avec des actions du premier tableau. 
+
+Il est important de faire la distinction entre les deux tableaux. En effet, vous ne pouvez pas repprocher à un collaborateur d'être en retard si il était pour impossible de réaliser son action car elle dépendait d'une action non terminée. 
+
+Lors du pilotage de votre projet, vous allez vous focaliser principalement sur les tâches avec toutes les entrée livrées. Ce sont elles qui sont à l'origine des autres retards. 
+
+
+
+
+**Bonne pratique :**
+>*Il est important de ne pas laisser des actions en retard. Une action dont la date de fin est inférieure à la date du jour doit être recadrée.*
+
+### Le gantt et burndown
+
+<p align="center">
+<img src="ongletAnalyse.png">
+</p>
+
+
+Le dashboard est 
+
