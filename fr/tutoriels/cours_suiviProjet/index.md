@@ -40,7 +40,7 @@ Depuis cette vue, vous pouvez déjà répondre aux questions et intéragir sur c
 
 ### Le dashboard de pilotage
 
-La home page est intéressant pour avoir une vision rapide. Néanmoins ce sont les outils d'analyse qui vous permettront de piloter votre projet. 
+La home page est intéressante pour avoir une vision rapide. Néanmoins ce sont les outils d'analyse qui vous permettront de piloter votre projet. 
 
 Vous trouverez ces outils dans l'onglet "Analyse". 
 
@@ -52,7 +52,7 @@ Nous trouvons la timeline de la home page avec plus de détail avec les dates de
 <img src="vueDashboard.png">
 </p>
 
-Vous avez aussi un indicateur de progression macro.
+Vous avez aussi un indicateur de progression macroscopique.
 
 <p align="center">
 <img src="indicateurRetard.png">
@@ -60,32 +60,53 @@ Vous avez aussi un indicateur de progression macro.
 
 Ici il vous indique que le projet à 6 % d'avancement est il est en retard de 36 %.
 
-En dessous de la timeline, la liste des actions problématiques. Les actions dont la date de fin apparait en rouge sont des actions dont la date de fin est situé avant la date du jour.
+En dessous de la timeline, la liste des actions problématiques. Les actions dont la date de fin apparait en rouge sont des actions dont la date de fin est située avant la date du jour.
 
 <p align="center">
 <img src="listeActionProbleme.png">
 </p>
 
 La section des "Problèmes" contient deux tableaux : 
-* Tâches avec toutes les entrées livrées : Ce sont les actions qui n'ont pas de prérequis non terminées. Elles n'ont aucune raison apparente ni logique de ne pas être réalisée. 
-* Tâches avec certaines entrées non livrées : Ce sont des actions qui sont en dépendances avec d'autres actions qui sont en retard. Généralement avec des actions du premier tableau. 
+* Tâches avec toutes les entrées livrées : Ce sont les actions qui n'ont pas de prérequis. Elles n'ont aucune raison apparente ni logique de ne pas être réalisées. 
+* Tâches avec certaines entrées non livrées : Ce sont des actions qui sont en dépendances avec des actions en retards. 
 
-Il est important de faire la distinction entre les deux tableaux. En effet, vous ne pouvez pas repprocher à un collaborateur d'être en retard si il était pour impossible de réaliser son action car elle dépendait d'une action non terminée. 
+Il est important de faire la distinction entre les deux tableaux. En effet, vous ne pouvez pas reprocher à un collaborateur d'être en retard s'il était impossible de réaliser son action car elle dépendait d'une action non terminée. 
 
 Lors du pilotage de votre projet, vous allez vous focaliser principalement sur les tâches avec toutes les entrée livrées. Ce sont elles qui sont à l'origine des autres retards. 
+
+
+
+### Le gantt et burndown
+
+Vous avez aussi accès au gantt et au burndown du projet. 
+
+Le gantt vous indiquera la vue planning du projet. Vous retrouverez les actions en retard (en rouge) ainsi que les actions terminées (en vert).
+
+<p align="center">
+<img src="gantt.png">
+</p>
+
+
+Le burndown vous donnera la tendance de votre projet. 
+
+<p align="center">
+<img src="burndown.png">
+</p>
+
+
+La courbe rouge indique la charge planifiée. C'est l'objectif. 
+
+La courbe bleue, la charge actuelle. Votre "consommation". 
+
+La courbe verte, l'historique de la charge du projet. 
+
+Ici nous voyons : 
+* que la charge du projet est stable
+* que le projet ne consomme pas suffisament. Il est donc très en retard. 
+* nous remarquons aussi que la pente est régulière après le 7 septembre. Aucun "coup de chaud" à l'horizon (hormis le retard en cours). 
 
 
 
 
 **Bonne pratique :**
 >*Il est important de ne pas laisser des actions en retard. Une action dont la date de fin est inférieure à la date du jour doit être recadrée.*
-
-### Le gantt et burndown
-
-<p align="center">
-<img src="ongletAnalyse.png">
-</p>
-
-
-Le dashboard est 
-
