@@ -106,7 +106,30 @@ Ici nous voyons :
 * nous remarquons aussi que la pente est régulière après le 7 septembre. Aucun "coup de chaud" à l'horizon (hormis le retard en cours). 
 
 
+### Ajoutez des messages. 
 
+Face à une situation de ce genre. Vous allez obligatoirement déclancher une réunion afin de pouvoir recadrer le projet. 
+
+Vous pouvez aussi ajouter des messages dans les actions afin de récupérer de l'informatio. 
+
+<p align="center">
+<img src="ajoutMessageTrack.gif">
+</p>
+
+
+### Recadrer le projet. 
+
+Vous avez réalisé votre réunion ou vous avez récupérer l'information concernant la nouvelle date de fin visée par le responsable de l'action en retard. 
+
+Vous pouvez alors recadrer le projet. Pour cela, vous trouverez un outil dans l'action vous permettant de recadrer automatiquement l'ensemble. 
+
+Lors du recadrage planning, l'outil vous demandera la nouvelle date visée. Vous verrez les impacts jalons associés.
+
+Si vous acceptez la date, alors l'ensemble du projet sera impacté. 
+
+<p align="center">
+<img src="recadragePlanning.gif">
+</p>
 
 **Bonne pratique :**
 >*Il est important de ne pas laisser des actions en retard. Une action dont la date de fin est inférieure à la date du jour doit être recadrée.*
