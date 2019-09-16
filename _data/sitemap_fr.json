@@ -234,10 +234,10 @@
 				"image": "",
 				"sub": [
 					{
-						"name": "Découverte de l'application",
-						"description": "Découverte de l'application.",
-						"path": "decouverte_de_l_application",
-						"id": "zfefgh",
+						"name": "Le suivi de projet",
+						"description": "Suivez et pilotez vos projets avec Weelgo",
+						"path": "cours_suiviProjet",
+						"id": "co001",
 						"enable": "true",
 						"image": ""
 					},
