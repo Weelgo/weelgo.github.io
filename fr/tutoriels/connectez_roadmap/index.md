@@ -45,3 +45,8 @@ Pour cela, activez le mode live puis cliquez sur l'action. Depuis le paneau, vou
 <p align="center">
 <img src="recuperezInformation.gif">
 </p>
+
+**Remarque :**
+>*Nous vos préconisons de rajouter des faits lors que vous intégrez des modifications. Cela vous permettra de facilement retracer la vie du projet
+
+Effecutez les différentes modification sur votre roadmap. Vous pouvez ensuite réaliser un snapshot afin de pouvoir historiser l'ensemble des informations apportées.
