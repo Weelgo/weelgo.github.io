@@ -119,9 +119,9 @@ Vous pouvez aussi ajouter des messages dans les actions afin de récupérer de l
 
 ### Recadrer le projet. 
 
-Vous avez réalisé votre réunion ou vous avez récupérer l'information concernant la nouvelle date de fin visée par le responsable de l'action en retard. 
+Vous avez réalisé votre réunion ou vous avez récupéré l'information concernant la nouvelle date de fin visée par le responsable de l'action en retard. 
 
-Vous pouvez alors recadrer le projet. Pour cela, vous trouverez un outil dans l'action vous permettant de recadrer automatiquement l'ensemble. 
+Vous pouvez alors recadrer le projet. Pour cela, vous trouverez, dans l'action, un outil vous permettant de recadrer automatiquement l'ensemble. 
 
 Lors du recadrage planning, l'outil vous demandera la nouvelle date visée. Vous verrez les impacts jalons associés.
 
@@ -131,7 +131,7 @@ Si vous acceptez la date, alors l'ensemble du projet sera impacté.
 <img src="recadragePlanning.gif">
 </p>
 
-L'action et l'ensemble du projet est alors recadré. 
+L'action et l'ensemble du projet sont recadrés. 
 
 Vous pouvez maintenant prendre un snapshot afin d'historiser la modification. 
 
