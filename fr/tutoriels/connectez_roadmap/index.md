@@ -7,9 +7,9 @@ readingEstimation : 10
 ## Connectez votre roadmap
 ------------------------
 
-Vous avez initialisé une roadmap et vous souhaitez que l'information remonte automatiquement dans votre roadmap afin de pouvoir suivre en temps réel l'avancement de vos projets. 
+Vous avez intialisé une roadmap et vous avez des projes opérationnels que vous souhaitez rattacher à votre roadmap afin de pouvoir accentuer le suivi et la maitrise des plannings projets. 
 
-Réaliser une connection entre une roadmap et un réseau permet : 
+Réaliser une connection entre une roadmap et un réseau vous permettra : 
 * de récupérer automatiquement l'information provenant des réseaux 
 * d'avoir une visibilité en temps réel de la bonne tenue des objectifs
 
