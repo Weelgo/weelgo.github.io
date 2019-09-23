@@ -141,3 +141,4 @@ Vous pouvez maintenant prendre un snapshot afin d'historiser la modification.
 <p align="center">
 <img src="cmp_001.gif">
 </p>
+
