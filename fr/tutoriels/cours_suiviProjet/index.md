@@ -142,6 +142,7 @@ Vous pouvez maintenant prendre un snapshot afin d'historiser la modification.
 <img src="centreDeControleProjets.gif">
 </p>
 
+
 <p align="center">
 <img src="roadMapReseau.gif">
 </p>
