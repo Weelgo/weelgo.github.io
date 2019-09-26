@@ -139,7 +139,7 @@ Vous pouvez maintenant prendre un snapshot afin d'historiser la modification.
 >*Il est important de ne pas laisser des actions en retard. Une action dont la date de fin est inférieure à la date du jour doit être recadrée.*
 
 <p align="center">
-<img src="centreDeControleProjets.gif">
+<img src="centreControleProjets.gif">
 </p>
 
 
