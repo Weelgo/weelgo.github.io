@@ -259,6 +259,23 @@
 					}
 				]
 			}
+			,
+			{
+				"name": "Dashboard Coffee",
+				"enable": "true",
+				"id": "47854rt",
+				"image": "",
+				"sub": [
+					{
+						"name": "Tuto",
+						"description": "Tuto",
+						"path": "dashboard_coffee",
+						"id": "548rty45",
+						"enable": "true",						
+					}
+				]
+			
+			}
 		]
 	},
 	{
