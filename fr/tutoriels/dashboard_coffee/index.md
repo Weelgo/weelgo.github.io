@@ -84,4 +84,19 @@ Liste des instructions :
 * Exemple :
 	* Cas d'utilisation de l'instruction en début de chaine : ```{"average":["col1","var1","var2"]}``` . Cette instruction réalise la moyenne sur la colonne **col1** des variables **var1** et **var2**
 	* Moyenne d'une variable récupéré dans le pool : ```{"get":"var1"},{"average":""},{"to\_local\_var":"var2"}``` . Cette série d'instruction récupère la variable **var1** et ensuite calcule la moyenne sur la première colonne puis met le résultat en variable locale **var2**.
+	* Calcule la moyenne de 50 et 25 ( (50+25)/2 ) et met le résultat dans var 3 ;
 
+```javascript
+{
+  "tasks": [
+    {
+      "uuid": "main",
+      "script": [
+          [{"integer":"25"},{"to_local_var":"var1"}],
+          [{"integer":"50"},{"to_local_var":"var2"}],
+          [{"average":["","var1","var2"]},{"to_local_var":"var3"}]
+        ]
+    }
+  ]
+}
+```
