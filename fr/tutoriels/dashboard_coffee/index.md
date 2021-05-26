@@ -140,3 +140,4 @@ Autre exemple ou on récupère la progression directement à partir de la source
 Ici, la progression est récupéré dirctement depuis la source en utilisant la progression présente dans le rapport *548645-847-4445* dans la section *2 - Avancement*.
 
 Il est possible également de mettre une variable globale directement dans la valeur de la propriété : ```"bar_progress": "global_var:var1"``` . Ici la variable **var1** stockée en global sera utilisé pour la propriété **bar_progress**.
+
