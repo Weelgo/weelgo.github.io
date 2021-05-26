@@ -58,10 +58,10 @@ Liste des instructions :
 
 **get**
 * Description : récupère une variable. La récupération peut se faire à plusieurs niveaux.
-	* Extraction de donnée : permet de chercher une donnée dans la source. Cette donnée est localisée grâce à un path. Ce path est par exemple : **programme1\_@\_comex\_@\_progress** . Ce path va récupérer la donnée progress dans le reporting comex du programme1. Dans la pratique, nous préférons utilise l'uuid du comex durectement pour éviter les problèmes de path lié au changement de structure du projet. Enfin, pour indiquer qu'il s'agit d'une extraction, il faut ajouter le suffixe **path\_** au path. Le path serait donc : **path\_457575-457\_@\_progress** . Notez que le séparateur de path est **\_@\_** .
+	* Extraction de donnée : permet de chercher une donnée dans la source. Cette donnée est localisée grâce à un path. Ce path est par exemple : **programme1\_@\_comex\_@\_progress** . Ce path va récupérer la donnée progress dans le reporting comex du programme1. Dans la pratique, nous préférons utilise l'uuid du comex durectement pour éviter les problèmes de path lié au changement de structure du projet. Enfin, pour indiquer qu'il s'agit d'une extraction, il faut ajouter le suffixe **src_path:** au path. Le path serait donc : **src_path:457575-457\_@\_progress** . Notez que le séparateur de path est **\_@\_** .
 	* Récupération d'une variable : il suffit de mettre le nom de la variable à récupérer.
 * Exemple :  
-	* Extraction de données : ```{"get":"path_uuidDuReporting_@_progress"}```
+	* Extraction de données : ```{"get":"src_path:uuidDuReporting_@_progress"}```
 	* Récupération d'une variable normale : ```{"get":"nomDeLaVariable"}```
 
 **integer**
@@ -101,7 +101,7 @@ Liste des instructions :
 }
 ```
 
-### La section JSON BPM des widget
+### La section JSON BPM des widgets
 
 Cette section permet de spécifier des valeurs pour certains paramètre des widgets que vous allez utiliser. Vous pourrez indiquer des couleurs, des valeurs, des tailles.
 
@@ -130,11 +130,11 @@ Ici nous allons customizer un widget de type **progress_bar**. Nous allons lui i
 Autre exemple ou on récupère la progression directement à partir de la source de données:
 
 ```javascript
- {   
+{   
    "bar_color":"red",
    "bar_background_color":"pink",
-   "bar_progress": "path_548645-847-4445_@_progress"    
+   "bar_progress": "src_path:d2548bd1-472a-441c-8dce-6681d6b7fe0f_@_2 - Avancement_@_progress"    
 }
 ```
 
-Ici, la progression est récupéré dirctement depuis la source en utilisant la progression présente dans le rapport *548645-847-4445*.
+Ici, la progression est récupéré dirctement depuis la source en utilisant la progression présente dans le rapport *548645-847-4445* dans la section *2 - Avancement*.
