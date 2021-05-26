@@ -9,7 +9,7 @@ readingEstimation : 15
 
 Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org) 
 
-Json type la secion BPM :
+Exemple de Json pour la section BPM générale :
 
 ```javascript
 {
@@ -100,3 +100,41 @@ Liste des instructions :
   ]
 }
 ```
+
+### La section JSON BPM des widget
+
+Cette section permet de spécifier des valeurs pour certains paramètre des widgets que vous allez utiliser. Vous pourrez indiquer des couleurs, des valeurs, des tailles.
+
+Dans l'ordre de priorité d'exécution des section BPM, les sections des widgets sont effectués en dernier, après le BPM général du dashboard.
+
+Ce JSON BPM fonctionne de la même manière que celle de la section générale à la différence qu'il ne faut pas indiquer la propriété **"tasks"**. Ici nous allons directement dans la spécification des propriété du widget.
+
+Exemple de JSON : 
+
+```javascript
+ {   
+   "bar_color":"red",
+   "bar_background_color":"pink",
+   "script": [
+          [{"integer":"1"},{"to_local_var":"var1"}],
+          [{"integer":"1"},{"to_local_var":"var2"}],
+          [{"integer":"0"},{"to_local_var":"var3"}],
+          [{"average":["","var1","var2","var3"]},{"to_local_var":"bar_progress"}]
+        ]
+    
+}
+```
+
+Ici nous allons customizer un widget de type **progress_bar**. Nous allons lui indiquer de mettre la barre en rouge et son background en rose. Nous pouvons également indiquer une section script qui permet de réaliser un calcul.
+
+Autre exemple ou on récupère la progression directement à partir de la source de données:
+
+```javascript
+ {   
+   "bar_color":"red",
+   "bar_background_color":"pink",
+   "bar_progress": "path_548645-847-4445_@_progress"    
+}
+```
+
+Ici, la progression est récupéré dirctement depuis la source en utilisant la progression présente dans le rapport *548645-847-4445*.
