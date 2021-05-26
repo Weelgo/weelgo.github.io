@@ -13,15 +13,22 @@ Json type la secion BPM :
 
 ```javascript
 {
-  "tasks": [     //Tableaux de tâche
+  "tasks": [
     {
-      "uuid": "Pg super",     //Obligatoire : Uuid de la tâche, c'est l'utilisateur qui doit le saisir
-      "type": "progress_bar_widget",		//Type de la tâche.
-      "widget_uuid": "56F876EF...",     //Uuid du widget, utilisé pour les tâche de type widget. N'est pas obligatoire      
+      "uuid": "Pg super",
+      "type": "progress_bar_widget",
+      "widget_uuid": "56F876EF...",      
     }
   ]
 }
 ```
+
+Explication :
+
+* "tasks" : //Tableaux de tâche
+* "uuid" : Uuid de la tâche, c'est l'utilisateur qui doit le saisir. **Obligatoire**
+* "type" : Type de la tâche. Certaines tâche ont un role particulier, comme les tâches correspondant aux widget qui s'occupent de formater la donnée pour permettre un afichage dans le widget.
+* "widget_uuid" : Uuid du widget, utilisé pour les tâche de type widget. N'est pas obligatoire.
 
 ### Utilisation du scripting
 
@@ -47,8 +54,11 @@ Exemple de Json type :
 
 Liste des instructions :
 
-integer : 
+| Instruction       |     Description    |        Exemple |
+| :------------ | :-------------: | -------------: |
+| integer      | Récupère l'entier en paramètre.     | {"integer":"25"} |
 
+**integer**
 * Description : récupère l'entier en paramètre
-* Exemple : {"integer":"25"}
+* Exemple : 
 
