@@ -11,12 +11,11 @@ Json type la secion BPM :
 
 ```javascript
 {
-  "tasks": [
+  "tasks": [ //Tableaux de tâche
     {
-      "uuid": "Pg super",
-      "type": "progress_bar_widget",
-      "widget_uuid": "56F876EF-A329-4C1D-A24F-E5347409C5D7",
-      "bar_progress": "0.9"
+      "uuid": "Pg super",   //Obligatoire : Uuid de la tâche, c'est l'utilisateur qui doit le saisir
+      "type": "progress_bar_widget",		//Type de la tâche.
+      "widget_uuid": "56F876EF-A329-4C1D-A24F-E5347409C5D7",  //Uuid du widget, utilisé pour les tâche de type widget. N'est pas obligatoire      
     }
   ]
 }
