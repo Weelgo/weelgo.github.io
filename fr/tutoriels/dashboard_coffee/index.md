@@ -82,6 +82,6 @@ Liste des instructions :
 	* Param 1 : nom de la colonne pour réaliser la moyenne. Peut être vide, mais doit être présent (eg : ""). Si le nom de la colonne est vide, alors, la fonction utilisera la première colonne du tableau pour faire la moyenne.
 	* Param 2 : liste des variables que vous voulez ajouter pour faire la moyenne. Par exemple : "var1" en cas d'une variable. Pour plusieurs variable il suffit de continuer à les lister : "var1","var2"
 * Exemple :
-	* Cas d'utilisation de l'instruction en début de chaine : ```{"average":["col1","var1","var2"]}``` . Cette instruction réalise la moyenne sur la colonne **average** des variables **var1** et **var2**
+	* Cas d'utilisation de l'instruction en début de chaine : ```{"average":["col1","var1","var2"]}``` . Cette instruction réalise la moyenne sur la colonne **col1** des variables **var1** et **var2**
 	* Moyenne d'une variable récupéré dans le pool : ```[{"get":"var1"},{"average":""}][{"to\_local\_var":"var2"}``` . Cette série d'instruction récupère la variable **var1** et ensuite calcule la moyenne sur la première colonne puis met le résultat en variable locale **var2**.
 
