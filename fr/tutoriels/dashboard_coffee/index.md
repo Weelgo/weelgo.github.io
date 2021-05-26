@@ -44,3 +44,11 @@ Exemple de Json type :
   ]
 }
 ```
+
+Liste des instructions :
+
+integer : 
+
+* Description : récupère l'entier en paramètre
+* Exemple : {"integer":"25"}
+
