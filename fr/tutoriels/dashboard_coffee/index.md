@@ -43,9 +43,9 @@ Exemple de Json type :
   "tasks": [
     {
       "uuid": "main",
-      "script": [       //Section script
-          {"integer":"25"},      //Première instruction, on récupère l'entier 25
-          {"to_local_var":"var1"}     //Deuxième instruction, on le met en variable locale
+      "script": [
+          {"integer":"25"},
+          {"to_local_var":"var1"}
         ]
     }
   ]
@@ -54,11 +54,8 @@ Exemple de Json type :
 
 Liste des instructions :
 
-| Instruction       |     Description    |        Exemple |
-| :------------ | :-------------: | -------------: |
-| integer      | Récupère l'entier en paramètre.     | {"integer":"25"} |
 
 **integer**
 * Description : récupère l'entier en paramètre
-* Exemple : 
+* Exemple :  {"integer":"25"}
 
