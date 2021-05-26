@@ -7,9 +7,9 @@ readingEstimation : 15
 ## Infos pour Dashboard Coffee
 ------------------------
 
-Json de base pour la secion BPM :
+Json type la secion BPM :
 
-```json
+```javascript
 {
   "tasks": [
     {
