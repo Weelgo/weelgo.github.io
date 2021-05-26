@@ -61,7 +61,7 @@ Liste des instructions :
 	* Extraction de donnée : permet de chercher une donnée dans la source. Cette donnée est localisée grâce à un path. Ce path est par exemple : **programme1\_@\_comex\_@\_progress** . Ce path va récupérer la donnée progress dans le reporting comex du programme. Dans la pratique, nous préférons utilise l'uuid du comex durectement pour éviter les problèmes de path lié au changement de structure du projet. Enfin, pour indiquer qu'il s'agit d'une extraction, il faut ajouter le suffixe **path\_** au path. Le path serait donc : **path\_457575-457\_@\_progress** . Notez que le séparateur de path est **_@_** .
 	* Récupération d'une variable : il suffit de mettre le nom de la variable à récupérer.
 * Exemple :  
-	* Extraction de données : ```{"get":"path\_uuidDuReporting\_@\_progress"}```
+	* Extraction de données : ```{"get":"path_uuidDuReporting_@_progress"}```
 	* Récupération d'une variable normale : ```{"get":"nomDeLaVariable"}```
 
 **integer**
@@ -70,11 +70,11 @@ Liste des instructions :
 
 **to\_local\_var**
 * Description : met la variable dans le pool de variable locale. Ces variables ne seront accessible que au sein de la tâche. Elles seront supprimée à la fin du tritement dela tâche
-* Exemple :  ```{"to\_local\_var":"var1"}```
+* Exemple :  ```{"to_local_var":"var1"}```
 
 **to\_global\_var**
 * Description : met la variable dans le pool de variables globales. Ces variables seront accessibles pour toutes les tâches suivante.
-* Exemple :  ```{"to\_global\_var":"var1"}```
+* Exemple :  ```{"to_global_var":"var1"}```
 
 **average**
 * Description : permet de faire une moyenne des ligne de la variable.
@@ -83,5 +83,5 @@ Liste des instructions :
 	* Param 2 : liste des variables que vous voulez ajouter pour faire la moyenne. Par exemple : "var1" en cas d'une variable. Pour plusieurs variable il suffit de continuer à les lister : "var1","var2"
 * Exemple :
 	* Cas d'utilisation de l'instruction en début de chaine : ```{"average":["col1","var1","var2"]}``` . Cette instruction réalise la moyenne sur la colonne **col1** des variables **var1** et **var2**
-	* Moyenne d'une variable récupéré dans le pool : ```[{"get":"var1"},{"average":""}][{"to\_local\_var":"var2"}``` . Cette série d'instruction récupère la variable **var1** et ensuite calcule la moyenne sur la première colonne puis met le résultat en variable locale **var2**.
+	* Moyenne d'une variable récupéré dans le pool : ```{"get":"var1"},{"average":""},{"to\_local\_var":"var2"}``` . Cette série d'instruction récupère la variable **var1** et ensuite calcule la moyenne sur la première colonne puis met le résultat en variable locale **var2**.
 
