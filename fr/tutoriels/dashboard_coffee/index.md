@@ -44,18 +44,26 @@ Exemple de Json type :
     {
       "uuid": "main",
       "script": [
-          {"integer":"25"},
-          {"to_local_var":"var1"}
+          [{"integer":"25"},{"to_local_var":"var1"}],
+          [{"get":"var1"},{"to_global_var":"globalVar1"}]
         ]
     }
   ]
 }
 ```
 
+Le script exécute chaque ligne d'instructions. Une ligne peut recevoir plusieurs instructions.
+
 Liste des instructions :
 
+**get**
+* Description : récupère une variable. La récupération peut se faire à plusieurs niveaux.
+	* Extraction de donnée : permet de chercher une donnée dans la source. Cette donnée est localisée grâce à un path. Ce path est par exemple : programme1_@_comex_@_progress . Ce path va récupérer la donnée progress dans le reporting comex du programme. Dans la pratique, nous préférons utilise l'uuid du comex durectement pour éviter les problèmes de path lié au changement de structure du projet. Enfin, pour indiquer qu'il s'agit d'une extraction, il faut ajouter le suffixe **path_** au path. Le path serait donc : **path_457575-457_@_progress .
+* Exemple :  {"get":"var1"}
 
 **integer**
 * Description : récupère l'entier en paramètre
 * Exemple :  {"integer":"25"}
+
+
 
