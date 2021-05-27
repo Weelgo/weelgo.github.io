@@ -142,7 +142,8 @@ Ces propriétés doivent être placé dans une cellule du tableau
 
 ### Exemples
 
-Exemple de JSON pour un graphique avec des catégories
+Exemple de JSON pour un graphique avec des catégories. Dans le graphique ci dessous il y a 4 courbes, chaque courbe a des style de point différents 
+et possède chacune 3 points qui sont les points correspondants à chaque catégories "cat 1", "cat 1" et "cat 1".
 ```javascript
 {
   "x_axes": {
@@ -174,6 +175,15 @@ Exemple de JSON pour un graphique avec des catégories
           "Budget engagé",
           "Budget à engager",
           "Situation"
+        ]
+      },
+      {
+        "name": "point_style",
+        "values": [
+          "circle",
+          "rect",
+          "star",
+          "triangle"
         ]
       },
       {
