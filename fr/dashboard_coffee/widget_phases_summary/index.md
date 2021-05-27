@@ -85,4 +85,4 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : L'uuid du widget est affiché dans les propriété du widget dans l'IHM. 
 * Exemple : ```"widget_uuid":"F5441C4C-BEFF-4E92-B7F3-308DA0"```
 
-
+**RESTE A FAIRE**
