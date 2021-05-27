@@ -4,7 +4,7 @@ id : 88465er46
 readingEstimation : 15
 ---
 
-## Widget Budget
+## Widget Résumé du budget
 ------------------------
 
 Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org) 
@@ -15,24 +15,22 @@ Exemple de JSON à inclure dans le BPM général:
 
 ```javascript
 {
-      "uuid":"Météo",
-      "type":"weather_widget",
-      "widget_uuid":"uuid du widget à récupéré dans l'IHM",
-      "weather_level":"weather_rain",
-      "weather_type":"weather",
-      "image_height":"50px",
-      "image_width":"50px"      
+  "uuid": "Budget",
+  "type": "budget_summary_widget",
+  "widget_uuid": "uuid du widget à récupéré dans l'IHM",
+  "total_budget": "250000",
+  "committed_budget": "100000",
+  "to_commit_budget": "120000"
 }
 ```
 
 Exemple de JSON à inclure dans le BPM du widget:
 
 ```javascript
-{      
-     "weather_level":"weather_rain",
-     "weather_type":"weather",
-     "image_height":"50px",
-     "image_width":"50px"
+{
+  "total_budget": "250000",
+  "committed_budget": "100000",
+  "to_commit_budget": "120000"
 }
 ```
 

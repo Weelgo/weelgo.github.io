@@ -4,7 +4,7 @@ id : rg54yh787y
 readingEstimation : 15
 ---
 
-## Définition des données pour les graphes
+## Définition des axes pour les graphes
 ------------------------
 
 Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org) 
