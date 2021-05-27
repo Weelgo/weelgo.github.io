@@ -39,37 +39,34 @@ Exemple de JSON à inclure dans le BPM du widget:
 **uuid** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant de la tâche, au choix de l'utilisateur.
 * Valeurs possibles : valeur au choix de l'utilisateur. **Ne doit pas être le même qu'une autre tâche du BPM.**
-* Exemple : ```"uuid":"Ma météo"```
+* Exemple : ```"uuid":"Ma budget"```
 
 **type** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant permettant au moteur de calcule de savoir que la tâche est du type indiqué.
-* Valeurs possibles : weather_widget 
-* Exemple : ```"type":"weather_widget"```
+* Valeurs possibles : budget_summary_widget 
+* Exemple : ```"type":"budget_summary_widget"```
 
 **widget_uuid** (utilisé **uniquement** pour PBM général) 
 * Description : Uuid du widget ciblé par la tâche
 * Valeurs possibles : L'uuid du widget est affiché dans les propriété du widget dans l'IHM. 
 * Exemple : ```"widget_uuid":"F5441C4C-BEFF-4E92-B7F3-308DA0"```
 
-**weather_level** (obligatoire)
-* Description : modifie la météo du widget.
-* Valeurs possibles : weather_sun \| weather_cloudy \| weather_rain \| weather_thunder
-* Exemple : ```"weather_level":"weather_rain"```
+**total_budget** (obligatoire)
+* Description : budget total.
+* Valeurs possibles : nombre réel.
+* Exemple : ```"total_budget":"2000000"```
 
-**weather_type**
-* Description : Type d'affichage du widget. 3 types possibles : météo, feux de signalisation ou smiley.
-* Valeurs possibles : weather \| traffic_light \| smiley
-* Exemple : ```"weather_type":"traffic_light"```
+**committed_budget** (obligatoire)
+* Description : budget engagé.
+* Valeurs possibles : nombre réel.
+* Exemple : ```"committed_budget":"50000"```
 
-**image_height**
-* Description : hauteur de l'image en pixel.
-* Valeurs possibles : nombre entier positif. Ajouter "px" à la fin.
-* Exemple : ```"image_height":"50px"```
+**to_commit_budget** (obligatoire)
+* Description : budget à engager.
+* Valeurs possibles : nombre réel.
+* Exemple : ```"to_commit_budget":"20000"```
 
-**image_width**
-* Description : largeur de l'image en pixel.
-* Valeurs possibles : nombre entier positif. Ajouter "px" à la fin.
-* Exemple : ```"image_width":"50px"```
+
 
 
 
