@@ -269,7 +269,7 @@
 					{
 						"name": "Général",
 						"description": "Info générales",
-						"path": "general",
+						"path": "dashboard_coffee/general",
 						"id": "548rty45",
 						"enable": "true",
 						"image": ""				
@@ -277,7 +277,7 @@
 					{
 						"name": "Widget Project general progress",
 						"description": "Info widget",
-						"path": "widget_project_general_progress",
+						"path": "dashboard_coffee/widget_project_general_progress",
 						"id": "gt45784",
 						"enable": "true",
 						"image": ""				
