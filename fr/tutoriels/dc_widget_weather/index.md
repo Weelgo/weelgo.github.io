@@ -45,8 +45,8 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **type** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant permettant au moteur de calcule de savoir que la tâche est du type indiqué.
-* Valeurs possibles : project_general_progress_widget 
-* Exemple : ```"type":"project_general_progress_widget"```
+* Valeurs possibles : weather_widget 
+* Exemple : ```"type":"weather_widget"```
 
 **widget_uuid** (utilisé **uniquement** pour PBM général) 
 * Description : Uuid du widget ciblé par la tâche
@@ -58,30 +58,20 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : weather_sun | weather_cloudy | weather_rain | weather_thunder
 * Exemple : ```"weather_level":"weather_rain"```
 
-**progress** (obligatoire)
-* Description : progression du widget
-* Valeurs possibles : réel entre 0 et 1
-* Exemple : ```"progress":"0.25"```
+**weather_type**
+* Description : Type d'affichage du widget. 3 types possibles : météo, feux de signalisation ou smiley.
+* Valeurs possibles : weather | traffic_light | smiley
+* Exemple : ```"weather_type":"traffic_light"```
 
-**start_date**
-* Description : date de début du projet.
-* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12 janv 2021 0h00 UTC -> 1610409600000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
-* Exemple : ```"start_date":"1638316800000"```
+**image_height**
+* Description : hauteur de l'image en pixel.
+* Valeurs possibles : nombre entier positif. 
+* Exemple : ```"image_height":"50px"```
 
-**end_date**
-* Description : date de fin du projet.
-* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 30 janv 2021 0h00 UTC -> 1611964800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
-* Exemple : ```"end_date":"1685577600000"```
-
-**initial_end_date**
-* Description : date de fin initiale du projet.
-* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 25 janv 2021 0h00 UTC -> 1611532800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
-* Exemple : ```"initial_end_date":"1672531200000"```
-
-**flag_level** (obligatoire)
-* Description : permet d'indiquer si le projet est à l'heure, en retard ou très en retard. Cela affiche un texte spécifique et modifie la couleur du drapeau du widget.
-* Valeurs possibles : on_time | late | very_late
-* Exemple : ```"flag_level":"late"```
+**image_width**
+* Description : largeur de l'image en pixel.
+* Valeurs possibles : nombre entier positif. 
+* Exemple : ```"image_width":"50px"```
 
 
 
