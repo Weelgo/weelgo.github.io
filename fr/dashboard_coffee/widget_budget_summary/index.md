@@ -86,4 +86,39 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : true \| **false**
 * Exemple : ```"currency_first":"true"```
 
+**chart_height**
+* Description : hauteur du bar chart en pixel.
+* Valeurs possibles : entier en ajoutant "px" à la fin
+* Exemple : ```"chart_height":"100px"```
+
+**chart_width**
+* Description : largeur du bar chart en pixel.
+* Valeurs possibles : entier en ajoutant "px" à la fin
+* Exemple : ```"chart_width":"100px"```
+
+**total_budget_bar_color**
+* Description : couleur de la barre budget total dans le bar chart.
+* Valeurs possibles : couleur au format hexadécimal précédé d'un #.
+* Exemple : ```"total_budget_bar_color":"#e000e0"```
+
+**committed_budget_bar_color**
+* Description : couleur de la barre budget engagé dans le bar chart.
+* Valeurs possibles : couleur au format hexadécimal précédé d'un #.
+* Exemple : ```"committed_budget_bar_color":"#e000e0"```
+
+**to_commit_budget_bar_color**
+* Description : couleur de la barre budget à engager dans le bar chart.
+* Valeurs possibles : couleur au format hexadécimal précédé d'un #.
+* Exemple : ```"to_commit_budget_bar_color":"#e000e0"```
+
+**situation_budget_bar_color**
+* Description : couleur de la barre situation dans le bar chart.
+* Valeurs possibles : couleur au format hexadécimal précédé d'un #.
+* Exemple : ```"situation_budget_bar_color":"#e000e0"```
+
+
+
+
+
+
 
