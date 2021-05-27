@@ -62,6 +62,11 @@ Exemple de JSON à inclure dans le BPM du widget: Voir plus bas.
 * Valeurs possibles : nombre entier positif. Ajouter "px" à la fin.
 * Exemple : ```"chart_width":"300px"```
 
+**date_date_curve**
+* Description : indique si la droite est un diagrame à 45°. Si c'est le cas, une courbe 45° sera ajouté et un traitement particulier sera effectué sur les données
+* Valeurs possibles : true \| false
+* Exemple : ```"date_date_curve":"true"```
+
 **x_axes**
 * Description : Définition des axes des X
 * Valeurs possibles : Se référer à la documentation sur le axes en [cliquant ici](../dc_widget_chart_data/).
