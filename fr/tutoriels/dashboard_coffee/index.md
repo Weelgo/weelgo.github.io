@@ -169,17 +169,17 @@ Il est possible également de mettre une variable globale directement dans la va
 
 **start_date**
 * Description : date de début du projet.
-* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12/01/2021 0h00 UTC -> 1638316800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12 janv 2021 0h00 UTC -> 1610409600000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
 * Exemple : ```"start_date":"1638316800000"```
 
 **end_date**
 * Description : date de fin du projet.
-* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 30/01/2021 0h00 UTC -> 1685577600000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 30 janv 2021 0h00 UTC -> 1611964800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
 * Exemple : ```"end_date":"1685577600000"```
 
 **initial_end_date**
 * Description : date de fin initiale du projet.
-* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 25/01/2021 0h00 UTC -> 1672531200000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 25 janv 2021 0h00 UTC -> 1611532800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
 * Exemple : ```"initial_end_date":"1672531200000"```
 
 **flag_level** (obligatoire)
@@ -194,10 +194,10 @@ Exemple de JSON à inclure dans le BPM général:
       "uuid": "Project General Progress",
       "widget_uuid":"project_general_progress_widget",
       "weather_level":"weather_rain",
-      "progress":"0.25",
-      "start_date":"1638316800000",
-      "end_date":"1685577600000",
-      "initial_end_date":"1672531200000",
+      "progress":"0.55",
+      "start_date":"1610409600000",
+      "end_date":"1611964800000",
+      "initial_end_date":"1611532800000",
       "flag_level":"late"
 }
 ```
@@ -207,10 +207,10 @@ Exemple de JSON à inclure dans le BPM du widget:
 ```javascript
 {      
       "weather_level":"weather_rain",
-      "progress":"0.25",
-      "start_date":"1638316800000",
-      "end_date":"1685577600000",
-      "initial_end_date":"1672531200000",
+      "progress":"0.55",
+      "start_date":"1610409600000",
+      "end_date":"1611964800000",
+      "initial_end_date":"1611532800000",
       "flag_level":"late"
 }
 ```
