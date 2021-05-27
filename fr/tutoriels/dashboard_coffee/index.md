@@ -141,3 +141,20 @@ Ici, la progression est récupéré dirctement depuis la source en utilisant la 
 
 Il est possible également de mettre une variable globale directement dans la valeur de la propriété : ```"bar_progress": "global_var:var1"``` . Ici la variable **var1** stockée en global sera utilisé pour la propriété **bar_progress**.
 
+
+### Propriétés des widgets
+
+#### Project General Progress
+
+**weather_level**
+* Description : modifie la météo du widget.
+* Valeurs possibles : weather_sun | weather_cloudy | weather_rain | weather_thunder
+* Exemple : ```"weather_level":"weather_rain"```
+
+**progress**
+* Description : progression du widget
+* Valeurs possibles : réel entre 0 et 1
+* Exemple : ```"progress":"0.25"```
+
+
+
