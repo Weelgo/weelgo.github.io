@@ -32,7 +32,7 @@ Exemple de JSON à inclure dans le BPM du widget:
      "weather_level":"weather_rain",
      "weather_type":"weather",
      "image_height":"50px",
-     "image_width":"50px
+     "image_width":"50px"
 }
 ```
 
