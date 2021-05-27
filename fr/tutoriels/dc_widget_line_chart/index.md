@@ -202,3 +202,51 @@ et possède chacune 3 points qui sont les points correspondants à chaque catég
 
 **Type linéaire**
 
+```javascript
+{
+  "x_axes": {
+    "columns": [
+      {
+        "name": "type",
+        "values": [
+          "linear"
+        ]
+      }
+    ]
+  },
+  "datasets": {
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Série 1",
+          "Série 2"
+        ]
+      },
+      {
+        "name": "point_style",
+        "values": [
+          "circle",
+          "rect"
+        ]
+      },
+      {
+        "name": "point_radius",
+        "values": [
+          "10",
+          "10"
+        ]
+      },
+      {
+        "name": "values2d",
+        "values": [
+          [["3","12"],["8","7"],["25","98"]],
+          [["3","12"],["8","7"],["25","98"],["45","58"],["50","58"]]
+        ]
+      }
+    ]
+  }
+}
+```
+
+
