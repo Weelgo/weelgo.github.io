@@ -66,7 +66,24 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : nombre réel.
 * Exemple : ```"to_commit_budget":"20000"```
 
+**show_chart**
+* Description : affiche le bar chart.
+* Valeurs possibles : **true** \| false 
+* Exemple : ```"show_chart":"false"```
 
+**show_numbers**
+* Description : affiche le tableau des chiffres.
+* Valeurs possibles : **true** \| false 
+* Exemple : ```"show_numbers":"false"```
 
+**currency**
+* Description : devise des montants affichés.
+* Valeurs possibles : texte libre
+* Exemple : ```"currency":"EUR"```
+
+**currency_first**
+* Description : indique d'afficher la devise avant le nombre, par exemple $250 000.
+* Valeurs possibles : true \| **false**
+* Exemple : ```"currency_first":"true"```
 
 

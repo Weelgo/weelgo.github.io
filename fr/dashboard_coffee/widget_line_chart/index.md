@@ -69,11 +69,11 @@ Exemple de JSON à inclure dans le BPM du widget: Voir plus bas.
 
 **x_axes**
 * Description : Définition des axes des X
-* Valeurs possibles : Se référer à la documentation sur le axes en [cliquant ici](../dc_widget_chart_data/).
+* Valeurs possibles : Se référer à la documentation sur le axes en [cliquant ici](../widget_chart_axes/).
 
 **y_axes**
 * Description : Définition des axes des Y
-* Valeurs possibles : Se référer à la documentation sur le axes en [cliquant ici](../dc_widget_chart_data/).
+* Valeurs possibles : Se référer à la documentation sur le axes en [cliquant ici](../widget_chart_axes/).
 
 **datasets**
 * Description : Définition des données à utiliser dans le graphiqie. Voir exemple plus bas.
