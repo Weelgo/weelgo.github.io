@@ -79,8 +79,7 @@
 						"image": "notification.jpg"
 					}				
 				]
-			},	
-					
+			}						
 		]
 	},
 	{
@@ -264,7 +263,7 @@
 				"name": "Dashboard Coffee",
 				"enable": "true",
 				"id": "47854rt",
-				"path": "dashboard_coffee"
+				"path": "dashboard_coffee",
 				"image": "",
 				"sub": [
 					{
