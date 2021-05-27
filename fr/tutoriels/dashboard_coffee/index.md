@@ -146,15 +146,19 @@ Il est possible également de mettre une variable globale directement dans la va
 
 #### Project General Progress
 
-**weather_level**
+**weather_level** (obligatoire)
 * Description : modifie la météo du widget.
 * Valeurs possibles : weather_sun | weather_cloudy | weather_rain | weather_thunder
 * Exemple : ```"weather_level":"weather_rain"```
 
-**progress**
+**progress** (obligatoire)
 * Description : progression du widget
 * Valeurs possibles : réel entre 0 et 1
 * Exemple : ```"progress":"0.25"```
 
+**start_date**
+* Description : date de début du projet
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12/01/2021 0h00 UTC -> 1638316800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Exemple : ```"start_date":"1638316800000"```
 
 
