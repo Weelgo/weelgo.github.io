@@ -157,8 +157,21 @@ Il est possible également de mettre une variable globale directement dans la va
 * Exemple : ```"progress":"0.25"```
 
 **start_date**
-* Description : date de début du projet
+* Description : date de début du projet.
 * Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12/01/2021 0h00 UTC -> 1638316800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
 * Exemple : ```"start_date":"1638316800000"```
 
+**end_date**
+* Description : date de fin du projet.
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12/01/2021 0h00 UTC -> 1638316800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Exemple : ```"start_date":"1638316800000"```
 
+**initial_end_date**
+* Description : date de fin initiale du projet.
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12/01/2021 0h00 UTC -> 1638316800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Exemple : ```"start_date":"1638316800000"```
+
+**flag_level** (obligatoire)
+* Description : permet d'indiquer si le projet est à l'heure, en retard ou très en retard. Cela affiche un texte spécifique et modifie la couleur du drapeau du widget.
+* Valeurs possibles : on_time | late | very_late
+* Exemple : ```"flag_level":"late"```
