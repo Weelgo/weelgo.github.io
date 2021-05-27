@@ -308,6 +308,7 @@ et possède chacune 3 points qui sont les points correspondants à chaque catég
 
 ```javascript
 {
+  "date_date_curve":"true",
   "x_axes": {
     "columns": [
       {
