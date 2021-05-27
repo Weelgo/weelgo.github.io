@@ -51,13 +51,46 @@ JSON texte
 }
 ```
 
-JSON pour un chiffre
+JSON pour un chiffre, affiche 2 526 400,40
 ```javascript
 {      
-     "text":"Voici un super texte"
+     "text":"2526400.4",
+     "format_type":"number",
+     "nb_minimum_fraction_digits":"2"
+}
+
+```
+
+JSON pour un chiffre, affiche 2_526_400*40
+```javascript
+{      
+     "text":"2526400.4",
+     "format_type":"number",
+     "nb_minimum_fraction_digits":"2",
+     "decimal_separator":"*",
+     "grouping_separator":"_"
 }
 ```
 
+JSON pour une date, affiche 12 janvier 2021 UTC+02:00
+```javascript
+{      
+     "text":"1610409600000",
+     "format_type":"date_time",
+     "date_time_format_pattern":"dd_MMMM_yyyy_UTC"
+}
+
+```
+
+JSON pour un booléen, affiche Mon faux
+```javascript
+{      
+     "text":"false",
+     "format_type":"boolean",
+     "boolean_format_pattern":"Mon vrai|Mon faux"
+}
+
+```
 
 ### Propriétés du widgets
 
