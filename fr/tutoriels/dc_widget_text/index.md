@@ -24,7 +24,7 @@ Exemple de JSON à inclure dans le BPM général:
 
 Exemple de JSON à inclure dans le BPM du widget:
 
-JSON minimal
+**JSON minimal**
 
 ```javascript
 {      
@@ -32,7 +32,7 @@ JSON minimal
 }
 ```
 
-JSON texte
+**JSON texte**
 
 ```javascript
 {      
@@ -51,7 +51,7 @@ JSON texte
 }
 ```
 
-JSON pour un chiffre, affiche 2 526 400,40
+**JSON pour un chiffre,** affiche 2 526 400,40
 ```javascript
 {      
      "text":"2526400.4",
@@ -61,7 +61,7 @@ JSON pour un chiffre, affiche 2 526 400,40
 
 ```
 
-JSON pour un chiffre, affiche 2_526_400*40
+**JSON pour un chiffre,** affiche 2_526_400*40
 ```javascript
 {      
      "text":"2526400.4",
@@ -72,7 +72,7 @@ JSON pour un chiffre, affiche 2_526_400*40
 }
 ```
 
-JSON pour une date, affiche 12 janvier 2021 UTC+02:00
+**JSON pour une date,** affiche 12 janvier 2021 UTC+02:00
 ```javascript
 {      
      "text":"1610409600000",
@@ -82,7 +82,7 @@ JSON pour une date, affiche 12 janvier 2021 UTC+02:00
 
 ```
 
-JSON pour un booléen, affiche Mon faux
+**JSON pour un booléen,** affiche Mon faux
 ```javascript
 {      
      "text":"false",
@@ -92,7 +92,7 @@ JSON pour un booléen, affiche Mon faux
 
 ```
 
-### Propriétés du widgets
+### Propriétés du widget
 
 **uuid** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant de la tâche, au choix de l'utilisateur.

@@ -40,7 +40,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 }
 ```
 
-### Propriétés des widgets
+### Propriétés du widget
 
 **uuid** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant de la tâche, au choix de l'utilisateur.

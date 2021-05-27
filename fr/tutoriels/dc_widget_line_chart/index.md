@@ -4,7 +4,7 @@ id : 548rty45
 readingEstimation : 15
 ---
 
-## Widget Météo
+## Widget Graphique ligne
 ------------------------
 
 Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org) 
@@ -15,13 +15,13 @@ Exemple de JSON à inclure dans le BPM général:
 
 ```javascript
 {
-      "uuid":"Météo",
-      "type":"weather_widget",
+      "uuid":"Graphique",
+      "type":"line_chart_widget",
       "widget_uuid":"uuid du widget à récupéré dans l'IHM",
-      "weather_level":"weather_rain",
-      "weather_type":"weather",
-      "image_height":"50px",
-      "image_width":"50px"      
+      "show_legend":"true",
+      "legend_position":"top",
+      "chart_height":"80px",
+      "chart_width":"150px"      
 }
 ```
 
@@ -29,10 +29,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 ```javascript
 {      
-     "weather_level":"weather_rain",
-     "weather_type":"weather",
-     "image_height":"50px",
-     "image_width":"50px"
+    
 }
 ```
 

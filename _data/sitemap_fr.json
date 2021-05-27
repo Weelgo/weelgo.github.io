@@ -299,6 +299,15 @@
 						"enable": "true",
 						"image": ""				
 					}
+					,
+					{
+						"name": "Widget graphe ligne",
+						"description": "Info widget",
+						"path": "dc_widget_line_chart",
+						"id": "lngh78et45",
+						"enable": "true",
+						"image": ""				
+					}
 				]
 			
 			}
