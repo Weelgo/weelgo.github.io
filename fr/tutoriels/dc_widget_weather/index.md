@@ -60,7 +60,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **weather_type**
 * Description : Type d'affichage du widget. 3 types possibles : météo, feux de signalisation ou smiley.
-* Valeurs possibles : weather | traffic_light | smiley
+* Valeurs possibles : weather \| traffic_light \| smiley
 * Exemple : ```"weather_type":"traffic_light"```
 
 **image_height**
