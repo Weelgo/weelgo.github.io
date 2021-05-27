@@ -17,21 +17,13 @@ Exemple de JSON à inclure dans le BPM général:
 {
       "uuid":"Graphique",
       "type":"line_chart_widget",
-      "widget_uuid":"uuid du widget à récupéré dans l'IHM",
-      "show_legend":"true",
-      "legend_position":"top",
-      "chart_height":"80px",
-      "chart_width":"150px"      
+      "widget_uuid":"uuid du widget à récupéré dans l'IHM"
+       
 }
 ```
 
-Exemple de JSON à inclure dans le BPM du widget:
+Exemple de JSON à inclure dans le BPM du widget: Voir plus bas.
 
-```javascript
-{      
-    
-}
-```
 
 ### Propriétés du widget
 
@@ -157,10 +149,7 @@ et possède chacune 3 points qui sont les points correspondants à chaque catég
       {
         "name": "categories",
         "values": [
-          [
-            "Cat 1",
-            "Cat 2",
-            "Cat 3"
+          ["Cat 1","Cat 2","Cat 3"
           ]
         ]
       }
@@ -189,26 +178,10 @@ et possède chacune 3 points qui sont les points correspondants à chaque catég
       {
         "name": "values",
         "values": [
-          [
-            "500",
-            "800",
-            "100"
-          ],
-          [
-            "400",
-            "300",
-            "50"
-          ],
-          [
-            "200",
-            "400",
-            "80"
-          ],
-          [
-            "-100",
-            "-200",
-            "-500"
-          ]
+          [ "500","800","100"],
+          ["400","300","50"],
+          ["200","400","80"],
+          ["-100","-200","-500"]
         ]
       }
     ]
