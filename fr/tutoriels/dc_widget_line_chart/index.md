@@ -85,12 +85,12 @@ Ces propriétés doivent être placé dans une cellule du tableau
 **values** (utilisé pour les axes des X de type catégories)
 * Description : Valeurs des points de la série.
 * Valeurs possibles : tableau numérique.
-* Exemple : ["y","y","y"] -> ["500","800","100"] si il y a 3 catégories.
+* Exemple : ```["y","y","y"]``` -> ```["500","800","100"]``` si il y a 3 catégories.
 
 **values2d** (utilisé pour les axes des X de type linéaire ou série temporelles
 * Description : Valeurs des points de la série.
 * Valeurs possibles : tableau numérique 2d.
-* Exemple : [["x","y"],["x","y"],["x","y"]] -> [["3","12"],["8","7"],["25","98"]]
+* Exemple : ```[["x","y"],["x","y"],["x","y"]]``` -> ```[["3","12"],["8","7"],["25","98"]]```
 
 **background_color**
 * Description : Couleur de l'aire sous la courbe.
@@ -133,6 +133,8 @@ Ces propriétés doivent être placé dans une cellule du tableau
 * Exemple : cross
 
 ### Exemples
+
+**Type catégories**
 
 Exemple de JSON pour un graphique avec des catégories. Dans le graphique ci dessous il y a 4 courbes, chaque courbe a des style de point différents 
 et possède chacune 3 points qui sont les points correspondants à chaque catégories "cat 1", "cat 1" et "cat 1".
@@ -197,3 +199,6 @@ et possède chacune 3 points qui sont les points correspondants à chaque catég
   }
 }
 ```
+
+**Type linéaire**
+
