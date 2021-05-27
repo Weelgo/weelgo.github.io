@@ -100,7 +100,45 @@ Ces propriétés doivent être placé dans une cellule du tableau
 * Valeurs possibles : tableau numérique 2d.
 * Exemple : [["x","y"],["x","y"],["x","y"]] -> [["3","12"],["8","7"],["25","98"]]
 
+**background_color**
+* Description : Couleur de l'aire sous la courbe.
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+* Exemple : #e000e0
 
+**border_color**
+* Description : Couleur de la courbe.
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+* Exemple : #e000e0
+
+**border_width**
+* Description : largeur de la courbe en pixel.
+* Valeurs possibles : entier, ne pas ajouter "px" à la fin.
+* Exemple : 3
+
+**point_background_color**
+* Description : Couleur du point de la courbe.
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+* Exemple : #e000e0
+
+**point_border_color**
+* Description : Couleur de la bordure du point de la courbe.
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+* Exemple : #e000e0
+
+**point_border_width**
+* Description : taille la bordure du point de la courbe en pixel
+* Valeurs possibles : entier, ne pas ajouter "px" à la fin.
+* Exemple : 1
+
+**point_radius**
+* Description : rayon du point en pixel
+* Valeurs possibles : entier, ne pas ajouter "px" à la fin.
+* Exemple : 4
+
+**point_style**
+* Description : style de la forme du point
+* Valeurs possibles : circle \| cross \| cross_rot \| rect \| rect_rot \| star \| triangle 
+* Exemple : cross
 
 ### Exemples
 
