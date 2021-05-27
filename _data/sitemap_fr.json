@@ -274,10 +274,19 @@
 						"image": ""				
 					},
 					{
-						"name": "Widget Project general progress",
+						"name": "Widget Progression générale du projet",
 						"description": "Info widget",
 						"path": "dc_widget_project_general_progress",
 						"id": "gt45784",
+						"enable": "true",
+						"image": ""				
+					}
+					,
+					{
+						"name": "Widget Météo",
+						"description": "Info widget",
+						"path": "dc_widget_weather",
+						"id": "ghy78zr56",
 						"enable": "true",
 						"image": ""				
 					}

@@ -4,7 +4,7 @@ id : 548rty45
 readingEstimation : 15
 ---
 
-## Widget Progression générale du projet
+## Widget Météo
 ------------------------
 
 Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org) 
@@ -15,15 +15,13 @@ Exemple de JSON à inclure dans le BPM général:
 
 ```javascript
 {
-      "uuid":"Project General Progress",
-      "type":"project_general_progress_widget",
+      "uuid":"Météo",
+      "type":"weather_widget",
       "widget_uuid":"uuid du widget à récupéré dans l'IHM",
       "weather_level":"weather_rain",
-      "progress":"0.55",
-      "start_date":"1610409600000",
-      "end_date":"1611964800000",
-      "initial_end_date":"1611532800000",
-      "flag_level":"late"
+      "weather_type":"weather",
+      "image_height":"50px",
+      "image_width":"50px"      
 }
 ```
 
@@ -31,12 +29,10 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 ```javascript
 {      
-      "weather_level":"weather_rain",
-      "progress":"0.55",
-      "start_date":"1610409600000",
-      "end_date":"1611964800000",
-      "initial_end_date":"1611532800000",
-      "flag_level":"late"
+     "weather_level":"weather_rain",
+     "weather_type":"weather",
+     "image_height":"50px",
+     "image_width":"50px
 }
 ```
 
