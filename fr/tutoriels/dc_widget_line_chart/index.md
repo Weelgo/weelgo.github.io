@@ -38,37 +38,37 @@ Exemple de JSON à inclure dans le BPM du widget:
 **uuid** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant de la tâche, au choix de l'utilisateur.
 * Valeurs possibles : valeur au choix de l'utilisateur. **Ne doit pas être le même qu'une autre tâche du BPM.**
-* Exemple : ```"uuid":"Ma météo"```
+* Exemple : ```"uuid":"Mon graphique"```
 
 **type** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant permettant au moteur de calcule de savoir que la tâche est du type indiqué.
-* Valeurs possibles : weather_widget 
-* Exemple : ```"type":"weather_widget"```
+* Valeurs possibles : line_chart_widget 
+* Exemple : ```"type":"line_chart_widget"```
 
 **widget_uuid** (utilisé **uniquement** pour PBM général) 
 * Description : Uuid du widget ciblé par la tâche
 * Valeurs possibles : L'uuid du widget est affiché dans les propriété du widget dans l'IHM. 
 * Exemple : ```"widget_uuid":"F5441C4C-BEFF-4E92-B7F3-308DA0"```
 
-**weather_level** (obligatoire)
-* Description : modifie la météo du widget.
-* Valeurs possibles : weather_sun \| weather_cloudy \| weather_rain \| weather_thunder
-* Exemple : ```"weather_level":"weather_rain"```
+**show_legend**
+* Description : affiche la légende
+* Valeurs possibles : **true** \| false
+* Exemple : ```"show_legend":"false"```
 
-**weather_type**
-* Description : Type d'affichage du widget. 3 types possibles : météo, feux de signalisation ou smiley.
-* Valeurs possibles : weather \| traffic_light \| smiley
-* Exemple : ```"weather_type":"traffic_light"```
+**legend_position**
+* Description : positino de la légende
+* Valeurs possibles : top \| right \| left \| **bottom**
+* Exemple : ```"legend_position":"traffic_light"```
 
-**image_height**
-* Description : hauteur de l'image en pixel.
+**chart_height**
+* Description : hauteur du graphique en pixel.
 * Valeurs possibles : nombre entier positif. Ajouter "px" à la fin.
-* Exemple : ```"image_height":"50px"```
+* Exemple : ```"chart_height":"150px"```
 
-**image_width**
-* Description : largeur de l'image en pixel.
+**chart_width**
+* Description : largeur du graphique en pixel.
 * Valeurs possibles : nombre entier positif. Ajouter "px" à la fin.
-* Exemple : ```"image_width":"50px"```
+* Exemple : ```"chart_width":"300px"```
 
 
 
