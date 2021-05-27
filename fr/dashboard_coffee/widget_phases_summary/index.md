@@ -18,7 +18,26 @@ Exemple de JSON à inclure dans le BPM général:
   "uuid": "Phases",
   "type": "phases_summary",
   "widget_uuid": "uuid du widget à récupéré dans l'IHM",
-  
+  "phases":{
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Phase 1",
+          "Phase 2",
+          "Phase 3"
+        ]
+      },
+      {
+        "name": "progress",
+        "values": [
+          "1",
+          "0.2",
+          "0"
+        ]
+      }
+    ]
+  } 
 }
 ```
 
@@ -26,7 +45,26 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 ```javascript
 {
-  
+  "phases":{
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Phase 1",
+          "Phase 2",
+          "Phase 3"
+        ]
+      },
+      {
+        "name": "progress",
+        "values": [
+          "1",
+          "0.2",
+          "0"
+        ]
+      }
+    ]
+  } 
 }
 ```
 
