@@ -1,6 +1,6 @@
 ---
 layout : docs_fr
-id : 548rty45
+id : lngh78et45
 readingEstimation : 15
 ---
 
@@ -80,4 +80,4 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **datasets**
 * Description : Définition des données à utiliser dans le graphiqie
-* Valeurs possibles : Se référer à la documentation sur le données en [cliquant ici](https://jsoneditoronline.org).
+* Valeurs possibles : Se référer à la documentation sur le données en [cliquant ici](../dc_widget_chart_data/).

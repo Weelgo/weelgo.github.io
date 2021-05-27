@@ -1,6 +1,6 @@
 ---
 layout : docs_fr
-id : 548rty45
+id : rg54yh787y
 readingEstimation : 15
 ---
 
@@ -10,11 +10,11 @@ readingEstimation : 15
 Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org) 
 
 
-### x_axes
+### Axe des X
  
 Permet de définir un ou plusieurs axes des X
 
-#### Axe de type catégorie
+#### Type catégorie
 
 Ce JSON permet de créer un axe des X avec 3 catégories, cat1, cat2 et cat3.
 ```javascript
@@ -42,7 +42,7 @@ Ce JSON permet de créer un axe des X avec 3 catégories, cat1, cat2 et cat3.
 }
 ```
 
-#### Axe de type linéaire
+#### Type linéaire
 ```javascript
 {
   "x_axes": {
@@ -58,7 +58,7 @@ Ce JSON permet de créer un axe des X avec 3 catégories, cat1, cat2 et cat3.
 }
 ```
 
-#### Axe de type série temporelle
+#### Type série temporelle
 ```javascript
 {
   "x_axes": {
