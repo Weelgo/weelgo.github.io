@@ -70,5 +70,14 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : nombre entier positif. Ajouter "px" à la fin.
 * Exemple : ```"chart_width":"300px"```
 
+**x_axes**
+* Description : Définition des axes des X
+* Valeurs possibles : Se référer à la documentation sur le axes en [cliquant ici](https://jsoneditoronline.org).
 
+**y_axes**
+* Description : Définition des axes des Y
+* Valeurs possibles : Se référer à la documentation sur le axes en [cliquant ici](https://jsoneditoronline.org).
 
+**datasets**
+* Description : Définition des données à utiliser dans le graphiqie
+* Valeurs possibles : Se référer à la documentation sur le données en [cliquant ici](https://jsoneditoronline.org).

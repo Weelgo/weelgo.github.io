@@ -308,6 +308,15 @@
 						"enable": "true",
 						"image": ""				
 					}
+					,
+					{
+						"name": "Définition données graphes",
+						"description": "Info widget",
+						"path": "dc_widget_chart_data",
+						"id": "rg54yh787y",
+						"enable": "true",
+						"image": ""				
+					}
 				]
 			
 			}
