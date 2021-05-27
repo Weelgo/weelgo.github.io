@@ -36,7 +36,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 }
 ```
 
-### Propriétés des widgets
+### Propriétés du widgets
 
 **uuid** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant de la tâche, au choix de l'utilisateur.
@@ -129,7 +129,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **date_time_format_pattern**
 * Description : si le texte est une date alors cette propriété défini comment la date doit être affichée.
-* Valeurs possibles : none | dd_MMMM_yyyy_UTC
+* Valeurs possibles : none \| dd_MMMM_yyyy_UTC
 * Exemple : ```"date_time_format_pattern":"dd_MMMM_yyyy_UTC"```
 
 **boolean_format_pattern**
@@ -141,4 +141,37 @@ Exemple de JSON à inclure dans le BPM du widget:
 	* true_false : écrit Vrai ou Faux dans la langue de l'utilisateur.
 	* Mon vrai\|Mon faux : format customisé qui écrit Mon vrai ou Mon faux.
 * Exemple : ```"boolean_format_pattern":"Mon vrai|Mon faux"```
+
+**decimal_separator**
+* Description : séparateur des décimal. Par dafaut, c'est une virgule : 123,56
+* Valeurs possibles : virgule, point, texte au choix.
+* Exemple : ```"decimal_separator":"."```
+
+**grouping_separator**
+* Description : séparateur des groupes de chiffre. Par dafaut c'est un espace : 1 000 000
+* Valeurs possibles : espace, virgule, point, texte au choix.
+* Exemple : ```"grouping_separator":","```
+
+**use_grouping**
+* Description : Indique si il faut grouper par paquet de 3 l'affichage d'un nombre. Par défaut le grouping est activé.
+* Valeurs possibles : true \| false
+* Exemple : ```"use_grouping":"true"```
+
+**nb_minimum_fraction_digits**
+* Description : nombre minimal de chiffre à afficher après la virgule. Par défaut, c'est 0 : 1000. Si cette valeur est 2, alors 1000 sera affiché 100,00.
+* Valeurs possibles : entier positif.
+* Exemple : ```"nb_minimum_fraction_digits":"2"```
+
+**nb_minimum_integer_digits**
+* Description : nombre minimal de chiffre à afficher avant la virgule. Par défaut, c'est 1. Si cette valeur est 3, alors 5 sera affiché 005.
+* Valeurs possibles : entier positif.
+* Exemple : ```"nb_minimum_integer_digits":"3"```
+
+**multiply_by**
+* Description : si le texte est un nombre, alors cette propriété permet de le multiplier avant affichage. La valeur par défaut est 1. Par exemple si la aleur est 0.01, alors le chiffre 50 sera multiplié par 0.01 ce qui donnera 0.5.
+* Valeurs possibles : 0.001 \| 0.01 \| 0.1 \| 1 \| 10 \| 100 \| 1000 \| 
+* Exemple : ```"multiply_by":"0.01"```
+
+
+
 
