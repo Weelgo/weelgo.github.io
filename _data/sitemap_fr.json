@@ -290,6 +290,15 @@
 						"enable": "true",
 						"image": ""				
 					}
+					,
+					{
+						"name": "Widget Texte",
+						"description": "Info widget",
+						"path": "dc_widget_text",
+						"id": "a42vf3g5",
+						"enable": "true",
+						"image": ""				
+					}
 				]
 			
 			}
