@@ -59,7 +59,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **weather_level** (obligatoire)
 * Description : modifie la météo du widget.
-* Valeurs possibles : weather_sun | weather_cloudy | weather_rain | weather_thunder
+* Valeurs possibles : weather_sun \| weather_cloudy \| weather_rain \| weather_thunder
 * Exemple : ```"weather_level":"weather_rain"```
 
 **progress** (obligatoire)
@@ -84,7 +84,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **flag_level** (obligatoire)
 * Description : permet d'indiquer si le projet est à l'heure, en retard ou très en retard. Cela affiche un texte spécifique et modifie la couleur du drapeau du widget.
-* Valeurs possibles : on_time | late | very_late
+* Valeurs possibles : on_time \| late \| very_late
 * Exemple : ```"flag_level":"late"```
 
 

@@ -55,7 +55,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **weather_level** (obligatoire)
 * Description : modifie la météo du widget.
-* Valeurs possibles : weather_sun | weather_cloudy | weather_rain | weather_thunder
+* Valeurs possibles : weather_sun \| weather_cloudy \| weather_rain \| weather_thunder
 * Exemple : ```"weather_level":"weather_rain"```
 
 **weather_type**
