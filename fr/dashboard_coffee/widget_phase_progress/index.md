@@ -25,7 +25,9 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 ```javascript
 {
-  
+  "weather_level":"weather_cloudy",
+  "progress":"0.35",
+  "flag_level":"late"
 }
 ```
 
@@ -46,74 +48,92 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : L'uuid du widget est affiché dans les propriété du widget dans l'IHM. 
 * Exemple : ```"widget_uuid":"F5441C4C-BEFF-4E92-B7F3-308DA0"```
 
-**total_budget** (obligatoire)
-* Description : budget total.
-* Valeurs possibles : nombre réel.
-* Exemple : ```"total_budget":"2000000"```
+**weather_level** (obligatoire)
+* Description : Météo
+* Valeurs possibles : **weather_sun** \| weather_cloudy \| weather_rain \| weather_thunder
+* Exemple : ```"weather_level":"weather_cloudy"```
 
-**committed_budget** (obligatoire)
-* Description : budget engagé.
-* Valeurs possibles : nombre réel.
-* Exemple : ```"committed_budget":"50000"```
+**progress** (obligatoire)
+* Description : Progression
+* Valeurs possibles : nombre réel entre 0 et 1
+* Exemple : ```"progress":"0.35"```
 
-**to_commit_budget** (obligatoire)
-* Description : budget à engager.
-* Valeurs possibles : nombre réel.
-* Exemple : ```"to_commit_budget":"20000"```
+**flag_level** (obligatoire)
+* Description : permet d'indiquer si la phase est à l'heure, en retard ou très en retard. Cela affiche un texte spécifique et modifie la couleur du drapeau du widget.
+* Valeurs possibles : on_time \| late \| very_late
+* Exemple : ```"flag_level":"late"```
 
-**show_chart**
-* Description : affiche le bar chart.
-* Valeurs possibles : **true** \| false 
-* Exemple : ```"show_chart":"false"```
+**phase_name**
+* Description : nom de la phase.
+* Valeurs possibles : texte libre 
+* Exemple : ```"phase_name":"Phase de tests"```
 
-**show_numbers**
-* Description : affiche le tableau des chiffres.
-* Valeurs possibles : **true** \| false 
-* Exemple : ```"show_numbers":"false"```
+**start_date**
+* Description : date de début de la phase.
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12 janv 2021 0h00 UTC -> 1610409600000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Exemple : ```"start_date":"1638316800000"```
 
-**currency**
-* Description : devise des montants affichés.
-* Valeurs possibles : texte libre
-* Exemple : ```"currency":"EUR"```
+**end_date**
+* Description : date de fin de la phase.
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 30 janv 2021 0h00 UTC -> 1611964800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Exemple : ```"end_date":"1685577600000"```
 
-**currency_first**
-* Description : indique d'afficher la devise avant le nombre, par exemple $250 000.
-* Valeurs possibles : true \| **false**
-* Exemple : ```"currency_first":"true"```
+**initial_end_date**
+* Description : date de fin initiale de la phase.
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 25 janv 2021 0h00 UTC -> 1611532800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Exemple : ```"initial_end_date":"1672531200000"```
 
-**chart_height**
-* Description : hauteur du bar chart en pixel.
-* Valeurs possibles : entier en ajoutant "px" à la fin
-* Exemple : ```"chart_height":"100px"```
+**leaders**
+* Description : responsables de la phase
+* Valeurs possibles : tableau contenant les colonnes **name** (obligatoire) et **uuid**. Voir ci-dessous
 
-**chart_width**
-* Description : largeur du bar chart en pixel.
-* Valeurs possibles : entier en ajoutant "px" à la fin
-* Exemple : ```"chart_width":"100px"```
+Exemple de JSON avec responsables (sans uuid) :
 
-**total_budget_bar_color**
-* Description : couleur de la barre budget total dans le bar chart.
-* Valeurs possibles : couleur au format hexadécimal précédé d'un #.
-* Exemple : ```"total_budget_bar_color":"#e000e0"```
+```javascript
+{
+  "weather_level":"weather_cloudy",
+  "progress":"0.35",
+  "flag_level":"late",
+  "leaders":{
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Paul Dupond",
+          "Marc Lupin"
+        ]
+      }
+    ]
+  }
+}
+```
 
-**committed_budget_bar_color**
-* Description : couleur de la barre budget engagé dans le bar chart.
-* Valeurs possibles : couleur au format hexadécimal précédé d'un #.
-* Exemple : ```"committed_budget_bar_color":"#e000e0"```
+Exemple de JSON avec responsables (avec uuid) :
 
-**to_commit_budget_bar_color**
-* Description : couleur de la barre budget à engager dans le bar chart.
-* Valeurs possibles : couleur au format hexadécimal précédé d'un #.
-* Exemple : ```"to_commit_budget_bar_color":"#e000e0"```
-
-**situation_budget_bar_color**
-* Description : couleur de la barre situation dans le bar chart.
-* Valeurs possibles : couleur au format hexadécimal précédé d'un #.
-* Exemple : ```"situation_budget_bar_color":"#e000e0"```
-
-
-
-
-
-
-
+```javascript
+{
+  "weather_level":"weather_cloudy",
+  "progress":"0.35",
+  "flag_level":"late",
+  "leaders":{
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Paul Dupond",
+          "Marc Lupin"
+        ]
+      },
+      {
+        "name": "uuid",
+        "values": [
+          [
+            "54654-465484-46546",
+            "4494-56544"
+          ]
+        ]
+      }
+    ]
+  }
+}
+```

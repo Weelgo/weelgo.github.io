@@ -67,6 +67,11 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : réel entre 0 et 1
 * Exemple : ```"progress":"0.25"```
 
+**flag_level** (obligatoire)
+* Description : permet d'indiquer si le projet est à l'heure, en retard ou très en retard. Cela affiche un texte spécifique et modifie la couleur du drapeau du widget.
+* Valeurs possibles : on_time \| late \| very_late
+* Exemple : ```"flag_level":"late"```
+
 **start_date**
 * Description : date de début du projet.
 * Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12 janv 2021 0h00 UTC -> 1610409600000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
@@ -82,10 +87,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 25 janv 2021 0h00 UTC -> 1611532800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
 * Exemple : ```"initial_end_date":"1672531200000"```
 
-**flag_level** (obligatoire)
-* Description : permet d'indiquer si le projet est à l'heure, en retard ou très en retard. Cela affiche un texte spécifique et modifie la couleur du drapeau du widget.
-* Valeurs possibles : on_time \| late \| very_late
-* Exemple : ```"flag_level":"late"```
+
 
 
 
