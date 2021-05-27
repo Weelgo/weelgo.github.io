@@ -176,6 +176,15 @@ et possède chacune 3 points qui sont les points correspondants à chaque catég
         ]
       },
       {
+        "name": "point_radius",
+        "values": [
+          "10",
+          "10",
+          "10",
+          "10"
+        ]
+      },
+      {
         "name": "values",
         "values": [
           [ "500","800","100"],
