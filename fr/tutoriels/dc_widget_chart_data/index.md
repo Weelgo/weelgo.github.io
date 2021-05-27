@@ -10,9 +10,9 @@ readingEstimation : 15
 Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org) 
 
 
-### Axe des X
+### Axe des X ou des Y
  
-Permet de définir un ou plusieurs axes des X
+Permet de définir un ou plusieurs axes des X ou Y. La propriété correpondante est **x_axes** ou **y_axes**.
 
 #### Type catégorie
 
