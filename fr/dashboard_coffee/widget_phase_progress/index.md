@@ -18,6 +18,9 @@ Exemple de JSON à inclure dans le BPM général:
   "uuid": "Avancement phase",
   "type": "phase_progress",
   "widget_uuid": "uuid du widget à récupéré dans l'IHM",
+  "weather_level":"weather_cloudy",
+  "progress":"0.35",
+  "flag_level":"late"
 }
 ```
 
@@ -85,7 +88,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **leaders**
 * Description : responsables de la phase
-* Valeurs possibles : tableau contenant les colonnes **name** (obligatoire) et **uuid**. Voir ci-dessous
+* Valeurs possibles : tableau contenant les colonnes **name** (obligatoire) et **uuid**. Voir ci-dessous.
 
 Exemple de JSON avec responsables (sans uuid) :
 
