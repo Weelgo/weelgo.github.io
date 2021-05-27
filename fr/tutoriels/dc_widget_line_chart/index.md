@@ -240,7 +240,7 @@ et possède chacune 3 points qui sont les points correspondants à chaque catég
       {
         "name": "values2d",
         "values": [
-          [["3","12"],["8","7"],["25","98"]],
+          [["6","12"],["8","15"],["25","50"]],
           [["3","12"],["8","7"],["25","98"],["45","58"],["50","58"]]
         ]
       }
@@ -250,3 +250,51 @@ et possède chacune 3 points qui sont les points correspondants à chaque catég
 ```
 
 
+**Type série temporelle**
+
+```javascript
+{
+  "x_axes": {
+    "columns": [
+      {
+        "name": "type",
+        "values": [
+          "time_series"
+        ]
+      }
+    ]
+  },
+  "datasets": {
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Série 1",
+          "Série 2"
+        ]
+      },
+      {
+        "name": "point_style",
+        "values": [
+          "circle",
+          "rect"
+        ]
+      },
+      {
+        "name": "point_radius",
+        "values": [
+          "10",
+          "10"
+        ]
+      },
+      {
+        "name": "values2d",
+        "values": [
+          [["1609459200000","12"],["1609545600000","15"],["1609632000000","50"]],
+          [["1609459200000","15"],["1609545600000","7"],["1609632000000","98"],["1609718400000","58"],["1609804800000","58"]]
+        ]
+      }
+    ]
+  }
+}
+```
