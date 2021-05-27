@@ -79,5 +79,91 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : Se référer à la documentation sur le axes en [cliquant ici](../dc_widget_chart_data/).
 
 **datasets**
-* Description : Définition des données à utiliser dans le graphiqie
-* Valeurs possibles : Se référer à la documentation sur le données en [cliquant ici](../dc_widget_chart_data/).
+* Description : Définition des données à utiliser dans le graphiqie. Voir exemple plus bas.
+
+#### Propriété spécifique au datasets
+
+Ces propriétés doivent être placé dans une cellule du tableau
+
+**name**
+* Description : Nom du set de données.
+* Valeurs possibles : Text.
+* Exemple : Budget total, Situation
+
+**values** (utilisé pour les axes des X de type catégories)
+* Description : Valeurs des points de la série.
+* Valeurs possibles : tableau numérique.
+* Exemple : ["y","y","y"] -> ["500","800","100"] si il y a 3 catégories.
+
+**values2d** (utilisé pour les axes des X de type linéaire ou série temporelles
+* Description : Valeurs des points de la série.
+* Valeurs possibles : tableau numérique 2d.
+* Exemple : [["x","y"],["x","y"],["x","y"]] -> [["3","12"],["8","7"],["25","98"]]
+
+
+
+### Exemples
+
+Exemple de JSON pour un graphique avec des catégories
+```javascript
+{
+  "x_axes": {
+    "columns": [
+      {
+        "name": "type",
+        "values": [
+          "category"
+        ]
+      },
+      {
+        "name": "categories",
+        "values": [
+          [
+            "Cat 1",
+            "Cat 2",
+            "Cat 3"
+          ]
+        ]
+      }
+    ]
+  },
+  "datasets": {
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Budget total",
+          "Budget engagé",
+          "Budget à engager",
+          "Situation"
+        ]
+      },
+      {
+        "name": "values",
+        "values": [
+          [
+            "500",
+            "800",
+            "100"
+          ],
+          [
+            "400",
+            "300",
+            "50"
+          ],
+          [
+            "200",
+            "400",
+            "80"
+          ],
+          [
+            "-100",
+            "-200",
+            "-500"
+          ]
+        ]
+      }
+    ]
+  }
+}
+```
