@@ -146,6 +146,17 @@ Il est possible également de mettre une variable globale directement dans la va
 
 #### Project General Progress
 
+**uuid** (utilisé **uniquement** pour PBM général) 
+* Description : identifiant de la tâche, au choix de l'utilisateur.
+* Valeurs possibles : valeur au choix de l'utilisateur. **Ne doit pas être le même qu'une autre tâche du BPM.**
+* Exemple : ```"uuid":"Project General Progress"```
+
+
+**widget_uuid** (utilisé **uniquement** pour PBM général) 
+* Description : identifiant permettant au moteur de calcule de savoir que la tâche est du type indiqué.
+* Valeurs possibles : project_general_progress_widget 
+* Exemple : ```"widget_uuid":"project_general_progress_widget"```
+
 **weather_level** (obligatoire)
 * Description : modifie la météo du widget.
 * Valeurs possibles : weather_sun | weather_cloudy | weather_rain | weather_thunder
@@ -175,3 +186,14 @@ Il est possible également de mettre une variable globale directement dans la va
 * Description : permet d'indiquer si le projet est à l'heure, en retard ou très en retard. Cela affiche un texte spécifique et modifie la couleur du drapeau du widget.
 * Valeurs possibles : on_time | late | very_late
 * Exemple : ```"flag_level":"late"```
+
+Exemple de JSON à inclure dans le BPM général:
+
+```javascript
+ {
+      "uuid": "Project General Progress",
+      "script": [
+          [{"get":"src_path:d2548bd1-472a-441c-8dce-6681d6b7fe0f_@_2 - Avancement_@_progress"},{"to_global_var":"generalProgress"}]
+        ]
+    }
+```
