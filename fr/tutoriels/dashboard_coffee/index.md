@@ -190,10 +190,27 @@ Il est possible également de mettre une variable globale directement dans la va
 Exemple de JSON à inclure dans le BPM général:
 
 ```javascript
- {
+{
       "uuid": "Project General Progress",
-      "script": [
-          [{"get":"src_path:d2548bd1-472a-441c-8dce-6681d6b7fe0f_@_2 - Avancement_@_progress"},{"to_global_var":"generalProgress"}]
-        ]
-    }
+      "widget_uuid":"project_general_progress_widget",
+      "weather_level":"weather_rain",
+      "progress":"0.25",
+      "start_date":"1638316800000",
+      "end_date":"1685577600000",
+      "initial_end_date":"1672531200000",
+      "flag_level":"late"
+}
+```
+
+Exemple de JSON à inclure dans le BPM du widget:
+
+```javascript
+{      
+      "weather_level":"weather_rain",
+      "progress":"0.25",
+      "start_date":"1638316800000",
+      "end_date":"1685577600000",
+      "initial_end_date":"1672531200000",
+      "flag_level":"late"
+}
 ```
