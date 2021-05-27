@@ -58,20 +58,41 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : texte, chiffre, booléen
 * Exemple : ```"text":"Super texte"```, ```"text":"true"```, ```"text":"25"``` 
 
-**weather_type**
-* Description : Type d'affichage du widget. 3 types possibles : météo, feux de signalisation ou smiley.
-* Valeurs possibles : weather \| traffic_light \| smiley
-* Exemple : ```"weather_type":"traffic_light"```
+**font_size**
+* Description : Taille du texte en pixel.
+* Valeurs possibles : entier positif. Ne pas mettre "px" à la fin.
+* Exemple : ```"font_size":"12"```
 
-**image_height**
-* Description : hauteur de l'image en pixel.
-* Valeurs possibles : nombre entier positif. 
-* Exemple : ```"image_height":"50px"```
+**font_style**
+* Description : Style du text, normal ou italique.
+* Valeurs possibles : normal \| italic
+* Exemple : ```"font_style":"italic"```
 
-**image_width**
-* Description : largeur de l'image en pixel.
-* Valeurs possibles : nombre entier positif. 
-* Exemple : ```"image_width":"50px"```
+**font_weight**
+* Description : poids de la police, normal ou bold.
+* Valeurs possibles : normal \| bold
+* Exemple : ```"font_weight":"bold"```
+
+**prefix**
+* Description : texte placé en préfixe du texte principal.
+* Valeurs possibles : simple texte.
+* Exemple : ```"prefix":"Nombre de risques :"```
+
+**prefix_font_weight**
+* Description : poids de la police du préfixe.
+* Valeurs possibles : normal \| bold
+* Exemple : ```"prefix_font_weight":"bold"```
+
+**prefix_gap**
+* Description : indique si il faut laisser un espace entre le préfix et le texte principal.
+* Valeurs possibles : true \| false
+* Exemple : ```"prefix_gap":"false"```
+
+
+
+
+
+
 
 
 

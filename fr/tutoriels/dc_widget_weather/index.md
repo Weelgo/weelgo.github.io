@@ -65,12 +65,12 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **image_height**
 * Description : hauteur de l'image en pixel.
-* Valeurs possibles : nombre entier positif. 
+* Valeurs possibles : nombre entier positif. Ajouter "px" à la fin.
 * Exemple : ```"image_height":"50px"```
 
 **image_width**
 * Description : largeur de l'image en pixel.
-* Valeurs possibles : nombre entier positif. 
+* Valeurs possibles : nombre entier positif. Ajouter "px" à la fin.
 * Exemple : ```"image_width":"50px"```
 
 
