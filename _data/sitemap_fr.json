@@ -262,14 +262,13 @@
 			{
 				"name": "Dashboard Coffee",
 				"enable": "true",
-				"id": "47854rt",
-				"path": "dashboard_coffee",
+				"id": "47854rt",				
 				"image": "",
 				"sub": [
 					{
 						"name": "Général",
 						"description": "Info générales",
-						"path": "dashboard_coffee/general",
+						"path": "dc_general",
 						"id": "548rty45",
 						"enable": "true",
 						"image": ""				
@@ -277,7 +276,7 @@
 					{
 						"name": "Widget Project general progress",
 						"description": "Info widget",
-						"path": "dashboard_coffee/widget_project_general_progress",
+						"path": "dc_widget_project_general_progress",
 						"id": "gt45784",
 						"enable": "true",
 						"image": ""				
