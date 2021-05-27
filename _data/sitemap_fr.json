@@ -320,6 +320,24 @@
 				]
 			
 			}
+			,
+			{
+				"name": "Dashboard Coffee 2",
+				"enable": "true",
+				"id": "de78zrr",				
+				"image": "",
+				"sub": [
+					{
+						"name": "Widget budget",
+						"description": "Info widget",
+						"path": "dc_widget_budget",
+						"id": "88465er46",
+						"enable": "true",
+						"image": ""				
+					}
+				]
+			
+			}
 		]
 	},
 	{
