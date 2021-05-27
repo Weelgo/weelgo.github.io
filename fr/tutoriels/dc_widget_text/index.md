@@ -18,23 +18,46 @@ Exemple de JSON à inclure dans le BPM général:
       "uuid":"Météo",
       "type":"weather_widget",
       "widget_uuid":"uuid du widget à récupéré dans l'IHM",
-      "weather_level":"weather_rain",
-      "weather_type":"weather",
-      "image_height":"50px",
-      "image_width":"50px"      
+      "text":"Voici un super texte"    
 }
 ```
 
 Exemple de JSON à inclure dans le BPM du widget:
 
+JSON minimal
+
 ```javascript
 {      
-     "weather_level":"weather_rain",
-     "weather_type":"weather",
-     "image_height":"50px",
-     "image_width":"50px"
+     "text":"Voici un super texte"
 }
 ```
+
+JSON texte
+
+```javascript
+{      
+     "text":"Voici un super texte",
+     "text_color":"#e000e0",
+     "text_decoration":"underline",
+     "font_size":"20",
+     "font_style":"italic",
+     "white_space":"nowrap",
+     "prefix":"Nombre de risques :",
+     "prefix_font_weight":"bold",
+     "prefix_gap":"true",
+     "suffix":"Euros",
+     "suffix_font_weight":"bold",
+     "suffix_gap":"false"
+}
+```
+
+JSON pour un chiffre
+```javascript
+{      
+     "text":"Voici un super texte"
+}
+```
+
 
 ### Propriétés du widgets
 
@@ -59,7 +82,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 	* Si le texte est un booléen : il peut prendre les valeurs true \| false \| vrai \| faux \| 1 \| 0 \| oui \| non \| \| on \| off \| \| ok \| nok
 	* Si le texte est un nombre, il doit contenir des chiffres. Les chiifres peuvent êtres espacés par des espaces. Le séparateur des décimales peut être une virgule ou un point. Exemple : 1 000 256.997
 * Valeurs possibles : texte, chiffre, booléen
-* Exemple : ```"text":"Super texte"```, ```"text":"true"```, ```"text":"25"``` 
+* Exemple : ```"text":"Super texte"``` ou alors ```"text":"true"``` ou alors ```"text":"25"``` 
 
 **text_color**
 * Description : Couleur du texte.
@@ -121,7 +144,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : true \| false
 * Exemple : ```"suffix_gap":"true"```
 
-**format_type**
+**format_type** (obligatoire en cas de nombre, date, booléen ou markdwn)
 * Description : indique si le text est un texte, un booléen, un nombre, une date ou du markdown
 * Valeurs possibles : text \| number \| date_time \| boolean \| markdown
 * Exemple : ```"format_type":"date_time"```
