@@ -298,3 +298,62 @@ et possède chacune 3 points qui sont les points correspondants à chaque catég
   }
 }
 ```
+
+**Type série temporelle avec un axe Y temporel (ex : droite 45)**
+
+```javascript
+{
+  "x_axes": {
+    "columns": [
+      {
+        "name": "type",
+        "values": [
+          "time_series"
+        ]
+      }
+    ]
+  },
+  "y_axes": {
+    "columns": [
+      {
+        "name": "type",
+        "values": [
+          "time_series"
+        ]
+      }
+    ]
+  },
+  "datasets": {
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Série 1",
+          "Série 2"
+        ]
+      },
+      {
+        "name": "point_style",
+        "values": [
+          "circle",
+          "rect"
+        ]
+      },
+      {
+        "name": "point_radius",
+        "values": [
+          "10",
+          "10"
+        ]
+      },
+      {
+        "name": "values2d",
+        "values": [
+          [["1609459200000","1610236800000"],["1609545600000","1611964800000"],["1609632000000","1611964800000"]],
+          [["1609459200000","1611100800000"],["1609545600000","1611100800000"],["1609632000000","1611100800000"],["1609718400000","1611532800000"],["1609804800000","1611532800000"]]
+        ]
+      }
+    ]
+  }
+}
+```
