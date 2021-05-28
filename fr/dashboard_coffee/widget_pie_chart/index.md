@@ -21,7 +21,7 @@ Exemple de JSON à inclure dans le BPM général:
   "datasets": {
     "columns": [
       {
-        "name": "id",
+        "name": "uuid",
         "values": [
           "Nb pommes",
           "Nb patates",
@@ -47,7 +47,7 @@ Exemple de JSON à inclure dans le BPM du widget:
   "datasets":{
     "columns": [
       {
-        "name": "id",
+        "name": "uuid",
         "values": [
           "Nb pommes",
           "Nb patates",
@@ -127,7 +127,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 Ces propriétés sont les colonnes du tableau
 
-**id** (obligatoire)
+**uuid** (obligatoire)
 * Description : identifiant de la donnée. Peut-être le label.
 * Valeurs possibles : texte libre
 * Exemple : ```"Nb actions"```
@@ -155,7 +155,7 @@ Exemple :
   "datasets": {
     "columns": [
       {
-        "name": "id",
+        "name": "uuid",
         "values": [
           "NBPo",
           "NBPa",

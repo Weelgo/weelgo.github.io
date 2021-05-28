@@ -18,7 +18,7 @@ Exemple de JSON à inclure dans le BPM général:
   "uuid": "Roadmap",
   "type": "roadmap_widget",
   "widget_uuid": "uuid du widget à récupéré dans l'IHM",
-  
+  "lines":"Mettre ici la structure des lignes comme ci dessous"
 }
 ```
 
@@ -26,7 +26,82 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 ```javascript
 {
-  
+  "lines": {
+    "columns": [
+      {
+        "name": "uuid",
+        "values": [
+          "gp1",
+          "ph1",
+          "ml1",
+          "gp2"
+        ]
+      },
+      {
+        "name": "name",
+        "values": [
+          "Groupe 1",
+          "Phase 1",
+          "Jalon 1",
+          "Groupe 2"
+        ]
+      },
+      {
+        "name": "parent_uuid",
+        "values": [
+          "",
+          "gp1",
+          "gp2",
+          "gp1"
+        ]
+      },
+      {
+        "name": "object_type",
+        "values": [
+          "group",
+          "phase",
+          "milestone",
+          "group"
+        ]
+      },
+      {
+        "name": "background_color",
+        "values": [
+          "#ff4da6",
+          "#9e1fff",
+          "#009e9e",
+          "#e0e000"
+        ]
+      },
+      {
+        "name": "start_date",
+        "values": [
+          "",
+          "1609804800000",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "end_date",
+        "values": [
+          "",
+          "1611100800000",
+          "1611100800000",
+          ""
+        ]
+      },
+      {
+        "name": "icon_type",
+        "values": [
+          "",
+          "",
+          "ic_diamond_solid",
+          ""
+        ]
+      }
+    ]
+  }
 }
 ```
 
