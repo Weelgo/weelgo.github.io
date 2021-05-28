@@ -77,10 +77,11 @@ Exemple de JSON à inclure dans le BPM du widget: Voir plus bas.
 
 **datasets**
 * Description : Définition des données à utiliser dans le graphiqie. Voir exemple plus bas.
+* Valeurs possibles : tableau. Voir ci dessous
 
 #### Propriété spécifique au datasets
 
-Ces propriétés doivent être placé dans une cellule du tableau
+Ces propriétés sont les colonnes du tableau
 
 **name**
 * Description : Nom du set de données.
