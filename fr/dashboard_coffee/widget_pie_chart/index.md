@@ -115,7 +115,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Exemple : ```"pie_central_void_size":"0.7"```
 
 **pie_rotation**
-* Description : rotation du camembert
+* Description : rotation du camembert. -90 (avec pie_circumference:180) pour avoir un arc en ciel. 
 * Valeurs possibles : entier entre 0 et 360
 * Exemple : ```"pie_rotation":"45"```
 
