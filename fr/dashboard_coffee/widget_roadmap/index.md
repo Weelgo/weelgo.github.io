@@ -172,7 +172,7 @@ Les lignes du tableau sont communes pour les Groupe, les Phases et les Jalons
 * Valeurs possibles : true \| ***false***
 * Exemple : ```"true"```
 
-**name_color**
+**name_color** (uniquement pour les groupes)
 * Description : Couleur du nom
 * Valeurs possibles : couleur au format hexadécimal précédé d’un #.
 * Exemple : ```"#e000e0"```
@@ -197,7 +197,7 @@ Les lignes du tableau sont communes pour les Groupe, les Phases et les Jalons
 * Valeurs possibles : voir IconEnum 
 * Exemple : ```"ic_diamond_solid"```
 
-**show_date** (pour les phases et les jalons uniquement)
+**show_date** (pour les jalons uniquement)
 * Description : Affiche la date dans la roadmap
 * Valeurs possibles : true \| ***false***
 * Exemple : ```"true"```
