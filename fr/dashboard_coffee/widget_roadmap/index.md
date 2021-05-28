@@ -47,5 +47,84 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : L'uuid du widget est affiché dans les propriété du widget dans l'IHM. 
 * Exemple : ```"widget_uuid":"F5441C4C-BEFF-4E92-B7F3-308DA0"```
 
+**width**  
+* Description : largeur du widget
+* Valeurs possibles : nombre entier, ajouter "px" à la fin 
+* Exemple : ```"width":"100px"```
+
+**lines**
+* Description : Définition des données à utiliser dans la roadmap
+* Valeurs possibles : tableau. Voir ci dessous
+
+#### Propriété spécifique à la propriété **lines**
+
+Ces propriétés sont les colonnes du tableau
+
+Les lignes du tableau sont communes pour les Groupe, les Phases et les Jalons
+
+**uuid**  (obligatoire)
+* Description : Uuid de la ligne. Est utilisé pour mapper les parent/enfante entre eux
+* Valeurs possibles : texte libre
+* Exemple : ```"4565-548-456"```
+
+**name**  (obligatoire)
+* Description : Nom de la ligne.
+* Valeurs possibles : texte libre
+* Exemple : ```"4565-548-456"```
+
+**object_type** (obligatoire)
+* Description : Type de l'objet : groupe, phase ou milestone
+* Valeurs possibles : group \| phase \| milestone
+* Exemple : ```"milestone"```
+
+**parent_uuid**
+* Description : Uuid du parent. Si non présent, alors le parent est le groupe racine
+* Valeurs possibles : texte libre
+* Exemple : ```"4565-548-456"```
+
+**order_index**
+* Description : Ordre d'affichage dans les groupe
+* Valeurs possibles : entier supérieur ou égal à 0
+* Exemple : ```"2"```
+
+**background_color**
+* Description : Pour le groupe : couleur du fond. Pour une phase ou un milestone : couleur de la phase ou de l'icone du milestone.
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+* Exemple : ```"#e000e0"```
+
+**bold_name**
+* Description : Nom en gras ou pas
+* Valeurs possibles : true \| ***false***
+* Exemple : ```"true"```
+
+**name_color**
+* Description : Couleur du nom
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+* Exemple : ```"#e000e0"```
+
+**style** (pour les groupe uniquement)
+* Description : affichage horizontal ou vertical du nom
+* Valeurs possibles : **h_block** \| v_block
+* Exemple : ```"v_block"```
+
+**start_date** (pour les phases uniquement)
+* Description : date de début de la phase.
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12 janv 2021 0h00 UTC -> 1610409600000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Exemple : ```"1638316800000"```
+
+**end_date** (pour les phases et les jalons uniquement)
+* Description : date de fin de la phase ou du jalon.
+* Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 30 janv 2021 0h00 UTC -> 1611964800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
+* Exemple : ```"1685577600000"```
+
+**icon_type**(pour les jalons uniquement)
+* Description : icone du jalon
+* Valeurs possibles : voir IconEnum 
+* Exemple : ```"ic_diamond_solid"```
+
+**show_date** (pour les phases et les jalons uniquement)
+* Description : Affiche la date dans la roadmap
+* Valeurs possibles : true \| ***false***
+* Exemple : ```"true"```
 
 
