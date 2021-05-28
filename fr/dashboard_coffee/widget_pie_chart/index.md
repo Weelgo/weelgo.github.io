@@ -92,7 +92,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 **legend_position**
 * Description : positino de la légende
 * Valeurs possibles : top \| right \| left \| **bottom**
-* Exemple : ```"legend_position":"traffic_light"```
+* Exemple : ```"legend_position":"right"```
 
 **pie_height**
 * Description : hauteur du camembert en pixel

@@ -50,7 +50,7 @@ Exemple de JSON à inclure dans le BPM du widget: Voir plus bas.
 **legend_position**
 * Description : positino de la légende
 * Valeurs possibles : top \| right \| left \| **bottom**
-* Exemple : ```"legend_position":"traffic_light"```
+* Exemple : ```"legend_position":"right"```
 
 **chart_height**
 * Description : hauteur du graphique en pixel.
