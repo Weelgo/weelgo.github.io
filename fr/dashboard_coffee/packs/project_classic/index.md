@@ -14,12 +14,25 @@ Le principe est de créer des variables globales qui seront peuplé par le scrip
 ### Liste des variables globales
 
 **g_general_weather**
+
 **g_general_progress**
+
 **g_general_start_date**
+
 **g_general_initial_end_date**
+
 **g_general_end_date**
+
 **g_general_flag_level**
 
+### JSON général du dashboard
+
+C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous les scripts qui peuplerons les variables globales. Ces variables globales seront alos utilisé dans les widgets du dashboard.
+
+```javascript
+{ 
+	
+}
 
 ### Progression générale du projet
 
