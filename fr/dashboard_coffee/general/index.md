@@ -30,6 +30,24 @@ Explication :
 * "type" : Type de la tâche. Certaines tâche ont un role particulier, comme les tâches correspondant aux widget qui s'occupent de formater la donnée pour permettre un afichage dans le widget.
 * "widget\_uuid" : Uuid du widget, utilisé pour les tâche de type widget. N'est pas obligatoire.
 
+### Récupération de variable directement dans les valeurs des propriété
+
+Si vous avez créé une variable à l'aide du scripting, vous pouvez la récupérer directement pour la mettre dans une propriété d'un widget. Vous pouvez récupérer soit des variables globales, soit des extractions de données.
+
+Exemple d'une extraction de donnée directement en paramètre : 
+```javascript
+{
+  "progress":"src_path:uuidDuReporting_@_progress"
+}
+```  
+
+Exemple de récupération d'une variable globale directement en paramètre : 
+```javascript
+{
+  "progress":"global_var:ma_variable_1"
+}
+```
+
 ### Utilisation du scripting
 
 Il suffit d'ajouter une propriété **script** à un objet **tâche**.
