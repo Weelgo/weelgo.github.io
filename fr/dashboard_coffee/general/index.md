@@ -72,6 +72,25 @@ Par exemple le script suivant :
 2 : on récupère la météo dans une source de donnée. Notez le   ```${area_uuid}``` qui permet de concaténer l'uuid du reporting directement dans le path. Ainsi vous pouvez podifier l'uuid du rapport sans avoir a changer
 tous les path des variables.
 
+Autre exemple :
+
+```javascript
+{
+  "tasks": [
+    {
+      "uuid": "main",
+      "script": [
+          [{"string":"384e85e8-3949-4dd5-aa1a-b47fb78ef013"},{"to_global_var":"area_uuid"}],
+          [{"string":"méga top text"},{"to_global_var":"top_text"}],
+          [{"string":"Spok${area_uuid}pipo max${top_text}toto"},{"to_global_var":"test"}],
+          [{"log_error":"${test} + ${yolo} + ${area_uuid}"}]
+        ]
+      
+    }
+  ]
+}
+```
+
 ### Utilisation du scripting
 
 Il suffit d'ajouter une propriété **script** à un objet **tâche**.
@@ -109,6 +128,14 @@ Liste des instructions :
 **integer**
 * Description : récupère l'entier en paramètre
 * Exemple :  ```{"integer":"25"}```
+
+**string**
+* Description : récupère la chaine de caractère en paramètre. Notez que vous pouvez utiliser ```${nom_de_variable}``` dans le paramètre pour concaténer directement la valeur de la variable dans la chaine.
+* Exemple :  ```{"string":"Mon texte"}``` ou encore ```{"string":"Je m'apelle ${user_name}"}```
+
+**log_error**
+* Description : permet d'écrire dans le log d'erreur une information. Utile pour le débuggage.  Notez que vous pouvez utiliser ```${nom_de_variable}``` dans le paramètre pour concaténer directement la valeur de la variable dans la chaine.
+* Exemple :  ```{"log_error":"Une erreur"}``` ou encore ```{"log_error":"Une erreur sur l'utilisateur  ${user_name}"}``` 
 
 **to\_local\_var**
 * Description : met la variable dans le pool de variable locale. Ces variables ne seront accessible que au sein de la tâche. Elles seront supprimée à la fin du tritement dela tâche
