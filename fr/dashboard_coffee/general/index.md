@@ -79,17 +79,20 @@ Autre exemple :
   "tasks": [
     {
       "uuid": "main",
+      "debug_mode": "true",
       "script": [
           [{"string":"384e85e8-3949-4dd5-aa1a-b47fb78ef013"},{"to_global_var":"area_uuid"}],
           [{"string":"méga top text"},{"to_global_var":"top_text"}],
           [{"string":"Spok${area_uuid}pipo max${top_text}toto"},{"to_global_var":"test"}],
-          [{"log_error":"${test} + ${yolo} + ${area_uuid}"}]
+          [{"log_debug":"${test} + ${top_text} + ${area_uuid}"}]
         ]
       
     }
   ]
 }
 ```
+
+Ici nous actifons l'affichage du mode debug. Par défaut, le mode débug est désactivé, cad que aucun affichage sera produit coté IHM.
 
 ### Utilisation du scripting
 
