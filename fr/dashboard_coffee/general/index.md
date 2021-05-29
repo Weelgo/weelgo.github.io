@@ -48,6 +48,30 @@ Exemple de récupération d'une variable globale directement en paramètre :
 }
 ```
 
+Il est également possible de récupérer la valeur sous format String d'une variable au milieu d'un paramètre. Pour cela utilisez ```${nom_de_la_variable}``` au milieu d'un path.
+
+C'est pratique quand on a veut constituer des path relatigs de récupération de données.
+
+Par exemple le script suivant :
+```javascript
+{
+  "tasks": [
+    {
+      "uuid": "main",
+      "script": [
+          [{"string":"384e85e8-3949-4dd5-aa1a-b47fb78ef013"},{"to_global_var":"area_uuid"}],
+          [{"get":"src_path:${area_uuid}_@_project_general_status_and_progress_@_weather"},{"to_global_var":"g_general_weather"}]          
+        ]
+      
+    }
+  ]
+}
+```
+1 : On place une variable de type String en variable global.
+
+2 : on récupère la météo dans une source de donnée. Notez le   ```${area_uuid}``` qui permet de concaténer l'uuid du reporting directement dans le path. Ainsi vous pouvez podifier l'uuid du rapport sans avoir a changer
+tous les path des variables.
+
 ### Utilisation du scripting
 
 Il suffit d'ajouter une propriété **script** à un objet **tâche**.

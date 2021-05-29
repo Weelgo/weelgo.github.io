@@ -35,9 +35,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
     {
       "uuid": "main",
       "script": [
-          [{"string":"384e85e8-3949-4dd5-aa1a-b47fb78ef013"},{"to_global_var":"g_reporting_area_uuid"}],
-          [{"get":"src_path:project_general_status_and_progress_@_weather"},{"to_global_var":"g_general_weather"}],
-          [{"get":"src_path:project_general_status_and_progress_@_progress"},{"to_global_var":"g_general_progress"}]
+          [{"string":"384e85e8-3949-4dd5-aa1a-b47fb78ef013"},{"to_global_var":"area_uuid"}],
+          [{"get":"src_path:${area_uuid}_@_project_general_status_and_progress_@_weather"},{"to_global_var":"g_general_weather"}],
+          [{"get":"src_path:${area_uuid}_@_project_general_status_and_progress_@_progress"},{"to_global_var":"g_general_progress"}]
         ]
       
     }
