@@ -30,9 +30,20 @@ Le principe est de créer des variables globales qui seront peuplé par le scrip
 C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous les scripts qui peuplerons les variables globales. Ces variables globales seront alos utilisé dans les widgets du dashboard.
 
 ```javascript
-{ 
-	
+{
+  "tasks": [
+    {
+      "uuid": "main",
+      "script": [
+          [{"string":"384e85e8-3949-4dd5-aa1a-b47fb78ef013"},{"to_global_var":"g_reporting_area_uuid"}],
+          [{"get":"src_path:project_general_status_and_progress_@_weather"},{"to_global_var":"g_general_weather"}],
+          [{"get":"src_path:project_general_status_and_progress_@_progress"},{"to_global_var":"g_general_progress"}]
+        ]
+      
+    }
+  ]
 }
+```
 
 ### Progression générale du projet
 
