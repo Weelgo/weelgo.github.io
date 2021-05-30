@@ -146,7 +146,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : voir l'enum IconEnum
 * Exemple : ```"ic_diamond_solid"```
 
-**event_date**
+**date**
 * Description : date de l'évènement
 * Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12 janv 2021 0h00 UTC -> 1610409600000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
 * Exemple : ```"1638316800000"```
