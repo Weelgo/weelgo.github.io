@@ -248,6 +248,13 @@ Exemple de script avec des if
     {
       "uuid": "main",
       "script": [
+          [{"real":"86400000"},{"to_global_var":"g_day_in_msec"}],
+          [{"real":"30"},{"multiply":"g_day_in_msec"},{"to_local_var":"very_late_limit_in_msec"}],
+          [{"real":"15"},{"multiply":"g_day_in_msec"},{"to_local_var":"late_limit_in_msec"}],
+          
+          [{"comment":"En fonction des dates, on va mettre le flag on_time, late ou very_late"}],
+          [{"if_time_def":["g_general_end_date","g_general_initial_end_date"]},{"substract":["g_general_end_date","g_general_initial_end_date"]},{"to_local_var":"dateDelta"},{"end_if":""}],
+          
            [{"if_sup_to":["dateDelta","very_late_limit_in_msec"]},{"string":"very_late"},{"to_global_var":"g_general_flag_if"},{"else":""},{"if_sup_to":["dateDelta","late_limit_in_msec"]},{"string":"late"},{"to_global_var":"g_general_flag_if"},{"else":""},{"string":"on_time"},{"to_global_var":"g_general_flag_if"},{"end_if":""}]
         ]
     }
