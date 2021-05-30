@@ -237,3 +237,20 @@ Autre exemple ou on récupère la progression directement à partir de la source
 Ici, la progression est récupéré dirctement depuis la source en utilisant la progression présente dans le rapport **548645-847-4445** dans la section **2 - Avancement**.
 
 Il est possible également de mettre une variable globale directement dans la valeur de la propriété : ```"bar_progress": "global_var:var1"``` . Ici la variable **var1** stockée en global sera utilisé pour la propriété **bar_progress**.
+
+
+
+Exemple de script avec des if
+
+```javascript
+{
+  "tasks": [
+    {
+      "uuid": "main",
+      "script": [
+           [{"if_sup_to":["dateDelta","very_late_limit_in_msec"]},{"string":"very_late"},{"to_global_var":"g_general_flag_if"},{"else":""},{"if_sup_to":["dateDelta","late_limit_in_msec"]},{"string":"late"},{"to_global_var":"g_general_flag_if"},{"else":""},{"string":"on_time"},{"to_global_var":"g_general_flag_if"},{"end_if":""}]
+        ]
+    }
+  ]
+}
+```
