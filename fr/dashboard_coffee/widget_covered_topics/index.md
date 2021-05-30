@@ -107,7 +107,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : texte libre en markdown
 * Exemple : ```"Super **commentaire**"```
 
-**decisions_actions**
+**decisions_or_actions**
 * Description : décisions ou action prises à propos du sujet abordé.
 * Valeurs possibles : texte libre en markdown
 * Exemple : ```"Super **décision**"```

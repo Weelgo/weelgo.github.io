@@ -34,10 +34,18 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "tasks": [
     {
       "uuid": "main",
+      "debug_mode": "true",
       "script": [
           [{"string":"384e85e8-3949-4dd5-aa1a-b47fb78ef013"},{"to_global_var":"area_uuid"}],
           [{"get":"src_path:${area_uuid}_@_project_general_status_and_progress_@_weather"},{"to_global_var":"g_general_weather"}],
-          [{"get":"src_path:${area_uuid}_@_project_general_status_and_progress_@_progress"},{"to_global_var":"g_general_progress"}]
+          [{"get":"src_path:${area_uuid}_@_project_general_status_and_progress_@_progress"},{"to_global_var":"g_general_progress"}],
+          [{"get":"src_path:${area_uuid}_@_project_general_data_@_start_date"},{"to_global_var":"g_general_start_date"}],
+          [{"get":"src_path:${area_uuid}_@_project_general_data_@_end_date"},{"to_global_var":"g_general_end_date"}],
+          [{"get":"src_path:${area_uuid}_@_project_general_data_@_initial_end_date"},{"to_global_var":"g_general_initial_end_date"}],
+          [{"get":"src_path:${area_uuid}_@_project_general_data_@_leaders"},{"get_table":""},{"to_global_var":"g_general_leaders"}],
+          
+          [{"log_debug":"General weather : ${g_general_weather}"}],
+          [{"log_debug":"General progress : ${g_general_progress}"}]
         ]
       
     }

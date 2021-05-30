@@ -120,6 +120,10 @@ Le script exécute chaque ligne d'instructions. Une ligne peut recevoir plusieur
 
 Liste des instructions :
 
+**comment**
+* Description : permet de mettre un commentaire. Ne fait rien de particulier, n'exécute aucune fonction.
+* Exemple :  ```{"comment":"J'écris un comentaire pour commenter mon code"}```
+
 **get**
 * Description : récupère une variable. La récupération peut se faire à plusieurs niveaux.
 	* Extraction de donnée : permet de chercher une donnée dans la source. Cette donnée est localisée grâce à un path. Ce path est par exemple : **programme1\_@\_comex\_@\_progress** . Ce path va récupérer la donnée progress dans le reporting comex du programme1. Dans la pratique, nous préférons utilise l'uuid du comex durectement pour éviter les problèmes de path lié au changement de structure du projet. Enfin, pour indiquer qu'il s'agit d'une extraction, il faut ajouter le suffixe **src_path:** au path. Le path serait donc : **src_path:457575-457\_@\_progress** . Notez que le séparateur de path est **\_@\_** .
@@ -147,6 +151,27 @@ Liste des instructions :
 **to\_global\_var**
 * Description : met la variable dans le pool de variables globales. Ces variables seront accessibles pour toutes les tâches suivante.
 * Exemple :  ```{"to_global_var":"var1"}```
+
+**get\_table**
+* Description : Permet de récupéere les données de certaines variables extraites de la source de données, en particulier les tableau.
+En effet si on extrait par exemple une source de données de type ```human_resources```, cette donnée possède une liste d'utilisateurs. mais également une référence
+vers la série temporelle accumulée sur les rapports. Pour récupérer le tableau des utilisateurs, il font donc utiliser cette fonction
+* Paramètre : pas de paramètre.
+* Exemple :  dans l'exemple ci dessous, un récupère les leaders de la données source, puis on sélectionne le contenu qui est une liste d'utilisateurs puis on met cette liste en variable globale.
+```javascript
+{
+  "tasks": [
+    {
+      "uuid": "main",
+      "script": [
+           [{"get":"src_path:7817-785_@_project_general_data_@_leaders"},{"get_table":""},{"to_global_var":"g_general_leaders"}]
+        ]
+    }
+  ]
+}
+```
+
+L'utilisation de ```get_table``` est utile pour les extractions de type tableau. Quand il s'agit d'extraction de type texte, nombre, booléen, il n'est pas utile d'utiliser cette fonction.
 
 **average**
 * Description : permet de faire une moyenne des ligne de la variable.
