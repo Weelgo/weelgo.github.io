@@ -28,10 +28,31 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 ```javascript
 {
-  "weather_level":"weather_cloudy",
+  "weather_level":"weather_sun",
   "progress":"0.35",
-  "flag_level":"late"
+  "flag_level":"on_time",
+  "phase_name":"Phase 1",
+  "start_date":"1610236800000",
+  "end_date":"1613779200000",
+  "initial_end_date":"1613779200000",
+  "leaders":{
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+            "Paul Dupond"
+        ]
+      },
+      {
+        "name": "uuid",
+        "values": [
+            "54654-465484-46546"
+        ]
+      }
+    ]
+  }
 }
+
 ```
 
 ### Propriétés du widget
@@ -74,17 +95,17 @@ Exemple de JSON à inclure dans le BPM du widget:
 **start_date**
 * Description : date de début de la phase.
 * Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 12 janv 2021 0h00 UTC -> 1610409600000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
-* Exemple : ```"start_date":"1638316800000"```
+* Exemple : ```"start_date":"1610236800000"```
 
 **end_date**
 * Description : date de fin de la phase.
 * Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 30 janv 2021 0h00 UTC -> 1611964800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
-* Exemple : ```"end_date":"1685577600000"```
+* Exemple : ```"end_date":"1613779200000"```
 
 **initial_end_date**
 * Description : date de fin initiale de la phase.
 * Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 25 janv 2021 0h00 UTC -> 1611532800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
-* Exemple : ```"initial_end_date":"1672531200000"```
+* Exemple : ```"initial_end_date":"1613779200000"```
 
 **leaders**
 * Description : responsables de la phase
@@ -123,17 +144,13 @@ Exemple de JSON avec responsables (avec uuid) :
       {
         "name": "name",
         "values": [
-          "Paul Dupond",
-          "Marc Lupin"
+            "Paul Dupond"
         ]
       },
       {
         "name": "uuid",
         "values": [
-          [
-            "54654-465484-46546",
-            "4494-56544"
-          ]
+            "54654-465484-46546"
         ]
       }
     ]
