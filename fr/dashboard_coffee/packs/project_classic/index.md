@@ -358,3 +358,494 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
 }
 
 ```
+
+### Tableau des phases
+```javascript
+{
+  "progress":"0.2",
+  "phases":{
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Phase 1",
+          "Phase 2",
+          "Phase 3",
+          "Phase 4"
+        ]
+      },
+      {
+        "name": "progress",
+        "values": [
+          "1",
+          "0.2",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "name": "weather",
+        "values": [
+          "weather_cloudy ",
+          "weather_rain",
+          "weather_sun",
+          "weather_sun"
+        ]
+      }
+    ]
+  },
+  "real_data":"false",
+  "script": [
+      [{"get":"g_general_progress"},{"to_local_var":"progress"}],
+      [{"get":"g_project_phases_table"},{"to_local_var":"phases"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Sujets abordés
+```javascript
+{
+  "topics":{
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Sujet important 1",
+          "Sujet important 2",
+          "Sujet important 3"
+        ]
+      },
+      {
+        "name": "description",
+        "values": [
+          "Description sujet 1",
+          "",
+          "Description sujet 3"
+        ]
+      }
+    ]
+  },
+  "real_data":"false",
+  "script": [
+      [{"get":"g_covered_topics"},{"to_local_var":"topics"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+
+```
+
+### Evènements significatifs
+```javascript
+{
+  "events": {
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Evènement 1",
+          "Evènement 2"
+        ]
+      },
+      {
+        "name": "description",
+        "values": [
+          "Description évènement 1",
+          "Description *évènement 2*"
+        ]
+      },
+      {
+        "name": "icon",
+        "values": [
+          "ic_diamond_solid",
+          "ic_exclamation_circle_solid"
+        ]
+      },
+      {
+        "name": "event_date",
+        "values": [
+          "1638316800000",
+          "1610409600000"
+        ]
+      }
+    ]
+  },
+  "real_data":"false",
+  "script": [
+      [{"get":"g_significant_events"},{"to_local_var":"events"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Camembert relation client
+```javascript
+{
+  "legend_position":"right",
+  "pie_height":"70px",
+  "pie_width":"70px",
+  "datasets":{
+    "columns": [
+      {
+        "name": "uuid",
+        "values": [
+          "Demandes réalisées : 50",
+          "Demandes restantes : 30"
+        ]
+      },
+      {
+        "name": "value",
+        "values": [
+          "50",
+          "30"
+        ]
+      }
+    ]
+  } ,
+  "real_data":"false",
+  "script": [
+      [{"get":"g_customer_satisfaction_pie_chart"},{"to_local_var":"datasets"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Nb total demande relation client
+```javascript
+{
+  "text":"80",
+  "prefix":"Nb total de demandes :",
+  "prefix_gap":"true",
+  "format_type":"number",
+  "real_data":"false",
+  "script": [
+      [{"get":"g_customer_satisfaction_nb_requests"},{"to_local_var":"text"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Budget 2 (dans artie détail)
+
+```javascript
+{
+  "total_budget": "250000",
+  "committed_budget": "100000",
+  "to_commit_budget": "120000",
+  "show_chart":"false",
+  "real_data":"false",
+  "script": [
+      [{"get":"g_budget_total"},{"to_local_var":"total_budget"}],
+      [{"get":"g_budget_committed"},{"to_local_var":"committed_budget"}],
+      [{"get":"g_budget_to_commit"},{"to_local_var":"to_commit_budget"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Budget graphe (dans artie détail)
+
+```javascript
+{
+  "show_legend":"false",
+  "x_axes": {
+    "columns": [
+      {
+        "name": "type",
+        "values": [
+          "time_series"
+        ]
+      }
+    ]
+  },
+  "datasets": {
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Total",
+          "Engagé",
+          "A Engager",
+          "Situation"
+        ]
+      },
+      {
+        "name": "border_color",
+        "values": [
+          "#2f3433",
+          "#1db9db",
+          "#cccccc",
+          "#41c057"
+        ]
+      },
+      {
+        "name": "values2d",
+        "values": [
+          [["1609459200000","100000"],["1609545600000","120000"],["1609632000000","150000"]],
+          [["1609459200000","60000"],["1609545600000","60000"],["1609632000000","70000"]],
+          [["1609459200000","20000"],["1609545600000","20000"],["1609632000000","40000"]],
+          [["1609459200000","20000"],["1609545600000","60000"],["1609632000000","40000"]]
+        ]
+      }
+    ]
+  },
+  "real_data":"false",
+  "script": [
+      [{"get":"g_budget_timeseries"},{"to_local_var":"datasets"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Charge planifiée
+
+```javascript
+{
+  "text":"300",
+  "suffix":"J/H",
+  "suffix_gap":"true",
+  "format_type":"number",
+  "real_data":"false",
+  "script": [
+      [{"get":"g_planned_workload"},{"to_local_var":"text"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Charge consommée
+
+```javascript
+{
+  "text":"170",
+  "suffix":"J/H",
+  "suffix_gap":"true",
+  "format_type":"number",
+  "real_data":"false",
+  "script": [
+      [{"get":"g_workload_done"},{"to_local_var":"text"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Charge reste à faire
+
+```javascript
+{
+  "text":"200",
+  "suffix":"J/H",
+  "suffix_gap":"true",
+  "format_type":"number",
+  "real_data":"false",
+  "script": [
+      [{"get":"g_workload_to_do"},{"to_local_var":"text"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Charge situation
+
+```javascript
+{
+  "text":"-70",
+  "text_color":"red",
+  "suffix":"J/H",
+  "suffix_gap":"true",
+  "format_type":"number",
+  "real_data":"false",
+  "script": [
+      [{"get":"g_workload_situation"},{"to_local_var":"text"}],
+      [{"get":"g_workload_situation_color"},{"to_local_var":"text_color"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Charge graphe
+
+```javascript
+{
+  "show_legend":"true",
+  "x_axes": {
+    "columns": [
+      {
+        "name": "type",
+        "values": [
+          "time_series"
+        ]
+      }
+    ]
+  },
+  "datasets": {
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Planifié",
+          "Consommé",
+          "Reste à faire"
+        ]
+      },
+      {
+        "name": "border_color",
+        "values": [
+          "#2f3433",
+          "#1db9db",
+          "#cccccc"
+        ]
+      },
+      {
+        "name": "values2d",
+        "values": [
+          [["1609459200000","200"],["1609545600000","250"],["1609632000000","300"]],
+          [["1609459200000","100"],["1609545600000","110"],["1609632000000","170"]],
+          [["1609459200000","70"],["1609545600000","100"],["1609632000000","200"]]          
+        ]
+      }
+    ]
+  },
+  "real_data":"false",
+  "script": [
+      [{"get":"g_workload_timeseries"},{"to_local_var":"datasets"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Camembert nb tâches
+```javascript
+{
+  "legend_position":"right",
+  "pie_height":"70px",
+  "pie_width":"70px",
+  "datasets":{
+    "columns": [
+      {
+        "name": "uuid",
+        "values": [
+          "Nb tâches réalisées : 30",
+          "Nb tâches restantes : 10"
+        ]
+      },
+      {
+        "name": "value",
+        "values": [
+          "30",
+          "10"
+        ]
+      }
+    ]
+  } ,
+  "real_data":"false",
+  "script": [
+      [{"get":"g_tasks_pie_chart"},{"to_local_var":"datasets"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Nb total de tâches
+```javascript
+{
+  "text":"40",
+  "prefix":"Nb total de tâches :",
+  "prefix_gap":"true",
+  "format_type":"number",
+  "real_data":"false",
+  "script": [
+      [{"get":"g_nb_tasks"},{"to_local_var":"text"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+```
+
+### Roadmap
+```javascript
+{
+  "lines": {
+    "columns": [
+      {
+        "name": "uuid",
+        "values": [
+          "gp1",
+          "ph1",
+          "ml1",
+          "gp2"
+        ]
+      },
+      {
+        "name": "name",
+        "values": [
+          "Groupe 1",
+          "Phase 1",
+          "Jalon 1",
+          "Groupe 2"
+        ]
+      },
+      {
+        "name": "parent_uuid",
+        "values": [
+          "",
+          "gp1",
+          "gp2",
+          "gp1"
+        ]
+      },
+      {
+        "name": "object_type",
+        "values": [
+          "group",
+          "phase",
+          "milestone",
+          "group"
+        ]
+      },
+      {
+        "name": "background_color",
+        "values": [
+          "#ff4da6",
+          "#9e1fff",
+          "#009e9e",
+          "#e0e000"
+        ]
+      },
+      {
+        "name": "start_date",
+        "values": [
+          "",
+          "1609804800000",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "end_date",
+        "values": [
+          "",
+          "1611100800000",
+          "1611100800000",
+          ""
+        ]
+      },
+      {
+        "name": "icon",
+        "values": [
+          "",
+          "",
+          "ic_diamond_solid",
+          ""
+        ]
+      }
+    ]
+  },
+  "real_data":"false",
+  "script": [
+      [{"get":"g_project_roadmap"},{"to_local_var":"lines"}],
+      [{"boolean":"true"},{"to_local_var":"real_data"}]
+    ]
+}
+
+```
+

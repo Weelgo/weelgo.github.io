@@ -18,6 +18,7 @@ Exemple de JSON à inclure dans le BPM général:
   "uuid": "Phases",
   "type": "phases_summary",
   "widget_uuid": "uuid du widget à récupéré dans l'IHM",
+  "progress":"0.2",
   "phases":{
     "columns": [
       {
@@ -45,6 +46,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 ```javascript
 {
+  "progress":"0.2",
   "phases":{
     "columns": [
       {
@@ -85,10 +87,31 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : L'uuid du widget est affiché dans les propriété du widget dans l'IHM. 
 * Exemple : ```"widget_uuid":"F5441C4C-BEFF-4E92-B7F3-308DA0"```
 
+**progress**
+* Description : progression de la barre principale
+* Valeurs possibles : valeur ente 0 et 1
+* Exemple : ```"progress":"0.33"```
+
+**width**
+* Description : largeur du tableau
+* Valeurs possibles : entier positif, ajouter "px" à la fin
+* Exemple : ```"width":"100px"```
+
+**nb_max_columns**
+
+**show_main_progress_bar**
+
+**main_progress_bar_color**
+
+**main_progress_bar_background_color**
+
 
 **phases**  
 * Description : tableau contenant les phases
 * Valeurs possibles : voir la description des paramètres ci dessous
+
+
+
 
 #### Colonnes possibles du tableau des phases
 

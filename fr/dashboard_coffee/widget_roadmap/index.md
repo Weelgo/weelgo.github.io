@@ -92,7 +92,7 @@ Exemple de JSON à inclure dans le BPM du widget:
         ]
       },
       {
-        "name": "icon_type",
+        "name": "icon",
         "values": [
           "",
           "",
