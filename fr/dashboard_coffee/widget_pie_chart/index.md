@@ -119,6 +119,11 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : entier entre 0 et 360
 * Exemple : ```"pie_rotation":"45"```
 
+**fill_pie_if_zero**
+* Description : Si toutes les ligne on une valeur égale à 0, alors on affiche une camambert contenant des quartiers égau 
+* Valeurs possibles : **true** \| false
+* Exemple : ```"fill_pie_if_zero":"false"```
+
 **datasets**
 * Description : Définition des données à utiliser dans le graphiqie. Voir exemple plus bas.
 * Valeurs possibles : tableau. Voir ci dessous
