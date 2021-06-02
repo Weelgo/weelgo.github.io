@@ -34,17 +34,19 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "tasks": [
     {
       "uuid": "main",
-      "debug_mode": "true",
+      "debug_mode": "false",
       "script": [
           [{"comment":"On met en variable l'uuid du reporting area"}],
           [{"string":"384e85e8-3949-4dd5-aa1a-b47fb78ef013"},{"to_global_var":"area_uuid"}],
+          
+          [{"if_variable_exists":"src_path:${area_uuid}_@_timetables"},{"boolean":"false"},{"to_global_var":"disable_all_scripts"},{"else":""},{"boolean":"true"},{"to_global_var":"disable_all_scripts"},{"break":""},{"end_if":""}],
           
           [{"get":"src_path:${area_uuid}_@_project_general_status_and_progress_@_weather"},{"to_global_var":"g_general_weather"}],
           [{"get":"src_path:${area_uuid}_@_project_general_status_and_progress_@_progress"},{"to_global_var":"g_general_progress"}],
           [{"get":"src_path:${area_uuid}_@_project_general_data_@_start_date"},{"to_global_var":"g_general_start_date"}],
           [{"get":"src_path:${area_uuid}_@_project_general_data_@_end_date"},{"to_global_var":"g_general_end_date"}],
           [{"get":"src_path:${area_uuid}_@_project_general_data_@_initial_end_date"},{"to_global_var":"g_general_initial_end_date"}],
-          [{"get":"src_path:${area_uuid}_@_project_general_data_@_leaders"},{"get_table":""},{"to_global_var":"g_general_leaders"}],
+          [{"get":"src_path:${area_uuid}_@_project_general_data_@_leaders"},{"get_table":""},{"to_global_var":"g_general_leaders"},{"to_global_var":"page_leaders"}],
           
           
           [{"real":"86400000"},{"to_global_var":"g_day_in_msec"}],
@@ -68,7 +70,7 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
           [{"get":"src_path:${area_uuid}_@_budget_@_summary"},{"create_simple_budget_line_chart_datasets_from_time_series":["#{Total}","#{Engagé}","#{A Engager}","#{situation}"]},{"to_global_var":"g_budget_timeseries"}],
           
           
-          [{"get":"src_path:${area_uuid}_@_project_phases"},{"calculate_delay_flag":["very_late_limit_in_msec","late_limit_in_msec"]},{"to_global_var":"g_project_phases"}],
+          [{"get":"src_path:${area_uuid}_@_project_phases"},{"calculate_delay_flag":["very_late_limit_in_msec","late_limit_in_msec"]},{"to_global_var":"g_project_phases"},{"get_table":""},{"to_global_var":"g_project_phases_table"}],
           [{"get":"g_project_phases"},{"get_current_phase":""},{"to_global_var":"g_current_phase"}],
           [{"get":"g_current_phase"},{"get_cell":"name"},{"to_global_var":"g_current_phase_name"}],
           [{"get":"g_current_phase"},{"get_cell":"weather"},{"to_global_var":"g_current_phase_weather"}],
@@ -76,18 +78,48 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
           [{"get":"g_current_phase"},{"get_cell":"start_date"},{"to_global_var":"g_current_phase_start_date"}],
           [{"get":"g_current_phase"},{"get_cell":"end_date"},{"to_global_var":"g_current_phase_end_date"}],
           [{"get":"g_current_phase"},{"get_cell":"initial_end_date"},{"to_global_var":"g_current_phase_initial_end_date"}],
-          [{"get":"g_current_phase"},{"get_cell":"leaders"},{"to_global_var":"g_current_phase_leaders"}],
+          [{"get":"g_current_phase"},{"get_cell":"leaders"},{"get_table":""},{"to_global_var":"g_current_phase_leaders"}],
           [{"get":"g_current_phase"},{"get_cell":"flag_level"},{"to_global_var":"g_current_phase_flag"}],
           
-          [{"get":"src_path:${area_uuid}_@_synthesis_@_covered_topics"},{"to_global_var":"g_covered_topics"}],
-          [{"get":"src_path:${area_uuid}_@_synthesis_@_significant_events"},{"to_global_var":"g_significant_events"}],
+          [{"get":"src_path:${area_uuid}_@_synthesis_@_covered_topics"},{"get_table":""},{"to_global_var":"g_covered_topics"}],
+          [{"get":"src_path:${area_uuid}_@_synthesis_@_significant_events"},{"get_table":""},{"to_global_var":"g_significant_events"}],
            
           [{"get":"src_path:${area_uuid}_@_customer_relationship_@_nb_requests"},{"to_global_var":"g_customer_satisfaction_nb_requests"}],
           [{"get":"src_path:${area_uuid}_@_customer_relationship_@_nb_requests_done"},{"to_global_var":"g_customer_satisfaction_nb_requests_done"}],
           [{"get":"src_path:${area_uuid}_@_customer_relationship_@_nb_requests_to_do"},{"to_global_var":"g_customer_satisfaction_nb_requests_to_do"}],
           
-          [{"create_table":""},{"set_into_cell":["#{0}","uuid","#{Demandes réalisées}"]},{"set_into_cell":["#{0}","value","g_customer_satisfaction_nb_requests_done"]},{"to_global_var":"g_customer_satisfaction_pie_chart"}],
-          [{"get":"g_customer_satisfaction_pie_chart"},{"set_into_cell":["#{1}","uuid","#{Demandes restantes}"]},{"set_into_cell":["#{1}","value","g_customer_satisfaction_nb_requests_to_do"]}],
+          [{"create_table":""},{"set_into_cell":["#{0}","#{uuid}","#{Demandes réalisées} : ${g_customer_satisfaction_nb_requests_done}"]},{"set_into_cell":["#{0}","#{value}","g_customer_satisfaction_nb_requests_done"]},{"to_global_var":"g_customer_satisfaction_pie_chart"}],
+          [{"get":"g_customer_satisfaction_pie_chart"},{"set_into_cell":["#{1}","#{uuid}","#{Demandes restantes} : ${g_customer_satisfaction_nb_requests_to_do}"]},{"set_into_cell":["#{1}","#{value}","g_customer_satisfaction_nb_requests_to_do"]}],
+          
+          
+          [{"string":"#2f3433"},{"to_global_var":"g_planned_workload_color"}],
+          [{"string":"#1db9db"},{"to_global_var":"g_workload_done_color"}],
+          [{"string":"#cccccc"},{"to_global_var":"g_workload_to_do_color"}],
+          [{"string":"#41c057"},{"to_global_var":"g_workload_situation_color"}],
+          
+          [{"get":"src_path:${area_uuid}_@_workload_plan_@_planned_workload"},{"to_global_var":"g_planned_workload"}],
+          [{"get":"src_path:${area_uuid}_@_workload_plan_@_workload_done"},{"to_global_var":"g_workload_done"}],
+          [{"get":"src_path:${area_uuid}_@_workload_plan_@_workload_to_do"},{"to_global_var":"g_workload_to_do"}],
+          [{"get":"g_planned_workload"},{"substract":"g_workload_done"},{"substract":"g_workload_to_do"},{"to_global_var":"g_workload_situation"}],
+          
+          [{"if_greater_than_or_equal_to":["g_workload_situation","#{0}"]},{"string":"#41c057"},{"to_global_var":"g_workload_situation_color"},{"else":""},{"string":"#f92423"},{"to_global_var":"g_workload_situation_color"},{"end_if":""}],
+          
+          [{"get":"g_planned_workload"},{"create_line_chart_datasets_from_time_series":"#{Charge planifiée}"},{"to_global_var":"g_planned_workload_timeseries"}],
+          [{"get":"g_workload_done"},{"create_line_chart_datasets_from_time_series":"#{Charge réalisée}"},{"to_global_var":"g_workload_done_timeseries"}],
+          [{"get":"g_workload_to_do"},{"create_line_chart_datasets_from_time_series":"#{Reste à faire}"},{"to_global_var":"g_workload_to_do_timeseries"}],
+          
+          [{"combine_variables":["g_planned_workload_timeseries","g_workload_done_timeseries","g_workload_to_do_timeseries"]},{"to_global_var":"g_workload_timeseries"}],
+          
+          
+          [{"get":"src_path:${area_uuid}_@_workload_plan_@_nb_tasks"},{"to_global_var":"g_nb_tasks"}],
+          [{"get":"src_path:${area_uuid}_@_workload_plan_@_nb_tasks_done"},{"to_global_var":"g_nb_tasks_done"}],
+          [{"get":"g_nb_tasks"},{"substract":"g_nb_tasks_done"},{"to_global_var":"g_nb_tasks_to_do"}],
+          
+          [{"create_table":""},{"set_into_cell":["#{0}","#{uuid}","#{Nb tâches réalisées} : ${g_nb_tasks_done}"]},{"set_into_cell":["#{0}","#{value}","g_nb_tasks_done"]},{"to_global_var":"g_tasks_pie_chart"}],
+          [{"get":"g_tasks_pie_chart"},{"set_into_cell":["#{1}","#{uuid}","#{Nb tâches restantes} : ${g_nb_tasks_to_do}"]},{"set_into_cell":["#{1}","#{value}","g_nb_tasks_to_do"]}],
+          
+          [{"get":"src_path:${area_uuid}_@_project_roadmap"},{"to_global_var":"g_project_roadmap"}],
+          
           
           [{"log_debug":"General weather : ${g_general_weather}"}],
           [{"log_debug":"General progress : ${g_general_progress}"}],
@@ -105,7 +137,17 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
           [{"log_debug":"current phase start date : ${g_current_phase_start_date}"}],
           [{"log_debug":"current phase end date : ${g_current_phase_end_date}"}],
           [{"log_debug":"current phase initial end date : ${g_current_phase_initial_end_date}"}],
-          [{"log_debug":"current phase flag : ${g_current_phase_flag}"}]
+          [{"log_debug":"current phase flag : ${g_current_phase_flag}"}],
+          
+          [{"log_debug":"Planned workload : ${g_planned_workload}"}],
+          [{"log_debug":"Workload done : ${g_workload_done}"}],
+          [{"log_debug":"Workload to do : ${g_workload_to_do}"}],
+          [{"log_debug":"Workload situation : ${g_workload_situation}"}],
+          [{"log_debug":"Workload situation color : ${g_workload_situation_color}"}],
+          
+          [{"log_debug":"Nb tasks : ${g_nb_tasks}"}],
+          [{"log_debug":"Nb tasks done : ${g_nb_tasks_done}"}],
+          [{"log_debug":"Nb tasks to do : ${g_nb_tasks_to_do}"}]
           
         ]
       

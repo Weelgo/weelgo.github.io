@@ -98,6 +98,10 @@ Ici nous actifons l'affichage du mode debug. Par défaut, le mode débug est dé
 
 Il suffit d'ajouter une propriété **script** à un objet **tâche**.
 
+Variables globale :
+
+**disable_all_scripts** : si true alors les scrips sont désactivés.
+
 Cette section est une liste d'instructions.
 
 Exemple de Json type : 
@@ -200,6 +204,11 @@ L'utilisation de ```get_table``` est utile pour les extractions de type tableau.
 
 ### La section JSON BPM des widgets
 
+Pour tous les widget il existe des variables par défaut :
+
+**real_data** (true par défaut): indique si les données du widget sont des données par défaut ou des données réelles. Si c'est des données par défaut, alors l'affichage du widget affichera un message pour indiquer que les données ne sont
+pas des données récupérés mais des données par défaut d'exemple.
+
 Cette section permet de spécifier des valeurs pour certains paramètre des widgets que vous allez utiliser. Vous pourrez indiquer des couleurs, des valeurs, des tailles.
 
 Dans l'ordre de priorité d'exécution des section BPM, les sections des widgets sont effectués en dernier, après le BPM général du dashboard.
@@ -255,9 +264,11 @@ Exemple de script avec des if
           [{"comment":"En fonction des dates, on va mettre le flag on_time, late ou very_late"}],
           [{"if_time_def":["g_general_end_date","g_general_initial_end_date"]},{"substract":["g_general_end_date","g_general_initial_end_date"]},{"to_local_var":"dateDelta"},{"end_if":""}],
           
-           [{"if_sup_to":["dateDelta","very_late_limit_in_msec"]},{"string":"very_late"},{"to_global_var":"g_general_flag_if"},{"else":""},{"if_sup_to":["dateDelta","late_limit_in_msec"]},{"string":"late"},{"to_global_var":"g_general_flag_if"},{"else":""},{"string":"on_time"},{"to_global_var":"g_general_flag_if"},{"end_if":""}]
+           [{"if_greater_than":["dateDelta","very_late_limit_in_msec"]},{"string":"very_late"},{"to_global_var":"g_general_flag_if"},{"else":""},{"if_greater_than":["dateDelta","late_limit_in_msec"]},{"string":"late"},{"to_global_var":"g_general_flag_if"},{"else":""},{"string":"on_time"},{"to_global_var":"g_general_flag_if"},{"end_if":""}]
         ]
     }
   ]
 }
 ```
+
+### La section JSON BPM des widgets

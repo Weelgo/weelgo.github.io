@@ -192,7 +192,7 @@ Les lignes du tableau sont communes pour les Groupe, les Phases et les Jalons
 * Valeurs possibles : nb miliseconde après le 1 janvier 1970. Exemple : 30 janv 2021 0h00 UTC -> 1611964800000. Lien vers un convertisseur en ligne : [cliquez ici](https://www.fileformat.info/tip/java/date2millis.htm) 
 * Exemple : ```"1685577600000"```
 
-**icon_type**(pour les jalons uniquement)
+**icon**(pour les jalons uniquement)
 * Description : icone du jalon
 * Valeurs possibles : voir IconEnum 
 * Exemple : ```"ic_diamond_solid"```
