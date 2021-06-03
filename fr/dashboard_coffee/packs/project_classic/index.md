@@ -408,8 +408,8 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       {
         "name": "name",
         "values": [
-          "Evènement 1",
-          "Evènement 2"
+          "Évènement 1",
+          "Évènement 2"
         ]
       },
       {
