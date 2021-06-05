@@ -51,7 +51,7 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
           [{"get":"src_path:${area_uuid}_@_budget_@_summary_@_committed_budget"},{"to_global_var":"g_budget_committed"}],
           [{"get":"src_path:${area_uuid}_@_budget_@_summary_@_to_commit_budget"},{"to_global_var":"g_budget_to_commit"}],
           [{"get":"src_path:${area_uuid}_@_budget_@_summary_@_situation"},{"to_global_var":"g_budget_situation"}],
-          [{"get":"src_path:${area_uuid}_@_budget_@_summary"},{"create_simple_budget_line_chart_datasets_from_time_series":["#{Total}","#{Engagé}","#{A Engager}","#{situation}"]},{"to_global_var":"g_budget_timeseries"}],
+          [{"get":"src_path:${area_uuid}_@_budget_@_summary"},{"create_simple_budget_line_chart_datasets_from_time_series":["#{Total}","#{Engagé}","#{À Engager}","#{situation}"]},{"to_global_var":"g_budget_timeseries"}],
           
           [{"string":"#2f3433"},{"to_global_var":"g_budget_total_color"}],
           [{"string":"#1db9db"},{"to_global_var":"g_budget_committed_color"}],
@@ -131,15 +131,14 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "end_date":"1611964800000",
   "initial_end_date":"1611532800000",
   "flag_level":"on_time",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
       [{"get":"g_general_weather"},{"to_local_var":"weather_level"}],
       [{"get":"g_general_progress"},{"to_local_var":"progress"}],
       [{"get":"g_general_start_date"},{"to_local_var":"start_date"}],
       [{"get":"g_general_end_date"},{"to_local_var":"end_date"}],
       [{"get":"g_general_initial_end_date"},{"to_local_var":"initial_end_date"}],
-      [{"get":"g_general_flag"},{"to_local_var":"flag_level"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_general_flag"},{"to_local_var":"flag_level"}]
     ]
 }
 ```
@@ -152,10 +151,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "weather_type":"smiley",
   "image_height":"35px",
   "image_width":"35px",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_customer_satisfaction"},{"to_local_var":"weather_level"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_customer_satisfaction"},{"to_local_var":"weather_level"}]
     ]
 }
 ```
@@ -168,10 +166,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "weather_type":"weather",
   "image_height":"45px",
   "image_width":"45px",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_budget_status"},{"to_local_var":"weather_level"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_budget_status"},{"to_local_var":"weather_level"}]
     ]
 }
 ```
@@ -184,10 +181,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "weather_type":"weather",
   "image_height":"45px",
   "image_width":"45px",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_planning_status"},{"to_local_var":"weather_level"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_planning_status"},{"to_local_var":"weather_level"}]
     ]
 }
 ```
@@ -200,10 +196,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "weather_type":"weather",
   "image_height":"45px",
   "image_width":"45px",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_team_status"},{"to_local_var":"weather_level"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_team_status"},{"to_local_var":"weather_level"}]
     ]
 }
 ```
@@ -258,9 +253,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
     ]
   },
   "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_general_end_date_time_series_dataset"},{"to_local_var":"datasets"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_general_end_date_time_series_dataset"},{"to_local_var":"datasets"}]
     ]
 }
 ```
@@ -272,12 +267,11 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "total_budget": "250000",
   "committed_budget": "100000",
   "to_commit_budget": "120000",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
       [{"get":"g_budget_total"},{"to_local_var":"total_budget"}],
       [{"get":"g_budget_committed"},{"to_local_var":"committed_budget"}],
-      [{"get":"g_budget_to_commit"},{"to_local_var":"to_commit_budget"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_budget_to_commit"},{"to_local_var":"to_commit_budget"}]
     ]
 }
 ```
@@ -297,19 +291,23 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
     "columns": [
       {
         "name": "name",
-        "values": [          
-            "Paul Dupond"          
+        "values": [
+          
+            "Paul Dupond"
+          
         ]
       },
       {
         "name": "uuid",
-        "values": [          
-            "54654-465484-46546"          
+        "values": [
+          
+            "54654-465484-46546"
+          
         ]
       }
     ]
   },
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
       [{"get":"g_current_phase_weather"},{"to_local_var":"weather_level"}],
       [{"get":"g_current_phase_progress"},{"to_local_var":"progress"}],
@@ -318,8 +316,7 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       [{"get":"g_current_phase_start_date"},{"to_local_var":"start_date"}],
       [{"get":"g_current_phase_end_date"},{"to_local_var":"end_date"}],
       [{"get":"g_current_phase_initial_end_date"},{"to_local_var":"initial_end_date"}],
-      [{"get":"g_current_phase_leaders"},{"to_local_var":"leaders"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_current_phase_leaders"},{"to_local_var":"leaders"}]
     ]
 }
 
@@ -360,11 +357,10 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       }
     ]
   },
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
       [{"get":"g_general_progress"},{"to_local_var":"progress"}],
-      [{"get":"g_project_phases"},{"to_local_var":"phases"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_project_phases"},{"to_local_var":"phases"}]
     ]
 }
 ```
@@ -392,10 +388,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       }
     ]
   },
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_covered_topics"},{"to_local_var":"topics"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_covered_topics"},{"to_local_var":"topics"}]
     ]
 }
 ```
@@ -435,10 +430,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       }
     ]
   },
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_significant_events"},{"to_local_var":"events"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_significant_events"},{"to_local_var":"events"}]
     ]
 }
 ```
@@ -467,10 +461,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       }
     ]
   } ,
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_customer_satisfaction_pie_chart"},{"to_local_var":"datasets"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_customer_satisfaction_pie_chart"},{"to_local_var":"datasets"}]
     ]
 }
 ```
@@ -482,10 +475,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "prefix":"Nb total de demandes :",
   "prefix_gap":"true",
   "format_type":"number",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_customer_satisfaction_nb_requests"},{"to_local_var":"text"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_customer_satisfaction_nb_requests"},{"to_local_var":"text"}]
     ]
 }
 ```
@@ -498,12 +490,11 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "committed_budget": "100000",
   "to_commit_budget": "120000",
   "show_chart":"false",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
       [{"get":"g_budget_total"},{"to_local_var":"total_budget"}],
       [{"get":"g_budget_committed"},{"to_local_var":"committed_budget"}],
-      [{"get":"g_budget_to_commit"},{"to_local_var":"to_commit_budget"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_budget_to_commit"},{"to_local_var":"to_commit_budget"}]
     ]
 }
 ```
@@ -556,10 +547,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       }
     ]
   },
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_budget_timeseries"},{"to_local_var":"datasets"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_budget_timeseries"},{"to_local_var":"datasets"}]
     ]
 }
 ```
@@ -572,10 +562,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "suffix":"J/H",
   "suffix_gap":"true",
   "format_type":"number",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_planned_workload"},{"to_local_var":"text"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_planned_workload"},{"to_local_var":"text"}]
     ]
 }
 ```
@@ -588,10 +577,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "suffix":"J/H",
   "suffix_gap":"true",
   "format_type":"number",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_workload_done"},{"to_local_var":"text"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_workload_done"},{"to_local_var":"text"}]
     ]
 }
 ```
@@ -604,10 +592,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "suffix":"J/H",
   "suffix_gap":"true",
   "format_type":"number",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_workload_to_do"},{"to_local_var":"text"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_workload_to_do"},{"to_local_var":"text"}]
     ]
 }
 ```
@@ -621,11 +608,10 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "suffix":"J/H",
   "suffix_gap":"true",
   "format_type":"number",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
       [{"get":"g_workload_situation"},{"to_local_var":"text"}],
-      [{"get":"g_workload_situation_color"},{"to_local_var":"text_color"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_workload_situation_color"},{"to_local_var":"text_color"}]
     ]
 }
 ```
@@ -675,10 +661,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       }
     ]
   },
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_workload_timeseries"},{"to_local_var":"datasets"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_workload_timeseries"},{"to_local_var":"datasets"}]
     ]
 }
 ```
@@ -707,10 +692,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       }
     ]
   } ,
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_tasks_pie_chart"},{"to_local_var":"datasets"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_tasks_pie_chart"},{"to_local_var":"datasets"}]
     ]
 }
 ```
@@ -722,10 +706,9 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
   "prefix":"Nb total de tâches :",
   "prefix_gap":"true",
   "format_type":"number",
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_nb_tasks"},{"to_local_var":"text"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_nb_tasks"},{"to_local_var":"text"}]
     ]
 }
 ```
@@ -810,12 +793,10 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       }
     ]
   },
-  "real_data":"false",
+  "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
-      [{"get":"g_project_roadmap"},{"to_local_var":"lines"}],
-      [{"boolean":"true"},{"to_local_var":"real_data"}]
+      [{"get":"g_project_roadmap"},{"to_local_var":"lines"}]
     ]
 }
-
 ```
 
