@@ -254,7 +254,6 @@ C'est ici que sera configuré l'uuid du reporting de référence ainsi que tous 
       }
     ]
   },
-  "real_data":"false",
   "check_sources_data_trust_before_script":"reporting_area:area_uuid",
   "script": [
       [{"get":"g_general_end_date_time_series_dataset"},{"to_local_var":"datasets"}]
