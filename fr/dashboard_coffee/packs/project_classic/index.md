@@ -11,7 +11,7 @@ Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org
 
 Lien vers le fichier JSON qu'il est possible de copier directement dans le dashboard : [cliquez ici](http://docs.weelgo.com/fr/dashboard_coffee/packs/project_classic/project_classic_board.json)
 
-Lien vers le fichier JSON de démo (fonctionne indépendament du reporting) qu'il est possible de copier directement dans le dashboard : [cliquez ici](http://docs.weelgo.com/fr/dashboard_coffee/packs/project_classic/project_classic_board.json)
+Lien vers le fichier JSON de démo (fonctionne indépendament du reporting) qu'il est possible de copier directement dans le dashboard : [cliquez ici](http://docs.weelgo.com/fr/dashboard_coffee/packs/project_classic/project_classic_board_demo.json)
 
 
 ### JSON général du dashboard
