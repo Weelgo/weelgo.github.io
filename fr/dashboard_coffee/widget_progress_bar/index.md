@@ -31,12 +31,12 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 ```javascript
 {      
-     "bar_progress":"0.2",
-      "bar_color":"#e000e0",
-      "bar_background_color":"#e000e0",
-      "bar_height":"15px",
-      "bar_width":"150px",
-      "show_progress_number":"true"
+     "progress":"0.2",
+     "bar_color":"#e000e0",
+     "bar_background_color":"#e000e0",
+     "bar_height":"15px",
+     "bar_width":"150px",
+     "show_progress_number":"true"
 }
 ```
 
