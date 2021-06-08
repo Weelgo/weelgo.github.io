@@ -19,7 +19,7 @@ Exemple de JSON à inclure dans le BPM général:
       "type":"simple_button_widget",
       "widget_uuid":"uuid du widget à récupéré dans l'IHM",
       "name":"Super bouton",
-      "icon":"ic_diamond_solid",
+      "icon":"ic_arrow_right",
       "button_type":"circle",
       "style":"success",
       "size":"lg",
@@ -34,7 +34,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 ```javascript
 {      
       "name":"Super bouton",
-      "icon":"ic_diamond_solid",
+      "icon":"ic_arrow_right",
       "button_type":"circle",
       "style":"success",
       "size":"lg",
