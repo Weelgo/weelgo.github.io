@@ -41,12 +41,12 @@ Exemple de JSON à inclure dans le BPM du widget:
 **uuid** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant de la tâche, au choix de l'utilisateur.
 * Valeurs possibles : valeur au choix de l'utilisateur. **Ne doit pas être le même qu'une autre tâche du BPM.**
-* Exemple : ```"uuid":"Ma météo"```
+* Exemple : ```"uuid":"Drapeau de fin"```
 
 **type** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant permettant au moteur de calcule de savoir que la tâche est du type indiqué.
 * Valeurs possibles : weather_widget 
-* Exemple : ```"type":"weather_widget"```
+* Exemple : ```"type":"finish_line_flag"```
 
 **widget_uuid** (utilisé **uniquement** pour PBM général) 
 * Description : Uuid du widget ciblé par la tâche
