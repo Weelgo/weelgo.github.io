@@ -147,6 +147,11 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : normal \| nowrap
 * Exemple : ```"white_space":"nowrap"```
 
+**nb_max_characters**
+* Description : Nombre maximal de caractère à afficher. Affiche 3 points si il faut couper le texte.
+* Valeurs possibles : désactivé si valeur strictement inférieur à 0. Nombre entier sinon
+* Exemple : ```"nb_max_characters":"nb_max_characters35"```
+
 **prefix**
 * Description : texte placé en préfixe du texte principal.
 * Valeurs possibles : simple texte.
