@@ -8,14 +8,14 @@
     "orderIndex" : 0,
     "widgets" : [ {
       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-      "uuid" : "2D406979-0EB5-4394-83AA-F39C2A1D5040",
+      "uuid" : "F53BB09B-2BE4-4074-848B-F99FC2D9D697",
       "name" : "Table",
       "type" : "table",
       "orderIndex" : 0,
       "style" : {
         "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
         "marginTop" : 0,
-        "marginBottom" : 0,
+        "marginBottom" : 20,
         "paddingTop" : 0,
         "paddingBottom" : 0,
         "paddingLeft" : 0,
@@ -59,13 +59,13 @@
         "cellSpacing" : 10,
         "rows" : [ {
           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-          "uuid" : "DBF54619-F399-4904-8BC4-2A9AE6FF193F",
+          "uuid" : "5CDADF2F-AFB5-43F4-9209-3BBBE6C9B254",
           "cells" : [ {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "D2818BAA-F30F-4C97-933F-13EBDD44FD65",
+            "uuid" : "1111219A-3928-4C77-BBF8-84DEDC2107E2",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "EA2FB440-1785-4AE8-B99D-412328A19231",
+              "uuid" : "2C88CE8B-B8D5-492A-9C42-DDB61158E84D",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -109,16 +109,16 @@
               "tableWidgetData" : {
                 "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableWidgetData",
                 "useCellSpacing" : true,
-                "cellSpacing" : 2,
+                "cellSpacing" : 5,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "02254C5C-F086-4BD7-AB85-F5602D41EE09",
+                  "uuid" : "74F64A40-469C-4431-ACA7-6BDB5331AFFB",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "354CF90C-001C-4F51-8554-0AC928D797AC",
+                    "uuid" : "6DF46465-C315-4046-B6B9-5EF8C3F5A855",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "443E2F44-8569-409E-BE72-3B94E4C88F56",
+                      "uuid" : "35FA1CE7-1994-400A-BF07-A766CC2624E5",
                       "name" : "Table",
                       "type" : "table",
                       "orderIndex" : 0,
@@ -164,14 +164,14 @@
                         "cellSpacing" : 10,
                         "rows" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                          "uuid" : "5ABD293A-106D-4914-9222-D49ABAFAFDFC",
+                          "uuid" : "0723EE6D-40D7-4B1A-8236-BB56270990BD",
                           "cells" : [ {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "4742F864-B425-4C8A-8A5B-4376A80E93EC",
+                            "uuid" : "82BF3379-1CC1-4D23-90AA-30357A18A674",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "5004CC2C-30F2-4157-B74C-9312E0F1CF35",
-                              "name" : "CMS bimedia",
+                              "uuid" : "A87B3BC1-3827-4362-8631-F256E94D8944",
+                              "name" : "Projet 1",
                               "type" : "text",
                               "orderIndex" : 0,
                               "style" : {
@@ -210,15 +210,15 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{    \n  \"font_size\":\"20\"\n}"
+                              "customJsonData" : "{    \n  \"font_size\":\"20\",\n  \"nb_max_characters\":\"12\",\n    \"script\": [\n      [{\"get\":\"b_general_name\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
                             },
                             "orderIndex" : 0
                           }, {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "B8BCEFD6-0E17-401D-88BA-B708F2C47A60",
+                            "uuid" : "9DDBF9FF-5342-4AFB-BCD5-DD20A3DD4E50",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "C58794BC-370F-4CBD-B730-21CBEB243621",
+                              "uuid" : "72142A48-5AE7-4E2D-A4C7-680DD1CB5280",
                               "name" : "Simple button",
                               "type" : "simple_button",
                               "orderIndex" : 0,
@@ -258,7 +258,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{      \n      \"name\":\"Open\",\n      \"style\":\"success_light\",\n      \"size\":\"xs\",\n      \"target_parameters\":\"02a0f046-b69a-4329-a819-e5befe8b6375\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
+                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\",\n  \"script\": [\n    \n    [{\"get\":\"b_dashboard_uuid\"},{\"to_local_var\":\"target_parameters\"}]\n    \n    ]\n}"
                             },
                             "orderIndex" : 1
                           } ],
@@ -271,14 +271,14 @@
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "940992CD-757D-454C-81EB-B0A923CC9EB2",
+                  "uuid" : "44BBB8DE-AA80-4765-BF84-924B9108CF1D",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "04ED4EF6-1442-4B7E-B1BB-1658374ECD9F",
+                    "uuid" : "B713D81F-9D77-4982-B7C7-7ED0D19D6A88",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "EAC01A11-0A1D-4120-BBEB-9970DDC08D1F",
-                      "name" : "Paul Dupont",
+                      "uuid" : "D9C65987-B199-4E5B-859B-2D651A1D877C",
+                      "name" : "Responsable",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -316,7 +316,8 @@
                         "titleBorderBottomStyle" : "solid",
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
-                      }
+                      },
+                      "customJsonData" : "{ \n  \"nb_max_characters\":\"25\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n    \"script\": [\n      [{\"get\":\"b_general_leaders\"},{\"concatenate\":[\"name\",\", \"]},{\"to_local_var\":\"text\"}]\n    ]\n}"
                     },
                     "orderIndex" : 0
                   } ],
@@ -328,10 +329,10 @@
             "orderIndex" : 0
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "D6F5C1DC-3146-4031-9C68-0882C3B978FB",
+            "uuid" : "4E07D51C-4582-4B85-8955-883F0354CD73",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "0018A3D5-003A-46E8-B650-BF59E1BAC64A",
+              "uuid" : "A9954F76-1FF4-4696-8A92-D6E00D343C9F",
               "name" : "Absolute Panel",
               "type" : "absolute_panel",
               "orderIndex" : 0,
@@ -357,7 +358,7 @@
                 "positionToLeft" : true,
                 "positionTopOrBottom" : 0,
                 "positionToTop" : true,
-                "width" : "172px",
+                "width" : "182px",
                 "height" : "80px",
                 "cornerRadius" : "none",
                 "contentAlignment" : "middle_center",
@@ -377,7 +378,7 @@
                 "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCAbsolutePanelData",
                 "widgets" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                  "uuid" : "2B68A15A-FD36-4B41-8982-787AF13BD0ED",
+                  "uuid" : "AB65EB1E-A123-4A84-956C-5128B8506BC3",
                   "name" : "Weather",
                   "type" : "weather",
                   "orderIndex" : 0,
@@ -417,11 +418,11 @@
                     "titleBorderLeftStyle" : "solid",
                     "titleBorderRightStyle" : "solid"
                   },
-                  "customJsonData" : "{    \n  \"weather_level\":\"weather_sun\",\n  \"image_height\":\"42px\",\n  \"image_width\":\"42px\"\n}"
+                  "customJsonData" : "{    \n  \"weather_level\":\"weather_sun\",\n  \"image_height\":\"40px\",\n  \"image_width\":\"40px\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n    \"script\": [\n      [{\"get\":\"b_general_weather\"},{\"to_local_var\":\"weather_level\"}]\n    ]\n}"
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                  "uuid" : "FDCA3A5B-3C6B-4EC0-8B37-3FEF09B34150",
-                  "name" : "100%",
+                  "uuid" : "7AD94109-D4EA-48B3-9163-38B39C0487D6",
+                  "name" : "0%",
                   "type" : "text",
                   "orderIndex" : 1,
                   "style" : {
@@ -442,7 +443,7 @@
                     "borderRightStyle" : "solid",
                     "showShadow" : false,
                     "absolutePosition" : true,
-                    "positionLeftOrRight" : 45,
+                    "positionLeftOrRight" : 50,
                     "positionToLeft" : true,
                     "positionTopOrBottom" : 22,
                     "positionToTop" : true,
@@ -460,10 +461,10 @@
                     "titleBorderLeftStyle" : "solid",
                     "titleBorderRightStyle" : "solid"
                   },
-                  "customJsonData" : "{    \n    \n     \"font_size\":\"15\"\n    \n}"
+                  "customJsonData" : "{    \n  \"font_size\":\"15\",\n  \"format_type\":\"number\",\n  \"multiply_by\":\"100\",\n  \"suffix\":\"%\",\n  \"suffix_gap\":\"false\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n    \"script\": [\n      [{\"get\":\"b_general_progress\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                  "uuid" : "534EB990-6205-4CBA-B4FE-D672E26AE6D1",
+                  "uuid" : "A338C5A0-FA81-45D2-BFDD-E0B756530D15",
                   "name" : "Progress bar",
                   "type" : "progress_bar",
                   "orderIndex" : 2,
@@ -503,10 +504,10 @@
                     "titleBorderLeftStyle" : "solid",
                     "titleBorderRightStyle" : "solid"
                   },
-                  "customJsonData" : "{\n  \"progress\": \"0.2\",\n  \"bar_height\": \"10px\",\n  \"bar_width\": \"75px\",\n  \"show_progress_number\": \"false\"\n}"
+                  "customJsonData" : "{\n  \"progress\": \"0\",\n  \"bar_height\": \"10px\",\n  \"bar_width\": \"75px\",\n  \"show_progress_number\": \"false\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_general_progress\"},{\"to_local_var\":\"progress\"}]\n    ]\n}"
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                  "uuid" : "0DAA65AE-D668-4430-8260-7BF8754D93AE",
+                  "uuid" : "69B39913-9D86-465D-9BC4-58B27712041A",
                   "name" : "Finish line flag",
                   "type" : "finish_line_flag",
                   "orderIndex" : 3,
@@ -537,7 +538,7 @@
                     "positionToLeft" : true,
                     "positionTopOrBottom" : 0,
                     "positionToTop" : true,
-                    "width" : "80px",
+                    "width" : "90px",
                     "height" : "80px",
                     "cornerRadius" : "normal",
                     "contentAlignment" : "middle_center",
@@ -552,17 +553,18 @@
                     "titleBorderBottomStyle" : "solid",
                     "titleBorderLeftStyle" : "solid",
                     "titleBorderRightStyle" : "solid"
-                  }
+                  },
+                  "customJsonData" : "{\n  \"end_date\":\"1613779200000\",\n  \"flag_level\":\"on_time\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_general_end_date\"},{\"to_local_var\":\"end_date\"}],\n      [{\"get\":\"b_general_flag\"},{\"to_local_var\":\"flag_level\"}]\n    ]\n}"
                 } ]
               }
             },
             "orderIndex" : 1
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "BCFA15AD-33B6-4DCB-92BE-524507F2B16B",
+            "uuid" : "E242D3F0-98CE-4E76-9D94-7705BCB61272",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "BB5BE341-0409-4CDC-A23C-B733F302F11F",
+              "uuid" : "7F0F8B78-D99A-4C42-8798-16572FA54F78",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -608,13 +610,13 @@
                 "cellSpacing" : 3,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "A797AA1F-9F7E-44CF-8125-C1C1D517C175",
+                  "uuid" : "8148C0EB-57EC-4C87-820D-3A653BB2164A",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "0958424B-5956-4D47-B766-302338F50678",
+                    "uuid" : "1BEBA8F1-5A6D-4541-AF14-32DA001F1275",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "0BD9DD24-C6F3-4D17-80AE-6167A77B0ED8",
+                      "uuid" : "36B8962C-CE80-4F0B-95BD-F2916F5ACB86",
                       "name" : "Weather",
                       "type" : "weather",
                       "orderIndex" : 0,
@@ -654,15 +656,15 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{    \n  \"weather_level\":\"weather_sun\",\n  \"image_height\":\"20px\",\n  \"image_width\":\"20px\"\n}"
+                      "customJsonData" : "{    \n  \"weather_level\":\"weather_sun\",\n  \"weather_type\":\"smiley\",\n  \"image_height\":\"17px\",\n  \"image_width\":\"17px\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_customer_satisfaction\"},{\"to_local_var\":\"weather_level\"}]\n    ]\n}"
                     },
                     "orderIndex" : 0
                   }, {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "908E4B7E-AF14-42E4-81A7-16D44483103B",
+                    "uuid" : "242400B6-ACCB-4F15-8623-36A2881B4230",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "D2DB6BD9-F3AC-4415-8838-19250484C2C2",
+                      "uuid" : "4D41D5DF-A701-4868-9B51-4AD9CB0427FF",
                       "name" : "Client",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -708,13 +710,13 @@
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "6820EB2A-88E2-4473-ACE3-0B359851FB25",
+                  "uuid" : "E7A313A4-C724-4C61-B484-7F4F248F8465",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "19039377-476D-4C3C-B56A-C4E36DA3EF4B",
+                    "uuid" : "FF107B89-5689-4C16-84F0-AAA0D039978A",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "1F80D59F-FE38-450E-8060-367275198FA4",
+                      "uuid" : "5FE67F71-8881-4300-A339-D85DB906087F",
                       "name" : "Weather",
                       "type" : "weather",
                       "orderIndex" : 0,
@@ -754,15 +756,15 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{    \n  \"weather_level\":\"weather_sun\",\n  \"image_height\":\"20px\",\n  \"image_width\":\"20px\"\n}"
+                      "customJsonData" : "{    \n  \"weather_level\":\"weather_sun\",\n  \"image_height\":\"20px\",\n  \"image_width\":\"20px\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_planning_status\"},{\"to_local_var\":\"weather_level\"}]\n    ]\n}"
                     },
                     "orderIndex" : 0
                   }, {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "4DE83804-B547-475B-B1CE-FD3CD6D414A1",
+                    "uuid" : "41B58725-6FFC-4838-BD01-366FD9FF7B7A",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "752EA430-581D-4E3C-B025-D30DB055B056",
+                      "uuid" : "5517B32F-32C0-41A5-B81B-D84EF869884F",
                       "name" : "Planning",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -808,13 +810,13 @@
                   "orderIndex" : 1
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "26E00833-06A7-43A1-A7B7-CD3480B5D592",
+                  "uuid" : "ACB24C06-CE52-4416-9156-CCE87B2F2B4F",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "EC17DA4D-69F6-43CF-B96E-5E084B455369",
+                    "uuid" : "E8A2965E-5F4B-4308-BB77-868C62B09EE0",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "E90892AE-91C6-4F61-A32D-CFAEFA713518",
+                      "uuid" : "D1D1ED06-0E6E-4DEC-BF6D-2C2746419FCC",
                       "name" : "Weather",
                       "type" : "weather",
                       "orderIndex" : 0,
@@ -854,15 +856,15 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{    \n  \"weather_level\":\"weather_sun\",\n  \"image_height\":\"20px\",\n  \"image_width\":\"20px\"\n}"
+                      "customJsonData" : "{    \n  \"weather_level\":\"weather_sun\",\n  \"image_height\":\"20px\",\n  \"image_width\":\"20px\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_team_status\"},{\"to_local_var\":\"weather_level\"}]\n    ]\n}"
                     },
                     "orderIndex" : 0
                   }, {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "CC52C200-8AB1-4096-90F3-254C433FBFA5",
+                    "uuid" : "D7749E72-1360-4B96-9850-4C4C86BA4FDF",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "8847BD87-58F4-4C95-9E69-092509D2CD5D",
+                      "uuid" : "4B23CEE1-7B6C-4A6B-A492-096ACD6E4540",
                       "name" : "Equipe",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -913,10 +915,10 @@
             "orderIndex" : 2
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "9BA68CD6-50DD-40C9-86A1-11179982B0AF",
+            "uuid" : "E0303C29-6AB3-4A6C-87A7-0F1B04727C72",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "5ECFC9FF-9A04-45C0-9860-97130E2F826F",
+              "uuid" : "0112D2DA-9D9C-49C7-B7CF-8AAE06160F43",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -960,17 +962,17 @@
               "tableWidgetData" : {
                 "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableWidgetData",
                 "useCellSpacing" : true,
-                "cellSpacing" : 5,
+                "cellSpacing" : 3,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "AE4F4FC6-FC2F-458E-BC71-F0B62D72916F",
+                  "uuid" : "C71521A5-AE03-4F0B-9485-85D05ED743CC",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "893661BF-4B95-471E-8823-CC591A0766E7",
+                    "uuid" : "C61FE2AE-AD03-42DF-8FC1-5144728D5862",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "B1E92E03-9543-4D56-975C-2E8593DFA2F7",
-                      "name" : "Durée : 6 mois",
+                      "uuid" : "F8483C3C-4A9A-4AD3-B862-B2E16E8B9BBB",
+                      "name" : "Charge plan. : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -1008,21 +1010,22 @@
                         "titleBorderBottomStyle" : "solid",
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
-                      }
+                      },
+                      "customJsonData" : "{    \n  \"format_type\":\"number\",\n  \"prefix\":\"Charge plan. :\",\n  \"suffix\":\"J/H\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_planned_workload\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
                     },
                     "orderIndex" : 0
                   } ],
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "0A231E9B-CB5D-4CCC-8428-8713118D0080",
+                  "uuid" : "547FB13C-6468-49F8-BBC8-E196CD222A35",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "06008F92-F23B-4E4F-A61F-0BB96F09003C",
+                    "uuid" : "11271AF5-2C27-4D7D-BB4A-740186893E6A",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "A781E7BA-B76F-4663-9D36-8E9C41C8CC8B",
-                      "name" : "Charge tot. : 200 J/H",
+                      "uuid" : "DFC2F356-616A-47DD-98F5-AF02C49A8D49",
+                      "name" : "Charge cons. : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -1060,21 +1063,22 @@
                         "titleBorderBottomStyle" : "solid",
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
-                      }
+                      },
+                      "customJsonData" : "{    \n  \"format_type\":\"number\",\n  \"prefix\":\"Charge cons. :\",\n  \"suffix\":\"J/H\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_workload_done\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
                     },
                     "orderIndex" : 0
                   } ],
                   "orderIndex" : 1
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "A6C9C849-AF99-49AA-8281-A9FFB5D86576",
+                  "uuid" : "C8E6E925-AF66-4CF2-9E4B-69C0D00A8D4E",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "2637D61E-8502-42E2-B8CB-C01F47676BCB",
+                    "uuid" : "F70A6FAD-3901-4687-BBC5-7F6992AD41EB",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "709C175E-C1DD-4791-9DB6-A33EB3C0E19D",
-                      "name" : "Reste à faire : 150 J/H",
+                      "uuid" : "699BDF80-53FE-4206-829E-9CEC5FE40D3C",
+                      "name" : "Reste à faire : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -1112,11 +1116,65 @@
                         "titleBorderBottomStyle" : "solid",
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
-                      }
+                      },
+                      "customJsonData" : "{    \n  \"format_type\":\"number\",\n  \"prefix\":\"Reste à faire :\",\n  \"suffix\":\"J/H\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_workload_to_do\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
                     },
                     "orderIndex" : 0
                   } ],
                   "orderIndex" : 2
+                }, {
+                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
+                  "uuid" : "B397D5AE-D1F4-4451-ADA3-5F2F09FDB370",
+                  "cells" : [ {
+                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                    "uuid" : "0ECDE326-15D4-4892-BF5B-C3138CAF63CD",
+                    "widget" : {
+                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                      "uuid" : "1E14F3E7-CED5-4027-998B-B1BE8256AF4F",
+                      "name" : "Situation : 0 J/H",
+                      "type" : "text",
+                      "orderIndex" : 0,
+                      "style" : {
+                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                        "marginTop" : 0,
+                        "marginBottom" : 0,
+                        "paddingTop" : 0,
+                        "paddingBottom" : 0,
+                        "paddingLeft" : 0,
+                        "paddingRight" : 0,
+                        "borderTopSize" : 0,
+                        "borderBottomSize" : 0,
+                        "borderLeftSize" : 0,
+                        "borderRightSize" : 0,
+                        "borderTopStyle" : "solid",
+                        "borderBottomStyle" : "solid",
+                        "borderLeftStyle" : "solid",
+                        "borderRightStyle" : "solid",
+                        "showShadow" : false,
+                        "absolutePosition" : false,
+                        "positionLeftOrRight" : 0,
+                        "positionToLeft" : true,
+                        "positionTopOrBottom" : 0,
+                        "positionToTop" : true,
+                        "cornerRadius" : "none",
+                        "contentAlignment" : "middle_center",
+                        "tableCellAlignment" : "top_left",
+                        "fullTableCell" : false,
+                        "showTitle" : false,
+                        "titleBorderBottomColor" : "#d9d9d9",
+                        "titleBorderLeftColor" : "#1db9db",
+                        "titleBorderBottomSize" : 1,
+                        "titleBorderLeftSize" : 5,
+                        "titleBorderRightSize" : 1,
+                        "titleBorderBottomStyle" : "solid",
+                        "titleBorderLeftStyle" : "solid",
+                        "titleBorderRightStyle" : "solid"
+                      },
+                      "customJsonData" : "{    \n  \"format_type\":\"number\",\n  \"prefix\":\"Situation :\",\n  \"suffix\":\"J/H\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_workload_situation\"},{\"to_local_var\":\"text\"}],\n      [{\"get\":\"b_workload_situation_color\"},{\"to_local_var\":\"text_color\"}]\n    ]\n}"
+                    },
+                    "orderIndex" : 0
+                  } ],
+                  "orderIndex" : 3
                 } ],
                 "colsWidth" : [ "" ]
               }
@@ -1124,10 +1182,10 @@
             "orderIndex" : 3
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "8EFF9F8A-53F4-4380-B936-6D07DF631745",
+            "uuid" : "9C32CA8F-7885-43F8-9C87-F3C8A4409EB7",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "54A1C013-FA12-4457-AFF5-2529AB45F0C0",
+              "uuid" : "A53CE9B6-AB1E-4669-8E4A-96B3319E2738",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -1174,13 +1232,13 @@
                 "cellSpacing" : 10,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "8E9B603B-180B-46FE-9DED-6636AA88CA84",
+                  "uuid" : "E3B8138A-2563-4D49-BD99-12610D86BA64",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "89E296DF-BBC2-497D-A513-0597B4FEC6EA",
+                    "uuid" : "EFCD0D37-4F47-4A95-96AF-0D2450107355",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "6797EABE-52F8-4E83-8381-7065DD32B159",
+                      "uuid" : "EEF61B5D-EC93-4DF8-854D-44047BE1A3D5",
                       "name" : "Table",
                       "type" : "table",
                       "orderIndex" : 0,
@@ -1226,13 +1284,13 @@
                         "cellSpacing" : 10,
                         "rows" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                          "uuid" : "875F0089-795F-4283-9B39-A61A6E8D4BAF",
+                          "uuid" : "E2F23944-5FB5-4B43-AEE2-02716D3F8E3C",
                           "cells" : [ {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "5F74A77E-6DCD-48EE-BA61-4F84E44413A3",
+                            "uuid" : "DA5297ED-FAFC-413A-ABB2-F02D2512679C",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "3B40D696-A849-4309-8BA6-84602BF1D152",
+                              "uuid" : "213654D4-3035-4381-BB96-8B9CCE984BD6",
                               "name" : "Budget :",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -1277,10 +1335,10 @@
                             "orderIndex" : 0
                           }, {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "CBC9F4A6-4A81-41C3-8D85-E4341DE7BA7E",
+                            "uuid" : "32AF79B8-8614-4818-943A-62327132EC88",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "CDBB1176-338A-47D5-A5D1-2BD5B069B057",
+                              "uuid" : "5E5C3C04-3E29-48DE-B427-9631FDDCC7CA",
                               "name" : "Weather",
                               "type" : "weather",
                               "orderIndex" : 0,
@@ -1333,13 +1391,13 @@
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "D69058FD-C9D1-4D3D-B393-1ECF6C937CDD",
+                  "uuid" : "F2547845-510B-4CB7-8D46-B47EBAAE313E",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "DCA40300-E23F-41C2-9D59-5C93591B9612",
+                    "uuid" : "26CE6898-D39B-4AB0-A335-6A2A018BD269",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "E542BA75-6100-4CFB-8722-8825FCCC98D1",
+                      "uuid" : "28BBECAB-D806-4E4B-9B44-98756AA7E55F",
                       "name" : "Table",
                       "type" : "table",
                       "orderIndex" : 0,
@@ -1385,13 +1443,13 @@
                         "cellSpacing" : 5,
                         "rows" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                          "uuid" : "0A393030-2734-4DA8-8493-1BF5216F2BC4",
+                          "uuid" : "8A5BB195-06F5-4A7C-94BC-50B7E5C82E47",
                           "cells" : [ {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "38DE86DA-981A-4984-97FA-EC9264473052",
+                            "uuid" : "1F38AAED-5C10-455B-9A64-0B4FA610284E",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "E6207531-8078-4AE0-9226-A22612FAB72A",
+                              "uuid" : "C4738F73-41C4-4F88-863B-66E79EA276AC",
                               "name" : "Total :",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -1419,7 +1477,7 @@
                                 "positionToTop" : true,
                                 "cornerRadius" : "none",
                                 "contentAlignment" : "middle_center",
-                                "tableCellAlignment" : "top_left",
+                                "tableCellAlignment" : "middle_left",
                                 "fullTableCell" : false,
                                 "showTitle" : false,
                                 "titleBorderBottomColor" : "#d9d9d9",
@@ -1435,11 +1493,11 @@
                             "orderIndex" : 0
                           }, {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "E9CCE3FC-5326-4F0E-82E5-63160FDA1322",
+                            "uuid" : "AD07F118-513C-40C5-A849-07EF8710BE6C",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "0CA4CBBE-455C-4E84-868C-B00F662784EB",
-                              "name" : "150 000 EUR",
+                              "uuid" : "4BD2D6A3-07D5-4442-8EBB-133F53DCB5BE",
+                              "name" : "0 EUR",
                               "type" : "text",
                               "orderIndex" : 0,
                               "style" : {
@@ -1466,7 +1524,7 @@
                                 "positionToTop" : true,
                                 "cornerRadius" : "none",
                                 "contentAlignment" : "middle_center",
-                                "tableCellAlignment" : "top_left",
+                                "tableCellAlignment" : "middle_right",
                                 "fullTableCell" : false,
                                 "showTitle" : false,
                                 "titleBorderBottomColor" : "#d9d9d9",
@@ -1477,20 +1535,21 @@
                                 "titleBorderBottomStyle" : "solid",
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
-                              }
+                              },
+                              "customJsonData" : "{    \n  \"format_type\":\"number\",\n  \"suffix\":\"EUR\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_budget_total\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
                             },
                             "orderIndex" : 1
                           } ],
                           "orderIndex" : 0
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                          "uuid" : "A4A03131-9434-4B9E-A89D-44B16AAD0ECF",
+                          "uuid" : "84B4AE3E-698F-4D66-8F0F-B9B46B006DAE",
                           "cells" : [ {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "4890704E-DB6A-42C2-92F7-EC93EF240CBF",
+                            "uuid" : "FCD87238-FFCA-4244-B015-E751C83A7E8B",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "56D06FDF-7921-4280-A368-5355ED35063B",
+                              "uuid" : "19D3276C-24D2-4122-A8B7-F72F2F8B71B8",
                               "name" : "Situation :",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -1518,7 +1577,7 @@
                                 "positionToTop" : true,
                                 "cornerRadius" : "none",
                                 "contentAlignment" : "middle_center",
-                                "tableCellAlignment" : "top_left",
+                                "tableCellAlignment" : "middle_left",
                                 "fullTableCell" : false,
                                 "showTitle" : false,
                                 "titleBorderBottomColor" : "#d9d9d9",
@@ -1534,11 +1593,11 @@
                             "orderIndex" : 0
                           }, {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "C40BCBF3-4BDF-44B6-979F-EB63AB26C4E0",
+                            "uuid" : "898724FE-C4DA-4A94-96AF-3474412627F5",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "D783E6B5-798A-45CE-9D0F-CADA9539503B",
-                              "name" : "-50 000 EUR",
+                              "uuid" : "9069893B-09C4-4EDE-9E8D-E7742D8B433A",
+                              "name" : "0 EUR",
                               "type" : "text",
                               "orderIndex" : 0,
                               "style" : {
@@ -1565,7 +1624,7 @@
                                 "positionToTop" : true,
                                 "cornerRadius" : "none",
                                 "contentAlignment" : "middle_center",
-                                "tableCellAlignment" : "top_left",
+                                "tableCellAlignment" : "middle_right",
                                 "fullTableCell" : false,
                                 "showTitle" : false,
                                 "titleBorderBottomColor" : "#d9d9d9",
@@ -1577,7 +1636,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{    \n    \n     \"text_color\":\"red\"\n    \n}"
+                              "customJsonData" : "{    \n  \"format_type\":\"number\",\n  \"suffix\":\"EUR\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_budget_situation\"},{\"to_local_var\":\"text\"}],\n      [{\"get\":\"b_budget_situation_color\"},{\"to_local_var\":\"text_color\"}]\n    ]\n}"
                             },
                             "orderIndex" : 1
                           } ],
@@ -1596,10 +1655,10 @@
             "orderIndex" : 4
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "BD744FAD-43A2-48D6-859B-9CDCE9E35E66",
+            "uuid" : "DEB1F1A9-4424-44F2-8C4B-199A49D7F0F9",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "306F72C5-BD14-4A94-97A7-D9974EA26D67",
+              "uuid" : "78F5C2C6-307E-47A2-AED1-1E11A721B8ED",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -1646,14 +1705,14 @@
                 "cellSpacing" : 3,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "17875159-E923-4BA9-A7EB-FA8F2793A583",
+                  "uuid" : "B2246577-0FA0-471F-9997-23C08A7A92BA",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "8FDB3E3E-4872-4C53-AA74-0778731F026E",
+                    "uuid" : "14043A11-9F62-40DC-AF59-10493C1A88CE",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "E9D69202-689B-4632-8F52-8A1AD0E74C72",
-                      "name" : "Evnt. significatifs :",
+                      "uuid" : "E9E7DDC9-3730-4985-82CE-5664825D3A9C",
+                      "name" : "Evnt. signif. :",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -1696,11 +1755,11 @@
                     "orderIndex" : 0
                   }, {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "C271671D-12EC-42B9-88E8-3073BF488084",
+                    "uuid" : "17C355FC-5F98-42A7-B36A-77CF4A7FB110",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "740B4155-F432-41FA-801E-E036ABE644D5",
-                      "name" : "4",
+                      "uuid" : "FF259B7B-9042-4D27-987F-90FED50F8C02",
+                      "name" : "0",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -1738,20 +1797,21 @@
                         "titleBorderBottomStyle" : "solid",
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
-                      }
+                      },
+                      "customJsonData" : "{    \n  \"format_type\":\"number\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_nb_significant_events\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
                     },
                     "orderIndex" : 1
                   } ],
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "C0F58DEE-D323-4BF3-AEE7-9E80C6B47028",
+                  "uuid" : "76696E20-CF0C-4A01-9A74-45E774CAE5E9",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "17C51441-D6B7-44B4-8F59-263B57F08F52",
+                    "uuid" : "8E6F3F36-6C01-4CF7-A54A-15ECB7D877CD",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "DDBA92B6-FC69-42A4-ADB1-A1367055E512",
+                      "uuid" : "0C926DC3-D888-4B6E-95D6-D78AD8E7AF56",
                       "name" : "Sujets abordés",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -1795,11 +1855,11 @@
                     "orderIndex" : 0
                   }, {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "F4ADE828-421D-4953-A02B-279F855FBDF1",
+                    "uuid" : "E35BE6DB-D727-47D1-97B2-0AE6ACD50997",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "D9ED2D8C-3379-47BF-BF0B-2687F178DA6C",
-                      "name" : "8",
+                      "uuid" : "AB54738E-2CCD-4B89-B2D1-9CD22F5B1A4B",
+                      "name" : "0",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -1837,209 +1897,12 @@
                         "titleBorderBottomStyle" : "solid",
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
-                      }
+                      },
+                      "customJsonData" : "{    \n  \"format_type\":\"number\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_nb_covered_topics\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
                     },
                     "orderIndex" : 1
                   } ],
                   "orderIndex" : 1
-                }, {
-                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "AEE8C72E-E3BD-45DA-82B2-94CE199722A1",
-                  "cells" : [ {
-                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "FDFA1CF2-EC70-40C1-82CB-2A6742814F7F",
-                    "widget" : {
-                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "3B598477-B6BA-4022-B399-050DE1CC1ECA",
-                      "name" : "Risques :",
-                      "type" : "text",
-                      "orderIndex" : 0,
-                      "style" : {
-                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
-                        "marginTop" : 0,
-                        "marginBottom" : 0,
-                        "paddingTop" : 0,
-                        "paddingBottom" : 0,
-                        "paddingLeft" : 0,
-                        "paddingRight" : 0,
-                        "borderTopSize" : 0,
-                        "borderBottomSize" : 0,
-                        "borderLeftSize" : 0,
-                        "borderRightSize" : 0,
-                        "borderTopStyle" : "solid",
-                        "borderBottomStyle" : "solid",
-                        "borderLeftStyle" : "solid",
-                        "borderRightStyle" : "solid",
-                        "showShadow" : false,
-                        "absolutePosition" : false,
-                        "positionLeftOrRight" : 0,
-                        "positionToLeft" : true,
-                        "positionTopOrBottom" : 0,
-                        "positionToTop" : true,
-                        "cornerRadius" : "none",
-                        "contentAlignment" : "middle_center",
-                        "tableCellAlignment" : "middle_left",
-                        "fullTableCell" : false,
-                        "showTitle" : false,
-                        "titleBorderBottomColor" : "#d9d9d9",
-                        "titleBorderLeftColor" : "#1db9db",
-                        "titleBorderBottomSize" : 1,
-                        "titleBorderLeftSize" : 5,
-                        "titleBorderRightSize" : 1,
-                        "titleBorderBottomStyle" : "solid",
-                        "titleBorderLeftStyle" : "solid",
-                        "titleBorderRightStyle" : "solid"
-                      }
-                    },
-                    "orderIndex" : 0
-                  }, {
-                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "1E7BF366-CA14-4CA1-8D96-AF8976DE6E05",
-                    "widget" : {
-                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "5F00C121-DB2F-4E20-8612-27FAD790D5AD",
-                      "name" : "25",
-                      "type" : "text",
-                      "orderIndex" : 0,
-                      "style" : {
-                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
-                        "marginTop" : 0,
-                        "marginBottom" : 0,
-                        "paddingTop" : 0,
-                        "paddingBottom" : 0,
-                        "paddingLeft" : 0,
-                        "paddingRight" : 0,
-                        "borderTopSize" : 0,
-                        "borderBottomSize" : 0,
-                        "borderLeftSize" : 0,
-                        "borderRightSize" : 0,
-                        "borderTopStyle" : "solid",
-                        "borderBottomStyle" : "solid",
-                        "borderLeftStyle" : "solid",
-                        "borderRightStyle" : "solid",
-                        "showShadow" : false,
-                        "absolutePosition" : false,
-                        "positionLeftOrRight" : 0,
-                        "positionToLeft" : true,
-                        "positionTopOrBottom" : 0,
-                        "positionToTop" : true,
-                        "cornerRadius" : "none",
-                        "contentAlignment" : "middle_center",
-                        "tableCellAlignment" : "middle_right",
-                        "fullTableCell" : false,
-                        "showTitle" : false,
-                        "titleBorderBottomColor" : "#d9d9d9",
-                        "titleBorderLeftColor" : "#1db9db",
-                        "titleBorderBottomSize" : 1,
-                        "titleBorderLeftSize" : 5,
-                        "titleBorderRightSize" : 1,
-                        "titleBorderBottomStyle" : "solid",
-                        "titleBorderLeftStyle" : "solid",
-                        "titleBorderRightStyle" : "solid"
-                      }
-                    },
-                    "orderIndex" : 1
-                  } ],
-                  "orderIndex" : 2
-                }, {
-                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "8B58CD70-B43B-428E-9D5B-781EC6C0E24B",
-                  "cells" : [ {
-                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "7F8ACB6A-B0C4-48D9-877C-5EDCE93C7E8D",
-                    "widget" : {
-                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "B651465F-2F28-4878-AD49-F50D2467C477",
-                      "name" : "Problèmes :",
-                      "type" : "text",
-                      "orderIndex" : 0,
-                      "style" : {
-                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
-                        "marginTop" : 0,
-                        "marginBottom" : 0,
-                        "paddingTop" : 0,
-                        "paddingBottom" : 0,
-                        "paddingLeft" : 0,
-                        "paddingRight" : 0,
-                        "borderTopSize" : 0,
-                        "borderBottomSize" : 0,
-                        "borderLeftSize" : 0,
-                        "borderRightSize" : 0,
-                        "borderTopStyle" : "solid",
-                        "borderBottomStyle" : "solid",
-                        "borderLeftStyle" : "solid",
-                        "borderRightStyle" : "solid",
-                        "showShadow" : false,
-                        "absolutePosition" : false,
-                        "positionLeftOrRight" : 0,
-                        "positionToLeft" : true,
-                        "positionTopOrBottom" : 0,
-                        "positionToTop" : true,
-                        "cornerRadius" : "none",
-                        "contentAlignment" : "middle_center",
-                        "tableCellAlignment" : "middle_left",
-                        "fullTableCell" : false,
-                        "showTitle" : false,
-                        "titleBorderBottomColor" : "#d9d9d9",
-                        "titleBorderLeftColor" : "#1db9db",
-                        "titleBorderBottomSize" : 1,
-                        "titleBorderLeftSize" : 5,
-                        "titleBorderRightSize" : 1,
-                        "titleBorderBottomStyle" : "solid",
-                        "titleBorderLeftStyle" : "solid",
-                        "titleBorderRightStyle" : "solid"
-                      }
-                    },
-                    "orderIndex" : 0
-                  }, {
-                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "38991B1A-544D-44E9-B011-09718B369A2E",
-                    "widget" : {
-                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "3C71217C-D795-40D0-A5D9-F6BBA221ABAB",
-                      "name" : "12",
-                      "type" : "text",
-                      "orderIndex" : 0,
-                      "style" : {
-                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
-                        "marginTop" : 0,
-                        "marginBottom" : 0,
-                        "paddingTop" : 0,
-                        "paddingBottom" : 0,
-                        "paddingLeft" : 0,
-                        "paddingRight" : 0,
-                        "borderTopSize" : 0,
-                        "borderBottomSize" : 0,
-                        "borderLeftSize" : 0,
-                        "borderRightSize" : 0,
-                        "borderTopStyle" : "solid",
-                        "borderBottomStyle" : "solid",
-                        "borderLeftStyle" : "solid",
-                        "borderRightStyle" : "solid",
-                        "showShadow" : false,
-                        "absolutePosition" : false,
-                        "positionLeftOrRight" : 0,
-                        "positionToLeft" : true,
-                        "positionTopOrBottom" : 0,
-                        "positionToTop" : true,
-                        "cornerRadius" : "none",
-                        "contentAlignment" : "middle_center",
-                        "tableCellAlignment" : "middle_right",
-                        "fullTableCell" : false,
-                        "showTitle" : false,
-                        "titleBorderBottomColor" : "#d9d9d9",
-                        "titleBorderLeftColor" : "#1db9db",
-                        "titleBorderBottomSize" : 1,
-                        "titleBorderLeftSize" : 5,
-                        "titleBorderRightSize" : 1,
-                        "titleBorderBottomStyle" : "solid",
-                        "titleBorderLeftStyle" : "solid",
-                        "titleBorderRightStyle" : "solid"
-                      }
-                    },
-                    "orderIndex" : 1
-                  } ],
-                  "orderIndex" : 3
                 } ],
                 "colsWidth" : [ "", "" ]
               }
@@ -2047,10 +1910,10 @@
             "orderIndex" : 5
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "998E74DD-5142-48DC-BD9F-2A69B6055627",
+            "uuid" : "977A4C2C-8D4B-4EC4-AED8-AA1D2B72E8AB",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "FA3DFC9C-512B-49AF-933C-3BC69A83A8C6",
+              "uuid" : "954B0F30-B8BB-4495-AD10-8069D4409762",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -2094,16 +1957,16 @@
               "tableWidgetData" : {
                 "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableWidgetData",
                 "useCellSpacing" : true,
-                "cellSpacing" : 2,
+                "cellSpacing" : 0,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "8FBD4A49-B07D-4C44-9BAF-C3241CDF4A73",
+                  "uuid" : "F5599B79-4DD0-4FE5-805F-38C673AA8A6B",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "8428D671-3886-450C-897D-B7B8A67C0211",
+                    "uuid" : "8E8F1021-CB09-4C25-A6D8-9B9A539860EE",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "3AAE8CEA-0772-4354-B03B-15A54BD060C1",
+                      "uuid" : "C1A45013-A80A-479A-9AC7-D69AAC4AD017",
                       "name" : "Actions ",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -2150,13 +2013,13 @@
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "EE68B5EE-1B3E-44B6-889A-38EF3DD4F38B",
+                  "uuid" : "B5C835EB-BF24-42D2-B1F6-9E149DCB3A31",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "CD37109C-5450-4E14-B4B9-3FCFBACDCE4B",
+                    "uuid" : "63CAD6DA-EBB5-4157-ADB5-4F32CD1041DA",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "F13B30C5-63EC-45B8-8030-35E2C6EDFF3C",
+                      "uuid" : "A8F1AE78-4CCF-40EC-AA3D-D1EDC65F5840",
                       "name" : "Pie chart",
                       "type" : "pie_chart",
                       "orderIndex" : 0,
@@ -2196,11 +2059,218 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{\n  \"pie_height\":\"50px\",\n  \"pie_width\":\"50px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Réalisées : 20\",\n          \"A faire : 10\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"20\",\n          \"10\"\n        ]\n      }\n    ]\n  } \n}"
+                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Réalisées : 0\",\n          \"A faire : 0\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"0\",\n          \"0\"\n        ]\n      }\n    ]\n  },\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_tasks_pie_chart\"},{\"to_local_var\":\"datasets\"}]\n    ]\n}"
                     },
                     "orderIndex" : 0
                   } ],
                   "orderIndex" : 1
+                }, {
+                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
+                  "uuid" : "6D6E056B-E5B9-43B4-B8D0-9D2F5DF04047",
+                  "cells" : [ {
+                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                    "uuid" : "BB828379-7CEA-4FF6-9ADE-04116A0D09A0",
+                    "widget" : {
+                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                      "uuid" : "E1D45F4F-FF63-4AF6-8755-EFA3703B4430",
+                      "name" : "Table",
+                      "type" : "table",
+                      "orderIndex" : 0,
+                      "style" : {
+                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                        "marginTop" : 0,
+                        "marginBottom" : 0,
+                        "paddingTop" : 0,
+                        "paddingBottom" : 0,
+                        "paddingLeft" : 0,
+                        "paddingRight" : 0,
+                        "borderTopSize" : 0,
+                        "borderBottomSize" : 0,
+                        "borderLeftSize" : 0,
+                        "borderRightSize" : 0,
+                        "borderTopStyle" : "solid",
+                        "borderBottomStyle" : "solid",
+                        "borderLeftStyle" : "solid",
+                        "borderRightStyle" : "solid",
+                        "showShadow" : false,
+                        "absolutePosition" : false,
+                        "positionLeftOrRight" : 0,
+                        "positionToLeft" : true,
+                        "positionTopOrBottom" : 0,
+                        "positionToTop" : true,
+                        "cornerRadius" : "none",
+                        "contentAlignment" : "middle_center",
+                        "tableCellAlignment" : "middle_center",
+                        "fullTableCell" : false,
+                        "showTitle" : false,
+                        "titleBorderBottomColor" : "#d9d9d9",
+                        "titleBorderLeftColor" : "#1db9db",
+                        "titleBorderBottomSize" : 1,
+                        "titleBorderLeftSize" : 5,
+                        "titleBorderRightSize" : 1,
+                        "titleBorderBottomStyle" : "solid",
+                        "titleBorderLeftStyle" : "solid",
+                        "titleBorderRightStyle" : "solid"
+                      },
+                      "tableWidgetData" : {
+                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableWidgetData",
+                        "useCellSpacing" : true,
+                        "cellSpacing" : 5,
+                        "rows" : [ {
+                          "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
+                          "uuid" : "32685290-C953-41B2-82F2-A456A5235244",
+                          "cells" : [ {
+                            "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                            "uuid" : "20AFB50E-3EB2-4D14-9478-6C3CB737733D",
+                            "widget" : {
+                              "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                              "uuid" : "EAEC7BB7-256F-4CE6-BC87-AA2D0F7C5263",
+                              "name" : "0",
+                              "type" : "text",
+                              "orderIndex" : 0,
+                              "style" : {
+                                "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                                "marginTop" : 0,
+                                "marginBottom" : 0,
+                                "paddingTop" : 0,
+                                "paddingBottom" : 0,
+                                "paddingLeft" : 0,
+                                "paddingRight" : 0,
+                                "borderTopSize" : 0,
+                                "borderBottomSize" : 0,
+                                "borderLeftSize" : 0,
+                                "borderRightSize" : 0,
+                                "borderTopStyle" : "solid",
+                                "borderBottomStyle" : "solid",
+                                "borderLeftStyle" : "solid",
+                                "borderRightStyle" : "solid",
+                                "showShadow" : false,
+                                "absolutePosition" : false,
+                                "positionLeftOrRight" : -20,
+                                "positionToLeft" : true,
+                                "positionTopOrBottom" : 0,
+                                "positionToTop" : true,
+                                "cornerRadius" : "none",
+                                "contentAlignment" : "middle_center",
+                                "tableCellAlignment" : "middle_center",
+                                "fullTableCell" : false,
+                                "showTitle" : false,
+                                "titleBorderBottomColor" : "#d9d9d9",
+                                "titleBorderLeftColor" : "#1db9db",
+                                "titleBorderBottomSize" : 1,
+                                "titleBorderLeftSize" : 5,
+                                "titleBorderRightSize" : 1,
+                                "titleBorderBottomStyle" : "solid",
+                                "titleBorderLeftStyle" : "solid",
+                                "titleBorderRightStyle" : "solid"
+                              },
+                              "customJsonData" : "{\n  \"font_size\":\"12\",\n  \"format_type\":\"number\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_nb_tasks_to_do\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
+                            },
+                            "orderIndex" : 0
+                          }, {
+                            "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                            "uuid" : "3B87C78B-5120-4230-A29C-FD8BDD23CA45",
+                            "widget" : {
+                              "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                              "uuid" : "4C8A1B0E-23FE-4BA6-92EA-0C7975042A13",
+                              "name" : "|",
+                              "type" : "text",
+                              "orderIndex" : 0,
+                              "style" : {
+                                "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                                "marginTop" : 0,
+                                "marginBottom" : 0,
+                                "paddingTop" : 0,
+                                "paddingBottom" : 0,
+                                "paddingLeft" : 0,
+                                "paddingRight" : 0,
+                                "borderTopSize" : 0,
+                                "borderBottomSize" : 0,
+                                "borderLeftSize" : 0,
+                                "borderRightSize" : 0,
+                                "borderTopStyle" : "solid",
+                                "borderBottomStyle" : "solid",
+                                "borderLeftStyle" : "solid",
+                                "borderRightStyle" : "solid",
+                                "showShadow" : false,
+                                "absolutePosition" : false,
+                                "positionLeftOrRight" : 0,
+                                "positionToLeft" : true,
+                                "positionTopOrBottom" : 0,
+                                "positionToTop" : true,
+                                "cornerRadius" : "none",
+                                "contentAlignment" : "middle_center",
+                                "tableCellAlignment" : "top_left",
+                                "fullTableCell" : false,
+                                "showTitle" : false,
+                                "titleBorderBottomColor" : "#d9d9d9",
+                                "titleBorderLeftColor" : "#1db9db",
+                                "titleBorderBottomSize" : 1,
+                                "titleBorderLeftSize" : 5,
+                                "titleBorderRightSize" : 1,
+                                "titleBorderBottomStyle" : "solid",
+                                "titleBorderLeftStyle" : "solid",
+                                "titleBorderRightStyle" : "solid"
+                              }
+                            },
+                            "orderIndex" : 1
+                          }, {
+                            "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                            "uuid" : "FCCA7A21-F830-4E88-85C3-30A425DDE966",
+                            "widget" : {
+                              "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                              "uuid" : "0BCA5526-1559-41E9-9986-39569A7E28E1",
+                              "name" : "0",
+                              "type" : "text",
+                              "orderIndex" : 0,
+                              "style" : {
+                                "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                                "marginTop" : 0,
+                                "marginBottom" : 0,
+                                "paddingTop" : 0,
+                                "paddingBottom" : 0,
+                                "paddingLeft" : 0,
+                                "paddingRight" : 0,
+                                "borderTopSize" : 0,
+                                "borderBottomSize" : 0,
+                                "borderLeftSize" : 0,
+                                "borderRightSize" : 0,
+                                "borderTopStyle" : "solid",
+                                "borderBottomStyle" : "solid",
+                                "borderLeftStyle" : "solid",
+                                "borderRightStyle" : "solid",
+                                "showShadow" : false,
+                                "absolutePosition" : false,
+                                "positionLeftOrRight" : 0,
+                                "positionToLeft" : true,
+                                "positionTopOrBottom" : 0,
+                                "positionToTop" : true,
+                                "cornerRadius" : "none",
+                                "contentAlignment" : "middle_center",
+                                "tableCellAlignment" : "top_left",
+                                "fullTableCell" : false,
+                                "showTitle" : false,
+                                "titleBorderBottomColor" : "#d9d9d9",
+                                "titleBorderLeftColor" : "#1db9db",
+                                "titleBorderBottomSize" : 1,
+                                "titleBorderLeftSize" : 5,
+                                "titleBorderRightSize" : 1,
+                                "titleBorderBottomStyle" : "solid",
+                                "titleBorderLeftStyle" : "solid",
+                                "titleBorderRightStyle" : "solid"
+                              },
+                              "customJsonData" : "{\n  \"font_size\":\"12\",\n  \"format_type\":\"number\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_nb_tasks_done\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
+                            },
+                            "orderIndex" : 2
+                          } ],
+                          "orderIndex" : 0
+                        } ],
+                        "colsWidth" : [ "", "", "" ]
+                      }
+                    },
+                    "orderIndex" : 0
+                  } ],
+                  "orderIndex" : 2
                 } ],
                 "colsWidth" : [ "" ]
               }
@@ -2210,7 +2280,16 @@
           "orderIndex" : 0
         } ],
         "colsWidth" : [ "", "", "", "", "", "", "" ]
-      }
+      },
+      "beanName" : "project_1"
     } ]
-  } ]
+  } ],
+  "customBpmProcess" : "{\n  \"tasks\": [\n    {      \n    \"uuid\": \"main\",\n    \"debug_mode\": \"false\",\n    \"script\":[\n        [{\"call\":[\"fetch_line\",[\"project_name\",\"#{CMS bimedia}\"],[\"bean_name\",\"#{project_1}\"],[\"area_uuid\",\"#{4f448186-d78b-46cf-97bd-943688f0e6c3}\"],[\"dashboard_uuid\",\"#{02a0f046-b69a-4329-a819-e5befe8b6375}\"]]}]\n      ],\n    \"functions\":[\n        {\n          \"name\":\"fetch_line\",\n          \"script\": [\n            \n            [{\"set_current_bean\":\"bean_name\"}],\n            [{\"get\":\"area_uuid\"},{\"to_bean_var\":[\"bean_name\",\"b_area_uuid\"]}],\n            [{\"get\":\"dashboard_uuid\"},{\"to_bean_var\":[\"bean_name\",\"b_dashboard_uuid\"]}],\n            [{\"get\":\"project_name\"},{\"to_bean_var\":[\"bean_name\",\"b_general_name\"]}],\n            [{\"check_sources_data_trust\":\"reporting_area:area_uuid\"},{\"to_bean_var\":[\"bean_name\",\"b_sources_data_trust\"]},{\"is_trusted_data_sources\":\"\"},{\"else\":\"\"},{\"break\":\"\"},{\"end_if\":\"\"}],\n            \n            [{\"log_debug\":\"step_1\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_project_general_status_and_progress_@_weather\"},{\"to_bean_var\":[\"bean_name\",\"b_general_weather\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_status_and_progress_@_progress\"},{\"to_bean_var\":[\"bean_name\",\"b_general_progress\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data_@_end_date\"},{\"to_bean_var\":[\"bean_name\",\"b_general_end_date\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data_@_initial_end_date\"},{\"to_bean_var\":[\"bean_name\",\"b_general_initial_end_date\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data_@_leaders\"},{\"get_table\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_general_leaders\"]}],\n            \n            [{\"log_debug\":\"step_2\"}],\n            \n            [{\"real\":\"30\"},{\"multiply\":\"#{86400000}\"},{\"to_local_var\":\"very_late_limit_in_msec\"}],\n            [{\"real\":\"15\"},{\"multiply\":\"#{86400000}\"},{\"to_local_var\":\"late_limit_in_msec\"}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data\"},{\"calculate_delay_flag\":[\"very_late_limit_in_msec\",\"late_limit_in_msec\"]},{\"get_cell\":\"flag_level\"},{\"to_bean_var\":[\"bean_name\",\"b_general_flag\"]}],\n            \n            [{\"log_debug\":\"step_3\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_customer_relationship_@_customer_satisfaction\"},{\"to_bean_var\":[\"bean_name\",\"b_customer_satisfaction\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_budget_@_status\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_status\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_planning_status\"},{\"to_bean_var\":[\"bean_name\",\"b_planning_status\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_team_@_mood\"},{\"to_bean_var\":[\"bean_name\",\"b_team_status\"]}],\n            \n            [{\"log_debug\":\"step_4\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_budget_@_summary_@_total_budget\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_total\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_budget_@_summary_@_situation\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation\"]}],\n            \n            [{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation_color\"]}],\n            [{\"if_greater_than_or_equal_to\":[\"b_budget_situation\",\"#{0}\"]},{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation_color\"]},{\"else\":\"\"},{\"string\":\"#f92423\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation_color\"]},{\"end_if\":\"\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_synthesis_@_covered_topics\"},{\"get_table\":\"\"},{\"count\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_covered_topics\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_synthesis_@_significant_events\"},{\"get_table\":\"\"},{\"count\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_significant_events\"]}],\n            \n            [{\"log_debug\":\"step_5\"}],\n            \n            [{\"string\":\"#2f3433\"},{\"to_bean_var\":[\"bean_name\",\"b_planned_workload_color\"]}],\n            [{\"string\":\"#1db9db\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_done_color\"]}],\n            [{\"string\":\"#cccccc\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_to_do_color\"]}],\n            [{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation_color\"]}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_planned_workload\"},{\"to_bean_var\":[\"bean_name\",\"b_planned_workload\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_workload_done\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_done\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_workload_to_do\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_to_do\"]}],\n            [{\"get\":\"b_planned_workload\"},{\"substract\":\"b_workload_done\"},{\"substract\":\"b_workload_to_do\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation\"]}],\n            \n            [{\"if_greater_than_or_equal_to\":[\"b_workload_situation\",\"#{0}\"]},{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation_color\"]},{\"else\":\"\"},{\"string\":\"#f92423\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation_color\"]},{\"end_if\":\"\"}],\n            \n            [{\"log_debug\":\"step_6\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_nb_tasks\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_tasks\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_nb_tasks_done\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_tasks_done\"]}],\n            [{\"get\":\"b_nb_tasks\"},{\"substract\":\"b_nb_tasks_done\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_tasks_to_do\"]}],\n            \n            [{\"log_debug\":\"step_7\"}],\n            \n            [{\"create_table\":\"\"},{\"set_into_cell\":[\"#{0}\",\"#{uuid}\",\"#{Nb tâches réalisées} : ${b_nb_tasks_done}\"]},{\"set_into_cell\":[\"#{0}\",\"#{value}\",\"b_nb_tasks_done\"]},{\"set_into_cell\":[\"#{0}\",\"#{name}\",\"#{T}\"]},{\"to_bean_var\":[\"bean_name\",\"b_tasks_pie_chart\"]}],\n            [{\"get\":\"b_tasks_pie_chart\"},{\"set_into_cell\":[\"#{1}\",\"#{uuid}\",\"#{Nb tâches restantes} : ${b_nb_tasks_to_do}\"]},{\"set_into_cell\":[\"#{1}\",\"#{value}\",\"b_nb_tasks_to_do\"]},{\"set_into_cell\":[\"#{1}\",\"#{name}\",\"#{NT}\"]}],\n            \n            [{\"string\":\"${b_nb_tasks_to_do} | ${b_nb_tasks_done}\"},{\"to_bean_var\":[\"bean_name\",\"b_tasks_to_do_vs_done\"]}],\n            \n            [{\"log_debug\":\"Fin\"}]\n          \n          ]\n        \n        }\n      ]\n    }\n  ]\n}",
+  "header" : {
+    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCBoardHeader",
+    "imageHeight" : "30px"
+  },
+  "footer" : {
+    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCBoardFooter"
+  }
 }

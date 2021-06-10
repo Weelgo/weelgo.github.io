@@ -82,6 +82,17 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 ```
 
+**JSON pour un pourcentage, affiche 10%
+```javascript
+{    
+  "text":"0.1",
+  "format_type":"number",
+  "multiply_by":"100",
+  "suffix":"%",
+  "suffix_gap":"false" 
+}
+```
+
 **JSON pour un booléen,** affiche Mon faux
 ```javascript
 {      
@@ -164,7 +175,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **prefix_gap**
 * Description : indique si il faut laisser un espace entre le préfix et le texte principal.
-* Valeurs possibles : true \| false
+* Valeurs possibles : **true** \| false
 * Exemple : ```"prefix_gap":"false"```
 
 **suffix**
@@ -179,7 +190,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **suffix_gap**
 * Description : indique si il faut laisser un espace entre le suffixe et le texte principal.
-* Valeurs possibles : true \| false
+* Valeurs possibles : **true** \| false
 * Exemple : ```"suffix_gap":"true"```
 
 **format_type** (obligatoire en cas de nombre, date, booléen ou markdwn)
