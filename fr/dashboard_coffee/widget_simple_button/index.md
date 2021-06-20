@@ -73,8 +73,8 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **icon_size**
 * Description : taille de l'icone. Vide par défaut.
-* Valeurs possibles : taille en pixel, ne pas ajouter "px" à la fin.
-* Exemple : ```"icon_size":"20"```
+* Valeurs possibles : taille en pixel. Ajouter "px" à la fin.
+* Exemple : ```"icon_size":"20px"```
 
 **type**
 * Description : type du bouton
