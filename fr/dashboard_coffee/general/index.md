@@ -271,4 +271,16 @@ Exemple de script avec des if
 }
 ```
 
-### La section JSON BPM des widgets
+### Affichage du message de modificatino en cours
+
+```javascript
+{
+  "tasks": [
+    {
+      "uuid": "board",
+      "type": "board_panel",
+      "under_maintenance": "true"
+    }
+  ]
+}
+```

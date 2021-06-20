@@ -71,6 +71,11 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : voir IconEnum 
 * Exemple : ```"name":"ic_diamond_solid"```
 
+**icon_size**
+* Description : taille de l'icone. Vide par défaut.
+* Valeurs possibles : taille en pixel, ne pas ajouter "px" à la fin.
+* Exemple : ```"icon_size":"20"```
+
 **type**
 * Description : type du bouton
 * Valeurs possibles :  **normal** \| circle

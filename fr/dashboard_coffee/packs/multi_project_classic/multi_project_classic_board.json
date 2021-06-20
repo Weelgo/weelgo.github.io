@@ -8,10 +8,53 @@
     "orderIndex" : 0,
     "widgets" : [ {
       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-      "uuid" : "F53BB09B-2BE4-4074-848B-F99FC2D9D697",
+      "uuid" : "884546A6-4C7C-4C90-B7B1-4169586138F7",
+      "name" : "Projets de transformation",
+      "type" : "text",
+      "orderIndex" : 0,
+      "style" : {
+        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+        "marginTop" : 0,
+        "marginBottom" : 20,
+        "paddingTop" : 0,
+        "paddingBottom" : 0,
+        "paddingLeft" : 0,
+        "paddingRight" : 0,
+        "borderTopSize" : 0,
+        "borderBottomSize" : 0,
+        "borderLeftSize" : 0,
+        "borderRightSize" : 0,
+        "borderTopStyle" : "solid",
+        "borderBottomStyle" : "solid",
+        "borderLeftStyle" : "solid",
+        "borderRightStyle" : "solid",
+        "showShadow" : false,
+        "absolutePosition" : false,
+        "positionLeftOrRight" : 0,
+        "positionToLeft" : true,
+        "positionTopOrBottom" : 0,
+        "positionToTop" : true,
+        "cornerRadius" : "none",
+        "contentAlignment" : "middle_center",
+        "tableCellAlignment" : "middle_left",
+        "fullTableCell" : false,
+        "showTitle" : false,
+        "titleBorderBottomColor" : "#d9d9d9",
+        "titleBorderLeftColor" : "#1db9db",
+        "titleBorderBottomSize" : 1,
+        "titleBorderLeftSize" : 5,
+        "titleBorderRightSize" : 1,
+        "titleBorderBottomStyle" : "solid",
+        "titleBorderLeftStyle" : "solid",
+        "titleBorderRightStyle" : "solid"
+      },
+      "customJsonData" : "{    \n  \"font_size\":\"20\"\n}"
+    }, {
+      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+      "uuid" : "0F319430-D113-4A45-A720-67657079A32D",
       "name" : "Table",
       "type" : "table",
-      "orderIndex" : 0,
+      "orderIndex" : 1,
       "style" : {
         "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
         "marginTop" : 0,
@@ -59,13 +102,13 @@
         "cellSpacing" : 10,
         "rows" : [ {
           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-          "uuid" : "5CDADF2F-AFB5-43F4-9209-3BBBE6C9B254",
+          "uuid" : "1F7FEB95-9789-4BE5-9D6C-49A0DA51E0F0",
           "cells" : [ {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "1111219A-3928-4C77-BBF8-84DEDC2107E2",
+            "uuid" : "84CCF235-977B-43E9-B636-13C94D4EED40",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "2C88CE8B-B8D5-492A-9C42-DDB61158E84D",
+              "uuid" : "9405419F-EB46-44C2-AAD1-B8313DAB1035",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -112,13 +155,13 @@
                 "cellSpacing" : 5,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "74F64A40-469C-4431-ACA7-6BDB5331AFFB",
+                  "uuid" : "14A0FF43-F818-4F0A-B869-E1CE5EBCDC72",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "6DF46465-C315-4046-B6B9-5EF8C3F5A855",
+                    "uuid" : "9793A3F2-E329-4634-ACC9-6D5C065E8F5D",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "35FA1CE7-1994-400A-BF07-A766CC2624E5",
+                      "uuid" : "A8C194F3-6629-4CB3-8D89-1D71107FD106",
                       "name" : "Table",
                       "type" : "table",
                       "orderIndex" : 0,
@@ -164,13 +207,13 @@
                         "cellSpacing" : 10,
                         "rows" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                          "uuid" : "0723EE6D-40D7-4B1A-8236-BB56270990BD",
+                          "uuid" : "1A40D276-E237-4E64-9A4A-CB9BF6E90494",
                           "cells" : [ {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "82BF3379-1CC1-4D23-90AA-30357A18A674",
+                            "uuid" : "F42E9745-0505-4C95-AC80-B2CCC4BF7478",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "A87B3BC1-3827-4362-8631-F256E94D8944",
+                              "uuid" : "7307D7AB-CCD8-4D6B-9E0B-6F274139924A",
                               "name" : "Projet 1",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -215,10 +258,10 @@
                             "orderIndex" : 0
                           }, {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "9DDBF9FF-5342-4AFB-BCD5-DD20A3DD4E50",
+                            "uuid" : "821A8769-E3BD-459E-8B0C-CFA11299185F",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "72142A48-5AE7-4E2D-A4C7-680DD1CB5280",
+                              "uuid" : "B791DA8B-24D0-41A4-B70C-BC24D557420F",
                               "name" : "Simple button",
                               "type" : "simple_button",
                               "orderIndex" : 0,
@@ -271,13 +314,13 @@
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "44BBB8DE-AA80-4765-BF84-924B9108CF1D",
+                  "uuid" : "48B5F3DB-8307-467C-BD83-A8333CA43586",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "B713D81F-9D77-4982-B7C7-7ED0D19D6A88",
+                    "uuid" : "4621D7B7-4C64-4E77-8063-9030A15F5272",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "D9C65987-B199-4E5B-859B-2D651A1D877C",
+                      "uuid" : "9345694D-AA9E-424D-BEAF-F57C985E1D81",
                       "name" : "Responsable",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -329,10 +372,10 @@
             "orderIndex" : 0
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "4E07D51C-4582-4B85-8955-883F0354CD73",
+            "uuid" : "1E90C1D9-E3ED-440B-BC51-3CA48F4D5F4E",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "A9954F76-1FF4-4696-8A92-D6E00D343C9F",
+              "uuid" : "72323743-C61E-493A-9D95-AAA8442A2C54",
               "name" : "Absolute Panel",
               "type" : "absolute_panel",
               "orderIndex" : 0,
@@ -378,7 +421,7 @@
                 "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCAbsolutePanelData",
                 "widgets" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                  "uuid" : "AB65EB1E-A123-4A84-956C-5128B8506BC3",
+                  "uuid" : "191A8386-D4FD-4A91-99A3-7CE8FE036663",
                   "name" : "Weather",
                   "type" : "weather",
                   "orderIndex" : 0,
@@ -421,7 +464,7 @@
                   "customJsonData" : "{    \n  \"weather_level\":\"weather_sun\",\n  \"image_height\":\"40px\",\n  \"image_width\":\"40px\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n    \"script\": [\n      [{\"get\":\"b_general_weather\"},{\"to_local_var\":\"weather_level\"}]\n    ]\n}"
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                  "uuid" : "7AD94109-D4EA-48B3-9163-38B39C0487D6",
+                  "uuid" : "159C5E62-7200-4677-BB50-EC62539467F7",
                   "name" : "0%",
                   "type" : "text",
                   "orderIndex" : 1,
@@ -464,7 +507,7 @@
                   "customJsonData" : "{    \n  \"text\":\"0\",\n  \"font_size\":\"15\",\n  \"format_type\":\"number\",\n  \"multiply_by\":\"100\",\n  \"suffix\":\"%\",\n  \"suffix_gap\":\"false\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n    \"script\": [\n      [{\"get\":\"b_general_progress\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                  "uuid" : "A338C5A0-FA81-45D2-BFDD-E0B756530D15",
+                  "uuid" : "992461C9-D645-45A8-9121-A7AA114B020A",
                   "name" : "Progress bar",
                   "type" : "progress_bar",
                   "orderIndex" : 2,
@@ -507,7 +550,7 @@
                   "customJsonData" : "{\n  \"progress\": \"0\",\n  \"bar_height\": \"10px\",\n  \"bar_width\": \"75px\",\n  \"show_progress_number\": \"false\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_general_progress\"},{\"to_local_var\":\"progress\"}]\n    ]\n}"
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                  "uuid" : "69B39913-9D86-465D-9BC4-58B27712041A",
+                  "uuid" : "2E2F77B6-234D-49AC-B911-6645E3698807",
                   "name" : "Finish line flag",
                   "type" : "finish_line_flag",
                   "orderIndex" : 3,
@@ -561,10 +604,10 @@
             "orderIndex" : 1
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "E242D3F0-98CE-4E76-9D94-7705BCB61272",
+            "uuid" : "4813FAB8-EF9E-462E-BD65-9C7E32D9B7B6",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "7F0F8B78-D99A-4C42-8798-16572FA54F78",
+              "uuid" : "B6105B39-BC0D-47E6-ABFD-CFFF553C4A6D",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -610,13 +653,13 @@
                 "cellSpacing" : 3,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "8148C0EB-57EC-4C87-820D-3A653BB2164A",
+                  "uuid" : "0C955617-25A2-456B-A519-0A67D195C4E3",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "1BEBA8F1-5A6D-4541-AF14-32DA001F1275",
+                    "uuid" : "5B1A4E5E-D269-46ED-BE1C-329B1D0286BA",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "36B8962C-CE80-4F0B-95BD-F2916F5ACB86",
+                      "uuid" : "7BEF12F1-CA89-4971-81BC-173EB1AA590C",
                       "name" : "Weather",
                       "type" : "weather",
                       "orderIndex" : 0,
@@ -661,10 +704,10 @@
                     "orderIndex" : 0
                   }, {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "242400B6-ACCB-4F15-8623-36A2881B4230",
+                    "uuid" : "9640BB12-AE61-449D-A02E-8579B72A3425",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "4D41D5DF-A701-4868-9B51-4AD9CB0427FF",
+                      "uuid" : "45851E51-2482-4FE6-A912-B17D0DBEA555",
                       "name" : "Client",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -710,13 +753,13 @@
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "E7A313A4-C724-4C61-B484-7F4F248F8465",
+                  "uuid" : "773913FF-0527-4F50-B885-4954D305322C",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "FF107B89-5689-4C16-84F0-AAA0D039978A",
+                    "uuid" : "2A318B3D-0A16-4F43-BE0B-2C2EAF67B940",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "5FE67F71-8881-4300-A339-D85DB906087F",
+                      "uuid" : "67365AA2-CFE1-4EBE-8228-94BE4E7D7B34",
                       "name" : "Weather",
                       "type" : "weather",
                       "orderIndex" : 0,
@@ -761,10 +804,10 @@
                     "orderIndex" : 0
                   }, {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "41B58725-6FFC-4838-BD01-366FD9FF7B7A",
+                    "uuid" : "CAED9140-986B-45D0-9FEE-1C9361B5CD37",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "5517B32F-32C0-41A5-B81B-D84EF869884F",
+                      "uuid" : "4F4152E7-CEF8-410C-9735-2CD8648C928B",
                       "name" : "Planning",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -810,13 +853,13 @@
                   "orderIndex" : 1
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "ACB24C06-CE52-4416-9156-CCE87B2F2B4F",
+                  "uuid" : "B6B00A89-77FC-4810-8127-2DAED55101F5",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "E8A2965E-5F4B-4308-BB77-868C62B09EE0",
+                    "uuid" : "ADEF35EF-37FE-42AE-BAC6-CC35B6E01708",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "D1D1ED06-0E6E-4DEC-BF6D-2C2746419FCC",
+                      "uuid" : "5BEB18D1-9C74-42C5-B2C4-394D6F73F772",
                       "name" : "Weather",
                       "type" : "weather",
                       "orderIndex" : 0,
@@ -861,10 +904,10 @@
                     "orderIndex" : 0
                   }, {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "D7749E72-1360-4B96-9850-4C4C86BA4FDF",
+                    "uuid" : "B9DF684D-4CB7-4E2E-ACA1-7F1B0B67110C",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "4B23CEE1-7B6C-4A6B-A492-096ACD6E4540",
+                      "uuid" : "F480874C-5E90-4EAE-B0A9-D60FCB0C2023",
                       "name" : "Equipe",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -915,10 +958,10 @@
             "orderIndex" : 2
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "E0303C29-6AB3-4A6C-87A7-0F1B04727C72",
+            "uuid" : "BFB21303-685D-4F0B-820F-288EF6A49905",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "0112D2DA-9D9C-49C7-B7CF-8AAE06160F43",
+              "uuid" : "C1417039-B4D6-448F-9C18-FDA13B7DE93F",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -945,6 +988,7 @@
                 "positionToLeft" : true,
                 "positionTopOrBottom" : 0,
                 "positionToTop" : true,
+                "width" : "130px",
                 "cornerRadius" : "none",
                 "contentAlignment" : "middle_center",
                 "tableCellAlignment" : "middle_center",
@@ -965,13 +1009,13 @@
                 "cellSpacing" : 3,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "C71521A5-AE03-4F0B-9485-85D05ED743CC",
+                  "uuid" : "F0A86C9D-3E3A-4FDF-9938-0EBDA2710067",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "C61FE2AE-AD03-42DF-8FC1-5144728D5862",
+                    "uuid" : "4877EF39-35E1-42F8-BB54-D3AFA0B1C0F9",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "F8483C3C-4A9A-4AD3-B862-B2E16E8B9BBB",
+                      "uuid" : "43301516-B8AF-4CEF-822E-CB0131B59FB3",
                       "name" : "Charge plan. : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -1018,13 +1062,13 @@
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "547FB13C-6468-49F8-BBC8-E196CD222A35",
+                  "uuid" : "52942BB9-2D8F-4D34-A655-ACD0B1B21DF9",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "11271AF5-2C27-4D7D-BB4A-740186893E6A",
+                    "uuid" : "B0C59D38-7A23-4F7F-89FE-3B5CC6B9855E",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "DFC2F356-616A-47DD-98F5-AF02C49A8D49",
+                      "uuid" : "684835E8-C4E7-4A17-BEAD-B97A9BD40DEE",
                       "name" : "Charge cons. : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -1071,13 +1115,13 @@
                   "orderIndex" : 1
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "C8E6E925-AF66-4CF2-9E4B-69C0D00A8D4E",
+                  "uuid" : "6E3BF332-9E59-4BBA-A435-3164876B8E35",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "F70A6FAD-3901-4687-BBC5-7F6992AD41EB",
+                    "uuid" : "56829608-9AF0-4A04-91C8-EE88ABEF5B9E",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "699BDF80-53FE-4206-829E-9CEC5FE40D3C",
+                      "uuid" : "159193B0-B1C1-4602-A364-FD7B5264CD1D",
                       "name" : "Reste à faire : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -1124,13 +1168,13 @@
                   "orderIndex" : 2
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "B397D5AE-D1F4-4451-ADA3-5F2F09FDB370",
+                  "uuid" : "A3954AE1-F2C6-4937-BC28-F27CBAF2451E",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "0ECDE326-15D4-4892-BF5B-C3138CAF63CD",
+                    "uuid" : "B4AC014F-443D-4DB7-A970-65D0806E58E2",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "1E14F3E7-CED5-4027-998B-B1BE8256AF4F",
+                      "uuid" : "E42FAB2B-CAAD-49AC-A99D-BDDD9B656978",
                       "name" : "Situation : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -1182,10 +1226,10 @@
             "orderIndex" : 3
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "9C32CA8F-7885-43F8-9C87-F3C8A4409EB7",
+            "uuid" : "408B3259-0EE0-43D9-B26F-E881C1545B99",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "A53CE9B6-AB1E-4669-8E4A-96B3319E2738",
+              "uuid" : "2AF47D5A-7C7F-4208-A7E9-E38590BEDF10",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -1232,13 +1276,13 @@
                 "cellSpacing" : 10,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "E3B8138A-2563-4D49-BD99-12610D86BA64",
+                  "uuid" : "D7A72018-C47B-4E93-AD60-94B33C91BC6C",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "EFCD0D37-4F47-4A95-96AF-0D2450107355",
+                    "uuid" : "FA3E8AE7-E0D7-4DD5-B4E2-647D5FE991D1",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "EEF61B5D-EC93-4DF8-854D-44047BE1A3D5",
+                      "uuid" : "6DE3B716-6D0F-4B0C-89DE-525C5BDAF3E6",
                       "name" : "Table",
                       "type" : "table",
                       "orderIndex" : 0,
@@ -1284,13 +1328,13 @@
                         "cellSpacing" : 10,
                         "rows" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                          "uuid" : "E2F23944-5FB5-4B43-AEE2-02716D3F8E3C",
+                          "uuid" : "D66777CE-A20D-45BC-8A86-C02BE13D6D64",
                           "cells" : [ {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "DA5297ED-FAFC-413A-ABB2-F02D2512679C",
+                            "uuid" : "BFD120E1-B3C8-41F4-8732-822E94BF9723",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "213654D4-3035-4381-BB96-8B9CCE984BD6",
+                              "uuid" : "B9EC4C1D-942A-4018-8AA0-8910FEF7DA1B",
                               "name" : "Budget :",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -1335,10 +1379,10 @@
                             "orderIndex" : 0
                           }, {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "32AF79B8-8614-4818-943A-62327132EC88",
+                            "uuid" : "699304E2-D6CF-48E0-92A6-0F7B9DD6F6F9",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "5E5C3C04-3E29-48DE-B427-9631FDDCC7CA",
+                              "uuid" : "5C8D7BA0-A174-4E01-ADFD-F579C0627871",
                               "name" : "Weather",
                               "type" : "weather",
                               "orderIndex" : 0,
@@ -1391,13 +1435,13 @@
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "F2547845-510B-4CB7-8D46-B47EBAAE313E",
+                  "uuid" : "DA7923F7-F84F-4039-927F-3802708DD340",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "26CE6898-D39B-4AB0-A335-6A2A018BD269",
+                    "uuid" : "4C55730A-1EE3-4E09-9781-74D99C9CE924",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "28BBECAB-D806-4E4B-9B44-98756AA7E55F",
+                      "uuid" : "C8E4CB4C-5D83-4BE2-A610-F223340BD8E4",
                       "name" : "Table",
                       "type" : "table",
                       "orderIndex" : 0,
@@ -1423,6 +1467,7 @@
                         "positionToLeft" : true,
                         "positionTopOrBottom" : 0,
                         "positionToTop" : true,
+                        "width" : "135px",
                         "cornerRadius" : "none",
                         "contentAlignment" : "middle_center",
                         "tableCellAlignment" : "top_left",
@@ -1443,13 +1488,13 @@
                         "cellSpacing" : 5,
                         "rows" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                          "uuid" : "8A5BB195-06F5-4A7C-94BC-50B7E5C82E47",
+                          "uuid" : "4ED3E441-C9EC-4734-BF52-AF303207A9D0",
                           "cells" : [ {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "1F38AAED-5C10-455B-9A64-0B4FA610284E",
+                            "uuid" : "61B41892-2F1B-4CEC-85FD-205DE1D24FBB",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "C4738F73-41C4-4F88-863B-66E79EA276AC",
+                              "uuid" : "DFF998B1-9624-4EBD-A199-FFEB5F7F9B9F",
                               "name" : "Total :",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -1493,10 +1538,10 @@
                             "orderIndex" : 0
                           }, {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "AD07F118-513C-40C5-A849-07EF8710BE6C",
+                            "uuid" : "0A81BB9D-94AD-4110-970B-A44E4081DEE2",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "4BD2D6A3-07D5-4442-8EBB-133F53DCB5BE",
+                              "uuid" : "AAD69A8F-854C-474A-BA36-D3BE4AF41453",
                               "name" : "0 EUR",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -1543,13 +1588,13 @@
                           "orderIndex" : 0
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                          "uuid" : "84B4AE3E-698F-4D66-8F0F-B9B46B006DAE",
+                          "uuid" : "70E427C9-6343-4E3E-8034-15575F90F3AB",
                           "cells" : [ {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "FCD87238-FFCA-4244-B015-E751C83A7E8B",
+                            "uuid" : "10EC08E4-AEF1-4582-B503-EF544AB3A2B3",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "19D3276C-24D2-4122-A8B7-F72F2F8B71B8",
+                              "uuid" : "059819E4-5F38-4D8F-960D-1E30BE4AD83B",
                               "name" : "Situation :",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -1593,10 +1638,10 @@
                             "orderIndex" : 0
                           }, {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "898724FE-C4DA-4A94-96AF-3474412627F5",
+                            "uuid" : "CDEAD72D-117D-4ADC-B6C0-52050F6A4A63",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "9069893B-09C4-4EDE-9E8D-E7742D8B433A",
+                              "uuid" : "5FAE6A24-033F-48D8-9B8B-205BF4C2AAE5",
                               "name" : "0 EUR",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -1655,10 +1700,10 @@
             "orderIndex" : 4
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "DEB1F1A9-4424-44F2-8C4B-199A49D7F0F9",
+            "uuid" : "01769E20-44B9-468A-9EFF-B36EEAF14A75",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "78F5C2C6-307E-47A2-AED1-1E11A721B8ED",
+              "uuid" : "35D58B4B-7973-434C-AA99-2092759BCBAF",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -1685,6 +1730,7 @@
                 "positionToLeft" : true,
                 "positionTopOrBottom" : 0,
                 "positionToTop" : true,
+                "width" : "112px",
                 "cornerRadius" : "none",
                 "contentAlignment" : "middle_center",
                 "tableCellAlignment" : "middle_center",
@@ -1705,13 +1751,213 @@
                 "cellSpacing" : 3,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "B2246577-0FA0-471F-9997-23C08A7A92BA",
+                  "uuid" : "AC70DBD7-54CA-425B-BCC9-734DF7EA0A43",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "14043A11-9F62-40DC-AF59-10493C1A88CE",
+                    "uuid" : "3379518C-83C3-462C-BFBB-6392650C27E3",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "E9E7DDC9-3730-4985-82CE-5664825D3A9C",
+                      "uuid" : "FDBA7E5C-8ED0-4D90-A564-CB15AB843B78",
+                      "name" : "Risques :",
+                      "type" : "text",
+                      "orderIndex" : 0,
+                      "style" : {
+                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                        "marginTop" : 0,
+                        "marginBottom" : 0,
+                        "paddingTop" : 0,
+                        "paddingBottom" : 0,
+                        "paddingLeft" : 0,
+                        "paddingRight" : 0,
+                        "borderTopSize" : 0,
+                        "borderBottomSize" : 0,
+                        "borderLeftSize" : 0,
+                        "borderRightSize" : 0,
+                        "borderTopStyle" : "solid",
+                        "borderBottomStyle" : "solid",
+                        "borderLeftStyle" : "solid",
+                        "borderRightStyle" : "solid",
+                        "showShadow" : false,
+                        "absolutePosition" : false,
+                        "positionLeftOrRight" : 0,
+                        "positionToLeft" : true,
+                        "positionTopOrBottom" : 0,
+                        "positionToTop" : true,
+                        "cornerRadius" : "none",
+                        "contentAlignment" : "middle_center",
+                        "tableCellAlignment" : "top_left",
+                        "fullTableCell" : false,
+                        "showTitle" : false,
+                        "titleBorderBottomColor" : "#d9d9d9",
+                        "titleBorderLeftColor" : "#1db9db",
+                        "titleBorderBottomSize" : 1,
+                        "titleBorderLeftSize" : 5,
+                        "titleBorderRightSize" : 1,
+                        "titleBorderBottomStyle" : "solid",
+                        "titleBorderLeftStyle" : "solid",
+                        "titleBorderRightStyle" : "solid"
+                      }
+                    },
+                    "orderIndex" : 0
+                  }, {
+                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                    "uuid" : "4EFA3889-B196-4544-9125-1479A3BA88B8",
+                    "widget" : {
+                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                      "uuid" : "25C6F288-2507-4628-9C66-E1D52F2B59F4",
+                      "name" : "0",
+                      "type" : "text",
+                      "orderIndex" : 0,
+                      "style" : {
+                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                        "marginTop" : 0,
+                        "marginBottom" : 0,
+                        "paddingTop" : 0,
+                        "paddingBottom" : 0,
+                        "paddingLeft" : 0,
+                        "paddingRight" : 0,
+                        "borderTopSize" : 0,
+                        "borderBottomSize" : 0,
+                        "borderLeftSize" : 0,
+                        "borderRightSize" : 0,
+                        "borderTopStyle" : "solid",
+                        "borderBottomStyle" : "solid",
+                        "borderLeftStyle" : "solid",
+                        "borderRightStyle" : "solid",
+                        "showShadow" : false,
+                        "absolutePosition" : false,
+                        "positionLeftOrRight" : 0,
+                        "positionToLeft" : true,
+                        "positionTopOrBottom" : 0,
+                        "positionToTop" : true,
+                        "cornerRadius" : "none",
+                        "contentAlignment" : "middle_center",
+                        "tableCellAlignment" : "top_left",
+                        "fullTableCell" : false,
+                        "showTitle" : false,
+                        "titleBorderBottomColor" : "#d9d9d9",
+                        "titleBorderLeftColor" : "#1db9db",
+                        "titleBorderBottomSize" : 1,
+                        "titleBorderLeftSize" : 5,
+                        "titleBorderRightSize" : 1,
+                        "titleBorderBottomStyle" : "solid",
+                        "titleBorderLeftStyle" : "solid",
+                        "titleBorderRightStyle" : "solid"
+                      },
+                      "customJsonData" : "{    \n  \"text\":\"0\",\n  \"format_type\":\"number\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_nb_risks\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
+                    },
+                    "orderIndex" : 1
+                  } ],
+                  "orderIndex" : 0
+                }, {
+                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
+                  "uuid" : "7B0BCDE7-B979-499B-BB14-B2EAB45D5585",
+                  "cells" : [ {
+                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                    "uuid" : "6CCB4582-CAC5-4201-A41D-7966230C6C6C",
+                    "widget" : {
+                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                      "uuid" : "8704A030-116F-4AD9-941A-CD88F54F8A0A",
+                      "name" : "Problèmes",
+                      "type" : "text",
+                      "orderIndex" : 0,
+                      "style" : {
+                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                        "marginTop" : 0,
+                        "marginBottom" : 0,
+                        "paddingTop" : 0,
+                        "paddingBottom" : 0,
+                        "paddingLeft" : 0,
+                        "paddingRight" : 0,
+                        "borderTopSize" : 0,
+                        "borderBottomSize" : 0,
+                        "borderLeftSize" : 0,
+                        "borderRightSize" : 0,
+                        "borderTopStyle" : "solid",
+                        "borderBottomStyle" : "solid",
+                        "borderLeftStyle" : "solid",
+                        "borderRightStyle" : "solid",
+                        "showShadow" : false,
+                        "absolutePosition" : false,
+                        "positionLeftOrRight" : 0,
+                        "positionToLeft" : true,
+                        "positionTopOrBottom" : 0,
+                        "positionToTop" : true,
+                        "cornerRadius" : "none",
+                        "contentAlignment" : "middle_center",
+                        "tableCellAlignment" : "top_left",
+                        "fullTableCell" : false,
+                        "showTitle" : false,
+                        "titleBorderBottomColor" : "#d9d9d9",
+                        "titleBorderLeftColor" : "#1db9db",
+                        "titleBorderBottomSize" : 1,
+                        "titleBorderLeftSize" : 5,
+                        "titleBorderRightSize" : 1,
+                        "titleBorderBottomStyle" : "solid",
+                        "titleBorderLeftStyle" : "solid",
+                        "titleBorderRightStyle" : "solid"
+                      }
+                    },
+                    "orderIndex" : 0
+                  }, {
+                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                    "uuid" : "93ED98F0-9BFD-4CAA-9FE9-7924EA72A88A",
+                    "widget" : {
+                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                      "uuid" : "631DB8E6-5A20-4431-90B9-444C1A21C65B",
+                      "name" : "0",
+                      "type" : "text",
+                      "orderIndex" : 0,
+                      "style" : {
+                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                        "marginTop" : 0,
+                        "marginBottom" : 0,
+                        "paddingTop" : 0,
+                        "paddingBottom" : 0,
+                        "paddingLeft" : 0,
+                        "paddingRight" : 0,
+                        "borderTopSize" : 0,
+                        "borderBottomSize" : 0,
+                        "borderLeftSize" : 0,
+                        "borderRightSize" : 0,
+                        "borderTopStyle" : "solid",
+                        "borderBottomStyle" : "solid",
+                        "borderLeftStyle" : "solid",
+                        "borderRightStyle" : "solid",
+                        "showShadow" : false,
+                        "absolutePosition" : false,
+                        "positionLeftOrRight" : 0,
+                        "positionToLeft" : true,
+                        "positionTopOrBottom" : 0,
+                        "positionToTop" : true,
+                        "cornerRadius" : "none",
+                        "contentAlignment" : "middle_center",
+                        "tableCellAlignment" : "top_left",
+                        "fullTableCell" : false,
+                        "showTitle" : false,
+                        "titleBorderBottomColor" : "#d9d9d9",
+                        "titleBorderLeftColor" : "#1db9db",
+                        "titleBorderBottomSize" : 1,
+                        "titleBorderLeftSize" : 5,
+                        "titleBorderRightSize" : 1,
+                        "titleBorderBottomStyle" : "solid",
+                        "titleBorderLeftStyle" : "solid",
+                        "titleBorderRightStyle" : "solid"
+                      },
+                      "customJsonData" : "{    \n  \"text\":\"0\",\n  \"format_type\":\"number\",\n  \"check_sources_data_trust_before_script\":\"b_sources_data_trust\",\n  \"script\": [\n      [{\"get\":\"b_nb_problems\"},{\"to_local_var\":\"text\"}]\n    ]\n}"
+                    },
+                    "orderIndex" : 1
+                  } ],
+                  "orderIndex" : 1
+                }, {
+                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
+                  "uuid" : "ABDAF989-9E31-4D00-9853-B17B9FC17284",
+                  "cells" : [ {
+                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                    "uuid" : "85C5A450-F3CB-442A-80D7-F78082E6DAFE",
+                    "widget" : {
+                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                      "uuid" : "DA791B31-4B25-4B4C-97F7-0615AD10C792",
                       "name" : "Evnt. signif. :",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -1755,10 +2001,10 @@
                     "orderIndex" : 0
                   }, {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "17C355FC-5F98-42A7-B36A-77CF4A7FB110",
+                    "uuid" : "DFB4ED6C-6D61-447E-9EE7-BF2B7FEB072F",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "FF259B7B-9042-4D27-987F-90FED50F8C02",
+                      "uuid" : "43B7DE3C-212F-4D05-98E2-78188EBA2797",
                       "name" : "0",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -1802,17 +2048,17 @@
                     },
                     "orderIndex" : 1
                   } ],
-                  "orderIndex" : 0
+                  "orderIndex" : 2
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "76696E20-CF0C-4A01-9A74-45E774CAE5E9",
+                  "uuid" : "C7FB331C-CE02-458F-BB1B-57A64145D02D",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "8E6F3F36-6C01-4CF7-A54A-15ECB7D877CD",
+                    "uuid" : "198F5E40-D581-401D-877A-5C071632FB8F",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "0C926DC3-D888-4B6E-95D6-D78AD8E7AF56",
-                      "name" : "Sujets abordés",
+                      "uuid" : "A0D7D6F9-E13E-479B-B875-4DA61C099767",
+                      "name" : "Sujets abordés :",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -1855,10 +2101,10 @@
                     "orderIndex" : 0
                   }, {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "E35BE6DB-D727-47D1-97B2-0AE6ACD50997",
+                    "uuid" : "E437AA00-CB9E-4910-8899-2C8CCD692562",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "AB54738E-2CCD-4B89-B2D1-9CD22F5B1A4B",
+                      "uuid" : "BCF4F45C-DAA1-4782-8DA5-CD8B6301D9E5",
                       "name" : "0",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -1902,7 +2148,7 @@
                     },
                     "orderIndex" : 1
                   } ],
-                  "orderIndex" : 1
+                  "orderIndex" : 3
                 } ],
                 "colsWidth" : [ "", "" ]
               }
@@ -1910,10 +2156,10 @@
             "orderIndex" : 5
           }, {
             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-            "uuid" : "977A4C2C-8D4B-4EC4-AED8-AA1D2B72E8AB",
+            "uuid" : "BBD7DD88-B601-4F37-95DB-0EA63598B4A9",
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-              "uuid" : "954B0F30-B8BB-4495-AD10-8069D4409762",
+              "uuid" : "C7BACA93-EEEE-47F6-BCB4-FCA23120998D",
               "name" : "Table",
               "type" : "table",
               "orderIndex" : 0,
@@ -1960,13 +2206,13 @@
                 "cellSpacing" : 0,
                 "rows" : [ {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "F5599B79-4DD0-4FE5-805F-38C673AA8A6B",
+                  "uuid" : "D621F4C2-09CC-47E3-9886-EFCC7B1A2DD4",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "8E8F1021-CB09-4C25-A6D8-9B9A539860EE",
+                    "uuid" : "7017D6EA-65FD-4328-804A-DB2A64CA4BE3",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "C1A45013-A80A-479A-9AC7-D69AAC4AD017",
+                      "uuid" : "D90C990E-0B0A-4F33-A11B-4EC294E3E341",
                       "name" : "Actions ",
                       "type" : "text",
                       "orderIndex" : 0,
@@ -2013,13 +2259,13 @@
                   "orderIndex" : 0
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "B5C835EB-BF24-42D2-B1F6-9E149DCB3A31",
+                  "uuid" : "236AA2B2-028B-4FA9-A26A-E21D828B5AA9",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "63CAD6DA-EBB5-4157-ADB5-4F32CD1041DA",
+                    "uuid" : "B9540231-F83F-419E-9551-05E5183030B8",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "A8F1AE78-4CCF-40EC-AA3D-D1EDC65F5840",
+                      "uuid" : "E35DC8BF-E421-4CA0-AE6B-9BA46B2215E6",
                       "name" : "Pie chart",
                       "type" : "pie_chart",
                       "orderIndex" : 0,
@@ -2066,13 +2312,13 @@
                   "orderIndex" : 1
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                  "uuid" : "6D6E056B-E5B9-43B4-B8D0-9D2F5DF04047",
+                  "uuid" : "152C0CE5-C427-4719-AFA0-571A23998B93",
                   "cells" : [ {
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                    "uuid" : "BB828379-7CEA-4FF6-9ADE-04116A0D09A0",
+                    "uuid" : "5672CC10-1737-4EBC-AF06-007A5712C7CE",
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                      "uuid" : "E1D45F4F-FF63-4AF6-8755-EFA3703B4430",
+                      "uuid" : "D4B3E795-94AF-4382-831D-1D5B739FD304",
                       "name" : "Table",
                       "type" : "table",
                       "orderIndex" : 0,
@@ -2118,13 +2364,13 @@
                         "cellSpacing" : 5,
                         "rows" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
-                          "uuid" : "32685290-C953-41B2-82F2-A456A5235244",
+                          "uuid" : "E2643A1C-F766-4994-8793-2E7DAA4B9032",
                           "cells" : [ {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "20AFB50E-3EB2-4D14-9478-6C3CB737733D",
+                            "uuid" : "D3352EB9-D20D-456C-96B4-1FDC92DF587D",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "EAEC7BB7-256F-4CE6-BC87-AA2D0F7C5263",
+                              "uuid" : "58FC78BF-B541-4A56-A9F8-0C52FFA4313C",
                               "name" : "0",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -2169,10 +2415,10 @@
                             "orderIndex" : 0
                           }, {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "3B87C78B-5120-4230-A29C-FD8BDD23CA45",
+                            "uuid" : "8870D8AD-1666-4235-A21E-00A63806AAB5",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "4C8A1B0E-23FE-4BA6-92EA-0C7975042A13",
+                              "uuid" : "3AB1E35C-36C9-4C89-BE2C-E4627413C863",
                               "name" : "|",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -2216,10 +2462,10 @@
                             "orderIndex" : 1
                           }, {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "FCCA7A21-F830-4E88-85C3-30A425DDE966",
+                            "uuid" : "5A10CE48-355A-47D4-8959-3090CEAD3C72",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "0BCA5526-1559-41E9-9986-39569A7E28E1",
+                              "uuid" : "8C2EC5C7-37D0-4FA7-8809-BF25DA0E4A36",
                               "name" : "0",
                               "type" : "text",
                               "orderIndex" : 0,
@@ -2281,10 +2527,10 @@
         } ],
         "colsWidth" : [ "", "", "", "", "", "", "" ]
       },
-      "beanName" : "project_1"
+      "beanName" : "projet_1"
     } ]
   } ],
-  "customBpmProcess" : "{\n  \"tasks\": [\n    {      \n    \"uuid\": \"main\",\n    \"debug_mode\": \"false\",\n    \"script\":[\n        [{\"call\":[\"fetch_line\",[\"project_name\",\"#{CMS bimedia}\"],[\"bean_name\",\"#{project_1}\"],[\"area_uuid\",\"#{4f448186-d78b-46cf-97bd-943688f0e6c3_}\"],[\"dashboard_uuid\",\"#{02a0f046-b69a-4329-a819-e5befe8b6375}\"]]}]\n      ],\n    \"functions\":[\n        {\n          \"name\":\"fetch_line\",\n          \"script\": [\n            \n            [{\"set_current_bean\":\"bean_name\"}],\n            [{\"get\":\"area_uuid\"},{\"to_bean_var\":[\"bean_name\",\"b_area_uuid\"]}],\n            [{\"get\":\"dashboard_uuid\"},{\"to_bean_var\":[\"bean_name\",\"b_dashboard_uuid\"]}],\n            [{\"get\":\"project_name\"},{\"to_bean_var\":[\"bean_name\",\"b_general_name\"]}],\n            [{\"check_sources_data_trust\":\"reporting_area:area_uuid\"},{\"to_bean_var\":[\"bean_name\",\"b_sources_data_trust\"]},{\"is_trusted_data_sources\":\"\"},{\"else\":\"\"},{\"break\":\"\"},{\"end_if\":\"\"}],\n            \n            [{\"log_debug\":\"step_1\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_project_general_status_and_progress_@_weather\"},{\"to_bean_var\":[\"bean_name\",\"b_general_weather\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_status_and_progress_@_progress\"},{\"to_bean_var\":[\"bean_name\",\"b_general_progress\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data_@_end_date\"},{\"to_bean_var\":[\"bean_name\",\"b_general_end_date\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data_@_initial_end_date\"},{\"to_bean_var\":[\"bean_name\",\"b_general_initial_end_date\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data_@_leaders\"},{\"get_table\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_general_leaders\"]}],\n            \n            [{\"log_debug\":\"step_2\"}],\n            \n            [{\"real\":\"30\"},{\"multiply\":\"#{86400000}\"},{\"to_local_var\":\"very_late_limit_in_msec\"}],\n            [{\"real\":\"15\"},{\"multiply\":\"#{86400000}\"},{\"to_local_var\":\"late_limit_in_msec\"}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data\"},{\"calculate_delay_flag\":[\"very_late_limit_in_msec\",\"late_limit_in_msec\"]},{\"get_cell\":\"flag_level\"},{\"to_bean_var\":[\"bean_name\",\"b_general_flag\"]}],\n            \n            [{\"log_debug\":\"step_3\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_customer_relationship_@_customer_satisfaction\"},{\"to_bean_var\":[\"bean_name\",\"b_customer_satisfaction\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_budget_@_status\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_status\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_planning_status\"},{\"to_bean_var\":[\"bean_name\",\"b_planning_status\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_team_@_mood\"},{\"to_bean_var\":[\"bean_name\",\"b_team_status\"]}],\n            \n            [{\"log_debug\":\"step_4\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_budget_@_summary_@_total_budget\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_total\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_budget_@_summary_@_situation\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation\"]}],\n            \n            [{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation_color\"]}],\n            [{\"if_greater_than_or_equal_to\":[\"b_budget_situation\",\"#{0}\"]},{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation_color\"]},{\"else\":\"\"},{\"string\":\"#f92423\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation_color\"]},{\"end_if\":\"\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_synthesis_@_covered_topics\"},{\"get_table\":\"\"},{\"count\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_covered_topics\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_synthesis_@_significant_events\"},{\"get_table\":\"\"},{\"count\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_significant_events\"]}],\n            \n            [{\"log_debug\":\"step_5\"}],\n            \n            [{\"string\":\"#2f3433\"},{\"to_bean_var\":[\"bean_name\",\"b_planned_workload_color\"]}],\n            [{\"string\":\"#1db9db\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_done_color\"]}],\n            [{\"string\":\"#cccccc\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_to_do_color\"]}],\n            [{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation_color\"]}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_planned_workload\"},{\"to_bean_var\":[\"bean_name\",\"b_planned_workload\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_workload_done\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_done\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_workload_to_do\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_to_do\"]}],\n            [{\"get\":\"b_planned_workload\"},{\"substract\":\"b_workload_done\"},{\"substract\":\"b_workload_to_do\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation\"]}],\n            \n            [{\"if_greater_than_or_equal_to\":[\"b_workload_situation\",\"#{0}\"]},{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation_color\"]},{\"else\":\"\"},{\"string\":\"#f92423\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation_color\"]},{\"end_if\":\"\"}],\n            \n            [{\"log_debug\":\"step_6\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_nb_tasks\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_tasks\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_nb_tasks_done\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_tasks_done\"]}],\n            [{\"get\":\"b_nb_tasks\"},{\"substract\":\"b_nb_tasks_done\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_tasks_to_do\"]}],\n            \n            [{\"log_debug\":\"step_7\"}],\n            \n            [{\"create_table\":\"\"},{\"set_into_cell\":[\"#{0}\",\"#{uuid}\",\"#{Nb tâches réalisées} : ${b_nb_tasks_done}\"]},{\"set_into_cell\":[\"#{0}\",\"#{value}\",\"b_nb_tasks_done\"]},{\"set_into_cell\":[\"#{0}\",\"#{name}\",\"#{T}\"]},{\"to_bean_var\":[\"bean_name\",\"b_tasks_pie_chart\"]}],\n            [{\"get\":\"b_tasks_pie_chart\"},{\"set_into_cell\":[\"#{1}\",\"#{uuid}\",\"#{Nb tâches restantes} : ${b_nb_tasks_to_do}\"]},{\"set_into_cell\":[\"#{1}\",\"#{value}\",\"b_nb_tasks_to_do\"]},{\"set_into_cell\":[\"#{1}\",\"#{name}\",\"#{NT}\"]}],\n            \n            [{\"string\":\"${b_nb_tasks_to_do} | ${b_nb_tasks_done}\"},{\"to_bean_var\":[\"bean_name\",\"b_tasks_to_do_vs_done\"]}],\n            \n            [{\"log_debug\":\"Fin\"}]\n          \n          ]\n        \n        }\n      ]\n    }\n  ]\n}",
+  "customBpmProcess" : "{\n  \"tasks\": [\n    {      \n    \"uuid\": \"main\",\n    \"debug_mode\": \"false\",\n    \"script\":[\n        [{\"call\":[\"fetch_line\",[\"project_name\",\"#{Projet 1}\"],[\"bean_name\",\"#{projet_1}\"],[\"area_uuid\",\"#{403533ab-a331-4a73-9e1d-7fea7f5ecd74}\"],[\"dashboard_uuid\",\"#{2e5d8772-b909-42bf-b083-5db112ea4f49}\"]]}]\n      ],\n    \"functions\":[\n        {\n          \"name\":\"fetch_line\",\n          \"script\": [\n            \n            [{\"set_current_bean\":\"bean_name\"}],\n            [{\"get\":\"area_uuid\"},{\"to_bean_var\":[\"bean_name\",\"b_area_uuid\"]}],\n            [{\"get\":\"dashboard_uuid\"},{\"to_bean_var\":[\"bean_name\",\"b_dashboard_uuid\"]}],\n            [{\"get\":\"project_name\"},{\"to_bean_var\":[\"bean_name\",\"b_general_name\"]}],\n            [{\"check_sources_data_trust\":\"reporting_area:area_uuid\"},{\"to_bean_var\":[\"bean_name\",\"b_sources_data_trust\"]},{\"is_trusted_data_sources\":\"\"},{\"else\":\"\"},{\"break\":\"\"},{\"end_if\":\"\"}],\n            \n            [{\"log_debug\":\"step_1\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_project_general_status_and_progress_@_weather\"},{\"to_bean_var\":[\"bean_name\",\"b_general_weather\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_status_and_progress_@_progress\"},{\"to_bean_var\":[\"bean_name\",\"b_general_progress\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data_@_end_date\"},{\"to_bean_var\":[\"bean_name\",\"b_general_end_date\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data_@_initial_end_date\"},{\"to_bean_var\":[\"bean_name\",\"b_general_initial_end_date\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data_@_leaders\"},{\"get_table\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_general_leaders\"]}],\n            \n            [{\"log_debug\":\"step_2\"}],\n            \n            [{\"real\":\"30\"},{\"multiply\":\"#{86400000}\"},{\"to_local_var\":\"very_late_limit_in_msec\"}],\n            [{\"real\":\"15\"},{\"multiply\":\"#{86400000}\"},{\"to_local_var\":\"late_limit_in_msec\"}],\n            [{\"get\":\"src_path:${area_uuid}_@_project_general_data\"},{\"calculate_delay_flag\":[\"very_late_limit_in_msec\",\"late_limit_in_msec\"]},{\"get_cell\":\"flag_level\"},{\"to_bean_var\":[\"bean_name\",\"b_general_flag\"]}],\n            \n            [{\"log_debug\":\"step_3\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_customer_relationship_@_customer_satisfaction\"},{\"to_bean_var\":[\"bean_name\",\"b_customer_satisfaction\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_budget_@_status\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_status\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_planning_status\"},{\"to_bean_var\":[\"bean_name\",\"b_planning_status\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_team_@_mood\"},{\"to_bean_var\":[\"bean_name\",\"b_team_status\"]}],\n            \n            [{\"log_debug\":\"step_4\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_budget_@_summary_@_total_budget\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_total\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_budget_@_summary_@_situation\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation\"]}],\n            \n            [{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation_color\"]}],\n            [{\"if_greater_than_or_equal_to\":[\"b_budget_situation\",\"#{0}\"]},{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation_color\"]},{\"else\":\"\"},{\"string\":\"#f92423\"},{\"to_bean_var\":[\"bean_name\",\"b_budget_situation_color\"]},{\"end_if\":\"\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_synthesis_@_covered_topics\"},{\"get_table\":\"\"},{\"count\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_covered_topics\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_synthesis_@_significant_events\"},{\"get_table\":\"\"},{\"count\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_significant_events\"]}],\n            \n            [{\"log_debug\":\"step_5\"}],\n            \n            [{\"string\":\"#2f3433\"},{\"to_bean_var\":[\"bean_name\",\"b_planned_workload_color\"]}],\n            [{\"string\":\"#1db9db\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_done_color\"]}],\n            [{\"string\":\"#cccccc\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_to_do_color\"]}],\n            [{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation_color\"]}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_planned_workload\"},{\"to_bean_var\":[\"bean_name\",\"b_planned_workload\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_workload_done\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_done\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_workload_to_do\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_to_do\"]}],\n            [{\"get\":\"b_planned_workload\"},{\"substract\":\"b_workload_done\"},{\"substract\":\"b_workload_to_do\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation\"]}],\n            \n            [{\"if_greater_than_or_equal_to\":[\"b_workload_situation\",\"#{0}\"]},{\"string\":\"#41c057\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation_color\"]},{\"else\":\"\"},{\"string\":\"#f92423\"},{\"to_bean_var\":[\"bean_name\",\"b_workload_situation_color\"]},{\"end_if\":\"\"}],\n            \n            [{\"log_debug\":\"step_6\"}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_nb_tasks\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_tasks\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_workload_plan_@_nb_tasks_done\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_tasks_done\"]}],\n            [{\"get\":\"b_nb_tasks\"},{\"substract\":\"b_nb_tasks_done\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_tasks_to_do\"]}],\n            \n            [{\"log_debug\":\"step_7\"}],\n            \n            [{\"create_table\":\"\"},{\"set_into_cell\":[\"#{0}\",\"#{uuid}\",\"#{Nb tâches réalisées} : ${b_nb_tasks_done}\"]},{\"set_into_cell\":[\"#{0}\",\"#{value}\",\"b_nb_tasks_done\"]},{\"set_into_cell\":[\"#{0}\",\"#{name}\",\"#{T}\"]},{\"to_bean_var\":[\"bean_name\",\"b_tasks_pie_chart\"]}],\n            [{\"get\":\"b_tasks_pie_chart\"},{\"set_into_cell\":[\"#{1}\",\"#{uuid}\",\"#{Nb tâches restantes} : ${b_nb_tasks_to_do}\"]},{\"set_into_cell\":[\"#{1}\",\"#{value}\",\"b_nb_tasks_to_do\"]},{\"set_into_cell\":[\"#{1}\",\"#{name}\",\"#{NT}\"]}],\n            \n            [{\"string\":\"${b_nb_tasks_to_do} | ${b_nb_tasks_done}\"},{\"to_bean_var\":[\"bean_name\",\"b_tasks_to_do_vs_done\"]}],\n            \n            [{\"get\":\"src_path:${area_uuid}_@_rida\"},{\"to_bean_var\":[\"bean_name\",\"b_rida\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_rida\"},{\"get_cell\":\"rida\"},{\"get_cell\":\"risks\"},{\"filter_string_or\":[\"status\",\"open\"]},{\"count\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_risks\"]}],\n            [{\"get\":\"src_path:${area_uuid}_@_rida\"},{\"get_cell\":\"rida\"},{\"get_cell\":\"problems\"},{\"filter_string_or\":[\"status\",\"open\"]},{\"count\":\"\"},{\"to_bean_var\":[\"bean_name\",\"b_nb_problems\"]}],\n            \n            [{\"log_debug\":\"Fin\"}]\n          \n          ]\n        \n        }\n      ]\n    }\n  ]\n}",
   "header" : {
     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCBoardHeader",
     "imageHeight" : "30px"
