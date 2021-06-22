@@ -279,7 +279,8 @@ Exemple de script avec des if
     {
       "uuid": "board",
       "type": "board_panel",
-      "under_maintenance": "true"
+      "under_maintenance": "true",
+      "show_subtitle":"false"
     }
   ]
 }
