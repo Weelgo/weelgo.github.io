@@ -12,22 +12,53 @@ Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org
 ### Exemple JSON
 ```javascript
 {
-  "datasets":{
+  "show_legend":"false",
+   "x_axes": {
     "columns": [
       {
-        "name": "uuid",
+        "name": "type",
         "values": [
-          "Nb pommes",
-          "Nb patates",
-          "Nb carottes"
+          "category"
         ]
       },
       {
-        "name": "value",
+        "name": "categories",
         "values": [
-          "10",
-          "15",
-          "3"
+          [
+            "Achat",
+            "Commerce",
+            "Direction",
+            "Finance",
+            "Marketing",
+            "Production",
+            "R&D"
+          ]
+        ]
+      }
+    ]
+  },
+  "y_axes": {
+    "columns": [
+      {
+        "name": "type",
+        "values": [
+          "linear"
+        ]
+      }
+    ]
+  },
+  "datasets":{
+    "columns": [
+      {
+        "name": "name",
+        "values": [
+          "Répartition par département"
+        ]
+      },
+      {
+        "name": "values",
+        "values": [
+          ["20","40","15","35","25","70","43"]
         ]
       }
     ]
