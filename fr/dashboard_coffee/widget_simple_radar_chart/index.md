@@ -14,6 +14,7 @@ Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org
 Exemple de JSON à inclure dans le BPM du widget:
 ```javascript
 {
+  "show_legend":"false",
   "radar_background_color":"#1db9db2e",
   "radar_border_color":"#1db9db",
   "radar_border_width":"2",
