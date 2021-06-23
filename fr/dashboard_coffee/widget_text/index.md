@@ -58,8 +58,7 @@ Exemple de JSON à inclure dans le BPM du widget:
   "show_text":"false",
   "icon": "ic_building_light",
   "icon_color": "#e000e0",
-  "icon_size": "20px",
-  "icon_right_margin": "10px"
+  "icon_size": "20px"  
 }
 ```
 
