@@ -16,7 +16,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 {
   "radar_background_color":"#1db9db2e",
   "radar_border_color":"#1db9db",
-  "radar_border_width":"1",
+  "radar_border_width":"2",
   "radar_point_background_color":"#1db9db2e",
   "radar_point_border_color":"#1db9db",
   "radar_point_border_width":"1",
@@ -57,8 +57,8 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 **type** (utilisé **uniquement** pour PBM général) 
 * Description : identifiant permettant au moteur de calcule de savoir que la tâche est du type indiqué.
-* Valeurs possibles : radar_chart_widget 
-* Exemple : ```"type":"radar_chart_widget"```
+* Valeurs possibles : simple_radar_chart_widget 
+* Exemple : ```"type":"simple_radar_chart_widget"```
 
 **widget_uuid** (utilisé **uniquement** pour PBM général) 
 * Description : Uuid du widget ciblé par la tâche
