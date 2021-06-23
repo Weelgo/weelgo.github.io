@@ -14,6 +14,13 @@ Lien vers un éditeur JSON en ligne : [cliquez ici](https://jsoneditoronline.org
 Exemple de JSON à inclure dans le BPM du widget:
 ```javascript
 {
+  "radar_background_color":"#1db9db2e",
+  "radar_border_color":"#1db9db",
+  "radar_border_width":"1",
+  "radar_point_background_color":"#1db9db2e",
+  "radar_point_border_color":"#1db9db",
+  "radar_point_border_width":"1",
+  "radar_point_border_radius":"3",
   "datasets":{
     "columns": [
       {
@@ -21,7 +28,9 @@ Exemple de JSON à inclure dans le BPM du widget:
         "values": [
           "Nb pommes",
           "Nb patates",
-          "Nb carottes"
+          "Nb carottes",
+          "Nb navets",
+          "Nb tomates"
         ]
       },
       {
@@ -29,7 +38,9 @@ Exemple de JSON à inclure dans le BPM du widget:
         "values": [
           "10",
           "15",
-          "3"
+          "20",
+          "15",
+          "12"
         ]
       }
     ]
@@ -73,6 +84,36 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Description : largeur du camembert en pixel
 * Valeurs possibles : entier positif, ajouter "px" à la fin
 * Exemple : ```"chart_width":"100px"```
+
+
+**radar_background_color**
+* Description : Couleur de fond de la toile
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+
+**radar_border_color**
+* Description : Couleur de la ligne de la toile
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+
+**radar_border_width**
+* Description : taille de la bordure de la toile
+* Valeurs possibles : entier, ne pas ajouter "px" à la fin.
+
+**radar_point_background_color**
+* Description : Couleur de fond de la toile
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+
+**radar_point_border_color**
+* Description : Couleur de fond de la toile
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+
+**radar_point_border_width**
+* Description : taille de la bordure de la toile
+* Valeurs possibles : entier, ne pas ajouter "px" à la fin.
+
+**radar_point_border_radius**
+* Description : taille de la bordure de la toile
+* Valeurs possibles : entier, ne pas ajouter "px" à la fin.
+
 
 **datasets**
 * Description : Définition des données à utiliser dans le graphiqie. Voir exemple plus bas.
