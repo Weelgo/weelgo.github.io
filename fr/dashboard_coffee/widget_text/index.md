@@ -51,6 +51,17 @@ Exemple de JSON à inclure dans le BPM du widget:
 }
 ```
 
+**JSON icone**
+
+```javascript
+{
+  "icon": "ic_building_light",
+  "icon_color": "#e000e0",
+  "icon_size": "20px",
+  "icon_right_margin": "10px"
+}
+```
+
 **JSON pour un chiffre,** affiche 2 526 400,40
 ```javascript
 {      
@@ -162,6 +173,26 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Description : Nombre maximal de caractère à afficher. Affiche 3 points si il faut couper le texte.
 * Valeurs possibles : désactivé si valeur strictement inférieur à 0. Nombre entier sinon
 * Exemple : ```"nb_max_characters":"35"```
+
+**icon**
+* Description : Nom de l'icne
+* Valeurs possibles : Voir IconEnum
+* Exemple : ```"icon":"ic_building_light"```
+
+**icon_color**
+* Description : Couleur de l'icone.
+* Valeurs possibles : couleur au format hexadécimal précédé d'un #.
+* Exemple : ```"icon_color":"#e000e0"```
+
+**icon_size**
+* Description : Taille du texte en pixel.
+* Valeurs possibles : entier positif. Mettre "px" à la fin.
+* Exemple : ```"icon_size":"12px"```
+
+**icon_right_margin**
+* Description : Marge à droite de l'icon
+* Valeurs possibles : entier positif. Mettre "px" à la fin.
+* Exemple : ```"icon_right_margin":"10px"```
 
 **prefix**
 * Description : texte placé en préfixe du texte principal.
