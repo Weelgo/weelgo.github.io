@@ -41,7 +41,7 @@ Exemple progression demi cercle
    "circle_width":"50px",   
    "circle_circumference":"180",
    "circle_central_void_size":"0.7",
-   "circle_rotation":"45"   
+   "circle_rotation":"-90"
 }
 ```
 
