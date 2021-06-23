@@ -55,6 +55,7 @@ Exemple de JSON à inclure dans le BPM du widget:
 
 ```javascript
 {
+  "show_text":"false",
   "icon": "ic_building_light",
   "icon_color": "#e000e0",
   "icon_size": "20px",
@@ -173,6 +174,13 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Description : Nombre maximal de caractère à afficher. Affiche 3 points si il faut couper le texte.
 * Valeurs possibles : désactivé si valeur strictement inférieur à 0. Nombre entier sinon
 * Exemple : ```"nb_max_characters":"35"```
+
+
+**show_text**
+* Description : Affiche le texte
+* Valeurs possibles : **true** \| false
+* Exemple : ```"show_text":"false"```
+
 
 **icon**
 * Description : Nom de l'icne
