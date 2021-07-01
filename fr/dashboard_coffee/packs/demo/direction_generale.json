@@ -382,11 +382,11 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{      \n   \"progress\":\"0.2\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
+                          "customJsonData" : "{      \n   \"progress\":\"0.75\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                           "uuid" : "6D87AE14-3A01-4ED6-94A8-2039AC85E1B5",
-                          "name" : "45%",
+                          "name" : "79%",
                           "type" : "text",
                           "orderIndex" : 1,
                           "style" : {
@@ -638,11 +638,11 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{      \n   \"progress\":\"0.2\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
+                          "customJsonData" : "{      \n   \"progress\":\"0.85\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                           "uuid" : "43CE5322-E02E-4882-A663-91C9A677F555",
-                          "name" : "45%",
+                          "name" : "58%",
                           "type" : "text",
                           "orderIndex" : 1,
                           "style" : {
@@ -894,11 +894,11 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{      \n   \"progress\":\"0.2\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
+                          "customJsonData" : "{      \n   \"progress\":\"0.7\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                           "uuid" : "3F320147-6FB5-4AE8-8504-B558D4CA872B",
-                          "name" : "45%",
+                          "name" : "20%",
                           "type" : "text",
                           "orderIndex" : 1,
                           "style" : {
@@ -1150,11 +1150,11 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{      \n   \"progress\":\"0.2\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
+                          "customJsonData" : "{      \n   \"progress\":\"0.75\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                           "uuid" : "0DE3185D-6405-4933-A10A-606A30C87EAF",
-                          "name" : "45%",
+                          "name" : "16%",
                           "type" : "text",
                           "orderIndex" : 1,
                           "style" : {
@@ -1502,7 +1502,7 @@
       "orderIndex" : 3,
       "style" : {
         "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
-        "marginTop" : 0,
+        "marginTop" : 10,
         "marginBottom" : 0,
         "paddingTop" : 0,
         "paddingBottom" : 0,
@@ -2404,7 +2404,7 @@
                                     "widget" : {
                                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                                       "uuid" : "86A5819A-D459-4879-AC0D-91775857A886",
-                                      "name" : "358 257 €",
+                                      "name" : "116 257 €",
                                       "type" : "text",
                                       "orderIndex" : 0,
                                       "style" : {
@@ -2535,7 +2535,7 @@
                 "marginBottom" : 0,
                 "paddingTop" : 0,
                 "paddingBottom" : 0,
-                "paddingLeft" : 0,
+                "paddingLeft" : 20,
                 "paddingRight" : 0,
                 "borderTopSize" : 0,
                 "borderBottomSize" : 0,
@@ -2565,7 +2565,7 @@
                 "titleBorderLeftStyle" : "solid",
                 "titleBorderRightStyle" : "solid"
               },
-              "customJsonData" : "{\n\"chart_height\":\"144px\",\n\"chart_width\":\"640px\",\n   \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"category\"\n        ]\n      },\n      {\n        \"name\": \"categories\",\n        \"values\": [\n          [\n            \"Jan 2021\",\n            \"Fev 2021\",\n            \"Mar 2021\",\n            \"Avr 2021\",\n            \"Mai 2021\",\n            \"Jui 2021\",\n            \"Juil 2021\"\n          ]\n        ]\n      }\n    ]\n  },\n  \"y_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"linear\"\n        ]\n      }\n    ]\n  },\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Répartition par département\"\n        ]\n      },\n      {\n        \"name\": \"values\",\n        \"values\": [\n          [\"20\",\"40\",\"15\",\"35\",\"25\",\"70\",\"43\"]\n        ]\n      }\n    ]\n  } \n}"
+              "customJsonData" : "{\n\"show_legend\":\"true\",\n\"chart_height\":\"144px\",\n\"chart_width\":\"640px\",\n   \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"category\"\n        ]\n      },\n      {\n        \"name\": \"categories\",\n        \"values\": [\n          [\n            \"Mai 2020\",\n            \"Jui 2020\",\n            \"Juil 2020\",\n            \"Aou 2020\",\n            \"Sep 2020\",\n            \"Oct 2020\",\n            \"Nov 2020\",\n            \"Dec 2020\",\n            \"Jan 2021\",\n            \"Fev 2021\",\n            \"Mar 2021\",\n            \"Avr 2021\",\n            \"Mai 2021\",\n            \"Jui 2021\"\n          ]\n        ]\n      }\n    ]\n  },\n  \"y_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"linear\"\n        ]\n      }\n    ]\n  },\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Général\",\"Marketing\",\"Vente\"\n        ]\n      },\n      {\n        \"name\": \"stack_group\",\n        \"values\": [\n          \"gp1\",\"gp1\",\"gp1\"\n        ]\n      },\n      {\n        \"name\": \"background_color\",\n        \"values\": [\n          \"#8edff1\",\"#1db9db\",\"#1690ab\"\n        ]\n      },\n      {\n        \"name\": \"values\",\n        \"values\": [\n          [\"90000\",\"80000\",\"91000\",\"85000\",\"93000\",\"92000\",\"92000\",\"90000\",\"97000\",\"85000\",\"95000\",\"98000\",\"100000\",\"105000\"],[\"60000\",\"55000\",\"62000\",\"58000\",\"64000\",\"65000\",\"60000\",\"66000\",\"69000\",\"67000\",\"67000\",\"69000\",\"68000\",\"70000\"],[\"150000\",\"141000\",\"152000\",\"150000\",\"155000\",\"158000\",\"150000\",\"164000\",\"164000\",\"160000\",\"174000\",\"174000\",\"165000\",\"175000\"]\n        ]\n      }\n    ]\n  } \n}"
             },
             "orderIndex" : 1
           } ],
@@ -2581,7 +2581,7 @@
       "orderIndex" : 4,
       "style" : {
         "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
-        "marginTop" : 20,
+        "marginTop" : 30,
         "marginBottom" : 0,
         "paddingTop" : 0,
         "paddingBottom" : 0,
@@ -2973,11 +2973,11 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{      \n   \"progress\":\"0.2\",\n   \"circle_height\":\"70px\",\n   \"circle_width\":\"80px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
+                              "customJsonData" : "{      \n   \"progress\":\"0.75\",\n   \"circle_height\":\"70px\",\n   \"circle_width\":\"80px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
                             }, {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                               "uuid" : "271F64E1-8334-4B8D-8D7D-A7FDD44D1323",
-                              "name" : "45%",
+                              "name" : "45",
                               "type" : "text",
                               "orderIndex" : 1,
                               "style" : {
@@ -3231,7 +3231,7 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{\n  \"chart_height\":\"80px\",\n  \"chart_width\":\"300px\",\n  \"show_legend\":\"false\",\n  \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"time_series\"\n        ]\n      }\n    ]\n  },\n  \"datasets\": {\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Série 1\"\n        ]\n      },\n      {\n        \"name\": \"point_radius\",\n        \"values\": [\n          \"2\"\n        ]\n      },\n      {\n        \"name\": \"values2d\",\n        \"values\": [\n          [[\"1609459200000\",\"12\"],[\"1609545600000\",\"15\"],[\"1609632000000\",\"50\"]]\n        ]\n      }\n    ]\n  }\n}"
+                          "customJsonData" : "{\n  \"chart_height\":\"80px\",\n  \"chart_width\":\"300px\",\n  \"show_legend\":\"false\",\n  \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"time_series\"\n        ]\n      }\n    ]\n  },\n  \"datasets\": {\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Série 1\"\n        ]\n      },\n      {\n        \"name\": \"point_radius\",\n        \"values\": [\n          \"2\"\n        ]\n      },\n      {\n        \"name\": \"values2d\",\n        \"values\": [\n          [[\"1588291200000\",\"22\"],[\"1590969600000\",\"15\"],[\"1593561600000\",\"20\"],[\"1596240000000\",\"25\"],[\"1598918400000\",\"40\"],[\"1601510400000\",\"30\"],[\"1604188800000\",\"45\"]]\n        ]\n      }\n    ]\n  }\n}"
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                           "uuid" : "0B1DF6AD-5C7D-4E18-B961-2174946A552D",
@@ -3786,7 +3786,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{\n\"show_legend\":\"false\",\n\"chart_height\":\"144px\",\n\"chart_width\":\"183px\",\n   \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"category\"\n        ]\n      },\n      {\n        \"name\": \"categories\",\n        \"values\": [\n          [\n            \"Jan 2021\",\n            \"Fev 2021\",\n            \"Mar 2021\",\n            \"Avr 2021\",\n            \"Mai 2021\",\n            \"Jui 2021\",\n            \"Juil 2021\"\n          ]\n        ]\n      }\n    ]\n  },\n  \"y_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"linear\"\n        ]\n      }\n    ]\n  },\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Répartition par département\"\n        ]\n      },\n      {\n        \"name\": \"values\",\n        \"values\": [\n          [\"20\",\"40\",\"15\",\"35\",\"25\",\"70\",\"43\"]\n        ]\n      }\n    ]\n  } \n}"
+                              "customJsonData" : "{\n\"show_legend\":\"false\",\n\"chart_height\":\"144px\",\n\"chart_width\":\"183px\",\n   \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"category\"\n        ]\n      },\n      {\n        \"name\": \"categories\",\n        \"values\": [\n          [\n            \"Jan 2021\",\n            \"Fev 2021\",\n            \"Mar 2021\",\n            \"Avr 2021\",\n            \"Mai 2021\",\n            \"Jui 2021\",\n            \"Juil 2021\"\n          ]\n        ]\n      }\n    ]\n  },\n  \"y_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"linear\"\n        ]\n      }\n    ]\n  },\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Répartition par département\"\n        ]\n      },\n      {\n        \"name\": \"values\",\n        \"values\": [\n          [\"10\",\"15\",\"13\",\"9\",\"12\",\"15\",\"16\"]\n        ]\n      }\n    ]\n  } \n}"
                             },
                             "orderIndex" : 0
                           } ],
@@ -4029,7 +4029,7 @@
                             "uuid" : "DCBFDB4D-5BD2-4456-BD6C-60DCE0139D10",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "31D10AF2-969A-480A-A14F-3BEBEF9D406C",
+                              "uuid" : "DD200462-BA24-414A-8B45-F6DD022480AD",
                               "name" : "Line chart",
                               "type" : "line_chart",
                               "orderIndex" : 0,
@@ -4069,7 +4069,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{\n\"show_legend\":\"false\",\n\"chart_height\":\"144px\",\n\"chart_width\":\"183px\",\n   \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"category\"\n        ]\n      },\n      {\n        \"name\": \"categories\",\n        \"values\": [\n          [\n            \"Jan 2021\",\n            \"Fev 2021\",\n            \"Mar 2021\",\n            \"Avr 2021\",\n            \"Mai 2021\",\n            \"Jui 2021\",\n            \"Juil 2021\"\n          ]\n        ]\n      }\n    ]\n  },\n  \"y_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"linear\"\n        ]\n      }\n    ]\n  },\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Répartition par département\"\n        ]\n      },\n      {\n        \"name\": \"values\",\n        \"values\": [\n          [\"20\",\"40\",\"15\",\"35\",\"25\",\"70\",\"43\"]\n        ]\n      }\n    ]\n  } \n}"
+                              "customJsonData" : "{\n\"show_legend\":\"false\",\n\"chart_height\":\"144px\",\n\"chart_width\":\"183px\",\n   \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"category\"\n        ]\n      },\n      {\n        \"name\": \"categories\",\n        \"values\": [\n          [\n            \"Jan 2021\",\n            \"Fev 2021\",\n            \"Mar 2021\",\n            \"Avr 2021\",\n            \"Mai 2021\",\n            \"Jui 2021\",\n            \"Juil 2021\"\n          ]\n        ]\n      }\n    ]\n  },\n  \"y_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"linear\"\n        ]\n      }\n    ]\n  },\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Répartition par département\"\n        ]\n      },\n      {\n        \"name\": \"values\",\n        \"values\": [\n          [\"0.8\",\"1\",\"1.2\",\"1\",\"2\",\"2\",\"3.4\"]\n        ]\n      }\n    ]\n  } \n}"
                             },
                             "orderIndex" : 0
                           } ],
@@ -4309,13 +4309,13 @@
                           "uuid" : "46C51D9A-81FF-406D-9971-493D619E8CC7",
                           "cells" : [ {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
-                            "uuid" : "854FBDC7-6FB2-481A-B7F7-1FA1714BC301",
+                            "uuid" : "14625C13-FC61-4DAF-89A3-17BE619B7AC5",
                             "widget" : {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "8C135BCC-BA54-4A00-8699-DCFA2BED8542",
-                              "name" : "Bar chart",
-                              "type" : "bar_chart",
-                              "orderIndex" : 0,
+                              "uuid" : "971952E9-F486-48F5-8A2E-865A6B4D6C85",
+                              "name" : "Line chart",
+                              "type" : "line_chart",
+                              "orderIndex" : 8,
                               "style" : {
                                 "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
                                 "marginTop" : 0,
@@ -4352,7 +4352,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{\n\"show_legend\":\"false\",\n\"chart_height\":\"144px\",\n\"chart_width\":\"183px\",\n   \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"category\"\n        ]\n      },\n      {\n        \"name\": \"categories\",\n        \"values\": [\n          [\n            \"Jan 2021\",\n            \"Fev 2021\",\n            \"Mar 2021\",\n            \"Avr 2021\",\n            \"Mai 2021\",\n            \"Jui 2021\",\n            \"Juil 2021\"\n          ]\n        ]\n      }\n    ]\n  },\n  \"y_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"linear\"\n        ]\n      }\n    ]\n  },\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Répartition par département\"\n        ]\n      },\n      {\n        \"name\": \"values\",\n        \"values\": [\n          [\"20\",\"40\",\"15\",\"35\",\"25\",\"70\",\"43\"]\n        ]\n      }\n    ]\n  } \n}"
+                              "customJsonData" : "{\n\"show_legend\":\"false\",\n\"chart_height\":\"144px\",\n\"chart_width\":\"183px\",\n   \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"category\"\n        ]\n      },\n      {\n        \"name\": \"categories\",\n        \"values\": [\n          [\n            \"Jan 2021\",\n            \"Fev 2021\",\n            \"Mar 2021\",\n            \"Avr 2021\",\n            \"Mai 2021\",\n            \"Jui 2021\",\n            \"Juil 2021\"\n          ]\n        ]\n      }\n    ]\n  },\n  \"y_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"linear\"\n        ]\n      }\n    ]\n  },\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Répartition par département\"\n        ]\n      },\n      {\n        \"name\": \"values\",\n        \"values\": [\n          [\"4\",\"6\",\"5\",\"8\",\"25\",\"29\",\"31\"]\n        ]\n      }\n    ]\n  } \n}"
                             },
                             "orderIndex" : 0
                           } ],
@@ -4635,7 +4635,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{\n\"show_legend\":\"false\",\n\"chart_height\":\"144px\",\n\"chart_width\":\"183px\",\n   \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"category\"\n        ]\n      },\n      {\n        \"name\": \"categories\",\n        \"values\": [\n          [\n            \"Jan 2021\",\n            \"Fev 2021\",\n            \"Mar 2021\",\n            \"Avr 2021\",\n            \"Mai 2021\",\n            \"Jui 2021\",\n            \"Juil 2021\"\n          ]\n        ]\n      }\n    ]\n  },\n  \"y_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"linear\"\n        ]\n      }\n    ]\n  },\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Répartition par département\"\n        ]\n      },\n      {\n        \"name\": \"values\",\n        \"values\": [\n          [\"20\",\"40\",\"15\",\"35\",\"25\",\"70\",\"43\"]\n        ]\n      }\n    ]\n  } \n}"
+                              "customJsonData" : "{\n\"show_legend\":\"false\",\n\"chart_height\":\"144px\",\n\"chart_width\":\"183px\",\n   \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"category\"\n        ]\n      },\n      {\n        \"name\": \"categories\",\n        \"values\": [\n          [\n            \"Jan 2021\",\n            \"Fev 2021\",\n            \"Mar 2021\",\n            \"Avr 2021\",\n            \"Mai 2021\",\n            \"Jui 2021\",\n            \"Juil 2021\"\n          ]\n        ]\n      }\n    ]\n  },\n  \"y_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"linear\"\n        ]\n      }\n    ]\n  },\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Répartition par département\"\n        ]\n      },\n      {\n        \"name\": \"background_color\",\n        \"values\": [\n          \"#1db9db\"\n        ]\n      },\n      {\n        \"name\": \"values\",\n        \"values\": [\n          [\"0.7\",\"0.4\",\"0.4\",\"0.8\",\"0.5\",\"0.8\",\"0.4\"]\n        ]\n      }\n    ]\n  } \n}"
                             },
                             "orderIndex" : 0
                           } ],
