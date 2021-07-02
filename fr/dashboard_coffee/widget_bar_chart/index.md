@@ -158,6 +158,11 @@ Ces propriétés sont les colonnes du tableau
 * Valeurs possibles : texte libre
 * Exemple : ```"gp1"```
 
+**type**
+* Description : line ou bar. Pad défaut non spécifié, c'est une barre
+* Valeurs possibles :  line \| bar
+* Exemple : ```"line"```
+
 
 
 

@@ -122,7 +122,7 @@
             "borderRightStyle" : "solid",
             "showShadow" : false,
             "absolutePosition" : true,
-            "positionLeftOrRight" : 32,
+            "positionLeftOrRight" : 33,
             "positionToLeft" : true,
             "positionTopOrBottom" : 28,
             "positionToTop" : true,
@@ -546,7 +546,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "85B9880A-CBA3-46CA-9508-69EB1270E76C",
-                      "name" : "Votre widget préféré ici",
+                      "name" : "Votre widget préféré ici.",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -993,7 +993,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "988C1225-D413-40E0-8BF6-DC3538E0FFE9",
-                      "name" : "Nous créons votre widget pour vous",
+                      "name" : "Nous créons votre widget pour vous.",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -1158,7 +1158,7 @@
             "widget" : {
               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
               "uuid" : "DC9FC450-A86A-4FF0-BBC7-74C21786E445",
-              "name" : "Répartition par Département",
+              "name" : "Répartition par département",
               "type" : "bar_chart",
               "orderIndex" : 0,
               "style" : {
@@ -2501,7 +2501,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{\n  \"chart_height\":\"175px\",\n  \"chart_width\":\"230px\",\n  \"show_legend\":\"false\",\n  \"radar_background_color\":\"#1db9db2e\",\n  \"radar_border_color\":\"#1db9db\",\n  \"radar_border_width\":\"2\",\n  \"radar_point_background_color\":\"#1db9db2e\",\n  \"radar_point_border_color\":\"#1db9db\",\n  \"radar_point_border_width\":\"1\",\n  \"radar_point_border_radius\":\"3\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Communication\",\n          \"Rigueur\",\n          \"Efficacité\",\n          \"connaissance\",\n          \"Créativité\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"10\",\n          \"15\",\n          \"20\",\n          \"15\",\n          \"12\"\n        ]\n      }\n    ]\n  } \n}"
+                      "customJsonData" : "{\n  \"chart_height\":\"175px\",\n  \"chart_width\":\"230px\",\n  \"show_legend\":\"false\",\n  \"radar_background_color\":\"#1db9db2e\",\n  \"radar_border_color\":\"#1db9db\",\n  \"radar_border_width\":\"2\",\n  \"radar_point_background_color\":\"#1db9db2e\",\n  \"radar_point_border_color\":\"#1db9db\",\n  \"radar_point_border_width\":\"1\",\n  \"radar_point_border_radius\":\"3\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Communication\",\n          \"Rigueur\",\n          \"Efficacité\",\n          \"Connaissance\",\n          \"Créativité\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"10\",\n          \"15\",\n          \"20\",\n          \"15\",\n          \"12\"\n        ]\n      }\n    ]\n  } \n}"
                     },
                     "orderIndex" : 0
                   } ],

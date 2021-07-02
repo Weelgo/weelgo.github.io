@@ -1742,7 +1742,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{      \n     \"weather_level\":\"weather_thunder\",\n     \"image_height\":\"40px\",\n     \"image_width\":\"40px\"\n}"
+                      "customJsonData" : "{      \n     \"weather_level\":\"weather_rain\",\n     \"image_height\":\"40px\",\n     \"image_width\":\"40px\"\n}"
                     },
                     "orderIndex" : 1
                   }, {
