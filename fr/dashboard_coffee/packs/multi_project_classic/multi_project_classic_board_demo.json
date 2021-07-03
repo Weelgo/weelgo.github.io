@@ -1121,7 +1121,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "77EF23DF-EC19-4176-A106-25BB5A1D7FB9",
-                      "name" : "Reste Ã  faire : 0 J/H",
+                      "name" : "Reste à faire : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -1160,7 +1160,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{ \n  \"text\":\"30\",\n  \"format_type\":\"number\",\n  \"prefix\":\"Reste Ã  faire :\",\n  \"suffix\":\"J/H\"\n}"
+                      "customJsonData" : "{ \n  \"text\":\"30\",\n  \"format_type\":\"number\",\n  \"prefix\":\"Reste à faire :\",\n  \"suffix\":\"J/H\"\n}"
                     },
                     "orderIndex" : 0
                   } ],
@@ -1857,7 +1857,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "2DD55630-2088-47E3-A423-F4400093D5A5",
-                      "name" : "ProblÃ¨mes",
+                      "name" : "Problèmes",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -2057,7 +2057,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "F4EE543C-7465-479E-B098-F33F96B75964",
-                      "name" : "Sujets abordÃ©s :",
+                      "name" : "Sujets abordés :",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -2304,7 +2304,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"RÃ©alisÃ©es : 20\",\n          \"A faire : 12\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"20\",\n          \"12\"\n        ]\n      }\n    ]\n  }\n}"
+                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Réalisées : 20\",\n          \"A faire : 12\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"20\",\n          \"12\"\n        ]\n      }\n    ]\n  }\n}"
                     },
                     "orderIndex" : 0
                   } ],
@@ -3599,7 +3599,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "3C6AD559-34D9-4840-A6C5-1168EE56487E",
-                      "name" : "Reste Ã  faire : 0 J/H",
+                      "name" : "Reste à faire : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -3638,7 +3638,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{ \n  \"text\":\"50\",\n  \"format_type\":\"number\",\n  \"prefix\":\"Reste Ã  faire :\",\n  \"suffix\":\"J/H\"\n}"
+                      "customJsonData" : "{ \n  \"text\":\"50\",\n  \"format_type\":\"number\",\n  \"prefix\":\"Reste à faire :\",\n  \"suffix\":\"J/H\"\n}"
                     },
                     "orderIndex" : 0
                   } ],
@@ -4335,7 +4335,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "539E8FDB-8931-41D9-BF6E-73EBAB5B1058",
-                      "name" : "ProblÃ¨mes",
+                      "name" : "Problèmes",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -4535,7 +4535,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "51871EDD-71AF-4190-A7D2-6232C3CE94DB",
-                      "name" : "Sujets abordÃ©s :",
+                      "name" : "Sujets abordés :",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -4782,7 +4782,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"RÃ©alisÃ©es : 30\",\n          \"A faire : 20\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"30\",\n          \"20\"\n        ]\n      }\n    ]\n  }\n}"
+                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Réalisées : 30\",\n          \"A faire : 20\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"30\",\n          \"20\"\n        ]\n      }\n    ]\n  }\n}"
                     },
                     "orderIndex" : 0
                   } ],
@@ -6077,7 +6077,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "7581F58C-B934-44A9-87E5-44A8237DFB77",
-                      "name" : "Reste Ã  faire : 0 J/H",
+                      "name" : "Reste à faire : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -6116,7 +6116,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{ \n  \"text\":\"70\",\n  \"format_type\":\"number\",\n  \"prefix\":\"Reste Ã  faire :\",\n  \"suffix\":\"J/H\"\n}"
+                      "customJsonData" : "{ \n  \"text\":\"70\",\n  \"format_type\":\"number\",\n  \"prefix\":\"Reste à faire :\",\n  \"suffix\":\"J/H\"\n}"
                     },
                     "orderIndex" : 0
                   } ],
@@ -6813,7 +6813,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "DC03031A-5294-4108-A28B-66C518E4C444",
-                      "name" : "ProblÃ¨mes",
+                      "name" : "Problèmes",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -7013,7 +7013,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "27EEF6CC-891D-48FC-821E-606464F48555",
-                      "name" : "Sujets abordÃ©s :",
+                      "name" : "Sujets abordés :",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -7260,7 +7260,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"RÃ©alisÃ©es : 10\",\n          \"A faire : 20\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"10\",\n          \"20\"\n        ]\n      }\n    ]\n  }\n}"
+                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Réalisées : 10\",\n          \"A faire : 20\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"10\",\n          \"20\"\n        ]\n      }\n    ]\n  }\n}"
                     },
                     "orderIndex" : 0
                   } ],
@@ -7486,7 +7486,7 @@
     }, {
       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
       "uuid" : "BC67D39C-911C-4038-8175-0FBBE5E2D6B7",
-      "name" : "Projets d'intÃ©gration",
+      "name" : "Projets d'intégration",
       "type" : "text",
       "orderIndex" : 4,
       "style" : {
@@ -8598,7 +8598,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "9EE6C924-48EF-490E-9277-0F6B071810A3",
-                      "name" : "Reste Ã  faire : 0 J/H",
+                      "name" : "Reste à faire : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -8637,7 +8637,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{ \n  \"text\":\"20\",\n  \"format_type\":\"number\",\n  \"prefix\":\"Reste Ã  faire :\",\n  \"suffix\":\"J/H\"\n}"
+                      "customJsonData" : "{ \n  \"text\":\"20\",\n  \"format_type\":\"number\",\n  \"prefix\":\"Reste à faire :\",\n  \"suffix\":\"J/H\"\n}"
                     },
                     "orderIndex" : 0
                   } ],
@@ -9334,7 +9334,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "3D8665A6-C3D2-4CD5-8F85-FEA9BC241249",
-                      "name" : "ProblÃ¨mes",
+                      "name" : "Problèmes",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -9534,7 +9534,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "9641BB60-6D9E-4BD5-A616-3E2DECE48741",
-                      "name" : "Sujets abordÃ©s :",
+                      "name" : "Sujets abordés :",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -9781,7 +9781,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"RÃ©alisÃ©es : 20\",\n          \"A faire : 12\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"20\",\n          \"12\"\n        ]\n      }\n    ]\n  }\n}"
+                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Réalisées : 20\",\n          \"A faire : 12\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"20\",\n          \"12\"\n        ]\n      }\n    ]\n  }\n}"
                     },
                     "orderIndex" : 0
                   } ],
@@ -11076,7 +11076,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "5DDF91CE-2038-402B-9E48-B9E2405483E9",
-                      "name" : "Reste Ã  faire : 0 J/H",
+                      "name" : "Reste à faire : 0 J/H",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -11115,7 +11115,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{ \n  \"text\":\"60\",\n  \"format_type\":\"number\",\n  \"prefix\":\"Reste Ã  faire :\",\n  \"suffix\":\"J/H\"\n}"
+                      "customJsonData" : "{ \n  \"text\":\"60\",\n  \"format_type\":\"number\",\n  \"prefix\":\"Reste à faire :\",\n  \"suffix\":\"J/H\"\n}"
                     },
                     "orderIndex" : 0
                   } ],
@@ -11812,7 +11812,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "6EB4C6F0-AC40-4271-9FAF-2CF48F51AE43",
-                      "name" : "ProblÃ¨mes",
+                      "name" : "Problèmes",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -12012,7 +12012,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "353BD599-276C-403D-9A8D-8BD8DFF6CF2D",
-                      "name" : "Sujets abordÃ©s :",
+                      "name" : "Sujets abordés :",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -12259,7 +12259,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"RÃ©alisÃ©es : 20\",\n          \"A faire : 50\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"20\",\n          \"50\"\n        ]\n      }\n    ]\n  }\n}"
+                      "customJsonData" : "{\n  \"pie_height\":\"43px\",\n  \"pie_width\":\"43px\",\n  \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Réalisées : 20\",\n          \"A faire : 50\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"20\",\n          \"50\"\n        ]\n      }\n    ]\n  }\n}"
                     },
                     "orderIndex" : 0
                   } ],

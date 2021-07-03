@@ -101,7 +101,7 @@
         }, {
           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
           "uuid" : "32F100B7-1F91-4F80-BE23-97E6220F7317",
-          "name" : "Votre Entreprise",
+          "name" : "Votre Logo ici.",
           "type" : "text",
           "orderIndex" : 1,
           "style" : {
@@ -122,7 +122,7 @@
             "borderRightStyle" : "solid",
             "showShadow" : false,
             "absolutePosition" : true,
-            "positionLeftOrRight" : 207,
+            "positionLeftOrRight" : 217,
             "positionToLeft" : true,
             "positionTopOrBottom" : 100,
             "positionToTop" : true,
@@ -183,7 +183,7 @@
             "titleBorderLeftStyle" : "solid",
             "titleBorderRightStyle" : "solid"
           },
-          "customJsonData" : "{      \n      \"name\":\"\",\n      \"icon\":\"ic_dharmachakra_light\",\n      \"button_type\":\"circle\",\n      \"style\":\"transparent\",\n      \"size\":\"lg\",\n      \"icon_size\":\"22px\",\n      \"target_parameters\":\"545744-754184-544\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
+          "customJsonData" : "{      \n      \"name\":\"\",\n      \"icon\":\"ic_dharmachakra_light\",\n      \"button_type\":\"circle\",\n      \"style\":\"transparent\",\n      \"size\":\"lg\",\n      \"icon_size\":\"22px\",\n      \"target_parameters\":\"368a9eb2-0b9f-4889-a238-2d60c474f7c1\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
         }, {
           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
           "uuid" : "C607E206-F3EF-441E-BA33-CEF56357A3F4",
@@ -384,7 +384,7 @@
                     "titleBorderLeftStyle" : "solid",
                     "titleBorderRightStyle" : "solid"
                   },
-                  "customJsonData" : "{      \n      \"name\":\"Ouvrir\",\n      \"size\":\"sm\",\n      \"target_parameters\":\"545744-754184-544\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
+                  "customJsonData" : "{      \n      \"name\":\"Ouvrir\",\n      \"size\":\"sm\",\n      \"target_parameters\":\"368a9eb2-0b9f-4889-a238-2d60c474f7c1\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
                 },
                 "orderIndex" : 0
               } ],
@@ -434,7 +434,7 @@
             "titleBorderLeftStyle" : "solid",
             "titleBorderRightStyle" : "solid"
           },
-          "customJsonData" : "{      \n      \"name\":\"\",\n      \"icon\":\"ic_analytics_light\",\n      \"button_type\":\"circle\",\n      \"style\":\"transparent\",\n      \"size\":\"xl\",\n      \"icon_size\":\"23px\",\n      \"target_parameters\":\"09a2619a-fb0f-4f07-9ceb-022003984efe\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
+          "customJsonData" : "{      \n      \"name\":\"\",\n      \"icon\":\"ic_analytics_light\",\n      \"button_type\":\"circle\",\n      \"style\":\"transparent\",\n      \"size\":\"xl\",\n      \"icon_size\":\"23px\",\n      \"target_parameters\":\"cac861c5-3c35-48cb-ae53-2d87a2b6c069\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
         }, {
           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
           "uuid" : "1ED34906-363C-449E-B6EB-7F43DF6F62DC",
@@ -635,7 +635,7 @@
                     "titleBorderLeftStyle" : "solid",
                     "titleBorderRightStyle" : "solid"
                   },
-                  "customJsonData" : "{      \n      \"name\":\"Ouvrir\",\n      \"size\":\"sm\",\n      \"target_parameters\":\"09a2619a-fb0f-4f07-9ceb-022003984efe\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
+                  "customJsonData" : "{      \n      \"name\":\"Ouvrir\",\n      \"size\":\"sm\",\n      \"target_parameters\":\"cac861c5-3c35-48cb-ae53-2d87a2b6c069\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
                 },
                 "orderIndex" : 0
               } ],
@@ -685,7 +685,7 @@
             "titleBorderLeftStyle" : "solid",
             "titleBorderRightStyle" : "solid"
           },
-          "customJsonData" : "{      \n      \"name\":\"\",\n      \"icon\":\"ic_building_light\",\n      \"button_type\":\"circle\",\n      \"style\":\"transparent\",\n      \"size\":\"xl\",\n      \"icon_size\":\"23px\",\n      \"target_parameters\":\"545744-754184-544\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
+          "customJsonData" : "{      \n      \"name\":\"\",\n      \"icon\":\"ic_building_light\",\n      \"button_type\":\"circle\",\n      \"style\":\"transparent\",\n      \"size\":\"xl\",\n      \"icon_size\":\"23px\",\n      \"target_parameters\":\"52985723-3d7c-4f9f-b9e8-1bfd7e0d3587\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
         }, {
           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
           "uuid" : "A5E000A2-5B37-4603-A612-900C39D28D31",
@@ -886,7 +886,7 @@
                     "titleBorderLeftStyle" : "solid",
                     "titleBorderRightStyle" : "solid"
                   },
-                  "customJsonData" : "{      \n      \"name\":\"Ouvrir\",\n      \"size\":\"sm\",\n      \"target_parameters\":\"545744-754184-544\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
+                  "customJsonData" : "{      \n      \"name\":\"Ouvrir\",\n      \"size\":\"sm\",\n      \"target_parameters\":\"52985723-3d7c-4f9f-b9e8-1bfd7e0d3587\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
                 },
                 "orderIndex" : 0
               } ],
@@ -936,7 +936,7 @@
             "titleBorderLeftStyle" : "solid",
             "titleBorderRightStyle" : "solid"
           },
-          "customJsonData" : "{      \n      \"name\":\"\",\n      \"icon\":\"ic_users_light\",\n      \"button_type\":\"circle\",\n      \"style\":\"transparent\",\n      \"size\":\"xl\",\n      \"icon_size\":\"23px\",\n      \"target_parameters\":\"399e8dd0-cd32-4dd3-a14f-96ffe5db2e86\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
+          "customJsonData" : "{      \n      \"name\":\"\",\n      \"icon\":\"ic_users_light\",\n      \"button_type\":\"circle\",\n      \"style\":\"transparent\",\n      \"size\":\"xl\",\n      \"icon_size\":\"23px\",\n      \"target_parameters\":\"1f6eea21-bead-4755-9e22-12396c5755e0\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
         }, {
           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
           "uuid" : "DF7F50FC-22E1-4DCB-B681-B2DF601F61DE",
@@ -1137,7 +1137,7 @@
                     "titleBorderLeftStyle" : "solid",
                     "titleBorderRightStyle" : "solid"
                   },
-                  "customJsonData" : "{      \n      \"name\":\"Ouvrir\",\n      \"size\":\"sm\",\n      \"target_parameters\":\"399e8dd0-cd32-4dd3-a14f-96ffe5db2e86\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
+                  "customJsonData" : "{      \n      \"name\":\"Ouvrir\",\n      \"size\":\"sm\",\n      \"target_parameters\":\"1f6eea21-bead-4755-9e22-12396c5755e0\",\n      \"target_type\":\"dashboard\",\n      \"open_type\":\"panel\"\n}"
                 },
                 "orderIndex" : 0
               } ],
