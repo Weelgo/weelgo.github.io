@@ -1620,7 +1620,7 @@
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCImageWidgetData",
                     "height" : "100px",
                     "width" : "130px",
-                    "type" : "circle_buttons_1_blue_horizontal"
+                    "type" : "circle_buttons_1_purple_horizontal"
                   }
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
@@ -3368,7 +3368,7 @@
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCImageWidgetData",
                     "height" : "100px",
                     "width" : "130px",
-                    "type" : "circle_buttons_1_blue_horizontal"
+                    "type" : "circle_buttons_1_purple_horizontal"
                   }
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
@@ -4606,7 +4606,7 @@
                     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCImageWidgetData",
                     "height" : "100px",
                     "width" : "130px",
-                    "type" : "circle_buttons_1_blue_horizontal"
+                    "type" : "circle_buttons_1_purple_horizontal"
                   }
                 }, {
                   "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",

@@ -404,7 +404,7 @@
                 "width" : "182px",
                 "height" : "80px",
                 "cornerRadius" : "none",
-                "contentAlignment" : "middle_center",
+                "contentAlignment" : "top_center",
                 "tableCellAlignment" : "middle_center",
                 "fullTableCell" : false,
                 "showTitle" : false,

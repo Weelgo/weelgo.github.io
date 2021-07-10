@@ -301,7 +301,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\",\n  \"script\": [\n    \n    [{\"get\":\"b_dashboard_uuid\"},{\"to_local_var\":\"target_parameters\"}]\n    \n    ]\n}"
+                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"920d49fd-f086-4733-a1e8-9de0a4c372ae\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\"\n}"
                             },
                             "orderIndex" : 1
                           } ],
@@ -321,7 +321,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "785482E2-6852-484C-8E09-C906807D7199",
-                      "name" : "Paul Dupond",
+                      "name" : "Musette René",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -2779,7 +2779,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\",\n  \"script\": [\n    \n    [{\"get\":\"b_dashboard_uuid\"},{\"to_local_var\":\"target_parameters\"}]\n    \n    ]\n}"
+                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"920d49fd-f086-4733-a1e8-9de0a4c372ae\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\"\n}"
                             },
                             "orderIndex" : 1
                           } ],
@@ -2799,7 +2799,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "84636339-0429-4449-A7DE-86FBA801616C",
-                      "name" : "Paul Dupond",
+                      "name" : "Jérôme Senneville",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -5257,7 +5257,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\",\n  \"script\": [\n    \n    [{\"get\":\"b_dashboard_uuid\"},{\"to_local_var\":\"target_parameters\"}]\n    \n    ]\n}"
+                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"920d49fd-f086-4733-a1e8-9de0a4c372ae\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\"\n}"
                             },
                             "orderIndex" : 1
                           } ],
@@ -5277,7 +5277,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "31813F5B-1A57-4AC6-8144-EE74F3815F33",
-                      "name" : "Paul Dupond",
+                      "name" : "Germain Denis",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -7778,7 +7778,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\",\n  \"script\": [\n    \n    [{\"get\":\"b_dashboard_uuid\"},{\"to_local_var\":\"target_parameters\"}]\n    \n    ]\n}"
+                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"920d49fd-f086-4733-a1e8-9de0a4c372ae\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\"\n}"
                             },
                             "orderIndex" : 1
                           } ],
@@ -7798,7 +7798,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "B32C71CD-E6E6-48EA-AF27-0542AF806222",
-                      "name" : "Paul Dupond",
+                      "name" : "Aimé Dupuy",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
@@ -10256,7 +10256,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\",\n  \"script\": [\n    \n    [{\"get\":\"b_dashboard_uuid\"},{\"to_local_var\":\"target_parameters\"}]\n    \n    ]\n}"
+                              "customJsonData" : "{\n  \"name\": \"Ouvrir\",\n  \"style\": \"success_light\",\n  \"size\": \"xs\",\n  \"target_parameters\": \"920d49fd-f086-4733-a1e8-9de0a4c372ae\",\n  \"target_type\": \"dashboard\",\n  \"open_type\": \"panel\"\n}"
                             },
                             "orderIndex" : 1
                           } ],
@@ -10276,7 +10276,7 @@
                     "widget" : {
                       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                       "uuid" : "57D9122A-9A45-4C13-8703-5D47C7C829DA",
-                      "name" : "Paul Dupond",
+                      "name" : "Emmanuelle Baron",
                       "type" : "text",
                       "orderIndex" : 0,
                       "style" : {
