@@ -145,7 +145,7 @@
                 "positionTopOrBottom" : 0,
                 "positionToTop" : true,
                 "cornerRadius" : "normal",
-                "contentAlignment" : "middle_center",
+                "contentAlignment" : "top_center",
                 "tableCellAlignment" : "top_left",
                 "fullTableCell" : true,
                 "showTitle" : true,
