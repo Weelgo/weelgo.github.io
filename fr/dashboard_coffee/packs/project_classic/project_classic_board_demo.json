@@ -4,7 +4,7 @@
   "pages" : [ {
     "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCPage",
     "uuid" : "6bc9b09a-d398-462e-9bbc-30a4617e38e6",
-    "name" : "Page 1",
+    "name" : "Résumé",
     "orderIndex" : 0,
     "widgets" : [ {
       "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
@@ -145,7 +145,7 @@
                 "positionTopOrBottom" : 0,
                 "positionToTop" : true,
                 "cornerRadius" : "normal",
-                "contentAlignment" : "middle_center",
+                "contentAlignment" : "top_center",
                 "tableCellAlignment" : "top_left",
                 "fullTableCell" : true,
                 "showTitle" : true,
@@ -600,6 +600,159 @@
                     } ],
                     "colsWidth" : [ "25%", "25%", "25%", "25%" ]
                   }
+                }, {
+                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                  "uuid" : "BBE4B431-DC62-47F9-91A0-9C9672CF2406",
+                  "name" : "Table",
+                  "type" : "table",
+                  "orderIndex" : 1,
+                  "style" : {
+                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                    "marginTop" : 0,
+                    "marginBottom" : 0,
+                    "paddingTop" : 0,
+                    "paddingBottom" : 0,
+                    "paddingLeft" : 0,
+                    "paddingRight" : 0,
+                    "borderLeftColor" : "#1db9db",
+                    "borderTopSize" : 0,
+                    "borderBottomSize" : 0,
+                    "borderLeftSize" : 5,
+                    "borderRightSize" : 0,
+                    "borderTopStyle" : "solid",
+                    "borderBottomStyle" : "solid",
+                    "borderLeftStyle" : "solid",
+                    "borderRightStyle" : "solid",
+                    "showShadow" : false,
+                    "absolutePosition" : true,
+                    "positionLeftOrRight" : 0,
+                    "positionToLeft" : false,
+                    "positionTopOrBottom" : -49,
+                    "positionToTop" : true,
+                    "height" : "39px",
+                    "cornerRadius" : "none",
+                    "contentAlignment" : "middle_center",
+                    "tableCellAlignment" : "top_left",
+                    "fullTableCell" : false,
+                    "showTitle" : false,
+                    "titleBorderBottomColor" : "#d9d9d9",
+                    "titleBorderLeftColor" : "#1db9db",
+                    "titleBorderBottomSize" : 1,
+                    "titleBorderLeftSize" : 5,
+                    "titleBorderRightSize" : 1,
+                    "titleBorderBottomStyle" : "solid",
+                    "titleBorderLeftStyle" : "solid",
+                    "titleBorderRightStyle" : "solid"
+                  },
+                  "tableWidgetData" : {
+                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableWidgetData",
+                    "useCellSpacing" : false,
+                    "cellSpacing" : 10,
+                    "rows" : [ {
+                      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
+                      "uuid" : "7AE51522-E064-493D-9C28-2B83F763909E",
+                      "cells" : [ {
+                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                        "uuid" : "DE6BA509-AAB9-4A8C-B945-DBA97B5E2E64",
+                        "widget" : {
+                          "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                          "uuid" : "A6E83B56-AA5C-4D34-B816-402C268E8E84",
+                          "name" : "Risques : 0",
+                          "type" : "text",
+                          "orderIndex" : 0,
+                          "style" : {
+                            "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                            "marginTop" : 0,
+                            "marginBottom" : 0,
+                            "paddingTop" : 0,
+                            "paddingBottom" : 0,
+                            "paddingLeft" : 10,
+                            "paddingRight" : 10,
+                            "borderTopSize" : 0,
+                            "borderBottomSize" : 0,
+                            "borderLeftSize" : 0,
+                            "borderRightSize" : 0,
+                            "borderTopStyle" : "solid",
+                            "borderBottomStyle" : "solid",
+                            "borderLeftStyle" : "solid",
+                            "borderRightStyle" : "solid",
+                            "showShadow" : false,
+                            "absolutePosition" : false,
+                            "positionLeftOrRight" : 0,
+                            "positionToLeft" : true,
+                            "positionTopOrBottom" : 0,
+                            "positionToTop" : true,
+                            "cornerRadius" : "none",
+                            "contentAlignment" : "middle_center",
+                            "tableCellAlignment" : "middle_center",
+                            "fullTableCell" : true,
+                            "showTitle" : false,
+                            "titleBorderBottomColor" : "#d9d9d9",
+                            "titleBorderLeftColor" : "#1db9db",
+                            "titleBorderBottomSize" : 1,
+                            "titleBorderLeftSize" : 5,
+                            "titleBorderRightSize" : 1,
+                            "titleBorderBottomStyle" : "solid",
+                            "titleBorderLeftStyle" : "solid",
+                            "titleBorderRightStyle" : "solid"
+                          },
+                          "customJsonData" : "{\n  \"font_weight\":\"bold\",\n  \"text\":\"2\",\n  \"prefix\":\"Nb risques :\",\n  \"prefix_gap\":\"true\",\n  \"format_type\":\"number\"\n}"
+                        },
+                        "orderIndex" : 0
+                      }, {
+                        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                        "uuid" : "162AB538-4D4A-4526-9A65-5CC8306234A4",
+                        "widget" : {
+                          "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                          "uuid" : "120D1441-DE50-4B92-AD69-9467A5F77273",
+                          "name" : "Problèmes : 0",
+                          "type" : "text",
+                          "orderIndex" : 0,
+                          "style" : {
+                            "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                            "marginTop" : 0,
+                            "marginBottom" : 0,
+                            "paddingTop" : 0,
+                            "paddingBottom" : 0,
+                            "paddingLeft" : 10,
+                            "paddingRight" : 10,
+                            "borderLeftColor" : "#d0d0d0",
+                            "borderTopSize" : 0,
+                            "borderBottomSize" : 0,
+                            "borderLeftSize" : 1,
+                            "borderRightSize" : 0,
+                            "borderTopStyle" : "solid",
+                            "borderBottomStyle" : "solid",
+                            "borderLeftStyle" : "solid",
+                            "borderRightStyle" : "solid",
+                            "showShadow" : false,
+                            "absolutePosition" : false,
+                            "positionLeftOrRight" : 0,
+                            "positionToLeft" : true,
+                            "positionTopOrBottom" : 0,
+                            "positionToTop" : true,
+                            "cornerRadius" : "none",
+                            "contentAlignment" : "middle_center",
+                            "tableCellAlignment" : "middle_center",
+                            "fullTableCell" : true,
+                            "showTitle" : false,
+                            "titleBorderBottomColor" : "#d9d9d9",
+                            "titleBorderLeftColor" : "#1db9db",
+                            "titleBorderBottomSize" : 1,
+                            "titleBorderLeftSize" : 5,
+                            "titleBorderRightSize" : 1,
+                            "titleBorderBottomStyle" : "solid",
+                            "titleBorderLeftStyle" : "solid",
+                            "titleBorderRightStyle" : "solid"
+                          },
+                          "customJsonData" : "{\n  \"font_weight\":\"bold\",\n  \"text\":\"3\",\n  \"prefix\":\"Nb problèmes:\",\n  \"prefix_gap\":\"true\",\n  \"format_type\":\"number\"\n}"
+                        },
+                        "orderIndex" : 1
+                      } ],
+                      "orderIndex" : 0
+                    } ],
+                    "colsWidth" : [ "", "" ]
+                  }
                 } ]
               }
             },
@@ -761,7 +914,7 @@
                 "titleBorderLeftStyle" : "solid",
                 "titleBorderRightStyle" : "solid"
               },
-              "customJsonData" : "{\n  \"total_budget\": \"250000\",\n  \"committed_budget\": \"100000\",\n  \"to_commit_budget\": \"120000\",\n\"currency\":\"EUR\"\n}"
+              "customJsonData" : "{\n  \"total_budget\": \"250000\",\n  \"committed_budget\": \"100000\",\n  \"to_commit_budget\": \"120000\",\n  \"currency\":\"EUR\"\n}"
             },
             "orderIndex" : 1
           } ],
@@ -1373,7 +1526,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{\n  \"total_budget\": \"250000\",\n  \"committed_budget\": \"100000\",\n  \"to_commit_budget\": \"120000\",\n\"currency\":\"EUR\",\n  \"show_chart\":\"false\"\n}"
+                      "customJsonData" : "{\n  \"total_budget\": \"250000\",\n  \"committed_budget\": \"100000\",\n  \"to_commit_budget\": \"120000\",\n  \"currency\":\"EUR\",\n  \"show_chart\":\"false\"\n}"
                     },
                     "orderIndex" : 0
                   }, {
@@ -1409,7 +1562,7 @@
                         "positionToTop" : true,
                         "cornerRadius" : "none",
                         "contentAlignment" : "middle_center",
-                        "tableCellAlignment" : "middle_center",
+                        "tableCellAlignment" : "top_left",
                         "fullTableCell" : false,
                         "showTitle" : false,
                         "titleBorderBottomColor" : "#d9d9d9",
@@ -2182,7 +2335,7 @@
                         "titleBorderLeftStyle" : "solid",
                         "titleBorderRightStyle" : "solid"
                       },
-                      "customJsonData" : "{\n  \"chart_height\":\"160px\",\n  \"chart_width\":\"360px\",\n  \"show_legend\":\"true\",\n  \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"time_series\"\n        ]\n      }\n    ]\n  },\n  \"datasets\": {\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Planifié\",\n          \"Consommé\",\n          \"Reste à faire\"\n        ]\n      },\n      {\n        \"name\": \"border_color\",\n        \"values\": [\n          \"#2f3433\",\n          \"#1db9db\",\n          \"#cccccc\"\n        ]\n      },\n      {\n        \"name\": \"values2d\",\n        \"values\": [\n          [[\"1609459200000\",\"200\"],[\"1609545600000\",\"250\"],[\"1609632000000\",\"300\"]],\n          [[\"1609459200000\",\"100\"],[\"1609545600000\",\"110\"],[\"1609632000000\",\"170\"]],\n          [[\"1609459200000\",\"70\"],[\"1609545600000\",\"100\"],[\"1609632000000\",\"200\"]]          \n        ]\n      }\n    ]\n  }\n}"
+                      "customJsonData" : "{\n  \"chart_height\":\"160px\",\n  \"chart_width\":\"360px\",\n  \"show_legend\":\"true\",\n  \"x_axes\": {\n    \"columns\": [\n      {\n        \"name\": \"type\",\n        \"values\": [\n          \"time_series\"\n        ]\n      }\n    ]\n  },\n  \"datasets\": {\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Planifié\",\n          \"Consommé\",\n          \"Reste à faire\"\n        ]\n      },\n      {\n        \"name\": \"border_color\",\n        \"values\": [\n          \"#2f3433\",\n          \"#1db9db\",\n          \"#cccccc\"\n        ]\n      },\n      {\n        \"name\": \"values2d\",\n        \"values\": [\n          [[\"1609459200000\",\"200\"],[\"1609545600000\",\"250\"],[\"1609632000000\",\"300\"]],\n          [[\"1609459200000\",\"100\"],[\"1609545600000\",\"110\"],[\"1609632000000\",\"170\"]],\n          [[\"1609459200000\",\"70\"],[\"1609545600000\",\"100\"],[\"1609632000000\",\"200\"]]          \n        ]\n      }\n    ]\n  },\n  \"check_sources_data_trust_before_script\":\"reporting_area:area_uuid\",\n  \"script\": [\n      [{\"get\":\"g_workload_timeseries\"},{\"to_local_var\":\"datasets\"}]\n    ]\n}"
                     },
                     "orderIndex" : 1
                   } ],
@@ -2430,6 +2583,104 @@
         "titleBorderRightStyle" : "solid"
       },
       "customJsonData" : "{\n \"width\":\"960px\",\n  \"lines\": {\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"gp1\",\n          \"ph1\",\n          \"ml1\",\n          \"gp2\"\n        ]\n      },\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"Groupe 1\",\n          \"Phase 1\",\n          \"Jalon 1\",\n          \"Groupe 2\"\n        ]\n      },\n      {\n        \"name\": \"parent_uuid\",\n        \"values\": [\n          \"\",\n          \"gp1\",\n          \"gp2\",\n          \"gp1\"\n        ]\n      },\n      {\n        \"name\": \"object_type\",\n        \"values\": [\n          \"group\",\n          \"phase\",\n          \"milestone\",\n          \"group\"\n        ]\n      },\n      {\n        \"name\": \"background_color\",\n        \"values\": [\n          \"#ff4da6\",\n          \"#9e1fff\",\n          \"#009e9e\",\n          \"#e0e000\"\n        ]\n      },\n      {\n        \"name\": \"start_date\",\n        \"values\": [\n          \"\",\n          \"1609804800000\",\n          \"\",\n          \"\"\n        ]\n      },\n      {\n        \"name\": \"end_date\",\n        \"values\": [\n          \"\",\n          \"1611100800000\",\n          \"1611100800000\",\n          \"\"\n        ]\n      },\n      {\n        \"name\": \"icon\",\n        \"values\": [\n          \"\",\n          \"\",\n          \"ic_diamond_solid\",\n          \"\"\n        ]\n      }\n    ]\n  }\n}"
+    } ]
+  }, {
+    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCPage",
+    "uuid" : "28488A96-871A-47CF-9932-5F8158B0CACA",
+    "name" : "Risques",
+    "orderIndex" : 0,
+    "widgets" : [ {
+      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+      "uuid" : "FB4B54D3-39E2-4311-AC75-8D7BF87F54CD",
+      "name" : "Risks",
+      "type" : "risks_widget",
+      "orderIndex" : 0,
+      "style" : {
+        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+        "marginTop" : 0,
+        "marginBottom" : 0,
+        "paddingTop" : 0,
+        "paddingBottom" : 0,
+        "paddingLeft" : 0,
+        "paddingRight" : 0,
+        "borderTopSize" : 0,
+        "borderBottomSize" : 0,
+        "borderLeftSize" : 0,
+        "borderRightSize" : 0,
+        "borderTopStyle" : "solid",
+        "borderBottomStyle" : "solid",
+        "borderLeftStyle" : "solid",
+        "borderRightStyle" : "solid",
+        "showShadow" : false,
+        "absolutePosition" : false,
+        "positionLeftOrRight" : 0,
+        "positionToLeft" : true,
+        "positionTopOrBottom" : 0,
+        "positionToTop" : true,
+        "cornerRadius" : "none",
+        "contentAlignment" : "middle_center",
+        "tableCellAlignment" : "top_left",
+        "fullTableCell" : false,
+        "showTitle" : false,
+        "titleBorderBottomColor" : "#d9d9d9",
+        "titleBorderLeftColor" : "#1db9db",
+        "titleBorderBottomSize" : 1,
+        "titleBorderLeftSize" : 5,
+        "titleBorderRightSize" : 1,
+        "titleBorderBottomStyle" : "solid",
+        "titleBorderLeftStyle" : "solid",
+        "titleBorderRightStyle" : "solid"
+      },
+      "customJsonData" : "{\n  \"rida_table\": {\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"rida1\"\n        ]\n      },\n      {\n        \"name\": \"risk_categories\",\n        \"values\": [\n          {\n               \"columns\": [\n                  {\n                    \"name\": \"name\",\n                    \"values\": [\n                        \"Risque financier\",\n                        \"Risque humain\",\n                        \"Risque temporel\",\n                        \"Risque technique\",\n                        \"Risque juridique\",\n                        \"Risque environnemental\",\n                        \"Risque organisationnel\"\n                        ]\n                  }                  \n              ] \n            }\n        ]\n      },\n      {\n        \"name\": \"problem_categories\",\n        \"values\": [\n          {\n               \"columns\": [\n                  {\n                    \"name\": \"name\",\n                    \"values\": [\n                        \"Problème financier\",\n                        \"Problème humain\",\n                        \"Problème temporel\",\n                        \"Problème technique\",\n                        \"Problème juridique\",\n                        \"Problème environnemental\",\n                        \"Problème organisationnel\"\n                        ]\n                  }                  \n              ] \n            }\n        ]\n      },\n      {\n        \"name\": \"rida\",\n        \"values\": [\n          {\n            \n            \"columns\": [\n              {\n                \"name\": \"risks\",\n                \"values\": [\n                  {\n                     \"columns\": [\n                        {\n                          \"name\": \"uuid\",\n                          \"values\": [\n                              \"rsk1\",\n                              \"rsk2\",\n                              \"rsk3\"\n                              ]\n                        },\n                        {\n                          \"name\": \"name\",\n                          \"values\": [\n                              \"Risque 1\",\n                              \"Risque 2\",\n                              \"Risque 3\"\n                              ]\n                        },\n                        {\n                          \"name\": \"category\",\n                          \"values\": [\n                              \"Risque humain\",\n                              \"Risque juridique\",\n                              \"Risque financier\"\n                              ]\n                        },\n                        {\n                          \"name\": \"origin\",\n                          \"values\": [\n                              \"internal\",\n                              \"internal\",\n                              \"external\"\n                              ]\n                        },\n                        {\n                          \"name\": \"status\",\n                          \"values\": [\n                              \"closed\",\n                              \"open\",\n                              \"open\"\n                              ]\n                        },\n                        {\n                          \"name\": \"impact\",\n                          \"values\": [\n                              \"medium\",\n                              \"critical\",\n                              \"serious\"\n                              ]\n                        },\n                        {\n                          \"name\": \"probability\",\n                          \"values\": [\n                              \"probable\",\n                              \"probable\",\n                              \"very_probable\"\n                              ]\n                        },\n                        {\n                          \"name\": \"priority\",\n                          \"values\": [\n                              \"high\",\n                              \"very_high\",\n                              \"very_high\"\n                              ]\n                        },\n                        {\n                          \"name\": \"strategy\",\n                          \"values\": [\n                              \"transfer\",\n                              \"elimination\",\n                              \"reduction\"\n                              ]\n                        },\n                        {\n                          \"name\": \"closing_date\",\n                          \"values\": [\n                              \"1635984000000\",\n                              \"1633824000000\",\n                              \"1632528000000\"\n                              ]\n                        },\n                        {\n                          \"name\": \"leaders\",\n                          \"values\": [\n                              {\n                                 \"columns\": [\n                                    {\n                                      \"name\": \"name\",\n                                      \"values\": [\n                                          \"Sophie Ouellet\"\n                                          ]\n                                    }\n                                  ] \n                              },\n                              {\n                                 \"columns\": [\n                                    {\n                                      \"name\": \"name\",\n                                      \"values\": [\n                                          \"Mireille Therrien\"\n                                          ]\n                                    }\n                                  ] \n                              },\n                              {\n                                 \"columns\": [\n                                    {\n                                      \"name\": \"name\",\n                                      \"values\": [\n                                          \"Benjamin Plante\"\n                                          ]\n                                    }\n                                  ] \n                              }\n                              ]\n                        }\n                      ] \n                  }\n                ]\n              },\n              {\n                \"name\": \"problems\",\n                \"values\": [\n                  {\n                     \"columns\": [\n                        {\n                          \"name\": \"uuid\",\n                          \"values\": [\n                              \"pb1\",\n                              \"pb2\" \n                              ]\n                        },\n                        {\n                          \"name\": \"name\",\n                          \"values\": [\n                              \"Problème 1\",\n                              \"Problème 2\"   \n                              ]\n                        },\n                        {\n                          \"name\": \"category\",\n                          \"values\": [\n                              \"Problème technique\",\n                              \"Problème environnemental\"\n                              ]\n                        },\n                        {\n                          \"name\": \"status\",\n                          \"values\": [\n                              \"closed\",\n                              \"open\"\n                              ]\n                        },\n                        {\n                          \"name\": \"impact\",\n                          \"values\": [\n                              \"low\",\n                              \"serious\"\n                              ]\n                        },\n                        {\n                          \"name\": \"priority\",\n                          \"values\": [\n                              \"low\",\n                              \"high\"\n                              ]\n                        },\n                        {\n                          \"name\": \"closing_date\",\n                          \"values\": [\n                              \"1635984000000\",\n                              \"1633824000000\"\n                              ]\n                        },\n                        {\n                          \"name\": \"leaders\",\n                          \"values\": [\n                              {\n                                 \"columns\": [\n                                    {\n                                      \"name\": \"name\",\n                                      \"values\": [\n                                          \"Sophie Ouellet\"\n                                          ]\n                                    }\n                                  ] \n                              },\n                              {\n                                 \"columns\": [\n                                    {\n                                      \"name\": \"name\",\n                                      \"values\": [\n                                          \"Mireille Therrien\"\n                                          ]\n                                    }\n                                  ] \n                              }\n                              ]\n                        }\n                      ] \n                  }\n                ]\n              }\n            ]\n          }\n        ]\n      }\n    ]\n  }\n}"
+    } ]
+  }, {
+    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCPage",
+    "uuid" : "A87D0C42-885F-4768-B269-CD179EA5B0EF",
+    "name" : "Problèmes",
+    "orderIndex" : 0,
+    "widgets" : [ {
+      "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+      "uuid" : "F99520E7-C49B-4A94-B0E8-B8FB42BB2900",
+      "name" : "Problems",
+      "type" : "problems_widget",
+      "orderIndex" : 0,
+      "style" : {
+        "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+        "marginTop" : 0,
+        "marginBottom" : 0,
+        "paddingTop" : 0,
+        "paddingBottom" : 0,
+        "paddingLeft" : 0,
+        "paddingRight" : 0,
+        "borderTopSize" : 0,
+        "borderBottomSize" : 0,
+        "borderLeftSize" : 0,
+        "borderRightSize" : 0,
+        "borderTopStyle" : "solid",
+        "borderBottomStyle" : "solid",
+        "borderLeftStyle" : "solid",
+        "borderRightStyle" : "solid",
+        "showShadow" : false,
+        "absolutePosition" : false,
+        "positionLeftOrRight" : 0,
+        "positionToLeft" : true,
+        "positionTopOrBottom" : 0,
+        "positionToTop" : true,
+        "cornerRadius" : "none",
+        "contentAlignment" : "middle_center",
+        "tableCellAlignment" : "top_left",
+        "fullTableCell" : false,
+        "showTitle" : false,
+        "titleBorderBottomColor" : "#d9d9d9",
+        "titleBorderLeftColor" : "#1db9db",
+        "titleBorderBottomSize" : 1,
+        "titleBorderLeftSize" : 5,
+        "titleBorderRightSize" : 1,
+        "titleBorderBottomStyle" : "solid",
+        "titleBorderLeftStyle" : "solid",
+        "titleBorderRightStyle" : "solid"
+      },
+      "customJsonData" : "{\n  \"rida_table\": {\n    \"columns\": [\n      {\n        \"name\": \"name\",\n        \"values\": [\n          \"rida1\"\n        ]\n      },\n      {\n        \"name\": \"risk_categories\",\n        \"values\": [\n          {\n               \"columns\": [\n                  {\n                    \"name\": \"name\",\n                    \"values\": [\n                        \"Risque financier\",\n                        \"Risque humain\",\n                        \"Risque temporel\",\n                        \"Risque technique\",\n                        \"Risque juridique\",\n                        \"Risque environnemental\",\n                        \"Risque organisationnel\"\n                        ]\n                  }                  \n              ] \n            }\n        ]\n      },\n      {\n        \"name\": \"problem_categories\",\n        \"values\": [\n          {\n               \"columns\": [\n                  {\n                    \"name\": \"name\",\n                    \"values\": [\n                        \"Problème financier\",\n                        \"Problème humain\",\n                        \"Problème temporel\",\n                        \"Problème technique\",\n                        \"Problème juridique\",\n                        \"Problème environnemental\",\n                        \"Problème organisationnel\"\n                        ]\n                  }                  \n              ] \n            }\n        ]\n      },\n      {\n        \"name\": \"rida\",\n        \"values\": [\n          {\n            \n            \"columns\": [\n              {\n                \"name\": \"risks\",\n                \"values\": [\n                  {\n                     \"columns\": [\n                        {\n                          \"name\": \"uuid\",\n                          \"values\": [\n                              \"rsk1\",\n                              \"rsk2\",\n                              \"rsk3\"\n                              ]\n                        },\n                        {\n                          \"name\": \"name\",\n                          \"values\": [\n                              \"Risque 1\",\n                              \"Risque 2\",\n                              \"Risque 3\"\n                              ]\n                        },\n                        {\n                          \"name\": \"category\",\n                          \"values\": [\n                              \"Risque humain\",\n                              \"Risque juridique\",\n                              \"Risque financier\"\n                              ]\n                        },\n                        {\n                          \"name\": \"origin\",\n                          \"values\": [\n                              \"internal\",\n                              \"internal\",\n                              \"external\"\n                              ]\n                        },\n                        {\n                          \"name\": \"status\",\n                          \"values\": [\n                              \"closed\",\n                              \"open\",\n                              \"open\"\n                              ]\n                        },\n                        {\n                          \"name\": \"impact\",\n                          \"values\": [\n                              \"medium\",\n                              \"critical\",\n                              \"serious\"\n                              ]\n                        },\n                        {\n                          \"name\": \"probability\",\n                          \"values\": [\n                              \"probable\",\n                              \"probable\",\n                              \"very_probable\"\n                              ]\n                        },\n                        {\n                          \"name\": \"priority\",\n                          \"values\": [\n                              \"high\",\n                              \"very_high\",\n                              \"very_high\"\n                              ]\n                        },\n                        {\n                          \"name\": \"strategy\",\n                          \"values\": [\n                              \"transfer\",\n                              \"elimination\",\n                              \"reduction\"\n                              ]\n                        },\n                        {\n                          \"name\": \"closing_date\",\n                          \"values\": [\n                              \"1635984000000\",\n                              \"1633824000000\",\n                              \"1632528000000\"\n                              ]\n                        },\n                        {\n                          \"name\": \"leaders\",\n                          \"values\": [\n                              {\n                                 \"columns\": [\n                                    {\n                                      \"name\": \"name\",\n                                      \"values\": [\n                                          \"Sophie Ouellet\"\n                                          ]\n                                    }\n                                  ] \n                              },\n                              {\n                                 \"columns\": [\n                                    {\n                                      \"name\": \"name\",\n                                      \"values\": [\n                                          \"Mireille Therrien\"\n                                          ]\n                                    }\n                                  ] \n                              },\n                              {\n                                 \"columns\": [\n                                    {\n                                      \"name\": \"name\",\n                                      \"values\": [\n                                          \"Benjamin Plante\"\n                                          ]\n                                    }\n                                  ] \n                              }\n                              ]\n                        }\n                      ] \n                  }\n                ]\n              },\n              {\n                \"name\": \"problems\",\n                \"values\": [\n                  {\n                     \"columns\": [\n                        {\n                          \"name\": \"uuid\",\n                          \"values\": [\n                              \"pb1\",\n                              \"pb2\" \n                              ]\n                        },\n                        {\n                          \"name\": \"name\",\n                          \"values\": [\n                              \"Problème 1\",\n                              \"Problème 2\"   \n                              ]\n                        },\n                        {\n                          \"name\": \"category\",\n                          \"values\": [\n                              \"Problème technique\",\n                              \"Problème environnemental\"\n                              ]\n                        },\n                        {\n                          \"name\": \"status\",\n                          \"values\": [\n                              \"closed\",\n                              \"open\"\n                              ]\n                        },\n                        {\n                          \"name\": \"impact\",\n                          \"values\": [\n                              \"low\",\n                              \"serious\"\n                              ]\n                        },\n                        {\n                          \"name\": \"priority\",\n                          \"values\": [\n                              \"low\",\n                              \"high\"\n                              ]\n                        },\n                        {\n                          \"name\": \"closing_date\",\n                          \"values\": [\n                              \"1635984000000\",\n                              \"1633824000000\"\n                              ]\n                        },\n                        {\n                          \"name\": \"leaders\",\n                          \"values\": [\n                              {\n                                 \"columns\": [\n                                    {\n                                      \"name\": \"name\",\n                                      \"values\": [\n                                          \"Sophie Ouellet\"\n                                          ]\n                                    }\n                                  ] \n                              },\n                              {\n                                 \"columns\": [\n                                    {\n                                      \"name\": \"name\",\n                                      \"values\": [\n                                          \"Mireille Therrien\"\n                                          ]\n                                    }\n                                  ] \n                              }\n                              ]\n                        }\n                      ] \n                  }\n                ]\n              }\n            ]\n          }\n        ]\n      }\n    ]\n  }\n}"
     } ]
   } ]
 }
