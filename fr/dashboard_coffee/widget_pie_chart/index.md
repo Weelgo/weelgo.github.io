@@ -67,6 +67,98 @@ Exemple de JSON à inclure dans le BPM du widget:
 }
 ```
 
+Exemple jauge à 180° vert orange rouge
+```javascript
+{
+  "pie_height":"50px",
+  "pie_width":"100px",
+  "pie_circumference":"180",
+  "pie_rotation":"-90",
+  "show_needle":"true",
+  "needle_height":"40",
+  "needle_width":"1",
+  "needle_rotation":"-90",
+  "needle_position_left":"50",
+  "needle_position_top":"7",
+  "needle_progress":"0",
+   "pie_central_void_size":"0.6",
+  "datasets":{
+    "columns": [
+      {
+        "name": "uuid",
+        "values": [
+          "Bas",
+          "Moyen",
+          "Haut"
+        ]
+      },
+      {
+        "name": "value",
+        "values": [
+          "33.3",
+          "33.3",
+          "33.3"
+        ]
+      },
+      {
+        "name": "background_color",
+        "values": [
+          "#41c057",
+          "#f59f02",
+          "#fa5251"
+        ]
+      }
+    ]
+  } 
+}
+```
+
+Exemple jauge à 180° bleu
+```javascript
+{
+  "pie_height":"50px",
+  "pie_width":"100px",
+  "pie_circumference":"180",
+  "pie_rotation":"-90",
+  "show_needle":"true",
+  "needle_height":"40",
+  "needle_width":"1",
+  "needle_rotation":"-90",
+  "needle_position_left":"50",
+  "needle_position_top":"7",
+  "needle_progress":"0",
+   "pie_central_void_size":"0.6",
+  "datasets":{
+    "columns": [
+      {
+        "name": "uuid",
+        "values": [
+          "Bas",
+          "Moyen",
+          "Haut"
+        ]
+      },
+      {
+        "name": "value",
+        "values": [
+          "33.3",
+          "33.3",
+          "33.3"
+        ]
+      },
+      {
+        "name": "background_color",
+        "values": [
+          "#90dfef",
+          "#55cfe9",
+          "#1db9db"
+        ]
+      }
+    ]
+  } 
+}
+```
+
 ### Propriétés du widget
 
 **uuid** (utilisé **uniquement** pour PBM général) 
