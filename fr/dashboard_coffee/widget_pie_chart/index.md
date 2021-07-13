@@ -95,9 +95,9 @@ Exemple jauge à 180° vert orange rouge
       {
         "name": "value",
         "values": [
-          "33.3",
-          "33.3",
-          "33.3"
+          "1",
+          "1",
+          "1"
         ]
       },
       {
@@ -141,9 +141,9 @@ Exemple jauge à 180° bleu
       {
         "name": "value",
         "values": [
-          "33.3",
-          "33.3",
-          "33.3"
+          "1",
+          "1",
+          "1"
         ]
       },
       {
