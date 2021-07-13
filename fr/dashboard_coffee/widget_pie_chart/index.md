@@ -124,6 +124,46 @@ Exemple de JSON à inclure dans le BPM du widget:
 * Valeurs possibles : **true** \| false
 * Exemple : ```"fill_pie_if_zero":"false"```
 
+**show_needle**
+* Description : affiche une aiguille
+* Valeurs possibles : true \| f**alse**
+* Exemple : ```"show_needle":"true"```
+
+**needle_color**
+* Description : couleur de l'aiguille
+* Valeurs possibles : couleur au format hexadécimal précédé d’un #.
+* Exemple : ```"needle_color":"#e000e0"```
+
+**needle_height**
+* Description : Hauteur de l'aiguille
+* Valeurs possibles : entier positif, valeur en pixel. NE PAS ajouter "px" à la fin
+* Exemple : ```"needle_height":"200"```
+
+**needle_width**
+* Description : Largeur de l'aiguille
+* Valeurs possibles : entier positif, valeur en pixel. NE PAS ajouter "px" à la fin
+* Exemple : ```"needle_width":"5"```
+
+**needle_rotation**
+* Description : rotation de référence de l'aiguille. 
+* Valeurs possibles : entier entre 0 et 360
+* Exemple : ```"needle_rotation":"45"```
+
+**needle_position_left**
+* Description : Position left de l'aiguille
+* Valeurs possibles : entier positif, valeur en pixel. NE PAS ajouter "px" à la fin
+* Exemple : ```"needle_position_left":"10"```
+
+**needle_position_top**
+* Description : Position top de l'aiguille
+* Valeurs possibles : entier positif, valeur en pixel. NE PAS ajouter "px" à la fin
+* Exemple : ```"needle_position_top":"10"```
+
+**needle_progress**
+* Description : Progression de l'aiguille
+* Valeurs possibles : réel entre 0 et 1.
+* Exemple : ```"needle_progress":"0.25"```
+
 **datasets**
 * Description : Définition des données à utiliser dans le graphiqie. Voir exemple plus bas.
 * Valeurs possibles : tableau. Voir ci dessous
