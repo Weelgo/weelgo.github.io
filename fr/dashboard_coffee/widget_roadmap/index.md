@@ -105,6 +105,278 @@ Exemple de JSON à inclure dans le BPM du widget:
 }
 ```
 
+Exemple de JSON à inclure dans le BPM du widget:
+
+```javascript
+{
+  "width":"960px",
+  "lines": {
+    "columns": [
+      {
+        "name": "uuid",
+        "values": [
+          "jalons",
+          "infrastructure",
+          "fibre",
+          "servers",
+          "applicatif",
+          "app1",
+          "contractualisation",
+          "v105",
+          "v110",
+          "v120",
+          "fin_projet",
+          "creuser_tranchees",
+          "installer_fibre",
+          "verif_ok",
+          "test synchro 1",
+          "test synchro 2",
+          "test synchro 3",
+          "conception",
+          "pre_dev",
+          "dev",
+          "MEP V1"
+        ]
+      },
+      {
+        "name": "name",
+        "values": [
+          "Jalons",
+          "Infrastructure",
+          "Fibre",
+          "Servers",
+          "Applicatif",
+          "App 1",
+          "Contractualisation",
+          "V1.0.5",
+          "V1.1.0",
+          "V1.2.0",
+          "Fin Projet",
+          "Creuser_tranchées",
+          "Installer fibre",
+          "Verification OK",
+          "Test synchro 1",
+          "Test synchro 2",
+          "Test synchro 3",
+          "Conception",
+          "Pré Dev",
+          "Dev",
+          "MEP V1"
+        ]
+      },
+      {
+        "name": "parent_uuid",
+        "values": [
+          "",
+          "",
+          "infrastructure",
+          "infrastructure",
+          "",
+          "applicatif",
+          "jalons",
+          "jalons",
+          "jalons",
+          "jalons",
+          "jalons",
+          "fibre",
+          "fibre",
+          "fibre",
+          "servers",
+          "servers",
+          "servers",
+          "app1",
+          "app1",
+          "app1",
+          "app1"
+        ]
+      },
+      {
+        "name": "object_type",
+        "values": [
+          "group",
+          "group",
+          "group",
+          "group",
+          "group",
+          "group",
+          "milestone",
+          "milestone",
+          "milestone",
+          "milestone",
+          "milestone",
+          "phase",
+          "phase",
+          "milestone",
+          "milestone",
+          "milestone",
+          "milestone",
+          "phase",
+          "phase",
+          "phase",
+          "milestone"
+        ]
+      },
+      {
+        "name": "background_color",
+        "values": [
+          "#f0e200",
+          "#0085bc",
+          "#7bcff3",
+          "#b7e5f8",
+          "#ba41ed",
+          "#e5b7f8",
+          "#baaf00",
+          "#baaf00",
+          "#baaf00",
+          "#baaf00",
+          "#baaf00",
+          "#41baed",
+          "#41baed",
+          "#41baed",
+          "#e70000",
+          "#e70000",
+          "#e70000",
+          "#cf7bf3",
+          "#cf7bf3",
+          "#cf7bf3",
+          "#a300e7"
+        ]
+      },
+      {
+        "name": "name_color",
+        "values": [
+          "",
+          "white",
+          "",
+          "",
+          "white",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "style",
+        "values": [
+          "v_block",
+          "v_block",
+          "",
+          "",
+          "v_block",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }, 
+      {
+        "name": "start_date",
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "1633046400000",
+          "1639526400000",
+          "",
+          "",
+          "",
+          "",
+          "1635724800000",
+          "1637798400000",
+          "1639526400000",
+          ""
+        ]
+      },
+      {
+        "name": "end_date",
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "1633046400000",
+          "1635724800000",
+          "1638316800000",
+          "1640995200000",
+          "1643673600000",
+          "1636934400000",
+          "1642204800000",
+          "1639526400000",
+          "1635724800000",
+          "1638316800000",
+          "1640995200000",
+          "1637798400000",
+          "1639526400000",
+          "1642204800000",
+          "1643068800000"
+        ]
+      },
+      {
+        "name": "icon",
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "ic_hand_shake_solid",
+          "ic_diamond_solid",
+          "ic_diamond_solid",
+          "ic_diamond_solid",
+          "ic_glass_cheers_solid",
+          "",
+          "",
+          "ic_flag_solid",
+          "ic_star_solid",
+          "ic_star_solid",
+          "ic_star_solid",
+          "",
+          "",
+          "",
+          "ic_trophy_solid"
+        ]
+      }
+    ]
+  }
+}
+```
+
 ### Propriétés du widget
 
 **uuid** (utilisé **uniquement** pour PBM général) 
