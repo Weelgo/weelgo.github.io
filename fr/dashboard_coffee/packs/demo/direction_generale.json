@@ -342,9 +342,9 @@
                         "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCAbsolutePanelData",
                         "widgets" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                          "uuid" : "E2F1BF04-1318-4B5A-815A-ABF42887B4F2",
-                          "name" : "Progress circle",
-                          "type" : "progress_circle",
+                          "uuid" : "3504BBEB-6866-4474-BC68-57EC8A5A149A",
+                          "name" : "Pie chart",
+                          "type" : "pie_chart",
                           "orderIndex" : 0,
                           "style" : {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
@@ -382,12 +382,12 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{      \n   \"progress\":\"0.75\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
+                          "customJsonData" : "{\n  \"pie_height\":\"102px\",\n  \"pie_width\":\"120px\",\n  \"pie_circumference\":\"270\",\n  \"pie_rotation\":\"-135\",\n  \"show_needle\":\"true\",\n  \"needle_height\":\"50\",\n  \"needle_width\":\"1\",\n  \"needle_rotation\":\"-135\",\n  \"needle_position_left\":\"60\",\n  \"needle_position_top\":\"7\",\n  \"needle_progress\":\"0.85\",\n   \"pie_central_void_size\":\"0.6\",\n   \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Bas\",\n          \"Moyen\",\n          \"Haut\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"1\",\n          \"1\",\n          \"1\"\n        ]\n      },\n      {\n        \"name\": \"background_color\",\n        \"values\": [\n          \"#90dfef\",\n          \"#55cfe9\",\n          \"#1db9db\"\n        ]\n      }\n    ]\n  } \n}"
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                          "uuid" : "6D87AE14-3A01-4ED6-94A8-2039AC85E1B5",
-                          "name" : "79%",
-                          "type" : "text",
+                          "uuid" : "9D6ABA44-BE2A-4242-B23F-BB5DF4FA2A11",
+                          "name" : "Table",
+                          "type" : "table",
                           "orderIndex" : 1,
                           "style" : {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
@@ -426,7 +426,67 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{    \n     \"font_size\":\"25\"\n}"
+                          "tableWidgetData" : {
+                            "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableWidgetData",
+                            "useCellSpacing" : true,
+                            "cellSpacing" : 10,
+                            "rows" : [ {
+                              "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
+                              "uuid" : "FA4AD337-8672-4262-B5AB-77D68655D0DB",
+                              "cells" : [ {
+                                "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                                "uuid" : "F80FAF42-F136-4DD7-9AE8-2A4B81161511",
+                                "widget" : {
+                                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                                  "uuid" : "6D87AE14-3A01-4ED6-94A8-2039AC85E1B5",
+                                  "name" : "79%",
+                                  "type" : "text",
+                                  "orderIndex" : 1,
+                                  "style" : {
+                                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                                    "marginTop" : 0,
+                                    "marginBottom" : 0,
+                                    "paddingTop" : 0,
+                                    "paddingBottom" : 0,
+                                    "paddingLeft" : 0,
+                                    "paddingRight" : 0,
+                                    "borderTopSize" : 0,
+                                    "borderBottomSize" : 0,
+                                    "borderLeftSize" : 0,
+                                    "borderRightSize" : 0,
+                                    "borderTopStyle" : "solid",
+                                    "borderBottomStyle" : "solid",
+                                    "borderLeftStyle" : "solid",
+                                    "borderRightStyle" : "solid",
+                                    "backgroundColor" : "#FFFFFF",
+                                    "showShadow" : false,
+                                    "absolutePosition" : true,
+                                    "positionLeftOrRight" : 0,
+                                    "positionToLeft" : true,
+                                    "positionTopOrBottom" : 45,
+                                    "positionToTop" : true,
+                                    "cornerRadius" : "none",
+                                    "contentAlignment" : "middle_center",
+                                    "tableCellAlignment" : "middle_center",
+                                    "fullTableCell" : false,
+                                    "showTitle" : false,
+                                    "titleBorderBottomColor" : "#d9d9d9",
+                                    "titleBorderLeftColor" : "#1db9db",
+                                    "titleBorderBottomSize" : 1,
+                                    "titleBorderLeftSize" : 5,
+                                    "titleBorderRightSize" : 1,
+                                    "titleBorderBottomStyle" : "solid",
+                                    "titleBorderLeftStyle" : "solid",
+                                    "titleBorderRightStyle" : "solid"
+                                  },
+                                  "customJsonData" : "{    \n     \"font_size\":\"25\"\n}"
+                                },
+                                "orderIndex" : 0
+                              } ],
+                              "orderIndex" : 0
+                            } ],
+                            "colsWidth" : [ "" ]
+                          }
                         } ]
                       }
                     },
@@ -598,9 +658,9 @@
                         "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCAbsolutePanelData",
                         "widgets" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                          "uuid" : "6B5E3FB2-D503-4950-A9D7-95D8D565D202",
-                          "name" : "Progress circle",
-                          "type" : "progress_circle",
+                          "uuid" : "CDE3E0C8-54B2-4931-A740-F8CF47A06208",
+                          "name" : "Pie chart",
+                          "type" : "pie_chart",
                           "orderIndex" : 0,
                           "style" : {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
@@ -638,12 +698,12 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{      \n   \"progress\":\"0.85\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
+                          "customJsonData" : "{\n  \"pie_height\":\"102px\",\n  \"pie_width\":\"120px\",\n  \"pie_circumference\":\"270\",\n  \"pie_rotation\":\"-135\",\n  \"show_needle\":\"true\",\n  \"needle_height\":\"50\",\n  \"needle_width\":\"1\",\n  \"needle_rotation\":\"-135\",\n  \"needle_position_left\":\"60\",\n  \"needle_position_top\":\"7\",\n  \"needle_progress\":\"0.8\",\n   \"pie_central_void_size\":\"0.6\",\n   \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Bas\",\n          \"Moyen\",\n          \"Haut\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"1\",\n          \"1\",\n          \"1\"\n        ]\n      },\n      {\n        \"name\": \"background_color\",\n        \"values\": [\n          \"#90dfef\",\n          \"#55cfe9\",\n          \"#1db9db\"\n        ]\n      }\n    ]\n  } \n}"
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                          "uuid" : "43CE5322-E02E-4882-A663-91C9A677F555",
-                          "name" : "58%",
-                          "type" : "text",
+                          "uuid" : "EF0590BC-A9C1-4A86-A145-1F382B65FAA2",
+                          "name" : "Table",
+                          "type" : "table",
                           "orderIndex" : 1,
                           "style" : {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
@@ -682,7 +742,66 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{    \n     \"font_size\":\"25\"\n}"
+                          "tableWidgetData" : {
+                            "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableWidgetData",
+                            "useCellSpacing" : true,
+                            "cellSpacing" : 10,
+                            "rows" : [ {
+                              "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
+                              "uuid" : "5B5AECF7-5B80-4FDE-96D5-576DCCCB5584",
+                              "cells" : [ {
+                                "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                                "uuid" : "6B8EFB0A-19F7-46F5-AA1D-00EF2568B259",
+                                "widget" : {
+                                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                                  "uuid" : "43CE5322-E02E-4882-A663-91C9A677F555",
+                                  "name" : "58%",
+                                  "type" : "text",
+                                  "orderIndex" : 1,
+                                  "style" : {
+                                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                                    "marginTop" : 0,
+                                    "marginBottom" : 0,
+                                    "paddingTop" : 0,
+                                    "paddingBottom" : 0,
+                                    "paddingLeft" : 0,
+                                    "paddingRight" : 0,
+                                    "borderTopSize" : 0,
+                                    "borderBottomSize" : 0,
+                                    "borderLeftSize" : 0,
+                                    "borderRightSize" : 0,
+                                    "borderTopStyle" : "solid",
+                                    "borderBottomStyle" : "solid",
+                                    "borderLeftStyle" : "solid",
+                                    "borderRightStyle" : "solid",
+                                    "backgroundColor" : "#FFFFFF",
+                                    "showShadow" : false,
+                                    "absolutePosition" : true,
+                                    "positionLeftOrRight" : 0,
+                                    "positionToLeft" : true,
+                                    "positionTopOrBottom" : 45,
+                                    "positionToTop" : true,
+                                    "cornerRadius" : "none",
+                                    "contentAlignment" : "middle_center",
+                                    "tableCellAlignment" : "middle_center",
+                                    "fullTableCell" : false,
+                                    "showTitle" : false,
+                                    "titleBorderBottomColor" : "#d9d9d9",
+                                    "titleBorderLeftColor" : "#1db9db",
+                                    "titleBorderBottomSize" : 1,
+                                    "titleBorderLeftSize" : 5,
+                                    "titleBorderRightSize" : 1,
+                                    "titleBorderBottomStyle" : "solid",
+                                    "titleBorderLeftStyle" : "solid",
+                                    "titleBorderRightStyle" : "solid"
+                                  },
+                                  "customJsonData" : "{    \n     \"font_size\":\"25\"\n}"
+                                },
+                                "orderIndex" : 0
+                              } ],
+                              "orderIndex" : 0
+                            } ]
+                          }
                         } ]
                       }
                     },
@@ -854,9 +973,9 @@
                         "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCAbsolutePanelData",
                         "widgets" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                          "uuid" : "D8AA4FD9-3328-40F2-A0D7-877059FDB57E",
-                          "name" : "Progress circle",
-                          "type" : "progress_circle",
+                          "uuid" : "FC6031BF-509B-478A-8E70-91C8376781DB",
+                          "name" : "Pie chart",
+                          "type" : "pie_chart",
                           "orderIndex" : 0,
                           "style" : {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
@@ -894,12 +1013,12 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{      \n   \"progress\":\"0.7\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
+                          "customJsonData" : "{\n  \"pie_height\":\"102px\",\n  \"pie_width\":\"120px\",\n  \"pie_circumference\":\"270\",\n  \"pie_rotation\":\"-135\",\n  \"show_needle\":\"true\",\n  \"needle_height\":\"50\",\n  \"needle_width\":\"1\",\n  \"needle_rotation\":\"-135\",\n  \"needle_position_left\":\"60\",\n  \"needle_position_top\":\"7\",\n  \"needle_progress\":\"0.75\",\n   \"pie_central_void_size\":\"0.6\",\n   \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Bas\",\n          \"Moyen\",\n          \"Haut\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"1\",\n          \"1\",\n          \"1\"\n        ]\n      },\n      {\n        \"name\": \"background_color\",\n        \"values\": [\n          \"#90dfef\",\n          \"#55cfe9\",\n          \"#1db9db\"\n        ]\n      }\n    ]\n  } \n}"
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                          "uuid" : "3F320147-6FB5-4AE8-8504-B558D4CA872B",
-                          "name" : "20%",
-                          "type" : "text",
+                          "uuid" : "FD585FE4-56AF-4D03-89FB-AF81C07E8D91",
+                          "name" : "Table",
+                          "type" : "table",
                           "orderIndex" : 1,
                           "style" : {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
@@ -938,7 +1057,67 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{    \n     \"font_size\":\"25\"\n}"
+                          "tableWidgetData" : {
+                            "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableWidgetData",
+                            "useCellSpacing" : true,
+                            "cellSpacing" : 10,
+                            "rows" : [ {
+                              "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
+                              "uuid" : "5A2ECD3D-DC6A-45D9-A82D-725D7CB2C3F0",
+                              "cells" : [ {
+                                "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                                "uuid" : "969CAF6D-F7EF-4FEF-9A4A-92D04DD01885",
+                                "widget" : {
+                                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                                  "uuid" : "3F320147-6FB5-4AE8-8504-B558D4CA872B",
+                                  "name" : "20%",
+                                  "type" : "text",
+                                  "orderIndex" : 1,
+                                  "style" : {
+                                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                                    "marginTop" : 0,
+                                    "marginBottom" : 0,
+                                    "paddingTop" : 0,
+                                    "paddingBottom" : 0,
+                                    "paddingLeft" : 0,
+                                    "paddingRight" : 0,
+                                    "borderTopSize" : 0,
+                                    "borderBottomSize" : 0,
+                                    "borderLeftSize" : 0,
+                                    "borderRightSize" : 0,
+                                    "borderTopStyle" : "solid",
+                                    "borderBottomStyle" : "solid",
+                                    "borderLeftStyle" : "solid",
+                                    "borderRightStyle" : "solid",
+                                    "backgroundColor" : "#FFFFFF",
+                                    "showShadow" : false,
+                                    "absolutePosition" : true,
+                                    "positionLeftOrRight" : 0,
+                                    "positionToLeft" : true,
+                                    "positionTopOrBottom" : 45,
+                                    "positionToTop" : true,
+                                    "cornerRadius" : "none",
+                                    "contentAlignment" : "middle_center",
+                                    "tableCellAlignment" : "middle_center",
+                                    "fullTableCell" : false,
+                                    "showTitle" : false,
+                                    "titleBorderBottomColor" : "#d9d9d9",
+                                    "titleBorderLeftColor" : "#1db9db",
+                                    "titleBorderBottomSize" : 1,
+                                    "titleBorderLeftSize" : 5,
+                                    "titleBorderRightSize" : 1,
+                                    "titleBorderBottomStyle" : "solid",
+                                    "titleBorderLeftStyle" : "solid",
+                                    "titleBorderRightStyle" : "solid"
+                                  },
+                                  "customJsonData" : "{    \n     \"font_size\":\"25\"\n}"
+                                },
+                                "orderIndex" : 0
+                              } ],
+                              "orderIndex" : 0
+                            } ],
+                            "colsWidth" : [ "" ]
+                          }
                         } ]
                       }
                     },
@@ -1110,9 +1289,9 @@
                         "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCAbsolutePanelData",
                         "widgets" : [ {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                          "uuid" : "458FCDF3-05E8-477C-9BA9-C62AF3608DDE",
-                          "name" : "Progress circle",
-                          "type" : "progress_circle",
+                          "uuid" : "64E5E41B-2C19-4AFF-BDC1-3E51CAC43D17",
+                          "name" : "Pie chart",
+                          "type" : "pie_chart",
                           "orderIndex" : 0,
                           "style" : {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
@@ -1150,12 +1329,12 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{      \n   \"progress\":\"0.75\",\n   \"circle_height\":\"102px\",\n   \"circle_width\":\"120px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
+                          "customJsonData" : "{\n  \"pie_height\":\"102px\",\n  \"pie_width\":\"120px\",\n  \"pie_circumference\":\"270\",\n  \"pie_rotation\":\"-135\",\n  \"show_needle\":\"true\",\n  \"needle_height\":\"50\",\n  \"needle_width\":\"1\",\n  \"needle_rotation\":\"-135\",\n  \"needle_position_left\":\"60\",\n  \"needle_position_top\":\"7\",\n  \"needle_progress\":\"0.9\",\n   \"pie_central_void_size\":\"0.6\",\n   \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Bas\",\n          \"Moyen\",\n          \"Haut\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"1\",\n          \"1\",\n          \"1\"\n        ]\n      },\n      {\n        \"name\": \"background_color\",\n        \"values\": [\n          \"#90dfef\",\n          \"#55cfe9\",\n          \"#1db9db\"\n        ]\n      }\n    ]\n  } \n}"
                         }, {
                           "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                          "uuid" : "0DE3185D-6405-4933-A10A-606A30C87EAF",
-                          "name" : "16%",
-                          "type" : "text",
+                          "uuid" : "A90406BA-FE3C-401D-AB20-9D9E0A6ADF0A",
+                          "name" : "Table",
+                          "type" : "table",
                           "orderIndex" : 1,
                           "style" : {
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
@@ -1194,7 +1373,67 @@
                             "titleBorderLeftStyle" : "solid",
                             "titleBorderRightStyle" : "solid"
                           },
-                          "customJsonData" : "{    \n     \"font_size\":\"25\"\n}"
+                          "tableWidgetData" : {
+                            "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableWidgetData",
+                            "useCellSpacing" : true,
+                            "cellSpacing" : 10,
+                            "rows" : [ {
+                              "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableRowData",
+                              "uuid" : "A76F45BD-9747-483C-9529-AB08C30960B8",
+                              "cells" : [ {
+                                "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCTableCellData",
+                                "uuid" : "A1592C02-3576-463C-AD29-84CACD112171",
+                                "widget" : {
+                                  "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
+                                  "uuid" : "0DE3185D-6405-4933-A10A-606A30C87EAF",
+                                  "name" : "16%",
+                                  "type" : "text",
+                                  "orderIndex" : 1,
+                                  "style" : {
+                                    "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
+                                    "marginTop" : 0,
+                                    "marginBottom" : 0,
+                                    "paddingTop" : 0,
+                                    "paddingBottom" : 0,
+                                    "paddingLeft" : 0,
+                                    "paddingRight" : 0,
+                                    "borderTopSize" : 0,
+                                    "borderBottomSize" : 0,
+                                    "borderLeftSize" : 0,
+                                    "borderRightSize" : 0,
+                                    "borderTopStyle" : "solid",
+                                    "borderBottomStyle" : "solid",
+                                    "borderLeftStyle" : "solid",
+                                    "borderRightStyle" : "solid",
+                                    "backgroundColor" : "#FFFFFF",
+                                    "showShadow" : false,
+                                    "absolutePosition" : true,
+                                    "positionLeftOrRight" : 0,
+                                    "positionToLeft" : true,
+                                    "positionTopOrBottom" : 45,
+                                    "positionToTop" : true,
+                                    "cornerRadius" : "none",
+                                    "contentAlignment" : "middle_center",
+                                    "tableCellAlignment" : "middle_center",
+                                    "fullTableCell" : false,
+                                    "showTitle" : false,
+                                    "titleBorderBottomColor" : "#d9d9d9",
+                                    "titleBorderLeftColor" : "#1db9db",
+                                    "titleBorderBottomSize" : 1,
+                                    "titleBorderLeftSize" : 5,
+                                    "titleBorderRightSize" : 1,
+                                    "titleBorderBottomStyle" : "solid",
+                                    "titleBorderLeftStyle" : "solid",
+                                    "titleBorderRightStyle" : "solid"
+                                  },
+                                  "customJsonData" : "{    \n     \"font_size\":\"25\"\n}"
+                                },
+                                "orderIndex" : 0
+                              } ],
+                              "orderIndex" : 0
+                            } ],
+                            "colsWidth" : [ "" ]
+                          }
                         } ]
                       }
                     },
@@ -2933,9 +3172,9 @@
                             "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCAbsolutePanelData",
                             "widgets" : [ {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
-                              "uuid" : "D105FFAD-64D6-4D5C-A510-E6641A0D7EFE",
-                              "name" : "Progress circle",
-                              "type" : "progress_circle",
+                              "uuid" : "700F73A5-0116-4DAB-8556-E7D7D2C84BA2",
+                              "name" : "Pie chart",
+                              "type" : "pie_chart",
                               "orderIndex" : 0,
                               "style" : {
                                 "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCStyle",
@@ -2973,7 +3212,7 @@
                                 "titleBorderLeftStyle" : "solid",
                                 "titleBorderRightStyle" : "solid"
                               },
-                              "customJsonData" : "{      \n   \"progress\":\"0.75\",\n   \"circle_height\":\"70px\",\n   \"circle_width\":\"80px\",   \n   \"circle_circumference\":\"270\",\n   \"circle_central_void_size\":\"0.7\",\n   \"circle_rotation\":\"-135\",\n \"show_progress_number\":\"false\"\n}"
+                              "customJsonData" : "{\n  \"pie_height\":\"70px\",\n  \"pie_width\":\"80px\",\n  \"pie_circumference\":\"270\",\n  \"pie_rotation\":\"-135\",\n  \"show_needle\":\"true\",\n  \"needle_height\":\"30\",\n  \"needle_width\":\"1\",\n  \"needle_rotation\":\"-135\",\n  \"needle_position_left\":\"40\",\n  \"needle_position_top\":\"10\",\n  \"needle_progress\":\"0.75\",\n   \"pie_central_void_size\":\"0.6\",\n   \"show_legend\":\"false\",\n  \"datasets\":{\n    \"columns\": [\n      {\n        \"name\": \"uuid\",\n        \"values\": [\n          \"Mauvaise\",\n          \"Bonne\"\n        ]\n      },\n      {\n        \"name\": \"value\",\n        \"values\": [\n          \"1\",\n          \"1\"\n        ]\n      },\n      {\n        \"name\": \"background_color\",\n        \"values\": [\n          \"#55cfe9\",\n          \"#1db9db\"\n        ]\n      }\n    ]\n  } \n}"
                             }, {
                               "@class" : "com.weelgo.common.dto.dashboardCoffee.widgets.DCWidget",
                               "uuid" : "271F64E1-8334-4B8D-8D7D-A7FDD44D1323",
